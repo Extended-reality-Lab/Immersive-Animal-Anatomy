@@ -88,6 +88,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "LeftGrabbing",
+                    "type": "Button",
+                    "id": "ae8104ba-c328-43ac-826f-e9c4c7b9137a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -198,6 +207,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f483a0f-3792-454b-957e-9beea9837e4c",
+                    "path": "<OpenVROculusTouchController>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "LeftGrabbing",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -518,6 +538,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RightGrabbing",
+                    "type": "Button",
+                    "id": "f75a7dec-7a75-4d35-a6e2-7de663fb1422",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -628,6 +657,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f85bcdcf-5422-4929-9382-737d66838ba1",
+                    "path": "<OpenVROculusTouchController>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "RightGrabbing",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
