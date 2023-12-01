@@ -3,7 +3,12 @@ guid: 1898534007153d34dba4eaf6c33b3b6a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lungs_Mat
+    second: {fileID: 2100000, guid: 142d926ea9776b843a6edab74c8b09f4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
