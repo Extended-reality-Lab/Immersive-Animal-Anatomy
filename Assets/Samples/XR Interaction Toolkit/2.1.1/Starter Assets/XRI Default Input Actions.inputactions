@@ -213,7 +213,7 @@
                 {
                     "name": "",
                     "id": "1f483a0f-3792-454b-957e-9beea9837e4c",
-                    "path": "<OpenVROculusTouchController>/gripPressed",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{LeftHand}/grippressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
@@ -663,7 +663,7 @@
                 {
                     "name": "",
                     "id": "f85bcdcf-5422-4929-9382-737d66838ba1",
-                    "path": "<OpenVROculusTouchController>/gripPressed",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/grippressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
