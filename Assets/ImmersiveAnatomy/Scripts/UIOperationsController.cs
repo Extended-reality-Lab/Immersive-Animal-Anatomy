@@ -1,13 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIOperationsController : MonoBehaviour
 {
-    [SerializeField] public GameObject[] SkeletonArray;
-    [SerializeField] public GameObject[] OrganArray;
-    [SerializeField] public GameObject[] SkinArray;
+    public GameObject arrayHolder;
 
+    private ArrayHolder arrayHolderScript;
+    public GameObject[] SkeletonArray;
+    public GameObject[] OrganArray;
+    public GameObject[] SkinArray;
+    
+    public void Start(){
+        arrayHolderScript=arrayHolder.GetComponent<ArrayHolder>();
+        SkeletonArray=arrayHolderScript.SkeletonArray;
+        OrganArray=arrayHolderScript.OrganArray;
+        SkinArray=arrayHolderScript.SkinArray;
+    }
     public void SkeletonSlider(float sliderVal)
     {
         for (int i = 0; i < SkeletonArray.Length; i++)
@@ -46,5 +57,14 @@ public class UIOperationsController : MonoBehaviour
         SkeletonSlider(sliderVal);
         SkinSlider(sliderVal);
         OrganSlider(sliderVal);
+    }
+    public void modelButton(){
+
+    }
+    public void roomButton(){
+
+    }
+    public void gameButton(){
+
     }
 }
