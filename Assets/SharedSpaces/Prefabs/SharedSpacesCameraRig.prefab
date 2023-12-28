@@ -599,13 +599,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2311265717837393282}
+        m_TargetAssemblyTypeName: UIOperationsController, Assembly-CSharp
+        m_MethodName: roomButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 1354696161133373779}
   - component: {fileID: 8350915917767671842}
   - component: {fileID: 5750406986442477108}
+  - component: {fileID: 3149789687337815363}
   m_Layer: 5
   m_Name: Model Options
   m_TagString: Button
@@ -748,18 +749,33 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 3149789687337815363}
+        m_TargetAssemblyTypeName: UIOperationsController, Assembly-CSharp
+        m_MethodName: modelButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3149789687337815363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332091857480723338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1eba42762128442b3ef3f46a560553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkeletonArray: []
+  OrganArray: []
+  SkinArray: []
 --- !u!1 &2170043212045640461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,6 +1232,7 @@ GameObject:
   - component: {fileID: 9087291559358003595}
   - component: {fileID: 3283550149444815054}
   - component: {fileID: 6416551436764986626}
+  - component: {fileID: 5031336342641939818}
   m_Layer: 5
   m_Name: Game Options
   m_TagString: Button
@@ -1326,18 +1343,33 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 5031336342641939818}
+        m_TargetAssemblyTypeName: UIOperationsController, Assembly-CSharp
+        m_MethodName: gameButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+--- !u!114 &5031336342641939818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2873404108437723764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1eba42762128442b3ef3f46a560553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkeletonArray: []
+  OrganArray: []
+  SkinArray: []
 --- !u!1 &3083405583771533816
 GameObject:
   m_ObjectHideFlags: 0
