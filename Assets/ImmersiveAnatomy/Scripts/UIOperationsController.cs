@@ -26,6 +26,9 @@ public class UIOperationsController : MonoBehaviour
             OrganArray = GameObject.Find("Organ").GetComponentsInChildren<GameObject>();
             // Find all children of the Skin object
             SkinArray = GameObject.Find("Skin").GetComponentsInChildren<GameObject>();
+            Debug.Log("Target Size: 121 Actual Size: " + SkeletonArray.Length);
+            Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Length);
+            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Length);
             }
             else{
                 isModel = false;
@@ -41,6 +44,10 @@ public class UIOperationsController : MonoBehaviour
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
                 material.color = color;
+                if(SkeletonArray[i].name == "Skull"){
+                    color.b=sliderVal;
+                    material.color = color;
+                }
             }
         }
         else{
