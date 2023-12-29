@@ -9,7 +9,7 @@ public class UIRaycast : MonoBehaviour
     public LayerMask layerMask;
     int maxDistance = 100;
     // Start is called before the first frame update
-    void Start()
+    void FixedUpdate()
     {
         ray= new Ray(transform.position, transform.forward);
         CheckCollisions();
