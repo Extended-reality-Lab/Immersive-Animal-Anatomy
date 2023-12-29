@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class UIOperationsController : MonoBehaviour
 {
     
-    public GameObject[] SkeletonArray;
-    public GameObject[] OrganArray;
-    public GameObject[] SkinArray;
+    public List <GameObject> SkeletonArray;
+    public List <GameObject> OrganArray;
+    public List <GameObject> SkinArray;
 
     private bool isModel = true;
 
@@ -18,28 +18,56 @@ public class UIOperationsController : MonoBehaviour
     public void FillArrays(){
         Debug.Log("Filling Arrays");
         if(GameObject.FindWithTag("Model")!=null){
-            SkeletonArray.Initialize();
-            OrganArray.Initialize();
-            SkinArray.Initialize();
+            isModel = true;
             // Find all children of the Skeleton object
-            SkeletonArray = GameObject.Find("Skeleton").GetComponentsInChildren<GameObject>();
+            Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allSkeleChildren)
+            { 
+                if(child.gameObject.name != "Skeleton"){
+                    SkeletonArray.Add(child.gameObject);
+                }
+               
+            }
             // Find all children of the Organ object
-            OrganArray = GameObject.Find("Organ").GetComponentsInChildren<GameObject>();
+            Transform[] allOrgChildren = GameObject.Find("Model Internal Organs").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allOrgChildren)
+            { 
+                if(child.gameObject.name != "Model Internal Organs"){
+                    OrganArray.Add(child.gameObject);
+                }
+                
+            }
+            
             // Find all children of the Skin object
-            SkinArray = GameObject.Find("Skin").GetComponentsInChildren<GameObject>();
-            Debug.Log("Target Size: 121 Actual Size: " + SkeletonArray.Length);
-            Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Length);
-            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Length);
+            Transform[] allSkinChildren = GameObject.Find("Model External Organs").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allSkinChildren)
+            { 
+                if(child.gameObject.name != "Model External Organs"){
+                SkinArray.Add(child.gameObject);
+                }
+                
+            }
+            Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
+            Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Count);
+            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);
             }
             else{
                 isModel = false;
+                ClearArrays();
             }
         Debug.Log("Arrays Filled" + isModel);
+    }
+    public void ClearArrays(){
+        Debug.Log("Clearing Arrays");
+        SkeletonArray.Clear();
+        OrganArray.Clear();
+        SkinArray.Clear();
+        Debug.Log("Arrays Cleared");
     }
     public void SkeletonSlider(float sliderVal)
     {
         if(isModel){
-            for (int i = 0; i < SkeletonArray.Length; i++)
+            for (int i = 0; i < SkeletonArray.Count; i++)
             {
                 Renderer renderer = SkeletonArray[i].GetComponent<Renderer>();
                 Material material = renderer.material;
@@ -59,7 +87,7 @@ public class UIOperationsController : MonoBehaviour
     public void SkinSlider(float sliderVal)
     {
         if(isModel){
-            for (int i = 0; i < SkinArray.Length; i++)
+            for (int i = 0; i < SkinArray.Count; i++)
             {
                 Renderer renderer = SkinArray[i].GetComponent<Renderer>();
                 Material material = renderer.material;
@@ -76,7 +104,7 @@ public class UIOperationsController : MonoBehaviour
      public void OrganSlider(float sliderVal)
     {
         if(isModel){
-            for (int i = 0; i < OrganArray.Length; i++)
+            for (int i = 0; i < OrganArray.Count; i++)
             {
                 Renderer renderer = OrganArray[i].GetComponent<Renderer>();
                 Material material = renderer.material;
@@ -116,6 +144,7 @@ public class UIOperationsController : MonoBehaviour
     public void Update(){
         if(SceneManager.GetActiveScene().name != currentScene){
             /*&&SceneManager.GetActiveScene().name != "Lobby"*/
+            ClearArrays();
             FillArrays();
             currentScene = SceneManager.GetActiveScene().name;
             Debug.Log("Current Scene: " + currentScene);

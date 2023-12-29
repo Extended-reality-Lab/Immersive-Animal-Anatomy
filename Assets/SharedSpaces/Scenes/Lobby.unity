@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777779750}
   m_Layer: 0
-  m_Name: Internal Organs
+  m_Name: Model Internal Organs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,7 +444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816292485}
   m_Layer: 0
-  m_Name: External Organs
+  m_Name: Model External Organs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402397916}
   m_Layer: 0
-  m_Name: Skeleton
+  m_Name: Model Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
