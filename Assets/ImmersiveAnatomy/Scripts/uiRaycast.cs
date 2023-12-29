@@ -13,6 +13,7 @@ public class UIRaycast : MonoBehaviour
     {
         ray= new Ray(transform.position, transform.forward);
         CheckCollisions();
+        Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.red);
     }
 
     void CheckCollisions()

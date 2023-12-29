@@ -16,6 +16,7 @@ public class UIOperationsController : MonoBehaviour
     private string currentScene;
     
     public void FillArrays(){
+        Debug.Log("Filling Arrays");
         if(GameObject.FindWithTag("Model")!=null){
             SkeletonArray.Initialize();
             OrganArray.Initialize();
@@ -33,6 +34,7 @@ public class UIOperationsController : MonoBehaviour
             else{
                 isModel = false;
             }
+        Debug.Log("Arrays Filled" + isModel);
     }
     public void SkeletonSlider(float sliderVal)
     {
@@ -109,12 +111,14 @@ public class UIOperationsController : MonoBehaviour
 
     public void Start(){
             currentScene = SceneManager.GetActiveScene().name;
-            
+            Debug.Log("Current Scene: " + currentScene);
         }   
     public void Update(){
-        if(SceneManager.GetActiveScene().name != currentScene/*&&SceneManager.GetActiveScene().name != "Lobby"*/){
+        if(SceneManager.GetActiveScene().name != currentScene){
+            /*&&SceneManager.GetActiveScene().name != "Lobby"*/
             FillArrays();
             currentScene = SceneManager.GetActiveScene().name;
+            Debug.Log("Current Scene: " + currentScene);
         }
     }
     
