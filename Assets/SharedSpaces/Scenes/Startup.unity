@@ -481,8 +481,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.atime2
+      value: 63993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_InvalidColorGradient.key1.a
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.key2.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343154804072409136, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_InvalidColorGradient.m_NumAlphaKeys
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6697775241635718865, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_RootOrder
