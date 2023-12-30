@@ -23,7 +23,7 @@ public class UIOperationsController : MonoBehaviour
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
             { 
-                if(child.gameObject.name != "Skeleton"){
+                if(child.gameObject.name != "Model Skeleton"){
                     SkeletonArray.Add(child.gameObject);
                 }
                
@@ -48,6 +48,12 @@ public class UIOperationsController : MonoBehaviour
                 
             }
             Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
+            /*if(SkeletonArray.Count != 121){
+                for (int i = 0; i < SkeletonArray.Count; i++)
+                {
+                    Debug.log(SkeletonArray[i].name)
+                }
+            }*/
             Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Count);
             Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);
             }
@@ -66,6 +72,7 @@ public class UIOperationsController : MonoBehaviour
     }
     public void SkeletonSlider(float sliderVal)
     {
+        Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkeletonArray.Count; i++)
             {
@@ -86,6 +93,7 @@ public class UIOperationsController : MonoBehaviour
     }
     public void SkinSlider(float sliderVal)
     {
+        Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkinArray.Count; i++)
             {
@@ -103,6 +111,7 @@ public class UIOperationsController : MonoBehaviour
     }
      public void OrganSlider(float sliderVal)
     {
+        Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < OrganArray.Count; i++)
             {
@@ -129,12 +138,13 @@ public class UIOperationsController : MonoBehaviour
         }
     }
     public void modelButton(){
+        Debug.Log("Model Button Pressed");
     }
     public void roomButton(){
-
+        Debug.Log("Room Button Pressed");
     }
     public void gameButton(){
-
+        Debug.Log("Game Button Pressed");
     }
 
     public void Start(){
