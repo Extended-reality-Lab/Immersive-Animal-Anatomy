@@ -4024,7 +4024,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -9209338143046784975, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_RotationAction:
     m_UseReference: 1
     m_Action:
@@ -4036,7 +4036,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 8123817292738042583, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_TrackingStateAction:
     m_UseReference: 1
     m_Action:
@@ -4048,7 +4048,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -1277054153949319361, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -6600071986945261325, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_SelectAction:
     m_UseReference: 1
     m_Action:
@@ -4108,7 +4108,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 6936125588077221295, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_UIPressActionValue:
     m_UseReference: 1
     m_Action:
@@ -4120,7 +4120,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -5908353012961274365, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 8701995729540245333, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_HapticDeviceAction:
     m_UseReference: 1
     m_Action:
@@ -4751,14 +4751,14 @@ MonoBehaviour:
   m_EnableXRInput: 1
   m_EnableMouseInput: 1
   m_EnableTouchInput: 1
-  m_PointAction: {fileID: 2869410428622933342, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_LeftClickAction: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_MiddleClickAction: {fileID: -6289560987278519447, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_RightClickAction: {fileID: -2562941478296515153, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ScrollWheelAction: {fileID: 5825226938762934180, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_NavigateAction: {fileID: -7967456002180160679, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_SubmitAction: {fileID: 3994978066732806534, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_CancelAction: {fileID: 2387711382375263438, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_PointAction: {fileID: -7092552361304415530, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_LeftClickAction: {fileID: -5033672667284525787, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_MiddleClickAction: {fileID: -6195406267885895077, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_RightClickAction: {fileID: -6450519698747700257, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_ScrollWheelAction: {fileID: -1902107972456796337, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_NavigateAction: {fileID: -3008289926252005166, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_SubmitAction: {fileID: -5498674000251177037, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  m_CancelAction: {fileID: -6767606910979305462, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   m_EnableBuiltinActionsAsFallback: 1
   m_EnableGamepadInput: 1
   m_EnableJoystickInput: 1
