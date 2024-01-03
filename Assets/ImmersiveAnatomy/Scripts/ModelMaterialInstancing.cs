@@ -26,6 +26,7 @@ public class ModelMaterialInstancing : MonoBehaviour
             for (int i = 0; i < SkeletonArray.Count; i++)
             {
                 Renderer rend = SkeletonArray[i].GetComponent<Renderer>();
+                Debug.Log("Renderer: " + rend.name);
                 matBlock = new MaterialPropertyBlock();
                 MaterialColor.r = Random.Range(0, 255);
                 MaterialColor.g = Random.Range(0, 255);
