@@ -24,6 +24,24 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "ShowUIR",
+                    "type": "Button",
+                    "id": "f917eb2c-8c34-4998-a412-d932bb9e09de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShowUIL",
+                    "type": "Button",
+                    "id": "8e1d6d42-6603-400b-b4b9-7df78854a0e0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Orbit",
                     "type": "Value",
                     "id": "3c99cc3e-40c8-44b5-a106-819fdfc646c4",
@@ -205,7 +223,7 @@
                 },
                 {
                     "name": "",
-                    "id": "05065a16-7fd1-41c0-886f-5c4775b96cf0",
+                    "id": "5801d1f5-e916-4a33-8f51-16ae8aa25cd3",
                     "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
@@ -464,6 +482,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "UI Press Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd7e6417-cf36-40d9-b16c-e38ded53290c",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR Controller",
+                    "action": "ShowUIL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05065a16-7fd1-41c0-886f-5c4775b96cf0",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR Controller",
+                    "action": "ShowUIR",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

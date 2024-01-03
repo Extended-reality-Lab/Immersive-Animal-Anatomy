@@ -10,7 +10,6 @@ public class UIEventController : MonoBehaviour
     [SerializeField] public GameObject ControllerR;
     [SerializeField] public GameObject UIObject; // reference to UI object
 
-    // Start is called before the first frame update
     public InputActionReference xButton; // reference to left controller x button
     public InputActionReference aButton; // reference to right controller a button
     public bool uiShowing = false; // bool to track if UI is showing or not

@@ -47,32 +47,32 @@ public class UIOperationsController : MonoBehaviour
                 }
                 
             }
-            Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
+            /*Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
             /*if(SkeletonArray.Count != 121){
                 for (int i = 0; i < SkeletonArray.Count; i++)
                 {
                     Debug.log(SkeletonArray[i].name)
                 }
-            }*/
+            }
             Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Count);
-            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);
+            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);*/
             }
             else{
                 isModel = false;
                 ClearArrays();
             }
-        Debug.Log("Arrays Filled" + isModel);
+        //Debug.Log("Arrays Filled" + isModel);
     }
     public void ClearArrays(){
-        Debug.Log("Clearing Arrays");
+        //Debug.Log("Clearing Arrays");
         SkeletonArray.Clear();
         OrganArray.Clear();
         SkinArray.Clear();
-        Debug.Log("Arrays Cleared");
+        //Debug.Log("Arrays Cleared");
     }
     public void SkeletonSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+        //Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkeletonArray.Count; i++)
             {
@@ -93,7 +93,7 @@ public class UIOperationsController : MonoBehaviour
     }
     public void SkinSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+        //Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkinArray.Count; i++)
             {
@@ -111,7 +111,7 @@ public class UIOperationsController : MonoBehaviour
     }
      public void OrganSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+       // Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < OrganArray.Count; i++)
             {
@@ -149,7 +149,7 @@ public class UIOperationsController : MonoBehaviour
 
     public void Start(){
             currentScene = SceneManager.GetActiveScene().name;
-            Debug.Log("Current Scene: " + currentScene);
+            //Debug.Log("Current Scene: " + currentScene);
         }   
     public void Update(){
         if(SceneManager.GetActiveScene().name != currentScene){
@@ -157,7 +157,7 @@ public class UIOperationsController : MonoBehaviour
             ClearArrays();
             FillArrays();
             currentScene = SceneManager.GetActiveScene().name;
-            Debug.Log("Current Scene: " + currentScene);
+            //Debug.Log("Current Scene: " + currentScene);
         }
     }
     
