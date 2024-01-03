@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 170502670}
   m_Layer: 0
   m_Name: AnatomyHolder
-  m_TagString: Untagged
+  m_TagString: Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,7 +448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777779750}
   m_Layer: 0
-  m_Name: Internal Organs
+  m_Name: Model Internal Organs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,7 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816292485}
   m_Layer: 0
-  m_Name: External Organs
+  m_Name: Model External Organs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,19 +843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee790b1068a2764ea9b61f5163a2e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Animal: {fileID: 0}
-  ControllerL: {fileID: 0}
-  ControllerR: {fileID: 0}
-  rightGripButton: {fileID: 3310562373886528404, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  leftGripButton: {fileID: -5132514060275681750, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  currentDist: 0
-  oldDist: 0
-  deltaDist: 0
-  jointMade: 0
-  leftHandGripping: 0
-  rightHandGripping: 0
-  rightNotFound: 1
-  leftNotFound: 1
 --- !u!1001 &1345856772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -979,7 +966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402397916}
   m_Layer: 0
-  m_Name: Skeleton
+  m_Name: Model Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
