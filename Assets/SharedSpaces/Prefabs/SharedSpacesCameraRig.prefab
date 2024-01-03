@@ -1198,7 +1198,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2289571902103599292}
   m_LocalRotation: {x: 0, y: -0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: -0.006}
+  m_LocalPosition: {x: 0, y: 0, z: 0.047}
   m_LocalScale: {x: 0.01, y: 0.01, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1216,7 +1216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -60, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.003, y: 0.09100199}
+  m_AnchoredPosition: {x: -0.089, y: 0.15}
   m_SizeDelta: {x: 15, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3554858734833133537
@@ -2140,7 +2140,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.11392403
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2199,7 +2199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.02
+  m_LineWidth: 0.001
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_WidthCurve:
@@ -3034,7 +3034,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6700416913748747797}
   - component: {fileID: 6873363807618677639}
-  - component: {fileID: 2490174852251651469}
   m_Layer: 0
   m_Name: RightControllerAnchor
   m_TagString: Untagged
@@ -3075,24 +3074,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2490174852251651469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6697127168281872379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4062edb0e81b0dd4e9747999a4c64190, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ControllerL: {fileID: 2301390064475743463}
-  ControllerR: {fileID: 8509694262113721252}
-  UIObject: {fileID: 2289571902103599292}
-  xButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  aButton: {fileID: -1176827667284278301, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  uiShowing: 0
 --- !u!1 &6697775241635938365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,6 +3083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6697775241635762947}
+  - component: {fileID: 6394519709285591231}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -3125,6 +3107,24 @@ Transform:
   m_Father: {fileID: 6697775241635790739}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6394519709285591231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697775241635938365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4062edb0e81b0dd4e9747999a4c64190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControllerL: {fileID: 2301390064475743463}
+  ControllerR: {fileID: 8509694262113721252}
+  UIObject: {fileID: 2289571902103599292}
+  xButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  aButton: {fileID: -1176827667284278301, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  uiShowing: 0
 --- !u!1 &6697775241635944105
 GameObject:
   m_ObjectHideFlags: 0
