@@ -2,69 +2,64 @@
 
 Shader "Custom/InstancingShader"
 {
-    Properties 
-    {
-        _MainTex ("Base (RGB)", 2D) = "white" {}
-        [PerRendererData] _Color ("Color", Color) = (0, 0, 0, 1)
-    }
+Properties{
+		[PerRendererData] _Color ("Color", Color) = (0, 0, 0, 1)
+	}
 
-    SubShader 
-    {
-        Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Fade"}
-        ZWrite Off
-        Blend SrcAlpha OneMinusSrcAlpha
-        Cull front 
-        LOD 100
+	SubShader{
+		//the material is completely non-transparent and is rendered at the same time as the other opaque geometry
+		Tags{ "RenderType"="Opaque" "Queue"="Geometry"}
 
-        Pass 
-        {
-            CGPROGRAM
-            #pragma multi_compile_instancing
-            #pragma vertex vert alpha
-            #pragma fragment frag alpha
+		Pass{
+			CGPROGRAM
+			//allow instancing
+			#pragma multi_compile_instancing
 
-            #include "UnityCG.cginc"
+            //shader functions
+			#pragma vertex vert
+			#pragma fragment frag
 
-            struct appdata_t 
-            {
-                float4 vertex   : POSITION;
-                float2 texcoord : TEXCOORD0;
-                UNITY_VERTEX_INPUT_INSTANCE_ID
-            };
+			//use unity shader library
+			#include "UnityCG.cginc"
 
-            struct v2f 
-            {
-                float4 vertex  : SV_POSITION;
-                half2 texcoord : TEXCOORD0;
-                UNITY_VERTEX_INPUT_INSTANCE_ID
-            };
+            //per vertex data that comes from the model/parameters
+			struct appdata{
+				float4 vertex : POSITION;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
+			};
 
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
-            float4 _Color;
-            UNITY_INSTANCING_BUFFER_START(Props)
+            //per vertex data that gets passed from the vertex to the fragment function
+			struct v2f{
+				float4 position : SV_POSITION;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
+			};
+
+			UNITY_INSTANCING_BUFFER_START(Props)
                 UNITY_DEFINE_INSTANCED_PROP(float4, _Color)
             UNITY_INSTANCING_BUFFER_END(Props)
-            v2f vert (appdata_t v)
-            {
-                v2f o;
+
+			v2f vert(appdata v){
+				v2f o;
+
+				//setup instance id
                 UNITY_SETUP_INSTANCE_ID(v);
                 UNITY_TRANSFER_INSTANCE_ID(v, o);
-                o.vertex     = UnityObjectToClipPos(v.vertex);
-                v.texcoord.x = 1 - v.texcoord.x;
-                o.texcoord   = TRANSFORM_TEX(v.texcoord, _MainTex);
 
-                return o;
-            }
+				//calculate the position in clip space to render the object
+				o.position = UnityObjectToClipPos(v.vertex);
+				return o;
+			}
 
-            fixed4 frag (v2f i) : SV_Target
-            {
+			fixed4 frag(v2f i) : SV_TARGET{
+			    //setup instance id
                 UNITY_SETUP_INSTANCE_ID(i);
-                fixed4 col = tex2D(_MainTex, i.texcoord) * _Color; // multiply by _Color
-                return col;
-            }
+			    //get _Color Property from buffer
+			    fixed4 color = UNITY_ACCESS_INSTANCED_PROP(Props, _Color);
+				//Return the color the Object is rendered in
+				return color;
+			}
 
-            ENDCG
-        }
-    }
+			ENDCG
+		}
+	}
 }
