@@ -58,6 +58,7 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+<<<<<<< HEAD
                 },
                 {
                     "name": "Position",
@@ -112,6 +113,8 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+=======
+>>>>>>> parent of 64079eb (Merge pull request #25 from Extended-reality-Lab/Scene-Improvement)
                 }
             ],
             "bindings": [
@@ -334,6 +337,7 @@
                     "action": "GrippingLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< HEAD
                 },
                 {
                     "name": "Vector 3 Fallback",
@@ -931,6 +935,8 @@
                     "action": "RightClick",
                     "isComposite": false,
                     "isPartOfComposite": false
+=======
+>>>>>>> parent of 64079eb (Merge pull request #25 from Extended-reality-Lab/Scene-Improvement)
                 }
             ]
         }
