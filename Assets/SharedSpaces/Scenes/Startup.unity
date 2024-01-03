@@ -380,81 +380,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
-    - target: {fileID: 3521491717192092640, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3521491717192092640, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3783015695083024555, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3783015695083024555, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3783015695083024555, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849435912745316492, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849435912745316492, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849435912745316492, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4355072458542538145, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4355072458542538145, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4424993430272658707, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4424993430272658707, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4424993430272658707, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721117115911269602, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721117115911269602, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721117115911269602, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5708114243301437027, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5708114243301437027, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> parent of 64079eb (Merge pull request #25 from Extended-reality-Lab/Scene-Improvement)
     - target: {fileID: 6697775241635718865, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -503,17 +428,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SharedSpacesCameraRig
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 8546436542132769960, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8546436542132769960, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> parent of 64079eb (Merge pull request #25 from Extended-reality-Lab/Scene-Improvement)
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b566583b32ed60478be49846202ce86, type: 3}
