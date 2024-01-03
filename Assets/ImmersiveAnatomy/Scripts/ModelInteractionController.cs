@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Animations;
-using UnityEngine.SceneManagement;
 
 public class ModelInteractionController : MonoBehaviour
 {
@@ -22,7 +21,6 @@ public class ModelInteractionController : MonoBehaviour
     public bool jointMade = false;
     public bool leftHandGripping = false;
     public bool rightHandGripping = false;
-    public bool animalPresent = false;
 
 
     // Start is called before the first frame update
@@ -32,9 +30,6 @@ public class ModelInteractionController : MonoBehaviour
         leftGripButton.action.canceled += LeftControllerReleased;
         rightGripButton.action.started += RightControllerGripped;
         rightGripButton.action.canceled += RightControllerReleased;
-
-        SceneManager.activeSceneChanged += ChangedActiveScene;
-
     }
 
     // Update is called once per frame
@@ -88,23 +83,6 @@ public class ModelInteractionController : MonoBehaviour
             jointMade = false;
             //Animal.GetComponent<Rigidbody>().isKinematic = true;
 
-        }
-
-    }
-
-    private void ChangedActiveScene(Scene current, Scene next)
-    {
-
-        //check to see if there is an animal in this scene
-        Animal = GameObject.Find("/AnatomyStuffHolder/AnatomyHolder");
-
-        if (Animal != null)
-        {
-            animalPresent = true;
-        }
-        else
-        {
-            animalPresent = false;
         }
 
     }
