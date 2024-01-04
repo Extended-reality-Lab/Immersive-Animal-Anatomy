@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ModelMaterialInstancing : MonoBehaviour
 {
-    public List<GameObject> SkeletonArray;
+    public List<GameObject> ModelArray;
     private MaterialPropertyBlock matBlock;
 
     // Start is called before the first frame update
@@ -18,14 +18,33 @@ public class ModelMaterialInstancing : MonoBehaviour
             {
                 if (child.gameObject.name != "Model Skeleton")
                 {
-                    SkeletonArray.Add(child.gameObject);
+                    ModelArray.Add(child.gameObject);
                 }
 
             }
+            // Find all children of the Organ object
+            Transform[] allOrgChildren = GameObject.Find("Model Internal Organs").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allOrgChildren)
+            { 
+                if(child.gameObject.name != "Model Internal Organs"){
+                    ModelArray.Add(child.gameObject);
+                }
                 
-            for (int i = 0; i < SkeletonArray.Count; i++)
+            }
+            
+            // Find all children of the Skin object
+            Transform[] allSkinChildren = GameObject.Find("Model External Organs").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allSkinChildren)
+            { 
+                if(child.gameObject.name != "Model External Organs"){
+                    ModelArray.Add(child.gameObject);
+                }
+                
+            }
+                   
+            for (int i = 0; i < ModelArray.Count; i++)
             {
-                Renderer rend = SkeletonArray[i].GetComponent<Renderer>();
+                Renderer rend = ModelArray[i].GetComponent<Renderer>();
                 Debug.Log("---------------------");
                 Debug.Log("Renderer: " + rend.name);
                 Debug.Log("---------------------");
