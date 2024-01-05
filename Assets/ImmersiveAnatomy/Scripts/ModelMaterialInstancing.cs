@@ -45,16 +45,11 @@ public class ModelMaterialInstancing : MonoBehaviour
             for (int i = 0; i < ModelArray.Count; i++)
             {
                 Renderer rend = ModelArray[i].GetComponent<Renderer>();
-                Debug.Log("---------------------");
-                Debug.Log("Renderer: " + rend.name);
-                Debug.Log("---------------------");
                 if(matBlock == null){
                     matBlock = new MaterialPropertyBlock();
                 }
                 rend.GetPropertyBlock(matBlock);
-                Debug.Log("Color: " + rend.material.color);
-                matBlock.SetColor("_Color", GetRandomColor());
-                Debug.Log("Color: " + rend.material.color);
+                matBlock.SetColor("_Color", GetRandomColor()); 
                 rend.SetPropertyBlock(matBlock);
             }
         }
