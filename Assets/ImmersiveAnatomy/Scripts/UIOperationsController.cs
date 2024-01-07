@@ -80,11 +80,10 @@ public class UIOperationsController : MonoBehaviour
                 Material material = renderer.material;
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
-                material.color = color;
-                if(SkeletonArray[i].name == "Skull"){
-                    color.b=sliderVal;
-                    material.color = color;
+                if(color.a<1){
+                    renderer.material=Resources.Load("Mats/Skeleton_Mat") as Material;
                 }
+                material.color = color;
             }
         }
         else{
