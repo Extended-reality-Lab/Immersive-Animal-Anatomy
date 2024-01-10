@@ -81,6 +81,7 @@ public class UIOperationsController : MonoBehaviour
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
                 if(color.a<1){
+                    SkeletonArray[i].SetActive(true);
                     material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
                     material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
                     material.SetInt("_ZWrite", 0);
@@ -89,7 +90,11 @@ public class UIOperationsController : MonoBehaviour
                     material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                     material.renderQueue = 2999;
                 }
+                else if (color.a==0){
+                    SkeletonArray[i].SetActive(false);
+                }
                 else{
+                    SkeletonArray[i].SetActive(true);
                     material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
                     material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
                     material.SetInt("_ZWrite", 1);

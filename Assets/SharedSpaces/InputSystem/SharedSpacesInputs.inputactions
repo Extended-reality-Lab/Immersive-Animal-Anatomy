@@ -130,6 +130,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerL",
+                    "type": "Button",
+                    "id": "9bef32a8-369b-47d7-91c9-a6bb499d734a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerR",
+                    "type": "Button",
+                    "id": "6cc4c61d-c38f-48f5-bea3-69f3513b45fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -504,6 +522,28 @@
                     "processors": "",
                     "groups": "XR Controller",
                     "action": "ShowUIR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b15c35c-9cd9-4c40-86c0-cb4328a182cb",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "692136e7-29fa-4d26-ad02-c0980ab4559e",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerL",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
