@@ -36,13 +36,18 @@ public class MovementController : MonoBehaviour
         inputVector = leftStick.action.ReadValue<Vector2>();
 
         //figure out the orientation of the player in 2d (top-down)
-        orientation.rotation = Quaternion.Euler(0f, CameraObject.transform.rotation.y, 0f);
+        orientation.rotation = Quaternion.Euler(0f, CameraObject.transform.eulerAngles.y, 0f);
+        //Debug.Log(orientation.rotation);
+        Debug.Log(orientation.forward);
+        Debug.DrawRay(orientation.position, orientation.forward);
 
         //determine the desired direction based on orientation and 
         moveDirection = orientation.forward * inputVector.y + orientation.transform.right * inputVector.x;
 
         //apply movement
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+
+       
 
     }
 }
