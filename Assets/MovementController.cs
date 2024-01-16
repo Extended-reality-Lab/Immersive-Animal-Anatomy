@@ -17,6 +17,8 @@ public class MovementController : MonoBehaviour
     public GameObject CameraObject;
     [SerializeField]
     public GameObject LeftController;
+    [SerializeField]
+    public GameObject pointer;
 
     public Vector3 moveDirection;
 
@@ -56,11 +58,6 @@ public class MovementController : MonoBehaviour
         //apply movement
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
 
-        //show teleport aim ray
-        if (showRay == true)
-        {
-            Debug.DrawRay(LeftController.transform.position, LeftController.transform.TransformDirection(Vector3.forward) * 100f, Color.blue);
-        }
 
     }
 
@@ -69,6 +66,7 @@ public class MovementController : MonoBehaviour
 
         //toggle bool
         showRay = true;
+        pointer.SetActive(true);
 
     }
 
@@ -77,6 +75,7 @@ public class MovementController : MonoBehaviour
 
         //toggle bool and teleport
         showRay = false;
+        pointer.SetActive(false);
 
         //find where the ray collides, teleport to that location
         if (Physics.Raycast(LeftController.transform.position, LeftController.transform.TransformDirection(Vector3.forward), out hit))
