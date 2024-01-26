@@ -10,7 +10,7 @@ public class UIOperationsController : MonoBehaviour
     public List <GameObject> SkeletonArray;
     public List <GameObject> OrganArray;
     public List <GameObject> SkinArray;
-
+    public List <GameObject> ModelArray;
     private bool isModel = true;
 
     private string currentScene;
@@ -25,6 +25,7 @@ public class UIOperationsController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Skeleton"){
                     SkeletonArray.Add(child.gameObject);
+                    ModelArray.Add(child.gameObject);
                 }
                
             }
@@ -34,6 +35,7 @@ public class UIOperationsController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Internal Organs"){
                     OrganArray.Add(child.gameObject);
+                    ModelArray.Add(child.gameObject);
                 }
                 
             }
@@ -44,6 +46,7 @@ public class UIOperationsController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model External Organs"){
                 SkinArray.Add(child.gameObject);
+                ModelArray.Add(child.gameObject);
                 }
                 
             }
@@ -68,6 +71,7 @@ public class UIOperationsController : MonoBehaviour
         SkeletonArray.Clear();
         OrganArray.Clear();
         SkinArray.Clear();
+        ModelArray.Clear();
         //Debug.Log("Arrays Cleared");
     }
     public void SkeletonSlider(float sliderVal)
@@ -182,24 +186,38 @@ public class UIOperationsController : MonoBehaviour
         }
     }
 
-    public void AllSlider(float sliderVal){
+    public void ModelSlider(float sliderVal){
         if(isModel){
-        SkeletonSlider(sliderVal);
-        SkinSlider(sliderVal);
-        OrganSlider(sliderVal);
+            for (int i = 0; i < ModelArray.Count; i++)
+            {
+                Renderer renderer = ModelArray[i].GetComponent<Renderer>();
+                Material material = renderer.material;
+                Color color = material.color;
+                color.a = sliderVal; // Set the alpha value
+                if(color.a<1){
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                    material.SetInt("_ZWrite", 0);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.EnableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = 2999;
+                }
+                else{
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                    material.SetInt("_ZWrite", 1);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.DisableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = -1;
+                }
+                material.color = color;
+            }
         }
         else{
             Debug.Log("No Model Found");
         }
-    }
-    public void modelButton(){
-        Debug.Log("Model Button Pressed");
-    }
-    public void roomButton(){
-        Debug.Log("Room Button Pressed");
-    }
-    public void gameButton(){
-        Debug.Log("Game Button Pressed");
     }
 
     public void Start(){

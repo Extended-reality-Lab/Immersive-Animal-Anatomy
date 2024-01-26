@@ -150,6 +150,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &347917823217678783
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +301,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &463151460092275878
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +336,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -439,7 +441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &779310194140776415
 RectTransform:
   m_ObjectHideFlags: 0
@@ -542,6 +544,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &1126823474979781597
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +579,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -939,7 +942,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1014,8 +1017,8 @@ RectTransform:
   m_Father: {fileID: 8320909944041040516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1090,8 +1093,8 @@ RectTransform:
   m_Father: {fileID: 3229107004074941276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1183,6 +1186,7 @@ GameObject:
   - component: {fileID: 5897293836528019515}
   - component: {fileID: 6682235473841628891}
   - component: {fileID: 130123089064292848}
+  - component: {fileID: 353240281034667935}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1300,6 +1304,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &353240281034667935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2289571902103599292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d98adea709282042b2587a73e65759c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sliderPrefab: {fileID: 263450197758275889, guid: 9d48e9571bb50e04798eb344745d978d, type: 3}
+  sliderContainer: {fileID: 2289571902103599292}
+  ModelArray: []
 --- !u!1 &2904488244740277639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3909361886012449893
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1496,6 +1515,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &3005154141156865236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,8 +2234,8 @@ RectTransform:
   m_Father: {fileID: 8804318177006555327}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000023841858, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3055,6 +3075,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &5765437183088313436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,7 +3093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9088764982828090542
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3175,6 +3196,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &5781056291029409247
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,8 +3230,8 @@ RectTransform:
   m_Father: {fileID: 2837798565142281723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000023841858, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4367,7 +4389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952263947600090070
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4470,6 +4492,7 @@ MonoBehaviour:
   SkeletonArray: []
   OrganArray: []
   SkinArray: []
+  ModelArray: []
 --- !u!1 &7039677190833651205
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,7 +4699,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
