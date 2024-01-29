@@ -55,14 +55,16 @@ public class DynamicSliders : MonoBehaviour
     }
     public void CreateSliders(){
         if(isModel){
+            int i=0;
             foreach (GameObject model in ModelArray)
-            {
+            {   
+                
                 Debug.Log(model.name);
                 GameObject slider = Instantiate(sliderPrefab, sliderContainer.transform);
-                
                 slider.name = model.name + " Slider";
                 slider.GetComponentInChildren<TMP_Text>().text = model.name;
                 Slider partSlider = slider.GetComponent<Slider>();
+                //slider.position.y=slider.position.y+(i*slider.GetComponent<RectTransform>().rect.height);
                 if(partSlider != null){
                     partSlider.onValueChanged.AddListener(delegate {SliderValueChanged(partSlider.value, model);});
                     partSlider.value = 1;
@@ -75,9 +77,11 @@ public class DynamicSliders : MonoBehaviour
                     else{
                         Debug.Log("Slider found on prefab");
                     }
+                
                 }
-            }
+                i++;
         }
+    }
     }
 
     public void ClearArrays(){
