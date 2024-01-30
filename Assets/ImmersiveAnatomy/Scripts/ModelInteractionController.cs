@@ -35,6 +35,8 @@ public class ModelInteractionController : MonoBehaviour
 
         SceneManager.activeSceneChanged += ChangedActiveScene;
 
+        
+
     }
 
     // Update is called once per frame
