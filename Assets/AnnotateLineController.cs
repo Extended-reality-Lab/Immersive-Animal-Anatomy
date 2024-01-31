@@ -12,11 +12,15 @@ public class AnnotateLineController : MonoBehaviour
     private Vector3 currentPosition;
 
     [SerializeField]
+    GameObject controllerPosition;
+
+    [SerializeField]
     private float minDistance = .1f;
 
     private void Start(){
 
         line = GetComponent<LineRenderer>();
+        line.positionCount = 1;
         previousPosition = transform.position;
 
     }
@@ -26,12 +30,20 @@ public class AnnotateLineController : MonoBehaviour
         if(annotating == true){
 
             //grab the position of the controller
-            //currentPosition = 
+            currentPosition = controllerPosition.transform.position;
 
             if(Vector3.Distance(currentPosition, previousPosition) > minDistance){
 
-                line.positionCount++;
-                line.SetPosition(line.positionCount - 1, currentPosition);
+                if(previousPosition == transform.position){
+                    line.SetPosition(0, currentPosition);
+
+
+                }
+                else{
+                    line.positionCount++;
+                    line.SetPosition(line.positionCount - 1, currentPosition);
+                }
+
                 previousPosition = currentPosition;
 
             }

@@ -3490,12 +3490,10 @@ LineRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.1
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -3513,8 +3511,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0, g: 0.2504587, b: 0.5849056, a: 1}
+      key1: {r: 0, g: 0.2504587, b: 0.5849056, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -3537,7 +3535,7 @@ LineRenderer:
       atime5: 0
       atime6: 0
       atime7: 0
-      m_Mode: 0
+      m_Mode: 1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 0
@@ -3560,6 +3558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e2c76d15700cd488c639db0e0e39c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  annotating: 1
+  controllerPosition: {fileID: 6697775241635944105}
+  minDistance: 0.1
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
