@@ -299,6 +299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4994652611240906789, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6697775241635718865, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -346,6 +350,14 @@ PrefabInstance:
     - target: {fileID: 6697775241635953393, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_Name
       value: SharedSpacesCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474537807399156414, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8474537807399156414, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b566583b32ed60478be49846202ce86, type: 3}
