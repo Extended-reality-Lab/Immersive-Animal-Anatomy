@@ -47,32 +47,32 @@ public class UIOperationsController : MonoBehaviour
                 }
                 
             }
-            Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
+            /*Debug.Log("Target Size: 121 Actual Size: "+ SkeletonArray.Count);
             /*if(SkeletonArray.Count != 121){
                 for (int i = 0; i < SkeletonArray.Count; i++)
                 {
                     Debug.log(SkeletonArray[i].name)
                 }
-            }*/
+            }
             Debug.Log("Target Size: 10 Actual Size: " + OrganArray.Count);
-            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);
+            Debug.Log("Target Size: 1 Actual Size: " + SkinArray.Count);*/
             }
             else{
                 isModel = false;
                 ClearArrays();
             }
-        Debug.Log("Arrays Filled" + isModel);
+        //Debug.Log("Arrays Filled" + isModel);
     }
     public void ClearArrays(){
-        Debug.Log("Clearing Arrays");
+        //Debug.Log("Clearing Arrays");
         SkeletonArray.Clear();
         OrganArray.Clear();
         SkinArray.Clear();
-        Debug.Log("Arrays Cleared");
+        //Debug.Log("Arrays Cleared");
     }
     public void SkeletonSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+        //Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkeletonArray.Count; i++)
             {
@@ -80,11 +80,30 @@ public class UIOperationsController : MonoBehaviour
                 Material material = renderer.material;
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
-                material.color = color;
-                if(SkeletonArray[i].name == "Skull"){
-                    color.b=sliderVal;
-                    material.color = color;
+                if(color.a<1){
+                    SkeletonArray[i].SetActive(true);
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                    material.SetInt("_ZWrite", 0);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.EnableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = 2999;
                 }
+                else if (color.a==0){
+                    SkeletonArray[i].SetActive(false);
+                }
+                else{
+                    SkeletonArray[i].SetActive(true);
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                    material.SetInt("_ZWrite", 1);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.DisableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = -1;
+                }
+                material.color = color;
             }
         }
         else{
@@ -93,7 +112,7 @@ public class UIOperationsController : MonoBehaviour
     }
     public void SkinSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+        //Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < SkinArray.Count; i++)
             {
@@ -101,6 +120,24 @@ public class UIOperationsController : MonoBehaviour
                 Material material = renderer.material;
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
+                if(color.a<1){
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                    material.SetInt("_ZWrite", 0);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.EnableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = 3000;
+                }
+                else{
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                    material.SetInt("_ZWrite", 1);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.DisableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = -1;
+                }
                 material.color = color;
             }
         }
@@ -111,7 +148,7 @@ public class UIOperationsController : MonoBehaviour
     }
      public void OrganSlider(float sliderVal)
     {
-        Debug.Log("Slider Value: " + sliderVal);
+       // Debug.Log("Slider Value: " + sliderVal);
         if(isModel){
             for (int i = 0; i < OrganArray.Count; i++)
             {
@@ -119,6 +156,24 @@ public class UIOperationsController : MonoBehaviour
                 Material material = renderer.material;
                 Color color = material.color;
                 color.a = sliderVal; // Set the alpha value
+                if(color.a<1){
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                    material.SetInt("_ZWrite", 0);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.EnableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = 2998;
+                }
+                else{
+                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                    material.SetInt("_ZWrite", 1);
+                    material.DisableKeyword("_ALPHATEST_ON");
+                    material.DisableKeyword("_ALPHABLEND_ON");
+                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                    material.renderQueue = -1;
+                }
                 material.color = color;
             }
         }
@@ -149,7 +204,7 @@ public class UIOperationsController : MonoBehaviour
 
     public void Start(){
             currentScene = SceneManager.GetActiveScene().name;
-            Debug.Log("Current Scene: " + currentScene);
+            //Debug.Log("Current Scene: " + currentScene);
         }   
     public void Update(){
         if(SceneManager.GetActiveScene().name != currentScene){
@@ -157,7 +212,7 @@ public class UIOperationsController : MonoBehaviour
             ClearArrays();
             FillArrays();
             currentScene = SceneManager.GetActiveScene().name;
-            Debug.Log("Current Scene: " + currentScene);
+            //Debug.Log("Current Scene: " + currentScene);
         }
     }
     
