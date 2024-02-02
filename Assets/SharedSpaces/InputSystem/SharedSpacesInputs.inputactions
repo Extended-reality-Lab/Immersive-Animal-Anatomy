@@ -132,6 +132,9 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "TriggerRight",
+                    "type": "Button",
+                    "id": "c3205c08-7cf7-4193-9cb7-ee5aa3ed1bf2",
                     "name": "TriggerL",
                     "type": "Button",
                     "id": "9bef32a8-369b-47d7-91c9-a6bb499d734a",
@@ -141,6 +144,9 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "TriggerLeft",
+                    "type": "Button",
+                    "id": "d91a3658-e471-467d-9c5b-f14af80496c5",
                     "name": "TriggerR",
                     "type": "Button",
                     "id": "6cc4c61d-c38f-48f5-bea3-69f3513b45fa",
@@ -505,6 +511,12 @@
                 },
                 {
                     "name": "",
+                    "id": "f1601eaf-defe-4b9e-b5d8-004ae6c491e6",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR Controller",
+                    "action": "TriggerRight",
                     "id": "dd7e6417-cf36-40d9-b16c-e38ded53290c",
                     "path": "<XRController>{LeftHand}/secondaryButton",
                     "interactions": "",
@@ -516,6 +528,12 @@
                 },
                 {
                     "name": "",
+                    "id": "09032d06-3064-4d07-a330-5da205570646",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR Controller",
+                    "action": "TriggerLeft",
                     "id": "05065a16-7fd1-41c0-886f-5c4775b96cf0",
                     "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
