@@ -39,6 +39,7 @@ public class SharedSpacesCamera : MonoBehaviour
         cam = Camera.main;
     }
 
+    /*
     void Update()
     {
         if (!inputs) return;
@@ -58,4 +59,5 @@ public class SharedSpacesCamera : MonoBehaviour
 
         transform.RotateAround(headPos, Vector3.up, -1.0f * inputs.orbit.x);
     }
+    */
 }
