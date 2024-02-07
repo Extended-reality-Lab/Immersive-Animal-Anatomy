@@ -3889,6 +3889,7 @@ GameObject:
   - component: {fileID: 7446413338500355497}
   - component: {fileID: 3294153419765648969}
   - component: {fileID: 2326489964414564606}
+  - component: {fileID: 688689197951620249}
   m_Layer: 0
   m_Name: SharedSpacesCameraRig
   m_TagString: Untagged
@@ -4085,6 +4086,21 @@ MonoBehaviour:
   orientation: {fileID: 7914617085906754494}
   moveSpeed: 2
   showRay: 0
+--- !u!114 &688689197951620249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697775241635953393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa36b68c93a8d9d4da20da9ecde7d8ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  annotating: 1
+  controllerPosition: {fileID: 6697127168281872379}
+  minDistance: 0.05
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
