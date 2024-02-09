@@ -3060,7 +3060,7 @@ MonoBehaviour:
   holderPresent: 0
   linePrefab: {fileID: 4484545425270614294, guid: 63e49f30cd0ccb54ea90b0b2be81e9d6, type: 3}
   controllerPosition: {fileID: 6697127168281872379}
-  minDistance: 0.05
+  minDistance: 0.01
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
