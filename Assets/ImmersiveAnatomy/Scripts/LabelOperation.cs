@@ -15,16 +15,13 @@ public class LabelOperation : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        showLabel();
-    }
     void setLabel()
     {
         Label.GetComponentInChildren<Text>().text = transform.parent.name;
     }
-    void showLabel()
-    {
+    public void showLabel()
+    {  
+
         if(Label.activeInHierarchy == true){
             Label.SetActive(false);
             trackLabel();
