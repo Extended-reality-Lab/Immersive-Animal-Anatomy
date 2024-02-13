@@ -23,6 +23,7 @@ public class ModelInteractionController : MonoBehaviour
     public bool leftHandGripping = false;
     public bool rightHandGripping = false;
     public bool animalPresent = false;
+    public bool leftGripJustBegan = false;
 
 
     // Start is called before the first frame update
@@ -50,15 +51,37 @@ public class ModelInteractionController : MonoBehaviour
             ControllerR.GetComponent<FixedJoint>().connectedBody = Animal.GetComponent<Rigidbody>();
             jointMade = true;
         }
+        //right released, break any existing joints
+        if (rightHandGripping == false && jointMade == true)
+        {
+            //break joint
+            Destroy(ControllerR.GetComponent<FixedJoint>());
+            jointMade = false;
+            //Animal.GetComponent<Rigidbody>().isKinematic = true;
+
+        }
 
         //perform an instance of scaling
         if (rightHandGripping == true && leftHandGripping == true)
         {
             //break any existing joints
-            if (jointMade)
+            if (jointMade == true)
             {
                 Destroy(ControllerR.GetComponent<FixedJoint>());
                 jointMade = false;
+            }
+
+            //see if scaling just began
+            if(leftGripJustBegan == true){
+                leftGripJustBegan = false;
+
+                deltaDist = 0;
+            }
+            //otherwise, it's a consecutive scale, so we actually have an "old" distance
+            else{
+                //get position delta 
+                currentDist = Vector3.Distance(ControllerL.transform.position, ControllerR.transform.position);
+                deltaDist = currentDist - oldDist;
             }
 
             //get position delta 
@@ -68,26 +91,16 @@ public class ModelInteractionController : MonoBehaviour
             if (deltaDist < -.001f)
             {
                 //scale down by .025
-                Animal.transform.localScale = Animal.transform.localScale - new Vector3(.025f, .025f, .025f);
+                Animal.transform.localScale = Animal.transform.localScale - new Vector3(.1f, .1f, .1f);
             }
             //if positive, hands separated
             if (deltaDist > .001f)
             {
                 //scale up by .025
-                Animal.transform.localScale = Animal.transform.localScale + new Vector3(.025f, .025f, .025f);
+                Animal.transform.localScale = Animal.transform.localScale + new Vector3(.1f, .1f, .1f);
             }
 
             oldDist = currentDist;
-        }
-
-        //right released, break any existing joints
-        if (rightHandGripping == false && jointMade == true)
-        {
-            //break joint
-            Destroy(ControllerR.GetComponent<FixedJoint>());
-            jointMade = false;
-            //Animal.GetComponent<Rigidbody>().isKinematic = true;
-
         }
 
     }
@@ -112,6 +125,7 @@ public class ModelInteractionController : MonoBehaviour
     void LeftControllerGripped(InputAction.CallbackContext ctx)
     {
         leftHandGripping = true;
+        leftGripJustBegan = true;
     }
 
     void LeftControllerReleased(InputAction.CallbackContext ctx)
@@ -122,12 +136,10 @@ public class ModelInteractionController : MonoBehaviour
     void RightControllerGripped(InputAction.CallbackContext ctx)
     {
         rightHandGripping = true;
-        Debug.Log("Output");
     }
 
     void RightControllerReleased(InputAction.CallbackContext ctx)
     {
         rightHandGripping = false;
-        Debug.Log("Output");
     }
 }
