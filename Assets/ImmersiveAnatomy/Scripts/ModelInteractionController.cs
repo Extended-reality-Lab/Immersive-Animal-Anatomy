@@ -41,7 +41,7 @@ public class ModelInteractionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         //if only right controller is gripping, do rotation/position
         if (rightHandGripping == true && leftHandGripping == false && jointMade == false)
         {
@@ -91,17 +91,18 @@ public class ModelInteractionController : MonoBehaviour
             if (deltaDist < -.001f)
             {
                 //scale down by .025
-                Animal.transform.localScale = Animal.transform.localScale - new Vector3(.1f, .1f, .1f);
+                Animal.transform.localScale = Animal.transform.localScale - new Vector3(.01f, .01f, .01f);
             }
             //if positive, hands separated
             if (deltaDist > .001f)
             {
                 //scale up by .025
-                Animal.transform.localScale = Animal.transform.localScale + new Vector3(.1f, .1f, .1f);
+                Animal.transform.localScale = Animal.transform.localScale + new Vector3(.01f, .01f, .01f);
             }
 
             oldDist = currentDist;
         }
+        
 
     }
 
@@ -109,7 +110,7 @@ public class ModelInteractionController : MonoBehaviour
     {
 
         //check to see if there is an animal in this scene
-        Animal = GameObject.Find("/AnatomyStuffHolder/AnatomyHolder");
+        Animal = GameObject.Find("/AnatomyStuffHolder");
 
         if (Animal != null)
         {
