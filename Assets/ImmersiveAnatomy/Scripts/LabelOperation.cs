@@ -3,35 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class LabelOperation : MonoBehaviour
 {
     public GameObject Label;
-    public Transform playerCamera;
+    public Camera playerCamera;
     // Start is called before the first frame update
     void Start()
     {
+        playerCamera=Camera.main;
+        Label.SetActive(false);
         setLabel();
     }
-
+    void Update()
+    {
+        Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
+    }
     // Update is called once per frame
     void setLabel()
     {
-        Label.GetComponentInChildren<Text>().text = transform.parent.name;
+        Debug.Log(Label.transform.parent.name);
+        Debug.Log(Label.GetComponentInChildren<TMP_Text>().text);
+        Label.GetComponentInChildren<TMP_Text>().text = Label.transform.parent.name;
+        
     }
     public void showLabel()
     {  
-
         if(Label.activeInHierarchy == true){
             Label.SetActive(false);
-            trackLabel();
         }
         if(Label.activeInHierarchy == false){
             Label.SetActive(true);
         }
-    }
-    void trackLabel()
-    {
-        Label.transform.LookAt(playerCamera);
     }
 }

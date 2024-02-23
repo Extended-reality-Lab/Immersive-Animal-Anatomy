@@ -45,3 +45,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LabelLayer
+    uniqueID: 1160000393
+    locked: 0

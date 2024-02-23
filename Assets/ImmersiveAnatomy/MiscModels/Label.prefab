@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1053627211486615972}
   - component: {fileID: 209729226896199384}
   - component: {fileID: 1414407170998736253}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 5113804281643953993}
   - component: {fileID: 4768117092522105928}
   - component: {fileID: 5962378984510432545}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,9 +222,9 @@ GameObject:
   - component: {fileID: 5493713561357416039}
   - component: {fileID: 1297075678690281028}
   - component: {fileID: 650947218113292058}
-  - component: {fileID: 1080039359276421487}
   - component: {fileID: 3304893961992612114}
-  m_Layer: 0
+  - component: {fileID: 2190479397406514007}
+  m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,8 +271,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_AdditionalShaderChannelsFlag: -1
+  m_SortingLayerID: 1160000393
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &650947218113292058
@@ -298,7 +298,15 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
---- !u!114 &1080039359276421487
+--- !u!222 &3304893961992612114
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418083119437163044}
+  m_CullTransparentMesh: 1
+--- !u!114 &2190479397406514007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,14 +323,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!222 &3304893961992612114
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4418083119437163044}
-  m_CullTransparentMesh: 1
 --- !u!1 &5773731187349191721
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 7437217095996653164}
   - component: {fileID: 2876628096762846563}
   - component: {fileID: 574869429584081662}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.03000021, y: 0}
+  m_AnchoredPosition: {x: -0.030029297, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2876628096762846563
