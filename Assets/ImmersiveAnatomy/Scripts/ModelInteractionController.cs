@@ -57,10 +57,9 @@ public class ModelInteractionController : MonoBehaviour
             //break joint
             Destroy(ControllerR.GetComponent<FixedJoint>());
             jointMade = false;
-            //Animal.GetComponent<Rigidbody>().isKinematic = true;
 
         }
-
+        /*
         //perform an instance of scaling
         if (rightHandGripping == true && leftHandGripping == true)
         {
@@ -91,18 +90,18 @@ public class ModelInteractionController : MonoBehaviour
             if (deltaDist < -.001f)
             {
                 //scale down by .025
-                Animal.transform.localScale = Animal.transform.localScale - new Vector3(.01f, .01f, .01f);
+                Animal.transform.localScale -= new Vector3(.01f, .01f, .01f);
             }
             //if positive, hands separated
             if (deltaDist > .001f)
             {
                 //scale up by .025
-                Animal.transform.localScale = Animal.transform.localScale + new Vector3(.01f, .01f, .01f);
+                Animal.transform.localScale += new Vector3(.01f, .01f, .01f);
             }
 
             oldDist = currentDist;
         }
-        
+        */
 
     }
 
@@ -110,7 +109,7 @@ public class ModelInteractionController : MonoBehaviour
     {
 
         //check to see if there is an animal in this scene
-        Animal = GameObject.Find("/AnatomyStuffHolder");
+        Animal = GameObject.Find("/AnatomyHolder");
 
         if (Animal != null)
         {
