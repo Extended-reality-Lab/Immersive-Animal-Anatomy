@@ -32,7 +32,8 @@ public class DynamicSliders : MonoBehaviour
                     material.DisableKeyword("_ALPHATEST_ON");
                     material.DisableKeyword("_ALPHABLEND_ON");
                     material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
-                    material.renderQueue = -1;    
+                    material.renderQueue = -1;
+                    model.GetComponent<BoxCollider>().enabled = false;
             }
             else if (sliderVal < 1){
                         model.SetActive(true);
@@ -43,9 +44,11 @@ public class DynamicSliders : MonoBehaviour
                         material.EnableKeyword("_ALPHABLEND_ON");
                         material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                         material.renderQueue = 2999;
+                        model.GetComponent<BoxCollider>().enabled = false;;
             }
             else{
                 model.SetActive(false);
+                model.GetComponent<BoxCollider>().enabled = false;
             }
             material.color = color;
         }

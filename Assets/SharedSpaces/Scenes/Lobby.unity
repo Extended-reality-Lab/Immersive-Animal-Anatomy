@@ -473,6 +473,137 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298502821}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &466245631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2362893549303281019}
+    m_Modifications:
+    - target: {fileID: 3400210883079715067, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878622205138782222, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Name
+      value: Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68242687
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.19178323
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6831332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1756186
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.333
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -30.122
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773731187349191721, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+--- !u!224 &466245632 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+  m_PrefabInstance: {fileID: 466245631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &466245633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+  m_PrefabInstance: {fileID: 466245631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &484991839
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4567,8 @@ Transform:
   m_LocalPosition: {x: -0.145, y: 1.657, z: -0.962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 466245632}
   m_Father: {fileID: 777779750}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -32.247, y: 2.979, z: -1.48}
@@ -5145,6 +5277,7 @@ GameObject:
   - component: {fileID: 8428863819219642759}
   - component: {fileID: 8428863819219642758}
   - component: {fileID: 8428863819219642761}
+  - component: {fileID: 8428863819219642762}
   m_Layer: 3
   m_Name: Intestines
   m_TagString: Untagged
@@ -9285,7 +9418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11312,7 +11445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11619,7 +11752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -14073,7 +14206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -16736,9 +16869,9 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7151770555320418158}
-        m_TargetAssemblyTypeName: ColorChanger, Assembly-CSharp
-        m_MethodName: ChangeColor
+      - m_Target: {fileID: 7151770555320418159}
+        m_TargetAssemblyTypeName: LabelOperation, Assembly-CSharp
+        m_MethodName: showLabel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16748,9 +16881,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7151770555320418159}
-        m_TargetAssemblyTypeName: LabelOperation, Assembly-CSharp
-        m_MethodName: showLabel
+      - m_Target: {fileID: 7151770555320418158}
+        m_TargetAssemblyTypeName: ColorChanger, Assembly-CSharp
+        m_MethodName: ChangeColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16817,7 +16950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19188,7 +19321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19488,7 +19621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -21942,7 +22075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -22457,9 +22590,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4733309820015216668}
     m_Modifications:
+    - target: {fileID: 3400210883079715067, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878622205138782222, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_Name
       value: Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_Pivot.x
@@ -22544,6 +22689,10 @@ PrefabInstance:
     - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773731187349191721, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
@@ -23254,7 +23403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23922,7 +24071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23987,6 +24136,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8428863819219642762}
+        m_TargetAssemblyTypeName: LabelOperation, Assembly-CSharp
+        m_MethodName: showLabel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -24032,6 +24193,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedObject: {fileID: 2964043283587206332}
+--- !u!114 &8428863819219642762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2964043283587206332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 466245633}
+  playerCamera: {fileID: 0}
 --- !u!23 &8430197801949350346
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25307,7 +25482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.35040036, g: 0.3584906, b: 0.3500356, a: 0}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []

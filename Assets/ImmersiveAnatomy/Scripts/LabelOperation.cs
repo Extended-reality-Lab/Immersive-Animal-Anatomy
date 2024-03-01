@@ -30,10 +30,13 @@ public class LabelOperation : MonoBehaviour
     }
     public void showLabel()
     {  
-        if(Label.activeInHierarchy == true){
+        Debug.Log("Label is active: "+Label.activeInHierarchy);
+        if(Label.activeInHierarchy){
+            Debug.Log("in true condition");
             Label.SetActive(false);
         }
-        if(Label.activeInHierarchy == false){
+        else if(!Label.activeInHierarchy){
+            Debug.Log("in false condition");
             Label.SetActive(true);
         }
     }
