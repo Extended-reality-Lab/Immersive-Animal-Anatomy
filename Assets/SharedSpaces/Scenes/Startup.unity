@@ -299,6 +299,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 700064921207456419, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023966386899880984, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: field of view
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6697775241634212109, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: field of view
       value: 90
