@@ -3249,6 +3249,8 @@ MonoBehaviour:
   myMaterial: {fileID: 0}
   magGlass: {fileID: 1743025544216299253}
   zoomCam: {fileID: 6023966386899880984}
+  zoomToggle: {fileID: 3446341705883374870, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  zoomed: 0
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0

@@ -157,6 +157,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RightPrimary",
+                    "type": "Button",
+                    "id": "6895972f-bf9a-49fd-a98e-7204d4492833",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -564,6 +573,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "DrawButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cda763b-5afd-46be-ae25-bb6dd24d04bd",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightPrimary",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
