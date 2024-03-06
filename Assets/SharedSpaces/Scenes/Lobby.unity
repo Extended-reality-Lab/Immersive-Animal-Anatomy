@@ -1789,9 +1789,21 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3400210883079715067, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878622205138782222, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_Name
       value: Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_Pivot.x
@@ -1876,6 +1888,10 @@ PrefabInstance:
     - target: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773731187349191721, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
