@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -1335,7 +1335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -1952,7 +1952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -2189,7 +2189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -2426,7 +2426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -2663,7 +2663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -3010,7 +3010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -3234,7 +3234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -3512,7 +3512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -3749,7 +3749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -3986,7 +3986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -4223,7 +4223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -4460,7 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -4697,7 +4697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -4934,7 +4934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -5171,7 +5171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -5408,7 +5408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -5645,7 +5645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -5882,7 +5882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -6119,7 +6119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -6454,7 +6454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -6691,7 +6691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -6928,7 +6928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -7273,7 +7273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -7510,7 +7510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -7747,7 +7747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -7984,7 +7984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -8221,7 +8221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -8458,7 +8458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -8695,7 +8695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -8932,7 +8932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -9169,7 +9169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -9406,7 +9406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -9656,7 +9656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -9880,7 +9880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -10117,7 +10117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -10354,7 +10354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -10685,7 +10685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -10922,7 +10922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11159,7 +11159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11453,7 +11453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11704,7 +11704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -11942,7 +11942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -12179,7 +12179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -12416,7 +12416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -12653,7 +12653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -12890,7 +12890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -13127,7 +13127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -13437,7 +13437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -13735,7 +13735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -13972,7 +13972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -14209,7 +14209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -14514,7 +14514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -14751,7 +14751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -14988,7 +14988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -15274,7 +15274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -15511,7 +15511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -15748,7 +15748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -15985,7 +15985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -16333,7 +16333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -16557,7 +16557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -16794,7 +16794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -17031,7 +17031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -17268,7 +17268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -17505,7 +17505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -17742,7 +17742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -17979,7 +17979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -18216,7 +18216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -18453,7 +18453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -18690,7 +18690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -18927,7 +18927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19164,7 +19164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19414,7 +19414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19638,7 +19638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -19875,7 +19875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -20112,7 +20112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -20462,7 +20462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -20699,7 +20699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -20936,7 +20936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -21173,7 +21173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -21423,7 +21423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -21885,7 +21885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -22122,7 +22122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -22359,7 +22359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -22596,7 +22596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -22944,7 +22944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23181,7 +23181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23405,7 +23405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23642,7 +23642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -23879,7 +23879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -24116,7 +24116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -24353,7 +24353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -24603,7 +24603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -24840,7 +24840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -25064,7 +25064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -25301,7 +25301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -25538,7 +25538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -25775,7 +25775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -26012,7 +26012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -26249,7 +26249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -26486,7 +26486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -26723,7 +26723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -26960,7 +26960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -27197,7 +27197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -27434,7 +27434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -27671,7 +27671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -27908,7 +27908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -28145,7 +28145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -28382,7 +28382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -28620,7 +28620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.041940928, g: 1, b: 0, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -28869,7 +28869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -29106,7 +29106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -29375,7 +29375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -29612,7 +29612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -29849,7 +29849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -30086,7 +30086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -30323,7 +30323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -30560,7 +30560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -30941,7 +30941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -31178,7 +31178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
@@ -31415,7 +31415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991c69b8a1b6a444a9177914f77cf7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TintColor: {r: 0.69411767, g: 0.98823535, b: 0.34901962, a: 0.38431373}
+  m_TintColor: {r: 0.34901962, g: 0.35686275, b: 0.34901962, a: 0.18431373}
   m_TintOnHover: 1
   m_TintOnSelection: 0
   m_TintRenderers: []
