@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 28283206}
   - component: {fileID: 28283205}
   - component: {fileID: 28283204}
+  - component: {fileID: 28283210}
   m_Layer: 3
   m_Name: Head_of_Fibula
   m_TagString: Untagged
@@ -345,6 +346,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28283202}
   m_Mesh: {fileID: 3046821910309426776, guid: 0f5c4fed39781b14381d36a2588e08be, type: 3}
+--- !u!114 &28283210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28283202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &28778181
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +504,7 @@ GameObject:
   - component: {fileID: 68169297}
   - component: {fileID: 68169296}
   - component: {fileID: 68169295}
+  - component: {fileID: 68169301}
   m_Layer: 3
   m_Name: Femoral_Condyle_Left
   m_TagString: Untagged
@@ -696,6 +712,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68169293}
   m_Mesh: {fileID: -7808768646206370402, guid: 1b3e63ec180b7724196e4eeaf88a4893, type: 3}
+--- !u!114 &68169301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68169293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &117695654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1050,7 @@ GameObject:
   - component: {fileID: 142026135}
   - component: {fileID: 142026134}
   - component: {fileID: 142026133}
+  - component: {fileID: 142026139}
   m_Layer: 3
   m_Name: Head_of_Rib_Left
   m_TagString: Untagged
@@ -1227,6 +1258,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142026131}
   m_Mesh: {fileID: -7201365420624672442, guid: f05a88cc4eea71f4faab674550ac0224, type: 3}
+--- !u!114 &142026139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142026131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &145891467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1287,7 @@ GameObject:
   - component: {fileID: 145891471}
   - component: {fileID: 145891470}
   - component: {fileID: 145891469}
+  - component: {fileID: 145891475}
   m_Layer: 3
   m_Name: Body_of_Radius
   m_TagString: Untagged
@@ -1449,6 +1495,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145891467}
   m_Mesh: {fileID: -2553377677712656919, guid: aff588029e1f1a740b2c009217d2ceee, type: 3}
+--- !u!114 &145891475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145891467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &154725340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1556,7 @@ GameObject:
   - component: {fileID: 160536969}
   - component: {fileID: 160536968}
   - component: {fileID: 160536967}
+  - component: {fileID: 160536973}
   m_Layer: 3
   m_Name: H_4
   m_TagString: Untagged
@@ -1703,6 +1764,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160536965}
   m_Mesh: {fileID: -209135403605668732, guid: f55134f6b0e9f554b8f8f8bbe4c43722, type: 3}
+--- !u!114 &160536973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160536965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &176686795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1809,6 +1884,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5493713561357416039, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
   m_PrefabInstance: {fileID: 176686795}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &176686797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4418083119437163044, guid: 816d95e789afa604fb2cce6b4b0dd345, type: 3}
+  m_PrefabInstance: {fileID: 176686795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &196923017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +1904,7 @@ GameObject:
   - component: {fileID: 196923021}
   - component: {fileID: 196923020}
   - component: {fileID: 196923019}
+  - component: {fileID: 196923025}
   m_Layer: 3
   m_Name: Acromion_Left
   m_TagString: Untagged
@@ -2031,6 +2112,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196923017}
   m_Mesh: {fileID: 2005597874217683452, guid: f72e287eeda8a76468481e5e732c1754, type: 3}
+--- !u!114 &196923025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196923017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &237246760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,6 +2141,7 @@ GameObject:
   - component: {fileID: 237246764}
   - component: {fileID: 237246763}
   - component: {fileID: 237246762}
+  - component: {fileID: 237246768}
   m_Layer: 3
   m_Name: F_Base
   m_TagString: Untagged
@@ -2253,6 +2349,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237246760}
   m_Mesh: {fileID: -759041130015492412, guid: 6be5db76102d118448f4f73ff9bf9381, type: 3}
+--- !u!114 &237246768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237246760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &252727691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,6 +2378,7 @@ GameObject:
   - component: {fileID: 252727695}
   - component: {fileID: 252727694}
   - component: {fileID: 252727693}
+  - component: {fileID: 252727699}
   m_Layer: 3
   m_Name: H_17
   m_TagString: Untagged
@@ -2475,6 +2586,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252727691}
   m_Mesh: {fileID: -1866446838502759061, guid: e5a805c7da9a8e94fa3df6e4ccdacdaf, type: 3}
+--- !u!114 &252727699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252727691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &294877913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2615,7 @@ GameObject:
   - component: {fileID: 294877917}
   - component: {fileID: 294877916}
   - component: {fileID: 294877915}
+  - component: {fileID: 294877921}
   m_Layer: 3
   m_Name: Shaft_of_Femur_Left
   m_TagString: Untagged
@@ -2697,6 +2823,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294877913}
   m_Mesh: {fileID: 8084947969468946847, guid: 7581cd9a3abf5634eb14267da68b5ed8, type: 3}
+--- !u!114 &294877921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294877913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &298502821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +2949,7 @@ GameObject:
   - component: {fileID: 298750822}
   - component: {fileID: 298750821}
   - component: {fileID: 298750820}
+  - component: {fileID: 298750826}
   m_Layer: 3
   m_Name: Lungs
   m_TagString: Untagged
@@ -3016,6 +3157,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298750818}
   m_Mesh: {fileID: 2021327647428232212, guid: 1898534007153d34dba4eaf6c33b3b6a, type: 3}
+--- !u!114 &298750826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298750818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &308971151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3031,6 +3186,7 @@ GameObject:
   - component: {fileID: 308971155}
   - component: {fileID: 308971154}
   - component: {fileID: 308971153}
+  - component: {fileID: 308971159}
   m_Layer: 3
   m_Name: Costochondral_Junction_Left
   m_TagString: Untagged
@@ -3238,6 +3394,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308971151}
   m_Mesh: {fileID: -4484608371086850642, guid: 140e66e10be8bab4f88382d685580318, type: 3}
+--- !u!114 &308971159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308971151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &321646770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3464,7 @@ GameObject:
   - component: {fileID: 328995455}
   - component: {fileID: 328995454}
   - component: {fileID: 328995453}
+  - component: {fileID: 328995459}
   m_Layer: 3
   m_Name: Supraglenoid_Tubercle_Left
   m_TagString: Untagged
@@ -3501,6 +3672,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328995451}
   m_Mesh: {fileID: 4903568810229713719, guid: f26bca92f7e8c844d94b058ec7365ad6, type: 3}
+--- !u!114 &328995459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328995451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &331155195
 GameObject:
   m_ObjectHideFlags: 0
@@ -3516,6 +3701,7 @@ GameObject:
   - component: {fileID: 331155199}
   - component: {fileID: 331155198}
   - component: {fileID: 331155197}
+  - component: {fileID: 331155203}
   m_Layer: 3
   m_Name: Infraorbital_Foramen
   m_TagString: Untagged
@@ -3723,6 +3909,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331155195}
   m_Mesh: {fileID: -3828426262244967915, guid: 7e742ed49a2ae0849bc375f6534ba0ff, type: 3}
+--- !u!114 &331155203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331155195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &332863152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,6 +3938,7 @@ GameObject:
   - component: {fileID: 332863156}
   - component: {fileID: 332863155}
   - component: {fileID: 332863154}
+  - component: {fileID: 332863160}
   m_Layer: 3
   m_Name: H_13
   m_TagString: Untagged
@@ -3945,6 +4146,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332863152}
   m_Mesh: {fileID: -5352190700250675563, guid: 250f24688581d9b43b7da05562180020, type: 3}
+--- !u!114 &332863160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332863152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &345762375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +4175,7 @@ GameObject:
   - component: {fileID: 345762379}
   - component: {fileID: 345762378}
   - component: {fileID: 345762377}
+  - component: {fileID: 345762383}
   m_Layer: 3
   m_Name: Parietal_Bone
   m_TagString: Untagged
@@ -4167,6 +4383,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345762375}
   m_Mesh: {fileID: -8130044310224532169, guid: e97fa583034b023478d15087d50a5978, type: 3}
+--- !u!114 &345762383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345762375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &390239250
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,6 +4412,7 @@ GameObject:
   - component: {fileID: 390239254}
   - component: {fileID: 390239253}
   - component: {fileID: 390239252}
+  - component: {fileID: 390239258}
   m_Layer: 3
   m_Name: A_3
   m_TagString: Untagged
@@ -4389,6 +4620,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390239250}
   m_Mesh: {fileID: 445955157647725035, guid: 228fdbe744e419346a8301df58510a2f, type: 3}
+--- !u!114 &390239258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390239250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &391970034
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,6 +4649,7 @@ GameObject:
   - component: {fileID: 391970038}
   - component: {fileID: 391970037}
   - component: {fileID: 391970036}
+  - component: {fileID: 391970042}
   m_Layer: 3
   m_Name: Intercostal_Space
   m_TagString: Untagged
@@ -4611,6 +4857,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391970034}
   m_Mesh: {fileID: -3416530325635607931, guid: 6e88aa9f9fce15b43bf096e51e9c185d, type: 3}
+--- !u!114 &391970042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391970034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &400009751
 GameObject:
   m_ObjectHideFlags: 0
@@ -4626,6 +4886,7 @@ GameObject:
   - component: {fileID: 400009755}
   - component: {fileID: 400009754}
   - component: {fileID: 400009753}
+  - component: {fileID: 400009759}
   m_Layer: 3
   m_Name: Obturator_Foramen
   m_TagString: Untagged
@@ -4833,6 +5094,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400009751}
   m_Mesh: {fileID: 5023968659729169843, guid: 3603a6f45813f94469786572cce4a17e, type: 3}
+--- !u!114 &400009759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400009751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &404674752
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,6 +5123,7 @@ GameObject:
   - component: {fileID: 404674756}
   - component: {fileID: 404674755}
   - component: {fileID: 404674754}
+  - component: {fileID: 404674760}
   m_Layer: 3
   m_Name: Iliac_Shaft_Left
   m_TagString: Untagged
@@ -5055,6 +5331,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404674752}
   m_Mesh: {fileID: 1203295864095062492, guid: f33e1b13c89e7ac4792baf59671890b6, type: 3}
+--- !u!114 &404674760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404674752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &407296011
 GameObject:
   m_ObjectHideFlags: 0
@@ -5070,6 +5360,7 @@ GameObject:
   - component: {fileID: 407296015}
   - component: {fileID: 407296014}
   - component: {fileID: 407296013}
+  - component: {fileID: 407296019}
   m_Layer: 3
   m_Name: Tibial_Trochlea
   m_TagString: Untagged
@@ -5277,6 +5568,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407296011}
   m_Mesh: {fileID: 243320432295852939, guid: 08ed1e2e02910a445b49d57f397979be, type: 3}
+--- !u!114 &407296019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407296011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &454452422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5292,6 +5597,7 @@ GameObject:
   - component: {fileID: 454452426}
   - component: {fileID: 454452425}
   - component: {fileID: 454452424}
+  - component: {fileID: 454452430}
   m_Layer: 3
   m_Name: Metatarsus_4
   m_TagString: Untagged
@@ -5499,6 +5805,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454452422}
   m_Mesh: {fileID: -5549619822728412036, guid: 6cea2c91ea6b9934ab9cf9db2cb5424a, type: 3}
+--- !u!114 &454452430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454452422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &474743638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,6 +5834,7 @@ GameObject:
   - component: {fileID: 474743642}
   - component: {fileID: 474743641}
   - component: {fileID: 474743640}
+  - component: {fileID: 474743646}
   m_Layer: 3
   m_Name: Lateral_Malleolus
   m_TagString: Untagged
@@ -5721,6 +6042,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474743638}
   m_Mesh: {fileID: -8581763243274945704, guid: 3a03252a982674e4593c706cae314ad5, type: 3}
+--- !u!114 &474743646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474743638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &479510090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5736,6 +6071,7 @@ GameObject:
   - component: {fileID: 479510094}
   - component: {fileID: 479510093}
   - component: {fileID: 479510092}
+  - component: {fileID: 479510098}
   m_Layer: 3
   m_Name: Anticlinal_Vertebra
   m_TagString: Untagged
@@ -5943,6 +6279,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479510090}
   m_Mesh: {fileID: -2698181977766264384, guid: 964221cf8d266424f9f8c45cf50c92e2, type: 3}
+--- !u!114 &479510098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479510090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &484991839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6056,6 +6406,7 @@ GameObject:
   - component: {fileID: 488132490}
   - component: {fileID: 488132489}
   - component: {fileID: 488132488}
+  - component: {fileID: 488132494}
   m_Layer: 3
   m_Name: Ischiatic_Tuber
   m_TagString: Untagged
@@ -6263,6 +6614,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488132486}
   m_Mesh: {fileID: -2774180510575131598, guid: febc7a76cf4cd62449b8e8daec87aa85, type: 3}
+--- !u!114 &488132494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488132486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &488763300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,6 +6643,7 @@ GameObject:
   - component: {fileID: 488763304}
   - component: {fileID: 488763303}
   - component: {fileID: 488763302}
+  - component: {fileID: 488763308}
   m_Layer: 3
   m_Name: Tibial_Tuberosity
   m_TagString: Untagged
@@ -6485,6 +6851,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488763300}
   m_Mesh: {fileID: 1213600877657101217, guid: 75fd60f19a41aac4fa3a1ee689939be2, type: 3}
+--- !u!114 &488763308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488763300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &507937096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,6 +6880,7 @@ GameObject:
   - component: {fileID: 507937100}
   - component: {fileID: 507937099}
   - component: {fileID: 507937098}
+  - component: {fileID: 507937104}
   m_Layer: 3
   m_Name: H_12
   m_TagString: Untagged
@@ -6707,6 +7088,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507937096}
   m_Mesh: {fileID: 1241780609415944500, guid: 56c5a5e9c09fcb54c957cae06ef42a51, type: 3}
+--- !u!114 &507937104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507937096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &509487846
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,6 +7225,7 @@ GameObject:
   - component: {fileID: 525692665}
   - component: {fileID: 525692664}
   - component: {fileID: 525692663}
+  - component: {fileID: 525692669}
   m_Layer: 3
   m_Name: H_16
   m_TagString: Untagged
@@ -7037,6 +7433,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525692661}
   m_Mesh: {fileID: -8617952624651412637, guid: c910935a352767d458ebe2299976ea26, type: 3}
+--- !u!114 &525692669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525692661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &542591445
 GameObject:
   m_ObjectHideFlags: 0
@@ -7052,6 +7462,7 @@ GameObject:
   - component: {fileID: 542591449}
   - component: {fileID: 542591448}
   - component: {fileID: 542591447}
+  - component: {fileID: 542591453}
   m_Layer: 3
   m_Name: Zygomatic_Arch
   m_TagString: Untagged
@@ -7259,6 +7670,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542591445}
   m_Mesh: {fileID: 5813286760786828293, guid: 39007096d1a391e42824eb8aab2dc87c, type: 3}
+--- !u!114 &542591453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542591445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &548046063
 GameObject:
   m_ObjectHideFlags: 0
@@ -7274,6 +7699,7 @@ GameObject:
   - component: {fileID: 548046067}
   - component: {fileID: 548046066}
   - component: {fileID: 548046065}
+  - component: {fileID: 548046071}
   m_Layer: 3
   m_Name: Tibial_Crest
   m_TagString: Untagged
@@ -7481,6 +7907,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548046063}
   m_Mesh: {fileID: 8795154379749958694, guid: ace6ae0910303bb479b55e2f56aca7f4, type: 3}
+--- !u!114 &548046071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548046063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &555538241
 GameObject:
   m_ObjectHideFlags: 0
@@ -7496,6 +7936,7 @@ GameObject:
   - component: {fileID: 555538245}
   - component: {fileID: 555538244}
   - component: {fileID: 555538243}
+  - component: {fileID: 555538249}
   m_Layer: 3
   m_Name: Floating_Rib_Right
   m_TagString: Untagged
@@ -7703,6 +8144,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555538241}
   m_Mesh: {fileID: 194919673109328617, guid: 94f2a5f686bfcd045ad47c3b8ef9d55e, type: 3}
+--- !u!114 &555538249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555538241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &569731454
 GameObject:
   m_ObjectHideFlags: 0
@@ -7718,6 +8173,7 @@ GameObject:
   - component: {fileID: 569731458}
   - component: {fileID: 569731457}
   - component: {fileID: 569731456}
+  - component: {fileID: 569731462}
   m_Layer: 3
   m_Name: Greater_Trochanter_Right
   m_TagString: Untagged
@@ -7925,6 +8381,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569731454}
   m_Mesh: {fileID: -4870895371037137513, guid: 91feb9666bd6cfe43bfb29368d9422e6, type: 3}
+--- !u!114 &569731462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569731454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &595621073
 GameObject:
   m_ObjectHideFlags: 0
@@ -7940,6 +8410,7 @@ GameObject:
   - component: {fileID: 595621077}
   - component: {fileID: 595621076}
   - component: {fileID: 595621075}
+  - component: {fileID: 595621081}
   m_Layer: 3
   m_Name: Costochondral_Junction_Right
   m_TagString: Untagged
@@ -8147,6 +8618,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595621073}
   m_Mesh: {fileID: -5232491510676386705, guid: c22f565d205cec94989945ee0cccab93, type: 3}
+--- !u!114 &595621081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595621073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &601242807
 GameObject:
   m_ObjectHideFlags: 0
@@ -8162,6 +8647,7 @@ GameObject:
   - component: {fileID: 601242811}
   - component: {fileID: 601242810}
   - component: {fileID: 601242809}
+  - component: {fileID: 601242815}
   m_Layer: 3
   m_Name: Tubercle_of_Rib_Left
   m_TagString: Untagged
@@ -8369,6 +8855,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601242807}
   m_Mesh: {fileID: 3466703157061945271, guid: acdeada15871b1947b26e011f4fcf4de, type: 3}
+--- !u!114 &601242815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601242807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &609868298
 GameObject:
   m_ObjectHideFlags: 0
@@ -8384,6 +8884,7 @@ GameObject:
   - component: {fileID: 609868302}
   - component: {fileID: 609868301}
   - component: {fileID: 609868300}
+  - component: {fileID: 609868306}
   m_Layer: 3
   m_Name: Metatarsus_1
   m_TagString: Untagged
@@ -8591,6 +9092,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609868298}
   m_Mesh: {fileID: -6445097073053842886, guid: 3628869fa5fe49f4ca887f1f00a08916, type: 3}
+--- !u!114 &609868306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609868298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &611874041
 GameObject:
   m_ObjectHideFlags: 0
@@ -8606,6 +9121,7 @@ GameObject:
   - component: {fileID: 611874045}
   - component: {fileID: 611874044}
   - component: {fileID: 611874043}
+  - component: {fileID: 611874049}
   m_Layer: 3
   m_Name: Frontal_Bone
   m_TagString: Untagged
@@ -8813,6 +9329,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611874041}
   m_Mesh: {fileID: 5368251544582387767, guid: 7a9625af898e0de49835fdf1a64b076b, type: 3}
+--- !u!114 &611874049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611874041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &644245494
 GameObject:
   m_ObjectHideFlags: 0
@@ -8828,6 +9358,7 @@ GameObject:
   - component: {fileID: 644245498}
   - component: {fileID: 644245497}
   - component: {fileID: 644245496}
+  - component: {fileID: 644245502}
   m_Layer: 3
   m_Name: Humeral_Shaft
   m_TagString: Untagged
@@ -9035,6 +9566,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644245494}
   m_Mesh: {fileID: -8781441637375770498, guid: 7b3d04bc532bbbd449048cbeadb9d7e4, type: 3}
+--- !u!114 &644245502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644245494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &645711631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9050,6 +9595,7 @@ GameObject:
   - component: {fileID: 645711635}
   - component: {fileID: 645711634}
   - component: {fileID: 645711633}
+  - component: {fileID: 645711639}
   m_Layer: 3
   m_Name: Stomach
   m_TagString: Untagged
@@ -9257,6 +9803,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645711631}
   m_Mesh: {fileID: -3008246292707459220, guid: 3384a91ca4f0690479d3a8b1976fde05, type: 3}
+--- !u!114 &645711639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645711631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &646630092
 GameObject:
   m_ObjectHideFlags: 0
@@ -9272,6 +9832,7 @@ GameObject:
   - component: {fileID: 646630096}
   - component: {fileID: 646630095}
   - component: {fileID: 646630094}
+  - component: {fileID: 646630100}
   m_Layer: 3
   m_Name: E_21
   m_TagString: Untagged
@@ -9479,6 +10040,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646630092}
   m_Mesh: {fileID: -2463842452014701098, guid: 9f4efd82f524ea042860243928907ba2, type: 3}
+--- !u!114 &646630100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646630092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &663237096
 GameObject:
   m_ObjectHideFlags: 0
@@ -9494,6 +10069,7 @@ GameObject:
   - component: {fileID: 663237100}
   - component: {fileID: 663237099}
   - component: {fileID: 663237098}
+  - component: {fileID: 663237104}
   m_Layer: 3
   m_Name: H_Base
   m_TagString: Untagged
@@ -9701,6 +10277,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663237096}
   m_Mesh: {fileID: -721490582230204816, guid: c5471d73cd00a734e91675f6109ca41e, type: 3}
+--- !u!114 &663237104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663237096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &663781981
 GameObject:
   m_ObjectHideFlags: 0
@@ -9716,6 +10306,7 @@ GameObject:
   - component: {fileID: 663781985}
   - component: {fileID: 663781984}
   - component: {fileID: 663781983}
+  - component: {fileID: 663781989}
   m_Layer: 3
   m_Name: E_11
   m_TagString: Untagged
@@ -9923,6 +10514,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663781981}
   m_Mesh: {fileID: 7727514470915917635, guid: 2be7365ff59d7a4478fdb15adacccd31, type: 3}
+--- !u!114 &663781989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663781981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -10032,6 +10637,7 @@ GameObject:
   - component: {fileID: 706876813}
   - component: {fileID: 706876812}
   - component: {fileID: 706876811}
+  - component: {fileID: 706876817}
   m_Layer: 3
   m_Name: Olecranon
   m_TagString: Untagged
@@ -10239,6 +10845,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706876809}
   m_Mesh: {fileID: -4549681661218955767, guid: d45468c6ed9f51a44986496671f68377, type: 3}
+--- !u!114 &706876817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706876809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &718300851
 GameObject:
   m_ObjectHideFlags: 0
@@ -10254,6 +10874,7 @@ GameObject:
   - component: {fileID: 718300855}
   - component: {fileID: 718300854}
   - component: {fileID: 718300853}
+  - component: {fileID: 718300859}
   m_Layer: 3
   m_Name: H_10
   m_TagString: Untagged
@@ -10461,6 +11082,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718300851}
   m_Mesh: {fileID: 3703113432876275794, guid: 4e29031ba51424e4f9951023bf1739e4, type: 3}
+--- !u!114 &718300859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718300851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &750960542
 GameObject:
   m_ObjectHideFlags: 0
@@ -10476,6 +11111,7 @@ GameObject:
   - component: {fileID: 750960546}
   - component: {fileID: 750960545}
   - component: {fileID: 750960544}
+  - component: {fileID: 750960550}
   m_Layer: 3
   m_Name: Ribs_R
   m_TagString: Untagged
@@ -10683,6 +11319,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750960542}
   m_Mesh: {fileID: 4402743696245460103, guid: ec83944a38cbd2840892a87df95d4b9c, type: 3}
+--- !u!114 &750960550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750960542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &784076525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10755,6 +11405,7 @@ GameObject:
   - component: {fileID: 786141132}
   - component: {fileID: 786141131}
   - component: {fileID: 786141130}
+  - component: {fileID: 786141136}
   m_Layer: 3
   m_Name: Head_of_Rib_Right
   m_TagString: Untagged
@@ -10962,6 +11613,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786141128}
   m_Mesh: {fileID: 656976626347669917, guid: c3e3476dade9c564cb411ed9c5731e7d, type: 3}
+--- !u!114 &786141136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786141128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &815713251
 GameObject:
   m_ObjectHideFlags: 0
@@ -10978,6 +11643,7 @@ GameObject:
   - component: {fileID: 815713254}
   - component: {fileID: 815713253}
   - component: {fileID: 815713259}
+  - component: {fileID: 815713260}
   m_Layer: 3
   m_Name: Intestines
   m_TagString: Untagged
@@ -11199,6 +11865,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: {fileID: 0}
   playerCamera: {fileID: 0}
+--- !u!114 &815713260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815713251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &820841211
 GameObject:
   m_ObjectHideFlags: 0
@@ -11214,6 +11894,7 @@ GameObject:
   - component: {fileID: 820841215}
   - component: {fileID: 820841214}
   - component: {fileID: 820841213}
+  - component: {fileID: 820841219}
   m_Layer: 3
   m_Name: H_3
   m_TagString: Untagged
@@ -11421,6 +12102,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820841211}
   m_Mesh: {fileID: 1449431467561996517, guid: 3e7288e804d6fce4792a90102fe09087, type: 3}
+--- !u!114 &820841219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820841211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &837218135
 GameObject:
   m_ObjectHideFlags: 0
@@ -11436,6 +12131,7 @@ GameObject:
   - component: {fileID: 837218139}
   - component: {fileID: 837218138}
   - component: {fileID: 837218137}
+  - component: {fileID: 837218143}
   m_Layer: 3
   m_Name: Patella__Left
   m_TagString: Untagged
@@ -11643,6 +12339,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837218135}
   m_Mesh: {fileID: -7637315358229819303, guid: badac86b4b99f824c8cbcac9ceb3689a, type: 3}
+--- !u!114 &837218143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837218135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &837290347
 GameObject:
   m_ObjectHideFlags: 0
@@ -11658,6 +12368,7 @@ GameObject:
   - component: {fileID: 837290351}
   - component: {fileID: 837290350}
   - component: {fileID: 837290349}
+  - component: {fileID: 837290355}
   m_Layer: 3
   m_Name: C5
   m_TagString: Untagged
@@ -11865,6 +12576,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837290347}
   m_Mesh: {fileID: -6590863773863938432, guid: e0de1cb7c64aab3499a5923fd9f1a042, type: 3}
+--- !u!114 &837290355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837290347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &842175656
 GameObject:
   m_ObjectHideFlags: 0
@@ -11880,6 +12605,7 @@ GameObject:
   - component: {fileID: 842175660}
   - component: {fileID: 842175659}
   - component: {fileID: 842175658}
+  - component: {fileID: 842175664}
   m_Layer: 3
   m_Name: Shaft_of_Femur_Right
   m_TagString: Untagged
@@ -12087,6 +12813,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842175656}
   m_Mesh: {fileID: -6772795592129236370, guid: 68f9d6df4075e5549bdbc635abe2c405, type: 3}
+--- !u!114 &842175664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842175656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &845419409
 GameObject:
   m_ObjectHideFlags: 0
@@ -12102,6 +12842,7 @@ GameObject:
   - component: {fileID: 845419413}
   - component: {fileID: 845419412}
   - component: {fileID: 845419411}
+  - component: {fileID: 845419417}
   m_Layer: 3
   m_Name: Medial_Malleolus
   m_TagString: Untagged
@@ -12309,6 +13050,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845419409}
   m_Mesh: {fileID: 5891862027175397722, guid: b52697153fb72454c822854c44e889a0, type: 3}
+--- !u!114 &845419417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845419409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &847701263
 GameObject:
   m_ObjectHideFlags: 0
@@ -12324,6 +13079,7 @@ GameObject:
   - component: {fileID: 847701267}
   - component: {fileID: 847701266}
   - component: {fileID: 847701265}
+  - component: {fileID: 847701271}
   m_Layer: 3
   m_Name: Body_of_Ulna
   m_TagString: Untagged
@@ -12531,6 +13287,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847701263}
   m_Mesh: {fileID: 5857585895588661446, guid: 3fd8dabbbdfa81c49af23c853a54aa69, type: 3}
+--- !u!114 &847701271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847701263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &862359575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12619,6 +13389,7 @@ GameObject:
   - component: {fileID: 885250661}
   - component: {fileID: 885250660}
   - component: {fileID: 885250659}
+  - component: {fileID: 885250665}
   m_Layer: 3
   m_Name: C7
   m_TagString: Untagged
@@ -12826,6 +13597,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885250657}
   m_Mesh: {fileID: 8861296024009629687, guid: eccc7cda2771d93418ce696ecefd9ddc, type: 3}
+--- !u!114 &885250665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885250657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &895695963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12902,6 +13687,7 @@ GameObject:
   - component: {fileID: 910757177}
   - component: {fileID: 910757176}
   - component: {fileID: 910757175}
+  - component: {fileID: 910757181}
   m_Layer: 3
   m_Name: Mental_Foramina
   m_TagString: Untagged
@@ -13109,6 +13895,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910757173}
   m_Mesh: {fileID: -2921430638297598333, guid: 07963a0c5a9b9d6478fb6f32cf15cff4, type: 3}
+--- !u!114 &910757181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910757173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &914718578
 GameObject:
   m_ObjectHideFlags: 0
@@ -13124,6 +13924,7 @@ GameObject:
   - component: {fileID: 914718582}
   - component: {fileID: 914718581}
   - component: {fileID: 914718580}
+  - component: {fileID: 914718586}
   m_Layer: 3
   m_Name: Tibial_Shaft
   m_TagString: Untagged
@@ -13331,6 +14132,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914718578}
   m_Mesh: {fileID: 5331284403172937459, guid: 157435f94f4acd84ebfd30afcd411527, type: 3}
+--- !u!114 &914718586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914718578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &936195974
 GameObject:
   m_ObjectHideFlags: 0
@@ -13346,6 +14161,7 @@ GameObject:
   - component: {fileID: 936195978}
   - component: {fileID: 936195977}
   - component: {fileID: 936195976}
+  - component: {fileID: 936195982}
   m_Layer: 3
   m_Name: C6
   m_TagString: Untagged
@@ -13553,6 +14369,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936195974}
   m_Mesh: {fileID: 1939154208209704197, guid: 16c3dce5280d75842aaa3cb6ca22d41c, type: 3}
+--- !u!114 &936195982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936195974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &958298478
 GameObject:
   m_ObjectHideFlags: 0
@@ -13636,6 +14466,7 @@ GameObject:
   - component: {fileID: 996565194}
   - component: {fileID: 996565193}
   - component: {fileID: 996565192}
+  - component: {fileID: 996565198}
   m_Layer: 3
   m_Name: Skull
   m_TagString: Untagged
@@ -13843,6 +14674,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996565190}
   m_Mesh: {fileID: 5275773004055656219, guid: 409d5a93c64594244a014bd18964d1de, type: 3}
+--- !u!114 &996565198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996565190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1007842277
 GameObject:
   m_ObjectHideFlags: 0
@@ -13858,6 +14703,7 @@ GameObject:
   - component: {fileID: 1007842281}
   - component: {fileID: 1007842280}
   - component: {fileID: 1007842279}
+  - component: {fileID: 1007842285}
   m_Layer: 3
   m_Name: B_base
   m_TagString: Untagged
@@ -14065,6 +14911,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007842277}
   m_Mesh: {fileID: -585114831616555613, guid: 2fd0f6c30f241e74f8f02fe38d2474b8, type: 3}
+--- !u!114 &1007842285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007842277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1034749898
 GameObject:
   m_ObjectHideFlags: 0
@@ -14080,6 +14940,7 @@ GameObject:
   - component: {fileID: 1034749902}
   - component: {fileID: 1034749901}
   - component: {fileID: 1034749900}
+  - component: {fileID: 1034749906}
   m_Layer: 3
   m_Name: E_17
   m_TagString: Untagged
@@ -14287,6 +15148,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034749898}
   m_Mesh: {fileID: -1077822108634000892, guid: 48e83abe1bddaa444a730b5e9bad380a, type: 3}
+--- !u!114 &1034749906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034749898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1039459065
 GameObject:
   m_ObjectHideFlags: 0
@@ -14351,6 +15226,7 @@ GameObject:
   - component: {fileID: 1042360939}
   - component: {fileID: 1042360938}
   - component: {fileID: 1042360937}
+  - component: {fileID: 1042360943}
   m_Layer: 3
   m_Name: Occipital_Bone
   m_TagString: Untagged
@@ -14558,6 +15434,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042360935}
   m_Mesh: {fileID: 786809908374265886, guid: b13041fc4fb6b2942a294e87344ff8f5, type: 3}
+--- !u!114 &1042360943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042360935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1043338283
 GameObject:
   m_ObjectHideFlags: 0
@@ -14573,6 +15463,7 @@ GameObject:
   - component: {fileID: 1043338287}
   - component: {fileID: 1043338286}
   - component: {fileID: 1043338285}
+  - component: {fileID: 1043338291}
   m_Layer: 3
   m_Name: Acromion_Right
   m_TagString: Untagged
@@ -14780,6 +15671,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043338283}
   m_Mesh: {fileID: 6052931857907164086, guid: 9c51865c25c95d543ad66cd54e8b6ab1, type: 3}
+--- !u!114 &1043338291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043338283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1055071541
 GameObject:
   m_ObjectHideFlags: 0
@@ -14795,6 +15700,7 @@ GameObject:
   - component: {fileID: 1055071545}
   - component: {fileID: 1055071544}
   - component: {fileID: 1055071543}
+  - component: {fileID: 1055071549}
   m_Layer: 3
   m_Name: Ribs_L
   m_TagString: Untagged
@@ -15002,6 +15908,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055071541}
   m_Mesh: {fileID: 82777018209830038, guid: 80ab032138c8b494a82a6c6ddca18bf2, type: 3}
+--- !u!114 &1055071549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055071541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1081867890
 GameObject:
   m_ObjectHideFlags: 0
@@ -15017,6 +15937,7 @@ GameObject:
   - component: {fileID: 1081867894}
   - component: {fileID: 1081867893}
   - component: {fileID: 1081867892}
+  - component: {fileID: 1081867898}
   m_Layer: 3
   m_Name: E_16
   m_TagString: Untagged
@@ -15224,6 +16145,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081867890}
   m_Mesh: {fileID: -6392824039568349952, guid: 404f4d5ff3fee1740a8fd3280e7d299a, type: 3}
+--- !u!114 &1081867898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081867890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1127071543
 GameObject:
   m_ObjectHideFlags: 0
@@ -15337,6 +16272,7 @@ GameObject:
   - component: {fileID: 1137444133}
   - component: {fileID: 1137444132}
   - component: {fileID: 1137444131}
+  - component: {fileID: 1137444137}
   m_Layer: 3
   m_Name: Kidney
   m_TagString: Untagged
@@ -15544,6 +16480,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137444129}
   m_Mesh: {fileID: 3139755380807352254, guid: bf20124adbe86284cae926cef647abd2, type: 3}
+--- !u!114 &1137444137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137444129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1152863700
 GameObject:
   m_ObjectHideFlags: 0
@@ -15559,6 +16509,7 @@ GameObject:
   - component: {fileID: 1152863704}
   - component: {fileID: 1152863703}
   - component: {fileID: 1152863702}
+  - component: {fileID: 1152863708}
   m_Layer: 3
   m_Name: H_5
   m_TagString: Untagged
@@ -15766,6 +16717,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152863700}
   m_Mesh: {fileID: 1502647452780373336, guid: 71892510b3a969345b206ec5a51099e2, type: 3}
+--- !u!114 &1152863708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152863700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1153133130
 GameObject:
   m_ObjectHideFlags: 0
@@ -15781,6 +16746,7 @@ GameObject:
   - component: {fileID: 1153133134}
   - component: {fileID: 1153133133}
   - component: {fileID: 1153133132}
+  - component: {fileID: 1153133138}
   m_Layer: 3
   m_Name: H_2
   m_TagString: Untagged
@@ -15988,6 +16954,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153133130}
   m_Mesh: {fileID: 7566022461310243512, guid: 586a02a92cdf5194ca74a9717fd00dea, type: 3}
+--- !u!114 &1153133138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153133130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1161792493
 GameObject:
   m_ObjectHideFlags: 0
@@ -16003,6 +16983,7 @@ GameObject:
   - component: {fileID: 1161792497}
   - component: {fileID: 1161792496}
   - component: {fileID: 1161792495}
+  - component: {fileID: 1161792501}
   m_Layer: 3
   m_Name: Infraspinous_Fossa_Right
   m_TagString: Untagged
@@ -16210,6 +17191,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161792493}
   m_Mesh: {fileID: -2345471657618155185, guid: 07d741e0101437b4ca525b42b8453cf4, type: 3}
+--- !u!114 &1161792501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161792493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1184543063
 GameObject:
   m_ObjectHideFlags: 0
@@ -16225,6 +17220,7 @@ GameObject:
   - component: {fileID: 1184543067}
   - component: {fileID: 1184543066}
   - component: {fileID: 1184543065}
+  - component: {fileID: 1184543071}
   m_Layer: 3
   m_Name: Supraspinous_Fossa_Left
   m_TagString: Untagged
@@ -16432,6 +17428,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184543063}
   m_Mesh: {fileID: 3407761419201317877, guid: 0a81908a34c4a0e40952bf74052165a5, type: 3}
+--- !u!114 &1184543071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184543063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1191662438
 GameObject:
   m_ObjectHideFlags: 0
@@ -16447,6 +17457,7 @@ GameObject:
   - component: {fileID: 1191662442}
   - component: {fileID: 1191662441}
   - component: {fileID: 1191662440}
+  - component: {fileID: 1191662446}
   m_Layer: 3
   m_Name: Olecranon_Tuber
   m_TagString: Untagged
@@ -16654,6 +17665,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191662438}
   m_Mesh: {fileID: -1208068822003711610, guid: 7d916a33f24928e4989735d3a5d19c05, type: 3}
+--- !u!114 &1191662446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191662438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1193139804
 GameObject:
   m_ObjectHideFlags: 0
@@ -16669,6 +17694,7 @@ GameObject:
   - component: {fileID: 1193139808}
   - component: {fileID: 1193139807}
   - component: {fileID: 1193139806}
+  - component: {fileID: 1193139812}
   m_Layer: 3
   m_Name: H_8
   m_TagString: Untagged
@@ -16876,6 +17902,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193139804}
   m_Mesh: {fileID: 4442442219264524835, guid: 650231880dae9e444ae1c01b5b96246e, type: 3}
+--- !u!114 &1193139812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193139804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1202047949
 GameObject:
   m_ObjectHideFlags: 0
@@ -16891,6 +17931,7 @@ GameObject:
   - component: {fileID: 1202047953}
   - component: {fileID: 1202047952}
   - component: {fileID: 1202047951}
+  - component: {fileID: 1202047957}
   m_Layer: 3
   m_Name: Iliac_Shaft_Right
   m_TagString: Untagged
@@ -17098,6 +18139,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202047949}
   m_Mesh: {fileID: -10892452516569569, guid: f1f7bd45dd0e96f47bf833028405fc2e, type: 3}
+--- !u!114 &1202047957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202047949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1214724124
 GameObject:
   m_ObjectHideFlags: 0
@@ -17113,6 +18168,7 @@ GameObject:
   - component: {fileID: 1214724128}
   - component: {fileID: 1214724127}
   - component: {fileID: 1214724126}
+  - component: {fileID: 1214724132}
   m_Layer: 3
   m_Name: Head_of_Femur_Left
   m_TagString: Untagged
@@ -17320,6 +18376,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214724124}
   m_Mesh: {fileID: -6847533468422205210, guid: 6ed34294c3c6b414d88b5e70fcba3928, type: 3}
+--- !u!114 &1214724132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214724124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1253348752
 GameObject:
   m_ObjectHideFlags: 0
@@ -17335,6 +18405,7 @@ GameObject:
   - component: {fileID: 1253348756}
   - component: {fileID: 1253348755}
   - component: {fileID: 1253348754}
+  - component: {fileID: 1253348760}
   m_Layer: 3
   m_Name: Retroarticular_Process
   m_TagString: Untagged
@@ -17542,6 +18613,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253348752}
   m_Mesh: {fileID: 7775369817551476667, guid: 6e13885e1180a4444a2b578388a86c88, type: 3}
+--- !u!114 &1253348760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253348752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1263661410
 GameObject:
   m_ObjectHideFlags: 0
@@ -17557,6 +18642,7 @@ GameObject:
   - component: {fileID: 1263661414}
   - component: {fileID: 1263661413}
   - component: {fileID: 1263661412}
+  - component: {fileID: 1263661418}
   m_Layer: 3
   m_Name: C_Base_R
   m_TagString: Untagged
@@ -17764,6 +18850,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263661410}
   m_Mesh: {fileID: 5084272790631880833, guid: 699a397e3a744c845b8b1f1c69141c4f, type: 3}
+--- !u!114 &1263661418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263661410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1275045997
 GameObject:
   m_ObjectHideFlags: 0
@@ -17779,6 +18879,7 @@ GameObject:
   - component: {fileID: 1275046001}
   - component: {fileID: 1275046000}
   - component: {fileID: 1275045999}
+  - component: {fileID: 1275046005}
   m_Layer: 3
   m_Name: C_Base_L
   m_TagString: Untagged
@@ -17986,6 +19087,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275045997}
   m_Mesh: {fileID: 1784151458157422262, guid: 16f67f3ba4207ce44b0e3679fc4ceb75, type: 3}
+--- !u!114 &1275046005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275045997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1291937804
 GameObject:
   m_ObjectHideFlags: 0
@@ -18001,6 +19116,7 @@ GameObject:
   - component: {fileID: 1291937808}
   - component: {fileID: 1291937807}
   - component: {fileID: 1291937806}
+  - component: {fileID: 1291937812}
   m_Layer: 3
   m_Name: E_18
   m_TagString: Untagged
@@ -18208,6 +19324,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291937804}
   m_Mesh: {fileID: -8517037012828724172, guid: f65cc276e384ced4a9630a0236b88706, type: 3}
+--- !u!114 &1291937812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291937804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1314434848
 GameObject:
   m_ObjectHideFlags: 0
@@ -18223,6 +19353,7 @@ GameObject:
   - component: {fileID: 1314434852}
   - component: {fileID: 1314434851}
   - component: {fileID: 1314434850}
+  - component: {fileID: 1314434856}
   m_Layer: 3
   m_Name: Bladder
   m_TagString: Untagged
@@ -18430,6 +19561,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314434848}
   m_Mesh: {fileID: 3220777160303207895, guid: cb99ec6b820a5a24d92b3f16ba55d2e6, type: 3}
+--- !u!114 &1314434856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314434848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1327690877
 GameObject:
   m_ObjectHideFlags: 0
@@ -18445,6 +19590,7 @@ GameObject:
   - component: {fileID: 1327690881}
   - component: {fileID: 1327690880}
   - component: {fileID: 1327690879}
+  - component: {fileID: 1327690885}
   m_Layer: 3
   m_Name: Styloid_process_of_Ulna
   m_TagString: Untagged
@@ -18652,6 +19798,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327690877}
   m_Mesh: {fileID: -3129413460923031881, guid: 625fce6a1454c674da0d574ca2a7622d, type: 3}
+--- !u!114 &1327690885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327690877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1329818968
 GameObject:
   m_ObjectHideFlags: 0
@@ -18667,6 +19827,7 @@ GameObject:
   - component: {fileID: 1329818972}
   - component: {fileID: 1329818971}
   - component: {fileID: 1329818970}
+  - component: {fileID: 1329818976}
   m_Layer: 3
   m_Name: Greater_Trochanter_Left
   m_TagString: Untagged
@@ -18874,6 +20035,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329818968}
   m_Mesh: {fileID: 984638994795800766, guid: 26a7685adb11df04c847670729e1727a, type: 3}
+--- !u!114 &1329818976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329818968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1332151270
 GameObject:
   m_ObjectHideFlags: 0
@@ -18889,6 +20064,7 @@ GameObject:
   - component: {fileID: 1332151274}
   - component: {fileID: 1332151273}
   - component: {fileID: 1332151272}
+  - component: {fileID: 1332151278}
   m_Layer: 3
   m_Name: D_Base
   m_TagString: Untagged
@@ -19096,6 +20272,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332151270}
   m_Mesh: {fileID: 1952353860154069093, guid: 4f3010c3a3dcdaa40bee07a09c335c16, type: 3}
+--- !u!114 &1332151278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332151270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &1345856772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19224,6 +20414,7 @@ GameObject:
   - component: {fileID: 1357376189}
   - component: {fileID: 1357376188}
   - component: {fileID: 1357376187}
+  - component: {fileID: 1357376193}
   m_Layer: 3
   m_Name: Tricipital_Line_Left
   m_TagString: Untagged
@@ -19431,6 +20622,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357376185}
   m_Mesh: {fileID: -4572554445331521067, guid: 04672ecf5c931194a9b6b669c78944ca, type: 3}
+--- !u!114 &1357376193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357376185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1359316424
 GameObject:
   m_ObjectHideFlags: 0
@@ -19446,6 +20651,7 @@ GameObject:
   - component: {fileID: 1359316428}
   - component: {fileID: 1359316427}
   - component: {fileID: 1359316426}
+  - component: {fileID: 1359316432}
   m_Layer: 3
   m_Name: E_20
   m_TagString: Untagged
@@ -19653,6 +20859,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359316424}
   m_Mesh: {fileID: 3193432157747139602, guid: fb9d0c9c79e36b847a199d2c060e0e5c, type: 3}
+--- !u!114 &1359316432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359316424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1360330011
 GameObject:
   m_ObjectHideFlags: 0
@@ -19668,6 +20888,7 @@ GameObject:
   - component: {fileID: 1360330015}
   - component: {fileID: 1360330014}
   - component: {fileID: 1360330013}
+  - component: {fileID: 1360330019}
   m_Layer: 3
   m_Name: Patella_Right
   m_TagString: Untagged
@@ -19875,6 +21096,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360330011}
   m_Mesh: {fileID: -3006676291036319755, guid: 7b257ae8f94588b42a3d6100ab9cd922, type: 3}
+--- !u!114 &1360330019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360330011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1364657404
 GameObject:
   m_ObjectHideFlags: 0
@@ -19890,6 +21125,7 @@ GameObject:
   - component: {fileID: 1364657408}
   - component: {fileID: 1364657407}
   - component: {fileID: 1364657406}
+  - component: {fileID: 1364657412}
   m_Layer: 3
   m_Name: Floating_Rib_Left
   m_TagString: Untagged
@@ -20097,6 +21333,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364657404}
   m_Mesh: {fileID: -3807294116003164565, guid: e93b819ee05a6294c95f7e4079a0bf12, type: 3}
+--- !u!114 &1364657412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364657404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1395593575
 GameObject:
   m_ObjectHideFlags: 0
@@ -20112,6 +21362,7 @@ GameObject:
   - component: {fileID: 1395593579}
   - component: {fileID: 1395593578}
   - component: {fileID: 1395593577}
+  - component: {fileID: 1395593583}
   m_Layer: 3
   m_Name: Spleen
   m_TagString: Untagged
@@ -20319,6 +21570,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395593575}
   m_Mesh: {fileID: 2586102051528762592, guid: 0c2679c653fb69449bc448b65f103508, type: 3}
+--- !u!114 &1395593583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395593575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1405041534
 GameObject:
   m_ObjectHideFlags: 0
@@ -20572,6 +21837,7 @@ GameObject:
   - component: {fileID: 1412344958}
   - component: {fileID: 1412344957}
   - component: {fileID: 1412344956}
+  - component: {fileID: 1412344962}
   m_Layer: 3
   m_Name: E_19
   m_TagString: Untagged
@@ -20779,6 +22045,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412344954}
   m_Mesh: {fileID: 6521256175176743092, guid: 2a4342288521e9149b21d2305da6a881, type: 3}
+--- !u!114 &1412344962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412344954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1426849116
 GameObject:
   m_ObjectHideFlags: 0
@@ -20794,6 +22074,7 @@ GameObject:
   - component: {fileID: 1426849120}
   - component: {fileID: 1426849119}
   - component: {fileID: 1426849118}
+  - component: {fileID: 1426849124}
   m_Layer: 3
   m_Name: Caudal_Vertebrae
   m_TagString: Untagged
@@ -21001,6 +22282,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426849116}
   m_Mesh: {fileID: 1337698210158114885, guid: 7f47a70dbaf4bd842b6c29f3a54bdd13, type: 3}
+--- !u!114 &1426849124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426849116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1427814027
 GameObject:
   m_ObjectHideFlags: 0
@@ -21016,6 +22311,7 @@ GameObject:
   - component: {fileID: 1427814031}
   - component: {fileID: 1427814030}
   - component: {fileID: 1427814029}
+  - component: {fileID: 1427814035}
   m_Layer: 3
   m_Name: Head_of_Humerus_Right
   m_TagString: Untagged
@@ -21223,6 +22519,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427814027}
   m_Mesh: {fileID: 8805176832073452516, guid: 486126844faae6e46af2254500137532, type: 3}
+--- !u!114 &1427814035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427814027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1455200788
 GameObject:
   m_ObjectHideFlags: 0
@@ -21238,6 +22548,7 @@ GameObject:
   - component: {fileID: 1455200792}
   - component: {fileID: 1455200791}
   - component: {fileID: 1455200790}
+  - component: {fileID: 1455200796}
   m_Layer: 3
   m_Name: Infraspinous_Fossa_Left
   m_TagString: Untagged
@@ -21445,6 +22756,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455200788}
   m_Mesh: {fileID: 4920575234686733609, guid: 389bbbba46091654cb4a86dd92e6e5f9, type: 3}
+--- !u!114 &1455200796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455200788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1472470770
 GameObject:
   m_ObjectHideFlags: 0
@@ -21558,6 +22883,7 @@ GameObject:
   - component: {fileID: 1472828271}
   - component: {fileID: 1472828270}
   - component: {fileID: 1472828269}
+  - component: {fileID: 1472828275}
   m_Layer: 3
   m_Name: Heart
   m_TagString: Untagged
@@ -21765,6 +23091,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472828267}
   m_Mesh: {fileID: -3676728085192693422, guid: 8585aaad4c2f2d141bb696dd12d68a5a, type: 3}
+--- !u!114 &1472828275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472828267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1485149432
 GameObject:
   m_ObjectHideFlags: 0
@@ -21780,6 +23120,7 @@ GameObject:
   - component: {fileID: 1485149436}
   - component: {fileID: 1485149435}
   - component: {fileID: 1485149434}
+  - component: {fileID: 1485149440}
   m_Layer: 3
   m_Name: Duodenum
   m_TagString: Untagged
@@ -21987,6 +23328,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485149432}
   m_Mesh: {fileID: 3125444765079285516, guid: c011514474259b34eac86545c8e247c9, type: 3}
+--- !u!114 &1485149440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485149432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1488918137
 GameObject:
   m_ObjectHideFlags: 0
@@ -22002,6 +23357,7 @@ GameObject:
   - component: {fileID: 1488918141}
   - component: {fileID: 1488918140}
   - component: {fileID: 1488918139}
+  - component: {fileID: 1488918145}
   m_Layer: 3
   m_Name: Maxilla
   m_TagString: Untagged
@@ -22209,6 +23565,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488918137}
   m_Mesh: {fileID: -3804412740167079193, guid: ff0fe9de0891a0448ba12ad76d824078, type: 3}
+--- !u!114 &1488918145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488918137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1515822105
 GameObject:
   m_ObjectHideFlags: 0
@@ -22224,6 +23594,7 @@ GameObject:
   - component: {fileID: 1515822109}
   - component: {fileID: 1515822108}
   - component: {fileID: 1515822107}
+  - component: {fileID: 1515822113}
   m_Layer: 3
   m_Name: Acetabulum
   m_TagString: Untagged
@@ -22431,6 +23802,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515822105}
   m_Mesh: {fileID: -6570422879624517444, guid: 8eb3f94ff1cd62941813c08f7c2ea7e4, type: 3}
+--- !u!114 &1515822113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515822105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1519132073
 GameObject:
   m_ObjectHideFlags: 0
@@ -22446,6 +23831,7 @@ GameObject:
   - component: {fileID: 1519132077}
   - component: {fileID: 1519132076}
   - component: {fileID: 1519132075}
+  - component: {fileID: 1519132081}
   m_Layer: 3
   m_Name: Tricipital_Line_Right
   m_TagString: Untagged
@@ -22653,6 +24039,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519132073}
   m_Mesh: {fileID: 6420865307660688592, guid: 96e532e65f22a0e428cc52bc4fea07f3, type: 3}
+--- !u!114 &1519132081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519132073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1520891366
 GameObject:
   m_ObjectHideFlags: 0
@@ -22668,6 +24068,7 @@ GameObject:
   - component: {fileID: 1520891370}
   - component: {fileID: 1520891369}
   - component: {fileID: 1520891368}
+  - component: {fileID: 1520891374}
   m_Layer: 3
   m_Name: External_Acoustic_Meatus
   m_TagString: Untagged
@@ -22875,6 +24276,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520891366}
   m_Mesh: {fileID: -6179388655701517091, guid: ffeb700a231d119428c110d94903ca75, type: 3}
+--- !u!114 &1520891374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520891366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1587377296
 GameObject:
   m_ObjectHideFlags: 0
@@ -22890,6 +24305,7 @@ GameObject:
   - component: {fileID: 1587377300}
   - component: {fileID: 1587377299}
   - component: {fileID: 1587377298}
+  - component: {fileID: 1587377304}
   m_Layer: 3
   m_Name: Greater_Tubercle
   m_TagString: Untagged
@@ -23097,6 +24513,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587377296}
   m_Mesh: {fileID: -8637300731913853742, guid: c920696379a1a4d4e801e6ceb15736fb, type: 3}
+--- !u!114 &1587377304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587377296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1601756684
 GameObject:
   m_ObjectHideFlags: 0
@@ -23112,6 +24542,7 @@ GameObject:
   - component: {fileID: 1601756688}
   - component: {fileID: 1601756687}
   - component: {fileID: 1601756686}
+  - component: {fileID: 1601756692}
   m_Layer: 3
   m_Name: Spinal_Cord
   m_TagString: Untagged
@@ -23319,6 +24750,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601756684}
   m_Mesh: {fileID: 5441522776216003642, guid: 35f2159e03e9b7a48ab400d62ebf7734, type: 3}
+--- !u!114 &1601756692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601756684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1608967497
 GameObject:
   m_ObjectHideFlags: 0
@@ -23334,6 +24779,7 @@ GameObject:
   - component: {fileID: 1608967501}
   - component: {fileID: 1608967500}
   - component: {fileID: 1608967499}
+  - component: {fileID: 1608967505}
   m_Layer: 3
   m_Name: Esophagus
   m_TagString: Untagged
@@ -23541,6 +24987,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608967497}
   m_Mesh: {fileID: -5431268588672265625, guid: 3c656de560cb8cc46a75e4ccc5fe129b, type: 3}
+--- !u!114 &1608967505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608967497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1628948347
 GameObject:
   m_ObjectHideFlags: 0
@@ -23556,6 +25016,7 @@ GameObject:
   - component: {fileID: 1628948351}
   - component: {fileID: 1628948350}
   - component: {fileID: 1628948349}
+  - component: {fileID: 1628948355}
   m_Layer: 3
   m_Name: E_12
   m_TagString: Untagged
@@ -23763,6 +25224,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628948347}
   m_Mesh: {fileID: 4674164759267682494, guid: fee5e1949e0c59a4cabc793fd2d71a7e, type: 3}
+--- !u!114 &1628948355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628948347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1682087138
 GameObject:
   m_ObjectHideFlags: 0
@@ -23778,6 +25253,7 @@ GameObject:
   - component: {fileID: 1682087142}
   - component: {fileID: 1682087141}
   - component: {fileID: 1682087140}
+  - component: {fileID: 1682087146}
   m_Layer: 3
   m_Name: Sacral_Vertebrae
   m_TagString: Untagged
@@ -23985,6 +25461,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682087138}
   m_Mesh: {fileID: 8215720963795009141, guid: a2b0e7a35a171c04d8440fd5267987e3, type: 3}
+--- !u!114 &1682087146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682087138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1724826471
 GameObject:
   m_ObjectHideFlags: 0
@@ -24000,6 +25490,7 @@ GameObject:
   - component: {fileID: 1724826475}
   - component: {fileID: 1724826474}
   - component: {fileID: 1724826473}
+  - component: {fileID: 1724826479}
   m_Layer: 3
   m_Name: Metatarsus_2
   m_TagString: Untagged
@@ -24207,6 +25698,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724826471}
   m_Mesh: {fileID: 8017873274388350645, guid: 88c1cd8a72fa55a42838b6b324e6f91a, type: 3}
+--- !u!114 &1724826479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724826471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1732021700
 GameObject:
   m_ObjectHideFlags: 0
@@ -24222,6 +25727,7 @@ GameObject:
   - component: {fileID: 1732021704}
   - component: {fileID: 1732021703}
   - component: {fileID: 1732021702}
+  - component: {fileID: 1732021708}
   m_Layer: 3
   m_Name: Fibular_Body
   m_TagString: Untagged
@@ -24429,6 +25935,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732021700}
   m_Mesh: {fileID: 2024578672759840747, guid: 470a383773852804699e8596863cd7af, type: 3}
+--- !u!114 &1732021708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732021700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1737087341
 GameObject:
   m_ObjectHideFlags: 0
@@ -24444,6 +25964,7 @@ GameObject:
   - component: {fileID: 1737087345}
   - component: {fileID: 1737087344}
   - component: {fileID: 1737087343}
+  - component: {fileID: 1737087349}
   m_Layer: 3
   m_Name: Lumbar_Vertebrae
   m_TagString: Untagged
@@ -24651,6 +26172,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737087341}
   m_Mesh: {fileID: -3136570944061682487, guid: 0706dbc4f83d9af4ab3adde9db254d3e, type: 3}
+--- !u!114 &1737087349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737087341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1742453909
 GameObject:
   m_ObjectHideFlags: 0
@@ -24666,6 +26201,7 @@ GameObject:
   - component: {fileID: 1742453913}
   - component: {fileID: 1742453912}
   - component: {fileID: 1742453911}
+  - component: {fileID: 1742453917}
   m_Layer: 3
   m_Name: Head_of_Femur_Right
   m_TagString: Untagged
@@ -24873,6 +26409,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742453909}
   m_Mesh: {fileID: -7508035541299985074, guid: eb9f0fe8019d18d48b6f1561bb7ff671, type: 3}
+--- !u!114 &1742453917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742453909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1776657091
 GameObject:
   m_ObjectHideFlags: 0
@@ -24888,6 +26438,7 @@ GameObject:
   - component: {fileID: 1776657095}
   - component: {fileID: 1776657094}
   - component: {fileID: 1776657093}
+  - component: {fileID: 1776657099}
   m_Layer: 3
   m_Name: C1_Atlas
   m_TagString: Untagged
@@ -25095,6 +26646,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776657091}
   m_Mesh: {fileID: -6361316009891544741, guid: ada78a0fd8d7c6a49b8b547ef8515646, type: 3}
+--- !u!114 &1776657099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776657091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1804768539
 GameObject:
   m_ObjectHideFlags: 0
@@ -25110,6 +26675,7 @@ GameObject:
   - component: {fileID: 1804768543}
   - component: {fileID: 1804768542}
   - component: {fileID: 1804768541}
+  - component: {fileID: 1804768547}
   m_Layer: 3
   m_Name: Iliac_Wing_Right
   m_TagString: Untagged
@@ -25317,6 +26883,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804768539}
   m_Mesh: {fileID: 7815665921096952422, guid: 3bdd29afc7aaa2546abbfafea058d232, type: 3}
+--- !u!114 &1804768547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804768539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1815954379
 GameObject:
   m_ObjectHideFlags: 0
@@ -25332,6 +26912,7 @@ GameObject:
   - component: {fileID: 1815954383}
   - component: {fileID: 1815954382}
   - component: {fileID: 1815954381}
+  - component: {fileID: 1815954387}
   m_Layer: 3
   m_Name: C2_Axis
   m_TagString: Untagged
@@ -25539,6 +27120,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815954379}
   m_Mesh: {fileID: -28535013017767102, guid: b04f2dfc4ab75014bbd5a014185b5f76, type: 3}
+--- !u!114 &1815954387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815954379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1824730918
 GameObject:
   m_ObjectHideFlags: 0
@@ -25554,6 +27149,7 @@ GameObject:
   - component: {fileID: 1824730922}
   - component: {fileID: 1824730921}
   - component: {fileID: 1824730920}
+  - component: {fileID: 1824730926}
   m_Layer: 3
   m_Name: Head_of_Humerus_Left
   m_TagString: Untagged
@@ -25761,6 +27357,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824730918}
   m_Mesh: {fileID: 1523983589192257174, guid: 8111e7235434633408a475336f20eb1a, type: 3}
+--- !u!114 &1824730926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824730918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1825843168
 GameObject:
   m_ObjectHideFlags: 0
@@ -25776,6 +27386,7 @@ GameObject:
   - component: {fileID: 1825843172}
   - component: {fileID: 1825843171}
   - component: {fileID: 1825843170}
+  - component: {fileID: 1825843176}
   m_Layer: 3
   m_Name: H_9
   m_TagString: Untagged
@@ -25983,6 +27594,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825843168}
   m_Mesh: {fileID: -4782598251580216885, guid: 372f208a381c1b64c94ed3ded983a4ce, type: 3}
+--- !u!114 &1825843176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825843168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1829262185
 GameObject:
   m_ObjectHideFlags: 0
@@ -25998,6 +27623,7 @@ GameObject:
   - component: {fileID: 1829262189}
   - component: {fileID: 1829262188}
   - component: {fileID: 1829262187}
+  - component: {fileID: 1829262193}
   m_Layer: 3
   m_Name: Iliac_Wing_Left
   m_TagString: Untagged
@@ -26205,6 +27831,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829262185}
   m_Mesh: {fileID: -7304575914389708052, guid: 214c22007509e07428422a320653f62f, type: 3}
+--- !u!114 &1829262193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829262185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1836796726
 GameObject:
   m_ObjectHideFlags: 0
@@ -26220,6 +27860,7 @@ GameObject:
   - component: {fileID: 1836796730}
   - component: {fileID: 1836796729}
   - component: {fileID: 1836796728}
+  - component: {fileID: 1836796734}
   m_Layer: 3
   m_Name: H_7
   m_TagString: Untagged
@@ -26427,6 +28068,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836796726}
   m_Mesh: {fileID: -920137808373872254, guid: 8926401b123a11144a47daefc3153ecd, type: 3}
+--- !u!114 &1836796734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836796726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1841412724
 GameObject:
   m_ObjectHideFlags: 0
@@ -26442,6 +28097,7 @@ GameObject:
   - component: {fileID: 1841412728}
   - component: {fileID: 1841412727}
   - component: {fileID: 1841412726}
+  - component: {fileID: 1841412732}
   m_Layer: 3
   m_Name: D_E_Base
   m_TagString: Untagged
@@ -26649,6 +28305,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841412724}
   m_Mesh: {fileID: -1281742918914110217, guid: eda81d24b212c60458df33b3da5b5e88, type: 3}
+--- !u!114 &1841412732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841412724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1874132883
 GameObject:
   m_ObjectHideFlags: 0
@@ -26664,6 +28334,7 @@ GameObject:
   - component: {fileID: 1874132887}
   - component: {fileID: 1874132886}
   - component: {fileID: 1874132885}
+  - component: {fileID: 1874132891}
   m_Layer: 3
   m_Name: Tubercle_of_Rib_Right
   m_TagString: Untagged
@@ -26871,6 +28542,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874132883}
   m_Mesh: {fileID: -3389480134854782997, guid: ed7ebf620c10b9e4693edb127c1182a0, type: 3}
+--- !u!114 &1874132891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874132883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1886264852
 GameObject:
   m_ObjectHideFlags: 0
@@ -26886,6 +28571,7 @@ GameObject:
   - component: {fileID: 1886264856}
   - component: {fileID: 1886264855}
   - component: {fileID: 1886264854}
+  - component: {fileID: 1886264860}
   m_Layer: 3
   m_Name: Skin
   m_TagString: Untagged
@@ -27012,13 +28698,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ColorChanger, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1886264860}
+        m_TargetAssemblyTypeName: LabelOperation, Assembly-CSharp
+        m_MethodName: showLabel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27106,6 +28792,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886264852}
   m_Mesh: {fileID: 2756627725118907817, guid: d71b15f2808111b42b36e40b1d9663d3, type: 3}
+--- !u!114 &1886264860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886264852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 176686797}
+  playerCamera: {fileID: 0}
 --- !u!1 &1926648370
 GameObject:
   m_ObjectHideFlags: 0
@@ -27121,6 +28821,7 @@ GameObject:
   - component: {fileID: 1926648374}
   - component: {fileID: 1926648373}
   - component: {fileID: 1926648372}
+  - component: {fileID: 1926648378}
   m_Layer: 3
   m_Name: E_10
   m_TagString: Untagged
@@ -27328,6 +29029,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926648370}
   m_Mesh: {fileID: 1796342049606721886, guid: 4ba9c34de0bff7b4d9554c3d8f84bc28, type: 3}
+--- !u!114 &1926648378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926648370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1929092524
 GameObject:
   m_ObjectHideFlags: 0
@@ -27343,6 +29058,7 @@ GameObject:
   - component: {fileID: 1929092528}
   - component: {fileID: 1929092527}
   - component: {fileID: 1929092526}
+  - component: {fileID: 1929092532}
   m_Layer: 3
   m_Name: Head_of_Radius
   m_TagString: Untagged
@@ -27550,6 +29266,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929092524}
   m_Mesh: {fileID: -4717722722497848417, guid: b458cfa59b1c12f4f92f73de1daea63a, type: 3}
+--- !u!114 &1929092532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929092524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1956002526
 GameObject:
   m_ObjectHideFlags: 0
@@ -27597,6 +29327,7 @@ GameObject:
   - component: {fileID: 1968631912}
   - component: {fileID: 1968631911}
   - component: {fileID: 1968631910}
+  - component: {fileID: 1968631916}
   m_Layer: 3
   m_Name: G_Base
   m_TagString: Untagged
@@ -27804,6 +29535,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968631908}
   m_Mesh: {fileID: -4795078403544194298, guid: d60d1b30ec1a718479038600022a0d2c, type: 3}
+--- !u!114 &1968631916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968631908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1969180345
 GameObject:
   m_ObjectHideFlags: 0
@@ -27819,6 +29564,7 @@ GameObject:
   - component: {fileID: 1969180349}
   - component: {fileID: 1969180348}
   - component: {fileID: 1969180347}
+  - component: {fileID: 1969180353}
   m_Layer: 3
   m_Name: C4
   m_TagString: Untagged
@@ -28026,6 +29772,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969180345}
   m_Mesh: {fileID: -7825757583103744868, guid: 25e276a5fd6f369408d9c955bc13d05e, type: 3}
+--- !u!114 &1969180353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969180345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1974890143
 GameObject:
   m_ObjectHideFlags: 0
@@ -28041,6 +29801,7 @@ GameObject:
   - component: {fileID: 1974890147}
   - component: {fileID: 1974890146}
   - component: {fileID: 1974890145}
+  - component: {fileID: 1974890151}
   m_Layer: 3
   m_Name: H_15
   m_TagString: Untagged
@@ -28248,6 +30009,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974890143}
   m_Mesh: {fileID: -8622445878427848583, guid: 1ae7bd1025c9d9947a00ef3e295e5513, type: 3}
+--- !u!114 &1974890151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974890143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1975930673
 GameObject:
   m_ObjectHideFlags: 0
@@ -28263,6 +30038,7 @@ GameObject:
   - component: {fileID: 1975930677}
   - component: {fileID: 1975930676}
   - component: {fileID: 1975930675}
+  - component: {fileID: 1975930681}
   m_Layer: 3
   m_Name: Femoral_Condyle_Right
   m_TagString: Untagged
@@ -28470,6 +30246,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975930673}
   m_Mesh: {fileID: 8150417371068570105, guid: b40a9542e08ef5c4fb62debac1a51ca0, type: 3}
+--- !u!114 &1975930681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975930673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &1992205944
 GameObject:
   m_ObjectHideFlags: 0
@@ -28485,6 +30275,7 @@ GameObject:
   - component: {fileID: 1992205948}
   - component: {fileID: 1992205947}
   - component: {fileID: 1992205946}
+  - component: {fileID: 1992205952}
   m_Layer: 3
   m_Name: C3
   m_TagString: Untagged
@@ -28692,6 +30483,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992205944}
   m_Mesh: {fileID: -2104250737164029209, guid: 794bbfc29d6008843b21227744ce5c89, type: 3}
+--- !u!114 &1992205952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992205944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &2041086260
 GameObject:
   m_ObjectHideFlags: 0
@@ -28707,6 +30512,7 @@ GameObject:
   - component: {fileID: 2041086264}
   - component: {fileID: 2041086263}
   - component: {fileID: 2041086262}
+  - component: {fileID: 2041086268}
   m_Layer: 3
   m_Name: Styloid_Process_of_Radius
   m_TagString: Untagged
@@ -28914,6 +30720,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041086260}
   m_Mesh: {fileID: 5035877316807515829, guid: 1af4830405fa60b44b593a8d1fb5592c, type: 3}
+--- !u!114 &2041086268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041086260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &2047491093
 GameObject:
   m_ObjectHideFlags: 0
@@ -29073,6 +30893,7 @@ GameObject:
   - component: {fileID: 2075410664}
   - component: {fileID: 2075410663}
   - component: {fileID: 2075410662}
+  - component: {fileID: 2075410668}
   m_Layer: 3
   m_Name: Thoracic_Vertebrae
   m_TagString: Untagged
@@ -29280,6 +31101,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075410660}
   m_Mesh: {fileID: 2063918622333869395, guid: 4db42f9da606443409b634bc01840cf6, type: 3}
+--- !u!114 &2075410668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075410660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &2093059448
 GameObject:
   m_ObjectHideFlags: 0
@@ -29295,6 +31130,7 @@ GameObject:
   - component: {fileID: 2093059452}
   - component: {fileID: 2093059451}
   - component: {fileID: 2093059450}
+  - component: {fileID: 2093059456}
   m_Layer: 3
   m_Name: Supraglenoid_Tubercle_Right
   m_TagString: Untagged
@@ -29502,6 +31338,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093059448}
   m_Mesh: {fileID: -6577172187371528095, guid: 8ef66396d430e1d45ab5dc28bbb01dfd, type: 3}
+--- !u!114 &2093059456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093059448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &2135238171
 GameObject:
   m_ObjectHideFlags: 0
@@ -29517,6 +31367,7 @@ GameObject:
   - component: {fileID: 2135238175}
   - component: {fileID: 2135238174}
   - component: {fileID: 2135238173}
+  - component: {fileID: 2135238179}
   m_Layer: 3
   m_Name: Supraspinous_Fossa_Right
   m_TagString: Untagged
@@ -29724,6 +31575,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135238171}
   m_Mesh: {fileID: -1652644378826579383, guid: 027ac8abb4ebc6548abfa8a67fc3da8e, type: 3}
+--- !u!114 &2135238179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135238171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &693469914043318337
 PrefabInstance:
   m_ObjectHideFlags: 0
