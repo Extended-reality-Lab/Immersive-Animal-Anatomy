@@ -7,6 +7,7 @@ public class ColorChanger : MonoBehaviour
     public GameObject selectedObject;
     bool isColorChanged = false;
 
+    private Color color = new Color(0.75f, 0.75f,0.75f, 1.0f);
     public void ChangeColor()
     {
         if (isColorChanged)
@@ -17,9 +18,9 @@ public class ColorChanger : MonoBehaviour
         }
         else
         {
-            selectedObject.GetComponent<Renderer>().material.color = Color.blue;
+            selectedObject.GetComponent<Renderer>().material.color = color;
             isColorChanged = true;
-            Debug.Log("Color Changed To Blue");
+            Debug.Log("Color Changed To Select");
         }
 
     }
