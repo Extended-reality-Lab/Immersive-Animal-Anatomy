@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1053627211486615972}
   - component: {fileID: 209729226896199384}
   - component: {fileID: 1414407170998736253}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Border
-  m_TagString: Untagged
+  m_TagString: Label
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,9 +87,9 @@ GameObject:
   - component: {fileID: 5113804281643953993}
   - component: {fileID: 4768117092522105928}
   - component: {fileID: 5962378984510432545}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: LabelText
-  m_TagString: Untagged
+  m_TagString: Label
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,9 +224,9 @@ GameObject:
   - component: {fileID: 650947218113292058}
   - component: {fileID: 3304893961992612114}
   - component: {fileID: 2190479397406514007}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Label
-  m_TagString: Untagged
+  m_TagString: Label
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,7 +272,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: -1
-  m_SortingLayerID: 1160000393
+  m_SortingLayerID: 824010189
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &650947218113292058
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!222 &3304893961992612114
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -334,9 +334,9 @@ GameObject:
   - component: {fileID: 7437217095996653164}
   - component: {fileID: 2876628096762846563}
   - component: {fileID: 574869429584081662}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
-  m_TagString: Untagged
+  m_TagString: Label
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
