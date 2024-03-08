@@ -28387,8 +28387,8 @@ GameObject:
   - component: {fileID: 1886264857}
   - component: {fileID: 1886264856}
   - component: {fileID: 1886264855}
-  - component: {fileID: 1886264854}
-  - component: {fileID: 1886264860}
+  - component: {fileID: 1886264861}
+  - component: {fileID: 1886264862}
   m_Layer: 3
   m_Name: Skin
   m_TagString: Untagged
@@ -28412,19 +28412,6 @@ Transform:
   m_Father: {fileID: 154725341}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1886264854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886264852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e3fb2e5e300a984a8a05fb37981b72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedObject: {fileID: 1886264852}
 --- !u!114 &1886264855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28503,21 +28490,9 @@ MonoBehaviour:
   m_Activated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1886264854}
-        m_TargetAssemblyTypeName: ColorChanger, Assembly-CSharp
-        m_MethodName: ChangeColor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1886264860}
-        m_TargetAssemblyTypeName: LabelOperation, Assembly-CSharp
-        m_MethodName: showLabel
+      - m_Target: {fileID: 1886264861}
+        m_TargetAssemblyTypeName: SelectionHandler, Assembly-CSharp
+        m_MethodName: playerToggledBool
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28609,7 +28584,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886264852}
   m_Mesh: {fileID: 2756627725118907817, guid: d71b15f2808111b42b36e40b1d9663d3, type: 3}
---- !u!114 &1886264860
+--- !u!114 &1886264861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28618,11 +28593,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886264852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d256d80fe9b8f4b42841e8648e5f8bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: e6abd1652915e754581a2ed25aecee59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSelected:
+    m_InternalValue: 0
   Label: {fileID: 8396613711677596983}
   playerCamera: {fileID: 0}
+--- !u!114 &1886264862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886264852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 311265349
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &1926648370
 GameObject:
   m_ObjectHideFlags: 0
