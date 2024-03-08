@@ -4463,14 +4463,14 @@ struct MouseState_tCCE70861DE1EEECF949AFE8E2A922541D4E08A09  : public RuntimeObj
 	List_1_t6D515F3BEDA0E1BF16E735CE960F740AB8ACBDD3* ___m_TrackedButtons_0;
 };
 
-// QuizController/<changeQuestion>d__7
-struct U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F  : public RuntimeObject
+// QuizController/<changeQuestion>d__8
+struct U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095  : public RuntimeObject
 {
-	// System.Int32 QuizController/<changeQuestion>d__7::<>1__state
+	// System.Int32 QuizController/<changeQuestion>d__8::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object QuizController/<changeQuestion>d__7::<>2__current
+	// System.Object QuizController/<changeQuestion>d__8::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// QuizController QuizController/<changeQuestion>d__7::<>4__this
+	// QuizController QuizController/<changeQuestion>d__8::<>4__this
 	QuizController_tCCA484B2537862863924FCC39E599B2004831158* ___U3CU3E4__this_2;
 };
 
@@ -27559,6 +27559,8 @@ struct QuizController_tCCA484B2537862863924FCC39E599B2004831158  : public MonoBe
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Animal_7;
 	// UnityEngine.GameObject QuizController::partChoice
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___partChoice_8;
+	// UnityEngine.Color QuizController::selectedColor
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___selectedColor_9;
 };
 
 // Unity.Netcode.Transports.UTP.SecretsLoaderHelper
@@ -31524,9 +31526,9 @@ struct RaycastHitComparer_t8EF6567C19BE9FB575E01A10941FBF7DE3D3DDF1_StaticFields
 
 // UnityEngine.EventSystems.PointerInputModule/MouseState
 
-// QuizController/<changeQuestion>d__7
+// QuizController/<changeQuestion>d__8
 
-// QuizController/<changeQuestion>d__7
+// QuizController/<changeQuestion>d__8
 
 // Photon.Voice.Unity.Recorder/<>c__DisplayClass175_0
 
@@ -39516,10 +39518,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7695[2] =
 	static_cast<int32_t>(offsetof(NetworkedQuizController_tB4EC7A42C517966CB4D27A29802E4A0E06E03DEC, ___partName_26)),static_cast<int32_t>(offsetof(NetworkedQuizController_tB4EC7A42C517966CB4D27A29802E4A0E06E03DEC, ___textObject_27)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7696[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7697[5] = 
+	static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7697[6] = 
 {
-	static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___textComponent_4)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partWasSelected_5)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partIsSelected_6)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___Animal_7)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partChoice_8)),};
+	static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___textComponent_4)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partWasSelected_5)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partIsSelected_6)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___Animal_7)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___partChoice_8)),static_cast<int32_t>(offsetof(QuizController_tCCA484B2537862863924FCC39E599B2004831158, ___selectedColor_9)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7698[7] = 
 {
 	static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___rt_4)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___baseMaterial_5)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___myMaterial_6)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___magGlass_7)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___zoomCam_8)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___zoomToggle_9)),static_cast<int32_t>(offsetof(ZoomController_t99D2AF55B932FDC61AE63ADEB533E33617E51348, ___zoomed_10)),};

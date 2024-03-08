@@ -299,8 +299,8 @@ struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct U3CU3Ec__DisplayClass6_0_t1EFFFE10E583583E9D10E050BDE6F5AC98EA128E;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
-// QuizController/<changeQuestion>d__7
-struct U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F;
+// QuizController/<changeQuestion>d__8
+struct U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095;
 // UnityEngine.UI.Slider/SliderEvent
 struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
 
@@ -317,7 +317,7 @@ IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF73069
 IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_t1EFFFE10E583583E9D10E050BDE6F5AC98EA128E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_2_t3E619780AA870611658EC8B01DA6EA2EC42B13CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
@@ -396,7 +396,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CCreateSlidersU3Eb__0_m8DA579142E0D89D4D12D1725235B92424F0FF710_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CchangeQuestionU3Ed__7_System_Collections_IEnumerator_Reset_mAED9CC7082177ACDE451644D9B72383428C34174_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var;
@@ -521,14 +521,14 @@ struct U3CU3Ec__DisplayClass6_0_t1EFFFE10E583583E9D10E050BDE6F5AC98EA128E  : pub
 	DynamicSliders_tE0F608CD0B2E045511E1D1B404D72A8572F0EDE6* ___U3CU3E4__this_2;
 };
 
-// QuizController/<changeQuestion>d__7
-struct U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F  : public RuntimeObject
+// QuizController/<changeQuestion>d__8
+struct U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095  : public RuntimeObject
 {
-	// System.Int32 QuizController/<changeQuestion>d__7::<>1__state
+	// System.Int32 QuizController/<changeQuestion>d__8::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object QuizController/<changeQuestion>d__7::<>2__current
+	// System.Object QuizController/<changeQuestion>d__8::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// QuizController QuizController/<changeQuestion>d__7::<>4__this
+	// QuizController QuizController/<changeQuestion>d__8::<>4__this
 	QuizController_tCCA484B2537862863924FCC39E599B2004831158* ___U3CU3E4__this_2;
 };
 
@@ -2280,6 +2280,8 @@ struct QuizController_tCCA484B2537862863924FCC39E599B2004831158  : public MonoBe
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Animal_7;
 	// UnityEngine.GameObject QuizController::partChoice
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___partChoice_8;
+	// UnityEngine.Color QuizController::selectedColor
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___selectedColor_9;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -2996,9 +2998,9 @@ struct String_t_StaticFields
 
 // DynamicSliders/<>c__DisplayClass6_0
 
-// QuizController/<changeQuestion>d__7
+// QuizController/<changeQuestion>d__8
 
-// QuizController/<changeQuestion>d__7
+// QuizController/<changeQuestion>d__8
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
 
@@ -3900,16 +3902,14 @@ inline void NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84 (N
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkBehaviour__ctor_m0BFD04A5D02376F13DD2E85274836CD4A3AD38E6 (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
-// UnityEngine.Color UnityEngine.Color::get_blue()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Color::op_Equality(UnityEngine.Color,UnityEngine.Color)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_op_Equality_mB2BDC39B0B367BA15AA8DF22F8CB0D02D20BDC71_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_lhs, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_rhs, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator QuizController::changeQuestion()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QuizController_changeQuestion_m9BF40D7A7323D091B34BD2FAA17CE1C2981B6542 (QuizController_tCCA484B2537862863924FCC39E599B2004831158* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
-// System.Void QuizController/<changeQuestion>d__7::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__7__ctor_m676D44521D3D87191A25CE8891DA1D7AF574F8CF (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+// System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__8__ctor_mFD416863BBDBF0CDB2336D2A920DDADCB9F74D97 (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Transform::get_childCount()
@@ -7674,11 +7674,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuizController_Update_mD9AF615BDC5065AE8
 		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_003e;
+			goto IL_003f;
 		}
 	}
 	{
-		// if (partChoice.GetComponent<Renderer>().material.color == Color.blue)
+		// if (partChoice.GetComponent<Renderer>().material.color == selectedColor)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___partChoice_8;
 		NullCheck(L_2);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3;
@@ -7689,41 +7689,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuizController_Update_mD9AF615BDC5065AE8
 		NullCheck(L_4);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
 		L_5 = Material_get_color_mA4B7D4B96200D9D8B4F36BF19957E9DA81071DBB(L_4, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
-		L_6 = Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline(NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = __this->___selectedColor_9;
 		bool L_7;
 		L_7 = Color_op_Equality_mB2BDC39B0B367BA15AA8DF22F8CB0D02D20BDC71_inline(L_5, L_6, NULL);
 		if (!L_7)
 		{
-			goto IL_0037;
+			goto IL_0038;
 		}
 	}
 	{
 		// partIsSelected = true;
 		__this->___partIsSelected_6 = (bool)1;
-		goto IL_003e;
+		goto IL_003f;
 	}
 
-IL_0037:
+IL_0038:
 	{
 		// partIsSelected = false;
 		__this->___partIsSelected_6 = (bool)0;
 	}
 
-IL_003e:
+IL_003f:
 	{
 		// if (partIsSelected == true && partWasSelected == false)
 		bool L_8 = __this->___partIsSelected_6;
 		if (!L_8)
 		{
-			goto IL_0080;
+			goto IL_0081;
 		}
 	}
 	{
 		bool L_9 = __this->___partWasSelected_5;
 		if (L_9)
 		{
-			goto IL_0080;
+			goto IL_0081;
 		}
 	}
 	{
@@ -7745,7 +7744,7 @@ IL_003e:
 		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_11, NULL);
 	}
 
-IL_0080:
+IL_0081:
 	{
 		// partWasSelected = partIsSelected;
 		bool L_13 = __this->___partIsSelected_6;
@@ -7760,14 +7759,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QuizController_changeQuestion_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* L_0 = (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F*)il2cpp_codegen_object_new(U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F_il2cpp_TypeInfo_var);
+		U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* L_0 = (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095*)il2cpp_codegen_object_new(U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CchangeQuestionU3Ed__7__ctor_m676D44521D3D87191A25CE8891DA1D7AF574F8CF(L_0, 0, NULL);
-		U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* L_1 = L_0;
+		U3CchangeQuestionU3Ed__8__ctor_mFD416863BBDBF0CDB2336D2A920DDADCB9F74D97(L_0, 0, NULL);
+		U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -7778,6 +7777,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QuizController_changeQuestion_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuizController__ctor_m36D0AA59D0C7AAC2561488D17DC5CA48E9E3A3DD (QuizController_tCCA484B2537862863924FCC39E599B2004831158* __this, const RuntimeMethod* method) 
 {
 	{
+		// private Color selectedColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.75f), (0.75f), (0.75f), (1.0f), /*hidden argument*/NULL);
+		__this->___selectedColor_9 = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -7790,8 +7794,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuizController__ctor_m36D0AA59D0C7AAC256
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void QuizController/<changeQuestion>d__7::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__7__ctor_m676D44521D3D87191A25CE8891DA1D7AF574F8CF (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__8__ctor_mFD416863BBDBF0CDB2336D2A920DDADCB9F74D97 (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -7800,15 +7804,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__7__ctor_m676D4452
 		return;
 	}
 }
-// System.Void QuizController/<changeQuestion>d__7::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__7_System_IDisposable_Dispose_mA6CF68E2A9418CE023CA4F683FB3C3C9E7E8849F (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, const RuntimeMethod* method) 
+// System.Void QuizController/<changeQuestion>d__8::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__8_System_IDisposable_Dispose_m7C316B1463D27DC646DB71EEBBF546B783058603 (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean QuizController/<changeQuestion>d__7::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CchangeQuestionU3Ed__7_MoveNext_m86597DC58D4C059518AE62555C0B3A2402207E9E (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, const RuntimeMethod* method) 
+// System.Boolean QuizController/<changeQuestion>d__8::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CchangeQuestionU3Ed__8_MoveNext_m6C47C0B7A0C14191CCCD5EF9260617F8A3A36CB7 (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7942,26 +7946,26 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// System.Object QuizController/<changeQuestion>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CchangeQuestionU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE1A51CFBBFDEE03FEE031A064D769C5CF043996 (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, const RuntimeMethod* method) 
+// System.Object QuizController/<changeQuestion>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CchangeQuestionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD88233EE2B65508ABB08C65C418B75788FE4B5DC (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void QuizController/<changeQuestion>d__7::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__7_System_Collections_IEnumerator_Reset_mAED9CC7082177ACDE451644D9B72383428C34174 (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, const RuntimeMethod* method) 
+// System.Void QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CchangeQuestionU3Ed__7_System_Collections_IEnumerator_Reset_mAED9CC7082177ACDE451644D9B72383428C34174_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB_RuntimeMethod_var)));
 	}
 }
-// System.Object QuizController/<changeQuestion>d__7::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CchangeQuestionU3Ed__7_System_Collections_IEnumerator_get_Current_m6FDBCF7017AE3D9AF7EE88F135FE0091847A3EA6 (U3CchangeQuestionU3Ed__7_tFCB47603C096204B2107721589DD57815E94751F* __this, const RuntimeMethod* method) 
+// System.Object QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_get_Current_mB4BFD5ECD29CBC719AC6D9D972D9490AEA825E58 (U3CchangeQuestionU3Ed__8_tE8834D0E14DA129EE043241033B6EB7B20DE9095* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -8520,24 +8524,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkBehaviour_get_IsHost_
 		// protected bool IsHost { get; private set; }
 		bool L_0 = __this->___U3CIsHostU3Ek__BackingField_11;
 		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) 
-{
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_001d;
-	}
-
-IL_001d:
-	{
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
-		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_op_Equality_mB2BDC39B0B367BA15AA8DF22F8CB0D02D20BDC71_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_lhs, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_rhs, const RuntimeMethod* method) 

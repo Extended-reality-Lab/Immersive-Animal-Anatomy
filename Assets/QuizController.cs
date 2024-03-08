@@ -17,6 +17,8 @@ public class QuizController : MonoBehaviour
     [SerializeField]
     GameObject partChoice;
 
+    private Color selectedColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +29,7 @@ public class QuizController : MonoBehaviour
     void Update()
     {
         if (partChoice) {
-            if (partChoice.GetComponent<Renderer>().material.color == Color.blue)
+            if (partChoice.GetComponent<Renderer>().material.color == selectedColor)
             {
                 partIsSelected = true;
             }
