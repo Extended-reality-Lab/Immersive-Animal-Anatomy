@@ -27836,10 +27836,8 @@ struct UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512  : public Mon
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UIObject_6;
 	// UnityEngine.InputSystem.InputActionReference UIEventController::xButton
 	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___xButton_7;
-	// UnityEngine.InputSystem.InputActionReference UIEventController::aButton
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___aButton_8;
 	// System.Boolean UIEventController::uiShowing
-	bool ___uiShowing_9;
+	bool ___uiShowing_8;
 };
 
 // UIOperationsController
@@ -39501,9 +39499,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7689[13] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7690[2] = 
 {
 	static_cast<int32_t>(offsetof(ModelMaterialInstancing_tF50DB957BFF82258A383DBD13A2A522A62F62A5E, ___ModelArray_4)),static_cast<int32_t>(offsetof(ModelMaterialInstancing_tF50DB957BFF82258A383DBD13A2A522A62F62A5E, ___matBlock_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7691[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7691[5] = 
 {
-	static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___ControllerL_4)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___ControllerR_5)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___UIObject_6)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___xButton_7)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___aButton_8)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___uiShowing_9)),};
+	static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___ControllerL_4)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___ControllerR_5)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___UIObject_6)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___xButton_7)),static_cast<int32_t>(offsetof(UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512, ___uiShowing_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7692[5] = 
 {
 	static_cast<int32_t>(offsetof(UIOperationsController_t05E8BC15AC9270C04ABAA5A635DD0AB9E8B44E47, ___SkeletonArray_4)),static_cast<int32_t>(offsetof(UIOperationsController_t05E8BC15AC9270C04ABAA5A635DD0AB9E8B44E47, ___OrganArray_5)),static_cast<int32_t>(offsetof(UIOperationsController_t05E8BC15AC9270C04ABAA5A635DD0AB9E8B44E47, ___SkinArray_6)),static_cast<int32_t>(offsetof(UIOperationsController_t05E8BC15AC9270C04ABAA5A635DD0AB9E8B44E47, ___isModel_7)),static_cast<int32_t>(offsetof(UIOperationsController_t05E8BC15AC9270C04ABAA5A635DD0AB9E8B44E47, ___currentScene_8)),};

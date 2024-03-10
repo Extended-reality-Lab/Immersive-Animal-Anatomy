@@ -159,7 +159,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "RightPrimary",
+                    "name": "ZoomButton",
                     "type": "Button",
                     "id": "6895972f-bf9a-49fd-a98e-7204d4492833",
                     "expectedControlType": "Button",
@@ -579,11 +579,11 @@
                 {
                     "name": "",
                     "id": "8cda763b-5afd-46be-ae25-bb6dd24d04bd",
-                    "path": "<XRController>{RightHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RightPrimary",
+                    "action": "ZoomButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

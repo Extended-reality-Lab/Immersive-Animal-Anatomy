@@ -37128,10 +37128,8 @@ struct UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512  : public Mon
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UIObject_6;
 	// UnityEngine.InputSystem.InputActionReference UIEventController::xButton
 	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___xButton_7;
-	// UnityEngine.InputSystem.InputActionReference UIEventController::aButton
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___aButton_8;
 	// System.Boolean UIEventController::uiShowing
-	bool ___uiShowing_9;
+	bool ___uiShowing_8;
 };
 
 // UIOperationsController

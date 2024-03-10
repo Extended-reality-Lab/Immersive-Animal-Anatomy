@@ -94,89 +94,87 @@ extern void UIEventController_Start_mA89E4022414F470EE1D456CF063F2A2615EA4659 (v
 extern void UIEventController_Update_m8A3F768BD2683F69D99E7168DC3D71AA73F4E6E6 (void);
 // 0x00000029 System.Void UIEventController::XButtonPressed(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1 (void);
-// 0x0000002A System.Void UIEventController::AButtonPressed(UnityEngine.InputSystem.InputAction/CallbackContext)
-extern void UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA (void);
-// 0x0000002B System.Void UIEventController::.ctor()
+// 0x0000002A System.Void UIEventController::.ctor()
 extern void UIEventController__ctor_mD475D53B0B4F4250CBB8CD2726B8256BE52239C6 (void);
-// 0x0000002C System.Void UIOperationsController::FillArrays()
+// 0x0000002B System.Void UIOperationsController::FillArrays()
 extern void UIOperationsController_FillArrays_mD1D438A0F0647D62673BE647546188AAADB75C64 (void);
-// 0x0000002D System.Void UIOperationsController::ClearArrays()
+// 0x0000002C System.Void UIOperationsController::ClearArrays()
 extern void UIOperationsController_ClearArrays_mCE40B975AAB741AD2369C7488050FE79E6D6593F (void);
-// 0x0000002E System.Void UIOperationsController::SkeletonSlider(System.Single)
+// 0x0000002D System.Void UIOperationsController::SkeletonSlider(System.Single)
 extern void UIOperationsController_SkeletonSlider_mC2B5C1CB26126C154E9C53E0DBF45C5561EDF204 (void);
-// 0x0000002F System.Void UIOperationsController::SkinSlider(System.Single)
+// 0x0000002E System.Void UIOperationsController::SkinSlider(System.Single)
 extern void UIOperationsController_SkinSlider_mAA8D9BFEA92FE16D39805A46F495F93AFF3B46C9 (void);
-// 0x00000030 System.Void UIOperationsController::OrganSlider(System.Single)
+// 0x0000002F System.Void UIOperationsController::OrganSlider(System.Single)
 extern void UIOperationsController_OrganSlider_m1A17A9CD0BB878B181561F3415A268276F57EA2A (void);
-// 0x00000031 System.Void UIOperationsController::AllSlider(System.Single)
+// 0x00000030 System.Void UIOperationsController::AllSlider(System.Single)
 extern void UIOperationsController_AllSlider_mAD7E77D2E8E600F4B368442F90A50BB5E9A83C6B (void);
-// 0x00000032 System.Void UIOperationsController::modelButton()
+// 0x00000031 System.Void UIOperationsController::modelButton()
 extern void UIOperationsController_modelButton_mB435B4E16BFF00A6C78598A99C3DE6186C9EBAE8 (void);
-// 0x00000033 System.Void UIOperationsController::roomButton()
+// 0x00000032 System.Void UIOperationsController::roomButton()
 extern void UIOperationsController_roomButton_m8C8D0E1672D3F4E70BC016842E24DD79851C71A4 (void);
-// 0x00000034 System.Void UIOperationsController::gameButton()
+// 0x00000033 System.Void UIOperationsController::gameButton()
 extern void UIOperationsController_gameButton_m6C085C3B60411686826AE79764BA78FEDA34AF46 (void);
-// 0x00000035 System.Void UIOperationsController::Start()
+// 0x00000034 System.Void UIOperationsController::Start()
 extern void UIOperationsController_Start_m5CEAE6078101FDE469B8C8A5F67849877488A413 (void);
-// 0x00000036 System.Void UIOperationsController::Update()
+// 0x00000035 System.Void UIOperationsController::Update()
 extern void UIOperationsController_Update_m89C6A7E6681420F55819760C91431BF7028FC8A2 (void);
-// 0x00000037 System.Void UIOperationsController::.ctor()
+// 0x00000036 System.Void UIOperationsController::.ctor()
 extern void UIOperationsController__ctor_m6083587F5BC3A2972A4C32F3E530B291F1F4912F (void);
-// 0x00000038 System.Void UIRaycast::FixedUpdate()
+// 0x00000037 System.Void UIRaycast::FixedUpdate()
 extern void UIRaycast_FixedUpdate_mF63CA3E57893359BC55CDEC80824512EE08CE683 (void);
-// 0x00000039 System.Void UIRaycast::CheckCollisions()
+// 0x00000038 System.Void UIRaycast::CheckCollisions()
 extern void UIRaycast_CheckCollisions_m68C73912029D205A1B62A708D77A666C13D791A3 (void);
-// 0x0000003A System.Void UIRaycast::.ctor()
+// 0x00000039 System.Void UIRaycast::.ctor()
 extern void UIRaycast__ctor_mB3745191B9F56DA744BA36F35AA9566F98C29D72 (void);
-// 0x0000003B System.Void MovementController::Start()
+// 0x0000003A System.Void MovementController::Start()
 extern void MovementController_Start_mC610545030D9B7CBC2A3F61C8931CF147AAE09E9 (void);
-// 0x0000003C System.Void MovementController::Update()
+// 0x0000003B System.Void MovementController::Update()
 extern void MovementController_Update_mB72AA3FFD41BE01F39C18D80DA2C7D5D8D69F3E0 (void);
-// 0x0000003D System.Void MovementController::triggerPulled(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000003C System.Void MovementController::triggerPulled(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void MovementController_triggerPulled_m3A467E4DDD723C4D88133ED4D0F1DDA63D381FB7 (void);
-// 0x0000003E System.Void MovementController::triggerReleased(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000003D System.Void MovementController::triggerReleased(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void MovementController_triggerReleased_m3CDA62DFBA4B67328E7528DD73B1EFFB21107355 (void);
-// 0x0000003F System.Void MovementController::.ctor()
+// 0x0000003E System.Void MovementController::.ctor()
 extern void MovementController__ctor_mBA50A088FED8B4A0F7727D69277B39BB0D385C26 (void);
-// 0x00000040 System.Void NetworkedQuizController::NameChanged()
+// 0x0000003F System.Void NetworkedQuizController::NameChanged()
 extern void NetworkedQuizController_NameChanged_m960E5501B71C975266C5DA647082E671CDE55DA6 (void);
-// 0x00000041 System.Void NetworkedQuizController::Update()
+// 0x00000040 System.Void NetworkedQuizController::Update()
 extern void NetworkedQuizController_Update_m472E87D08C2E4A71D917D6DEE62D1ACA8AE2485E (void);
-// 0x00000042 System.Void NetworkedQuizController::.ctor()
+// 0x00000041 System.Void NetworkedQuizController::.ctor()
 extern void NetworkedQuizController__ctor_m4D80DC12DB2123D92BD66B01E650BD4DC2EB598A (void);
-// 0x00000043 System.String NetworkedQuizController::__getTypeName()
+// 0x00000042 System.String NetworkedQuizController::__getTypeName()
 extern void NetworkedQuizController___getTypeName_mBFA7E63BB522FA5A7C91F918727A1A5DE23F91DD (void);
-// 0x00000044 System.Void QuizController::Start()
+// 0x00000043 System.Void QuizController::Start()
 extern void QuizController_Start_mE0FA46685BDD68392F2BCCCD6F299F5F8FA23CF8 (void);
-// 0x00000045 System.Void QuizController::Update()
+// 0x00000044 System.Void QuizController::Update()
 extern void QuizController_Update_mD9AF615BDC5065AE82DB24186198F01B2FC5C77C (void);
-// 0x00000046 System.Collections.IEnumerator QuizController::changeQuestion()
+// 0x00000045 System.Collections.IEnumerator QuizController::changeQuestion()
 extern void QuizController_changeQuestion_m9BF40D7A7323D091B34BD2FAA17CE1C2981B6542 (void);
-// 0x00000047 System.Void QuizController::.ctor()
+// 0x00000046 System.Void QuizController::.ctor()
 extern void QuizController__ctor_m36D0AA59D0C7AAC2561488D17DC5CA48E9E3A3DD (void);
-// 0x00000048 System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
+// 0x00000047 System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
 extern void U3CchangeQuestionU3Ed__8__ctor_mFD416863BBDBF0CDB2336D2A920DDADCB9F74D97 (void);
-// 0x00000049 System.Void QuizController/<changeQuestion>d__8::System.IDisposable.Dispose()
+// 0x00000048 System.Void QuizController/<changeQuestion>d__8::System.IDisposable.Dispose()
 extern void U3CchangeQuestionU3Ed__8_System_IDisposable_Dispose_m7C316B1463D27DC646DB71EEBBF546B783058603 (void);
-// 0x0000004A System.Boolean QuizController/<changeQuestion>d__8::MoveNext()
+// 0x00000049 System.Boolean QuizController/<changeQuestion>d__8::MoveNext()
 extern void U3CchangeQuestionU3Ed__8_MoveNext_m6C47C0B7A0C14191CCCD5EF9260617F8A3A36CB7 (void);
-// 0x0000004B System.Object QuizController/<changeQuestion>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000004A System.Object QuizController/<changeQuestion>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD88233EE2B65508ABB08C65C418B75788FE4B5DC (void);
-// 0x0000004C System.Void QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.Reset()
+// 0x0000004B System.Void QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB (void);
-// 0x0000004D System.Object QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.get_Current()
+// 0x0000004C System.Object QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_get_Current_mB4BFD5ECD29CBC719AC6D9D972D9490AEA825E58 (void);
-// 0x0000004E System.Void ZoomController::Start()
+// 0x0000004D System.Void ZoomController::Start()
 extern void ZoomController_Start_m82DE6E5197B38460DB549CD3D2E787D91E681CAE (void);
-// 0x0000004F System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000004E System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void ZoomController_zoomToggled_mAECF6980EAE3BDB237BA7BB8633556E888D63E1A (void);
-// 0x00000050 System.Void ZoomController::.ctor()
+// 0x0000004F System.Void ZoomController::.ctor()
 extern void ZoomController__ctor_m56353AE767BADE3B8570BA15A551EE103E13D6B7 (void);
-// 0x00000051 System.Void ZoomShaderScreenPos::Update()
+// 0x00000050 System.Void ZoomShaderScreenPos::Update()
 extern void ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D (void);
-// 0x00000052 System.Void ZoomShaderScreenPos::.ctor()
+// 0x00000051 System.Void ZoomShaderScreenPos::.ctor()
 extern void ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE (void);
-static Il2CppMethodPointer s_methodPointers[82] = 
+static Il2CppMethodPointer s_methodPointers[81] = 
 {
 	U3CModuleU3E__cctor_m75D71476E2FF3F5ABB7BE2ADBF723C07E20A2C63,
 	AnnotateLineController_Start_m9E1BCBA3BCF7E846FB889D345EC9524905D81887,
@@ -219,7 +217,6 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	UIEventController_Start_mA89E4022414F470EE1D456CF063F2A2615EA4659,
 	UIEventController_Update_m8A3F768BD2683F69D99E7168DC3D71AA73F4E6E6,
 	UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1,
-	UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA,
 	UIEventController__ctor_mD475D53B0B4F4250CBB8CD2726B8256BE52239C6,
 	UIOperationsController_FillArrays_mD1D438A0F0647D62673BE647546188AAADB75C64,
 	UIOperationsController_ClearArrays_mCE40B975AAB741AD2369C7488050FE79E6D6593F,
@@ -261,7 +258,7 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D,
 	ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE,
 };
-static const int32_t s_InvokerIndices[82] = 
+static const int32_t s_InvokerIndices[81] = 
 {
 	11024,
 	7254,
@@ -303,7 +300,6 @@ static const int32_t s_InvokerIndices[82] =
 	7254,
 	7254,
 	7254,
-	5904,
 	5904,
 	7254,
 	7254,
@@ -350,7 +346,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	82,
+	81,
 	s_methodPointers,
 	0,
 	NULL,

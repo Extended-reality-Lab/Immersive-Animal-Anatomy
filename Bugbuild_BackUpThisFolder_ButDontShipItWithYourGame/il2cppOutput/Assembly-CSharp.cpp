@@ -326,7 +326,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral00E3703FE67588BD75B77BC57ACC6381185E4A5F
 IL2CPP_EXTERN_C String_t* _stringLiteral086D033DE95F99EDFEDBC058F5859C17288EBCD3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A1AA3139010E974FE4BBC1832F1F99A294FC9C8;
 IL2CPP_EXTERN_C String_t* _stringLiteral169E7E6721B507ABC116DACBA17B540EAD99EF9D;
-IL2CPP_EXTERN_C String_t* _stringLiteral1B9C3B2BD716A649E904BAFBD7180092D387B97A;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D570C58E6F825E6AE43D620076571DC9A862C70;
 IL2CPP_EXTERN_C String_t* _stringLiteral1FA533185427694722B9D53431449C1BA7C444A5;
 IL2CPP_EXTERN_C String_t* _stringLiteral21C54BF860BF41F6CB5FA90618AD96345DB385CD;
@@ -397,7 +396,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CCreateSlidersU3Eb__0_m8DA579142E0D89D4D12D1725235B92424F0FF710_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ZoomController_zoomToggled_mAECF6980EAE3BDB237BA7BB8633556E888D63E1A_RuntimeMethod_var;
@@ -2300,10 +2298,8 @@ struct UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512  : public Mon
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UIObject_6;
 	// UnityEngine.InputSystem.InputActionReference UIEventController::xButton
 	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___xButton_7;
-	// UnityEngine.InputSystem.InputActionReference UIEventController::aButton
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___aButton_8;
 	// System.Boolean UIEventController::uiShowing
-	bool ___uiShowing_9;
+	bool ___uiShowing_8;
 };
 
 // UIOperationsController
@@ -6061,7 +6057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_Start_mA89E4022414F470
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -6076,16 +6071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_Start_mA89E4022414F470
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_2, __this, (intptr_t)((void*)UIEventController_XButtonPressed_mF1369E415806C21046E735410977B595096A26E1_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_1, L_2, NULL);
-		// aButton.action.started += AButtonPressed;
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_3 = __this->___aButton_8;
-		NullCheck(L_3);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
-		L_4 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_3, NULL);
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_5 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_5, __this, (intptr_t)((void*)UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_4, L_5, NULL);
 		// }
 		return;
 	}
@@ -6095,7 +6080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_Update_m8A3F768BD2683F
 {
 	{
 		// if (uiShowing == true)
-		bool L_0 = __this->___uiShowing_9;
+		bool L_0 = __this->___uiShowing_8;
 		if (!L_0)
 		{
 			goto IL_0015;
@@ -6131,7 +6116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_XButtonPressed_mF1369E
 	}
 	{
 		// if (uiShowing == false)
-		bool L_0 = __this->___uiShowing_9;
+		bool L_0 = __this->___uiShowing_8;
 		if (L_0)
 		{
 			goto IL_0011;
@@ -6139,14 +6124,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_XButtonPressed_mF1369E
 	}
 	{
 		// uiShowing = true;
-		__this->___uiShowing_9 = (bool)1;
+		__this->___uiShowing_8 = (bool)1;
 		goto IL_0018;
 	}
 
 IL_0011:
 	{
 		// uiShowing = false;
-		__this->___uiShowing_9 = (bool)0;
+		__this->___uiShowing_8 = (bool)0;
 	}
 
 IL_0018:
@@ -6154,45 +6139,6 @@ IL_0018:
 		// Debug.Log("X Button Pressed");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8222E2EB5CDC57359975C65EB87E939061689EC9, NULL);
-		// }
-		return;
-	}
-}
-// System.Void UIEventController::AButtonPressed(UnityEngine.InputSystem.InputAction/CallbackContext)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIEventController_AButtonPressed_m312150F6F6599BBB219F004EDEB32E6B0D79F8AA (UIEventController_t2B9EF6299DE700EFC50464E957427D60C1EA2512* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B9C3B2BD716A649E904BAFBD7180092D387B97A);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (uiShowing == false)
-		bool L_0 = __this->___uiShowing_9;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		// uiShowing = true;
-		__this->___uiShowing_9 = (bool)1;
-		goto IL_0018;
-	}
-
-IL_0011:
-	{
-		// uiShowing = false;
-		__this->___uiShowing_9 = (bool)0;
-	}
-
-IL_0018:
-	{
-		// Debug.Log("A Button Pressed");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral1B9C3B2BD716A649E904BAFBD7180092D387B97A, NULL);
 		// }
 		return;
 	}

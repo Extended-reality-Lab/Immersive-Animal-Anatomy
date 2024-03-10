@@ -11,12 +11,10 @@ public class UIEventController : MonoBehaviour
     [SerializeField] public GameObject UIObject; // reference to UI object
 
     public InputActionReference xButton; // reference to left controller x button
-    public InputActionReference aButton; // reference to right controller a button
     public bool uiShowing = false; // bool to track if UI is showing or not
     void Start()
     {
         xButton.action.started += XButtonPressed;
-        aButton.action.started += AButtonPressed;
     }
 
     // Update is called once per frame
@@ -46,21 +44,6 @@ public class UIEventController : MonoBehaviour
         uiShowing = false;
     }
     Debug.Log("X Button Pressed");
-}
-
-void AButtonPressed(InputAction.CallbackContext ctx)
-{
-     if (uiShowing == false)
-    {
-        //show UI
-        uiShowing = true;
-    }
-    else
-    {
-        //hide UI
-        uiShowing = false;
-    }
-    Debug.Log("A Button Pressed");
 }
 
 }
