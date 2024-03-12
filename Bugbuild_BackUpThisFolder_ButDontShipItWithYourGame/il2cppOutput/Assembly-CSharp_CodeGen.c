@@ -174,25 +174,29 @@ extern void SelectionHandler_Start_m9B02E5F502957BF5E5720F44A62BE986FBB06075 (vo
 extern void SelectionHandler_Update_m9D6DCCB902B6120FD5ECC1E34481D36AA293CF63 (void);
 // 0x00000051 System.Void SelectionHandler::OnSelectionValueChanged(System.Boolean,System.Boolean)
 extern void SelectionHandler_OnSelectionValueChanged_m6208668F4A9F01EDD41760FFA70F0F55BBD470FA (void);
-// 0x00000052 System.Void SelectionHandler::playerToggledBool()
-extern void SelectionHandler_playerToggledBool_m6FA1E049ADE2DF9EE7577435DD752072B009B2A2 (void);
-// 0x00000053 System.Void SelectionHandler::toggleSelection()
+// 0x00000052 System.Void SelectionHandler::toggleSelection()
 extern void SelectionHandler_toggleSelection_mEE9C6E65AEB31A054354D57B9ED4EB08996FBAB7 (void);
+// 0x00000053 System.Void SelectionHandler::playerToggledBoolServerRpc()
+extern void SelectionHandler_playerToggledBoolServerRpc_m44642F8B06BE77794DA3C82DC80D0C6B5264FE60 (void);
 // 0x00000054 System.Void SelectionHandler::.ctor()
 extern void SelectionHandler__ctor_mC61E9693409196051AD6EBA578AB9018A5A426AA (void);
-// 0x00000055 System.String SelectionHandler::__getTypeName()
+// 0x00000055 System.Void SelectionHandler::.cctor()
+extern void SelectionHandler__cctor_m9CF12F1FF05979EF9BBFEBEE6463F6702EFDDED9 (void);
+// 0x00000056 System.Void SelectionHandler::__rpc_handler_3222138000(Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+extern void SelectionHandler___rpc_handler_3222138000_m0B63F8ECFA5B7F2408930213F62F8B13BD06584C (void);
+// 0x00000057 System.String SelectionHandler::__getTypeName()
 extern void SelectionHandler___getTypeName_mDA5B97D347F70A3BB49BC62C6EA8A1CFB1231375 (void);
-// 0x00000056 System.Void ZoomController::Start()
+// 0x00000058 System.Void ZoomController::Start()
 extern void ZoomController_Start_m82DE6E5197B38460DB549CD3D2E787D91E681CAE (void);
-// 0x00000057 System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000059 System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void ZoomController_zoomToggled_mAECF6980EAE3BDB237BA7BB8633556E888D63E1A (void);
-// 0x00000058 System.Void ZoomController::.ctor()
+// 0x0000005A System.Void ZoomController::.ctor()
 extern void ZoomController__ctor_m56353AE767BADE3B8570BA15A551EE103E13D6B7 (void);
-// 0x00000059 System.Void ZoomShaderScreenPos::Update()
+// 0x0000005B System.Void ZoomShaderScreenPos::Update()
 extern void ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D (void);
-// 0x0000005A System.Void ZoomShaderScreenPos::.ctor()
+// 0x0000005C System.Void ZoomShaderScreenPos::.ctor()
 extern void ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE (void);
-static Il2CppMethodPointer s_methodPointers[90] = 
+static Il2CppMethodPointer s_methodPointers[92] = 
 {
 	U3CModuleU3E__cctor_m75D71476E2FF3F5ABB7BE2ADBF723C07E20A2C63,
 	AnnotateLineController_Start_m9E1BCBA3BCF7E846FB889D345EC9524905D81887,
@@ -275,9 +279,11 @@ static Il2CppMethodPointer s_methodPointers[90] =
 	SelectionHandler_Start_m9B02E5F502957BF5E5720F44A62BE986FBB06075,
 	SelectionHandler_Update_m9D6DCCB902B6120FD5ECC1E34481D36AA293CF63,
 	SelectionHandler_OnSelectionValueChanged_m6208668F4A9F01EDD41760FFA70F0F55BBD470FA,
-	SelectionHandler_playerToggledBool_m6FA1E049ADE2DF9EE7577435DD752072B009B2A2,
 	SelectionHandler_toggleSelection_mEE9C6E65AEB31A054354D57B9ED4EB08996FBAB7,
+	SelectionHandler_playerToggledBoolServerRpc_m44642F8B06BE77794DA3C82DC80D0C6B5264FE60,
 	SelectionHandler__ctor_mC61E9693409196051AD6EBA578AB9018A5A426AA,
+	SelectionHandler__cctor_m9CF12F1FF05979EF9BBFEBEE6463F6702EFDDED9,
+	SelectionHandler___rpc_handler_3222138000_m0B63F8ECFA5B7F2408930213F62F8B13BD06584C,
 	SelectionHandler___getTypeName_mDA5B97D347F70A3BB49BC62C6EA8A1CFB1231375,
 	ZoomController_Start_m82DE6E5197B38460DB549CD3D2E787D91E681CAE,
 	ZoomController_zoomToggled_mAECF6980EAE3BDB237BA7BB8633556E888D63E1A,
@@ -285,7 +291,7 @@ static Il2CppMethodPointer s_methodPointers[90] =
 	ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D,
 	ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE,
 };
-static const int32_t s_InvokerIndices[90] = 
+static const int32_t s_InvokerIndices[92] = 
 {
 	11024,
 	7254,
@@ -371,6 +377,8 @@ static const int32_t s_InvokerIndices[90] =
 	7254,
 	7254,
 	7254,
+	11024,
+	9276,
 	7135,
 	7254,
 	5904,
@@ -382,7 +390,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	90,
+	92,
 	s_methodPointers,
 	0,
 	NULL,

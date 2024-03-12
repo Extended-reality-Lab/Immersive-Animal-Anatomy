@@ -5,11 +5,10 @@ using Unity.Collections;
 using System.Collections.Generic;
 using TMPro;
 
-
 public class SelectionHandler : NetworkBehaviour
 {
 
-    public NetworkVariable<bool> isSelected = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+    public NetworkVariable<bool> isSelected = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);
 
     public GameObject Label;
     public Camera playerCamera;
@@ -18,7 +17,6 @@ public class SelectionHandler : NetworkBehaviour
 
     public override void OnNetworkSpawn(){
         isSelected.OnValueChanged += OnSelectionValueChanged;
-        Debug.Log("omgbruh");
     }
 
     // Start is called before the first frame update
@@ -35,36 +33,23 @@ public class SelectionHandler : NetworkBehaviour
     void Update()
     {
         //update the rotation of the label to correctly face the player
-        Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
+        Label.transform.GetChild(0).rotation=Quaternion.LookRotation(Label.transform.GetChild(0).position - playerCamera.transform.position);
 
     }
 
     //runs whenever the network detects a variable change
     private void OnSelectionValueChanged(bool previous, bool current){
-        
-        Debug.Log("In the variable changed function");
 
         //call the changer functionsss
         toggleSelection();
 
     }
-    
-    //this is the function that will actually be called by the exterior functionality that detects selection in a physical space, only here is the bool written
-    public void playerToggledBool(){
-        isSelected.Value = !isSelected.Value;
-        
-        //react to the variable change 
-        //if(IsOwner){
-        //    toggleSelection();
-        //}
-    }
-     
+
     public void toggleSelection(){
 
         if(isSelected.Value == true){
             //change the color
             this.GetComponent<Renderer>().material.color = customColor;
-            Debug.Log("Color Changed To Selection color");
 
             //turn on the label
             Label.SetActive(true);
@@ -72,12 +57,17 @@ public class SelectionHandler : NetworkBehaviour
         else{
             //change the color
             this.GetComponent<Renderer>().material.color = Color.white;
-            Debug.Log("Color Changed To White");
 
             //turn off the label
             Label.SetActive(false);
         }
     }
+    
+    //this is the function that will actually be called by the exterior functionality that detects selection in a physical space, only here is the bool written
+    [ServerRpc(RequireOwnership = false)]
+    public void playerToggledBoolServerRpc()
+    {
+        isSelected.Value = !isSelected.Value;
 
-
+    }
 }
