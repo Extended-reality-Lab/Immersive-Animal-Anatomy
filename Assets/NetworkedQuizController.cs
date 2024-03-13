@@ -13,7 +13,7 @@ public class NetworkedQuizController : NetworkBehaviour
     TextMeshPro textComponent;
     [SerializeField]
     GameObject Animal;
-
+    [SerializeField]
     GameObject partChoice;
 
     bool partWasSelected = false;
@@ -43,6 +43,8 @@ public class NetworkedQuizController : NetworkBehaviour
 
         //update the network variable
         partName.Value = partChoice.name;
+
+        //check to see if it's currently selected so you can set the "was selected variable"
     }
 
     void Update()
@@ -68,6 +70,8 @@ public class NetworkedQuizController : NetworkBehaviour
                 partChoice = null;
                 ChangePartServerRpc();
             }
+
+            partWasSelected = partIsSelected;
         }
     }
 

@@ -188,8 +188,6 @@ struct NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4;
 struct NetworkVariable_1_tEF943EE6EB9F8725C83456269A1C905441EF7299;
 // Unity.Netcode.NetworkVariable`1<Unity.Collections.FixedString128Bytes>
 struct NetworkVariable_1_t4F12E4D0943860F9D786373734F871AA1450B8DB;
-// Unity.Netcode.NetworkVariable`1<System.Int32>
-struct NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504;
 // Unity.Netcode.NetworkVariable`1<System.Object>
 struct NetworkVariable_1_tB20F07D246F0F21CEF463B095DE4E4B5F66C62AE;
 // Unity.Netcode.NetworkVariable`1<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
@@ -212,8 +210,6 @@ struct OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2;
 struct OnValueChangedDelegate_tE40423CBA32356838A755CC21FDA8402F39D0E7B;
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Collections.FixedString128Bytes>
 struct OnValueChangedDelegate_t439FD8A620C2CA8A06B84F95137D4FCC52CEB5E0;
-// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Int32>
-struct OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105;
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>
 struct OnValueChangedDelegate_t79930635EBA544035681CBB41BDBEF712F3E8778;
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
@@ -492,7 +488,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1_set_Value_mA26E5A7DA1EA1E
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1_set_Value_mACC4E0674C04D5CE44ADF6E60EB442DAB32889CC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1_set_Value_mC5FA9E9FF2925FB9B0D1C9D84C06C24279DEECA7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1_set_Value_mD02C85F36C8FF185B07D640AE2E73337889DD979_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NetworkVariable_1_set_Value_mFCD7A8005E95E705BD5D85D523022DD64C0B57F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NonAllocDictionary_2_Add_m8CDBE06CC42CC7DC01F61EA47A44603384275751_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NonAllocDictionary_2_Add_m984716492C5DFE2252F55E63232C22378973948F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NonAllocDictionary_2_Assert_m4E7B36368F8C19A25EF7CAD074AA78DED5FF0590_RuntimeMethod_var;
@@ -1147,15 +1142,6 @@ struct NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4  : public Net
 	OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2* ___OnValueChanged_8;
 	// T Unity.Netcode.NetworkVariable`1::m_InternalValue
 	bool ___m_InternalValue_9;
-};
-
-// Unity.Netcode.NetworkVariable`1<System.Int32>
-struct NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504  : public NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D
-{
-	// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<T> Unity.Netcode.NetworkVariable`1::OnValueChanged
-	OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* ___OnValueChanged_8;
-	// T Unity.Netcode.NetworkVariable`1::m_InternalValue
-	int32_t ___m_InternalValue_9;
 };
 
 // Unity.Netcode.NetworkVariable`1<System.Object>
@@ -3568,11 +3554,6 @@ struct EqualsDelegate_t1D3743AB2C8B65A61A7B3FFB8A0C057253BF5A00  : public Multic
 {
 };
 
-// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Int32>
-struct EqualsDelegate_tC4308CB5860EDB975AEE700D59235C63C0C95964  : public MulticastDelegate_t
-{
-};
-
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
 struct EqualsDelegate_tBBD45AB658DFA1CACAF17E7C9E5E2E687ED0C1B2  : public MulticastDelegate_t
 {
@@ -3616,11 +3597,6 @@ struct OnValueChangedDelegate_tE40423CBA32356838A755CC21FDA8402F39D0E7B  : publi
 
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Collections.FixedString128Bytes>
 struct OnValueChangedDelegate_t439FD8A620C2CA8A06B84F95137D4FCC52CEB5E0  : public MulticastDelegate_t
-{
-};
-
-// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Int32>
-struct OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105  : public MulticastDelegate_t
 {
 };
 
@@ -4190,10 +4166,6 @@ struct String_t_StaticFields
 
 // Unity.Netcode.NetworkVariable`1<System.Boolean>
 
-// Unity.Netcode.NetworkVariable`1<System.Int32>
-
-// Unity.Netcode.NetworkVariable`1<System.Int32>
-
 // Unity.Netcode.NetworkVariable`1<System.Object>
 
 // Unity.Netcode.NetworkVariable`1<System.Object>
@@ -4749,10 +4721,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<Unity.Collections.FixedString128Bytes>
 
-// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Int32>
-
-// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Int32>
-
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
 
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
@@ -4784,10 +4752,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Collections.FixedString128Bytes>
 
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Collections.FixedString128Bytes>
-
-// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Int32>
-
-// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Int32>
 
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>
 
@@ -33792,242 +33756,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_WriteField_m8018A510E4
 		FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* L_1 = (FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952*)(&__this->___m_InternalValue_9);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		((  void (*) (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		// }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::.ctor(T,Unity.Netcode.NetworkVariableReadPermission,Unity.Netcode.NetworkVariableWritePermission)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, int32_t ___0_value, int32_t ___1_readPerm, int32_t ___2_writePerm, const RuntimeMethod* method) 
-{
-	{
-		// : base(readPerm, writePerm)
-		int32_t L_0 = ___1_readPerm;
-		int32_t L_1 = ___2_writePerm;
-		NetworkVariableBase__ctor_mCC797FC2AFA15C1723190B53B4652BCB0E797140((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this, L_0, L_1, NULL);
-		// m_InternalValue = value;
-		int32_t L_2 = ___0_value;
-		__this->___m_InternalValue_9 = L_2;
-		// }
-		return;
-	}
-}
-// T Unity.Netcode.NetworkVariable`1<System.Int32>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetworkVariable_1_get_Value_mBE3E741CCAA26331304BF40732A23F430F4DA767_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, const RuntimeMethod* method) 
-{
-	{
-		// get => m_InternalValue;
-		int32_t L_0 = (int32_t)__this->___m_InternalValue_9;
-		return L_0;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::set_Value(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_set_Value_mFCD7A8005E95E705BD5D85D523022DD64C0B57F8_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (NetworkVariableSerialization<T>.AreEqual(ref m_InternalValue, ref value))
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		EqualsDelegate_tC4308CB5860EDB975AEE700D59235C63C0C95964* L_0 = ((NetworkVariableSerialization_1_t9622A23C2CA72E2A9E99715A8324D42B95825266_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 0)))->___AreEqual_1;
-		int32_t* L_1 = (int32_t*)(&__this->___m_InternalValue_9);
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = ((  bool (*) (EqualsDelegate_tC4308CB5860EDB975AEE700D59235C63C0C95964*, int32_t*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(L_0, L_1, (&___0_value), il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		if (!L_2)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0015:
-	{
-		// if (m_NetworkBehaviour && !CanClientWrite(m_NetworkBehaviour.NetworkManager.LocalClientId))
-		NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* L_3 = (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this)->___m_NetworkBehaviour_1;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_3, NULL);
-		if (!L_4)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* L_5 = (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this)->___m_NetworkBehaviour_1;
-		NullCheck(L_5);
-		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_6;
-		L_6 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(L_5, NULL);
-		NullCheck(L_6);
-		uint64_t L_7;
-		L_7 = NetworkManager_get_LocalClientId_m1B93454E7949ACBF20043DCDD884F63E119E6577(L_6, NULL);
-		NullCheck((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this);
-		bool L_8;
-		L_8 = NetworkVariableBase_CanClientWrite_m3699C811A313FA2BB7EB9BC8354D0A8533921B59((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this, L_7, NULL);
-		if (L_8)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		// throw new InvalidOperationException("Client is not allowed to write to this NetworkVariable");
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_9 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_9);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE94203CFB786451B8AAA1AA14681915223271898)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetworkVariable_1_set_Value_mFCD7A8005E95E705BD5D85D523022DD64C0B57F8_RuntimeMethod_var)));
-	}
-
-IL_0045:
-	{
-		// Set(value);
-		int32_t L_10 = ___0_value;
-		((  void (*) (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		// }
-		return;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::Set(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_Set_m1C698488B09AF75E9B3C6C2321454CA4E09791DE_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* G_B2_0 = NULL;
-	OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* G_B1_0 = NULL;
-	{
-		// SetDirty(true);
-		NullCheck((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this);
-		VirtualActionInvoker1< bool >::Invoke(5 /* System.Void Unity.Netcode.NetworkVariableBase::SetDirty(System.Boolean) */, (NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this, (bool)1);
-		// T previousValue = m_InternalValue;
-		int32_t L_0 = (int32_t)__this->___m_InternalValue_9;
-		V_0 = L_0;
-		// m_InternalValue = value;
-		int32_t L_1 = ___0_value;
-		__this->___m_InternalValue_9 = L_1;
-		// OnValueChanged?.Invoke(previousValue, m_InternalValue);
-		OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* L_2 = (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)__this->___OnValueChanged_8;
-		OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* L_3 = L_2;
-		G_B1_0 = L_3;
-		if (L_3)
-		{
-			G_B2_0 = L_3;
-			goto IL_0020;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0020:
-	{
-		int32_t L_4 = V_0;
-		int32_t L_5 = (int32_t)__this->___m_InternalValue_9;
-		NullCheck(G_B2_0);
-		((  void (*) (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(G_B2_0, L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		// }
-		return;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::WriteDelta(Unity.Netcode.FastBufferWriter)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_WriteDelta_m5260D4FD5D04CD36FEB0ABEC32366E19D3666944_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, const RuntimeMethod* method) 
-{
-	{
-		// WriteField(writer);
-		FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC L_0 = ___0_writer;
-		NullCheck((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this);
-		VirtualActionInvoker1< FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC >::Invoke(9 /* System.Void Unity.Netcode.NetworkVariableBase::WriteField(Unity.Netcode.FastBufferWriter) */, (NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this, L_0);
-		// }
-		return;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::ReadDelta(Unity.Netcode.FastBufferReader,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_ReadDelta_m15BDD5371D64270191A3EBF3172D4254F0C2ADE0_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, bool ___1_keepDirtyDelta, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* G_B4_0 = NULL;
-	OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* G_B3_0 = NULL;
-	{
-		// T previousValue = m_InternalValue;
-		int32_t L_0 = (int32_t)__this->___m_InternalValue_9;
-		V_0 = L_0;
-		// NetworkVariableSerialization<T>.Read(reader, ref m_InternalValue);
-		FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 L_1 = ___0_reader;
-		int32_t* L_2 = (int32_t*)(&__this->___m_InternalValue_9);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		((  void (*) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		// if (keepDirtyDelta)
-		bool L_3 = ___1_keepDirtyDelta;
-		if (!L_3)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		// SetDirty(true);
-		NullCheck((NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this);
-		VirtualActionInvoker1< bool >::Invoke(5 /* System.Void Unity.Netcode.NetworkVariableBase::SetDirty(System.Boolean) */, (NetworkVariableBase_t4A303BB3DF935B69594AD8D12B141AA1A1B8D63D*)__this, (bool)1);
-	}
-
-IL_001d:
-	{
-		// OnValueChanged?.Invoke(previousValue, m_InternalValue);
-		OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* L_4 = (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)__this->___OnValueChanged_8;
-		OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105* L_5 = L_4;
-		G_B3_0 = L_5;
-		if (L_5)
-		{
-			G_B4_0 = L_5;
-			goto IL_0028;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0028:
-	{
-		int32_t L_6 = V_0;
-		int32_t L_7 = (int32_t)__this->___m_InternalValue_9;
-		NullCheck(G_B4_0);
-		((  void (*) (OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(G_B4_0, L_6, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		// }
-		return;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::ReadField(Unity.Netcode.FastBufferReader)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_ReadField_m98B5AFA201C578849079951BF7C3AABECF8BA490_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, const RuntimeMethod* method) 
-{
-	{
-		// NetworkVariableSerialization<T>.Read(reader, ref m_InternalValue);
-		FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 L_0 = ___0_reader;
-		int32_t* L_1 = (int32_t*)(&__this->___m_InternalValue_9);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		((  void (*) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		// }
-		return;
-	}
-}
-// System.Void Unity.Netcode.NetworkVariable`1<System.Int32>::WriteField(Unity.Netcode.FastBufferWriter)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariable_1_WriteField_mF66A32EE9A1D7818B071A1425F0CB60B17F52DA0_gshared (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, const RuntimeMethod* method) 
-{
-	{
-		// NetworkVariableSerialization<T>.Write(writer, ref m_InternalValue);
-		FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC L_0 = ___0_writer;
-		int32_t* L_1 = (int32_t*)(&__this->___m_InternalValue_9);
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
-		((  void (*) (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		// }
 		return;
 	}

@@ -138,65 +138,75 @@ extern void MovementController_triggerPulled_m3A467E4DDD723C4D88133ED4D0F1DDA63D
 extern void MovementController_triggerReleased_m3CDA62DFBA4B67328E7528DD73B1EFFB21107355 (void);
 // 0x0000003F System.Void MovementController::.ctor()
 extern void MovementController__ctor_mBA50A088FED8B4A0F7727D69277B39BB0D385C26 (void);
-// 0x00000040 System.Void NetworkedQuizController::NameChanged()
-extern void NetworkedQuizController_NameChanged_m960E5501B71C975266C5DA647082E671CDE55DA6 (void);
-// 0x00000041 System.Void NetworkedQuizController::Update()
+// 0x00000040 System.Void NetworkedQuizController::OnNetworkSpawn()
+extern void NetworkedQuizController_OnNetworkSpawn_m045836C39D12241D1EDF4D09A4955BED577BF260 (void);
+// 0x00000041 System.Void NetworkedQuizController::ChangePartServerRpc()
+extern void NetworkedQuizController_ChangePartServerRpc_m75E30AE7A39C3F005819E508FFEBF6FE2C4B17F1 (void);
+// 0x00000042 System.Void NetworkedQuizController::Update()
 extern void NetworkedQuizController_Update_m472E87D08C2E4A71D917D6DEE62D1ACA8AE2485E (void);
-// 0x00000042 System.Void NetworkedQuizController::.ctor()
+// 0x00000043 System.Void NetworkedQuizController::OnTextValueChanged(Unity.Collections.FixedString128Bytes,Unity.Collections.FixedString128Bytes)
+extern void NetworkedQuizController_OnTextValueChanged_mAE08CCFF11933FD9929A5871B87D7487E0F4045B (void);
+// 0x00000044 System.Void NetworkedQuizController::changeQuizText()
+extern void NetworkedQuizController_changeQuizText_m4812FCEA60E8F97BE71454B11DBA0B56F016AB5C (void);
+// 0x00000045 System.Void NetworkedQuizController::.ctor()
 extern void NetworkedQuizController__ctor_m4D80DC12DB2123D92BD66B01E650BD4DC2EB598A (void);
-// 0x00000043 System.String NetworkedQuizController::__getTypeName()
+// 0x00000046 System.Void NetworkedQuizController::.cctor()
+extern void NetworkedQuizController__cctor_mFE3A6E375FAFE2F9319C6D388F07C01B06AFDA49 (void);
+// 0x00000047 System.Void NetworkedQuizController::__rpc_handler_3485138719(Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+extern void NetworkedQuizController___rpc_handler_3485138719_m1E9CF143DF066038882BC2594E58309DDE7E53A9 (void);
+// 0x00000048 System.String NetworkedQuizController::__getTypeName()
 extern void NetworkedQuizController___getTypeName_mBFA7E63BB522FA5A7C91F918727A1A5DE23F91DD (void);
-// 0x00000044 System.Void QuizController::Start()
+// 0x00000049 System.Void QuizController::Start()
 extern void QuizController_Start_mE0FA46685BDD68392F2BCCCD6F299F5F8FA23CF8 (void);
-// 0x00000045 System.Void QuizController::Update()
+// 0x0000004A System.Void QuizController::Update()
 extern void QuizController_Update_mD9AF615BDC5065AE82DB24186198F01B2FC5C77C (void);
-// 0x00000046 System.Collections.IEnumerator QuizController::changeQuestion()
+// 0x0000004B System.Collections.IEnumerator QuizController::changeQuestion()
 extern void QuizController_changeQuestion_m9BF40D7A7323D091B34BD2FAA17CE1C2981B6542 (void);
-// 0x00000047 System.Void QuizController::.ctor()
+// 0x0000004C System.Void QuizController::.ctor()
 extern void QuizController__ctor_m36D0AA59D0C7AAC2561488D17DC5CA48E9E3A3DD (void);
-// 0x00000048 System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
+// 0x0000004D System.Void QuizController/<changeQuestion>d__8::.ctor(System.Int32)
 extern void U3CchangeQuestionU3Ed__8__ctor_mFD416863BBDBF0CDB2336D2A920DDADCB9F74D97 (void);
-// 0x00000049 System.Void QuizController/<changeQuestion>d__8::System.IDisposable.Dispose()
+// 0x0000004E System.Void QuizController/<changeQuestion>d__8::System.IDisposable.Dispose()
 extern void U3CchangeQuestionU3Ed__8_System_IDisposable_Dispose_m7C316B1463D27DC646DB71EEBBF546B783058603 (void);
-// 0x0000004A System.Boolean QuizController/<changeQuestion>d__8::MoveNext()
+// 0x0000004F System.Boolean QuizController/<changeQuestion>d__8::MoveNext()
 extern void U3CchangeQuestionU3Ed__8_MoveNext_m6C47C0B7A0C14191CCCD5EF9260617F8A3A36CB7 (void);
-// 0x0000004B System.Object QuizController/<changeQuestion>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000050 System.Object QuizController/<changeQuestion>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD88233EE2B65508ABB08C65C418B75788FE4B5DC (void);
-// 0x0000004C System.Void QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.Reset()
+// 0x00000051 System.Void QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_Reset_mE8FC3B2B40635570E2955D632D91C83A3D0B26DB (void);
-// 0x0000004D System.Object QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.get_Current()
+// 0x00000052 System.Object QuizController/<changeQuestion>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CchangeQuestionU3Ed__8_System_Collections_IEnumerator_get_Current_mB4BFD5ECD29CBC719AC6D9D972D9490AEA825E58 (void);
-// 0x0000004E System.Void SelectionHandler::OnNetworkSpawn()
+// 0x00000053 System.Void SelectionHandler::OnNetworkSpawn()
 extern void SelectionHandler_OnNetworkSpawn_m2AA259E5DA964184D91A84E920BBC2E976CFD498 (void);
-// 0x0000004F System.Void SelectionHandler::Start()
+// 0x00000054 System.Void SelectionHandler::Start()
 extern void SelectionHandler_Start_m9B02E5F502957BF5E5720F44A62BE986FBB06075 (void);
-// 0x00000050 System.Void SelectionHandler::Update()
+// 0x00000055 System.Void SelectionHandler::Update()
 extern void SelectionHandler_Update_m9D6DCCB902B6120FD5ECC1E34481D36AA293CF63 (void);
-// 0x00000051 System.Void SelectionHandler::OnSelectionValueChanged(System.Boolean,System.Boolean)
+// 0x00000056 System.Void SelectionHandler::OnSelectionValueChanged(System.Boolean,System.Boolean)
 extern void SelectionHandler_OnSelectionValueChanged_m6208668F4A9F01EDD41760FFA70F0F55BBD470FA (void);
-// 0x00000052 System.Void SelectionHandler::toggleSelection()
+// 0x00000057 System.Void SelectionHandler::toggleSelection()
 extern void SelectionHandler_toggleSelection_mEE9C6E65AEB31A054354D57B9ED4EB08996FBAB7 (void);
-// 0x00000053 System.Void SelectionHandler::playerToggledBoolServerRpc()
+// 0x00000058 System.Void SelectionHandler::playerToggledBoolServerRpc()
 extern void SelectionHandler_playerToggledBoolServerRpc_m44642F8B06BE77794DA3C82DC80D0C6B5264FE60 (void);
-// 0x00000054 System.Void SelectionHandler::.ctor()
+// 0x00000059 System.Void SelectionHandler::.ctor()
 extern void SelectionHandler__ctor_mC61E9693409196051AD6EBA578AB9018A5A426AA (void);
-// 0x00000055 System.Void SelectionHandler::.cctor()
+// 0x0000005A System.Void SelectionHandler::.cctor()
 extern void SelectionHandler__cctor_m9CF12F1FF05979EF9BBFEBEE6463F6702EFDDED9 (void);
-// 0x00000056 System.Void SelectionHandler::__rpc_handler_3222138000(Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+// 0x0000005B System.Void SelectionHandler::__rpc_handler_3222138000(Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
 extern void SelectionHandler___rpc_handler_3222138000_m0B63F8ECFA5B7F2408930213F62F8B13BD06584C (void);
-// 0x00000057 System.String SelectionHandler::__getTypeName()
+// 0x0000005C System.String SelectionHandler::__getTypeName()
 extern void SelectionHandler___getTypeName_mDA5B97D347F70A3BB49BC62C6EA8A1CFB1231375 (void);
-// 0x00000058 System.Void ZoomController::Start()
+// 0x0000005D System.Void ZoomController::Start()
 extern void ZoomController_Start_m82DE6E5197B38460DB549CD3D2E787D91E681CAE (void);
-// 0x00000059 System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000005E System.Void ZoomController::zoomToggled(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void ZoomController_zoomToggled_mAECF6980EAE3BDB237BA7BB8633556E888D63E1A (void);
-// 0x0000005A System.Void ZoomController::.ctor()
+// 0x0000005F System.Void ZoomController::.ctor()
 extern void ZoomController__ctor_m56353AE767BADE3B8570BA15A551EE103E13D6B7 (void);
-// 0x0000005B System.Void ZoomShaderScreenPos::Update()
+// 0x00000060 System.Void ZoomShaderScreenPos::Update()
 extern void ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D (void);
-// 0x0000005C System.Void ZoomShaderScreenPos::.ctor()
+// 0x00000061 System.Void ZoomShaderScreenPos::.ctor()
 extern void ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE (void);
-static Il2CppMethodPointer s_methodPointers[92] = 
+static Il2CppMethodPointer s_methodPointers[97] = 
 {
 	U3CModuleU3E__cctor_m75D71476E2FF3F5ABB7BE2ADBF723C07E20A2C63,
 	AnnotateLineController_Start_m9E1BCBA3BCF7E846FB889D345EC9524905D81887,
@@ -261,9 +271,14 @@ static Il2CppMethodPointer s_methodPointers[92] =
 	MovementController_triggerPulled_m3A467E4DDD723C4D88133ED4D0F1DDA63D381FB7,
 	MovementController_triggerReleased_m3CDA62DFBA4B67328E7528DD73B1EFFB21107355,
 	MovementController__ctor_mBA50A088FED8B4A0F7727D69277B39BB0D385C26,
-	NetworkedQuizController_NameChanged_m960E5501B71C975266C5DA647082E671CDE55DA6,
+	NetworkedQuizController_OnNetworkSpawn_m045836C39D12241D1EDF4D09A4955BED577BF260,
+	NetworkedQuizController_ChangePartServerRpc_m75E30AE7A39C3F005819E508FFEBF6FE2C4B17F1,
 	NetworkedQuizController_Update_m472E87D08C2E4A71D917D6DEE62D1ACA8AE2485E,
+	NetworkedQuizController_OnTextValueChanged_mAE08CCFF11933FD9929A5871B87D7487E0F4045B,
+	NetworkedQuizController_changeQuizText_m4812FCEA60E8F97BE71454B11DBA0B56F016AB5C,
 	NetworkedQuizController__ctor_m4D80DC12DB2123D92BD66B01E650BD4DC2EB598A,
+	NetworkedQuizController__cctor_mFE3A6E375FAFE2F9319C6D388F07C01B06AFDA49,
+	NetworkedQuizController___rpc_handler_3485138719_m1E9CF143DF066038882BC2594E58309DDE7E53A9,
 	NetworkedQuizController___getTypeName_mBFA7E63BB522FA5A7C91F918727A1A5DE23F91DD,
 	QuizController_Start_mE0FA46685BDD68392F2BCCCD6F299F5F8FA23CF8,
 	QuizController_Update_mD9AF615BDC5065AE82DB24186198F01B2FC5C77C,
@@ -291,7 +306,7 @@ static Il2CppMethodPointer s_methodPointers[92] =
 	ZoomShaderScreenPos_Update_mD64610E788DD74807EE6FCF50DA6AC0B757DFB3D,
 	ZoomShaderScreenPos__ctor_m8CC44BCD915AA20A9945E5A81211FC247DDBCEAE,
 };
-static const int32_t s_InvokerIndices[92] = 
+static const int32_t s_InvokerIndices[97] = 
 {
 	11024,
 	7254,
@@ -359,6 +374,11 @@ static const int32_t s_InvokerIndices[92] =
 	7254,
 	7254,
 	7254,
+	2681,
+	7254,
+	7254,
+	11024,
+	9276,
 	7135,
 	7254,
 	7254,
@@ -390,7 +410,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	92,
+	97,
 	s_methodPointers,
 	0,
 	NULL,
