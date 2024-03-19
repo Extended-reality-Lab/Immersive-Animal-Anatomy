@@ -24,7 +24,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "ShowUIR",
+                    "name": "BButton",
                     "type": "Button",
                     "id": "f917eb2c-8c34-4998-a412-d932bb9e09de",
                     "expectedControlType": "Button",
@@ -539,7 +539,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR Controller",
-                    "action": "ShowUIR",
+                    "action": "BButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

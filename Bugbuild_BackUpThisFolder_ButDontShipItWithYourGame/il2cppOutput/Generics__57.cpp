@@ -374,6 +374,8 @@ struct ReadValueDelegate_t708BCD59683B1C186066A3EF3137F0FB5A297126;
 struct ReadValueDelegate_t2E9C4F38329BEBB7028E11D0B339CE61356BFFA4;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Object>
 struct ReadValueDelegate_tCFFD48763CABDAAD106BC71B1380FEA9FD5E607D;
+// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>
+struct ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt16>
 struct ReadValueDelegate_t694477CC56B3C61B9086B5C6CBC7B14430333809;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt32>
@@ -438,6 +440,8 @@ struct UserNetworkVariableSerialization_1_t9D8EA75C352301CF832A8E344A8F25DA57055
 struct UserNetworkVariableSerialization_1_tD7950A2AA7022CA923AAFDDECD702E56AB01A3E3;
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.Object>
 struct UserNetworkVariableSerialization_1_t64B4EB91067B895D7FD797DDFBF4510F60299393;
+// Unity.Netcode.UserNetworkVariableSerialization`1<System.Single>
+struct UserNetworkVariableSerialization_1_t66E0786C03255AF914B0AF05CCEC2DF92B028BD5;
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.UInt16>
 struct UserNetworkVariableSerialization_1_t51A4B492676DE8C8924BA47FF357A9664E61560D;
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.UInt32>
@@ -558,6 +562,8 @@ struct WriteValueDelegate_t45D324B20EFBA6F5D66410BDE5FAD8FDFAC3EF21;
 struct WriteValueDelegate_tF07A6D84C76842F9DF7E45B506143D8F6060D15F;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Object>
 struct WriteValueDelegate_t5229761A9455193D5D8B28A714E3489CFD860723;
+// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>
+struct WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt16>
 struct WriteValueDelegate_t87086BD0A9A6D2BE7452749D920C58B9607894C7;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt32>
@@ -2012,6 +2018,11 @@ struct UserNetworkVariableSerialization_1_tD7950A2AA7022CA923AAFDDECD702E56AB01A
 
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.Object>
 struct UserNetworkVariableSerialization_1_t64B4EB91067B895D7FD797DDFBF4510F60299393  : public RuntimeObject
+{
+};
+
+// Unity.Netcode.UserNetworkVariableSerialization`1<System.Single>
+struct UserNetworkVariableSerialization_1_t66E0786C03255AF914B0AF05CCEC2DF92B028BD5  : public RuntimeObject
 {
 };
 
@@ -5809,6 +5820,17 @@ struct UserNetworkVariableSerialization_1_t64B4EB91067B895D7FD797DDFBF4510F60299
 };
 
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.Object>
+
+// Unity.Netcode.UserNetworkVariableSerialization`1<System.Single>
+struct UserNetworkVariableSerialization_1_t66E0786C03255AF914B0AF05CCEC2DF92B028BD5_StaticFields
+{
+	// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<T> Unity.Netcode.UserNetworkVariableSerialization`1::WriteValue
+	WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* ___WriteValue_0;
+	// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<T> Unity.Netcode.UserNetworkVariableSerialization`1::ReadValue
+	ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* ___ReadValue_1;
+};
+
+// Unity.Netcode.UserNetworkVariableSerialization`1<System.Single>
 
 // Unity.Netcode.UserNetworkVariableSerialization`1<System.UInt16>
 struct UserNetworkVariableSerialization_1_t51A4B492676DE8C8924BA47FF357A9664E61560D_StaticFields
@@ -16394,6 +16416,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserNetworkVariableSerialization_1__ctor
 #endif
 // System.Void Unity.Netcode.UserNetworkVariableSerialization`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserNetworkVariableSerialization_1__ctor_m9F53D2D9808E0BAEB867DB2FCDC4634180CCCC16_gshared (UserNetworkVariableSerialization_1_t64B4EB91067B895D7FD797DDFBF4510F60299393* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1<System.Single>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserNetworkVariableSerialization_1__ctor_mA3D53DDF02CE4DF6811055951F1C0E835E5123A0_gshared (UserNetworkVariableSerialization_1_t66E0786C03255AF914B0AF05CCEC2DF92B028BD5* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);

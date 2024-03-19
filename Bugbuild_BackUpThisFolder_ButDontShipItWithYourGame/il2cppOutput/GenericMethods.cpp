@@ -129,6 +129,8 @@ struct EqualsDelegate_tC4308CB5860EDB975AEE700D59235C63C0C95964;
 struct EqualsDelegate_tB4FF877290C7FE537D2B61938E3E0EE8F63C758E;
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
 struct EqualsDelegate_tBBD45AB658DFA1CACAF17E7C9E5E2E687ED0C1B2;
+// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Single>
+struct EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A;
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.UInt16>
 struct EqualsDelegate_tEA4BF917AD021196C9284D4AD245E252CB6533A3;
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.UInt32>
@@ -295,6 +297,8 @@ struct INetworkVariableSerializer_1_t6611C2B6046F8B066A848E954C34A3F61EDAB30D;
 struct INetworkVariableSerializer_1_tF619056EBB546F0313E7EF2EC3116FB9E732F29D;
 // Unity.Netcode.INetworkVariableSerializer`1<System.Object>
 struct INetworkVariableSerializer_1_t6B5A7CC42197C1507FD99201535089AD6070DCAF;
+// Unity.Netcode.INetworkVariableSerializer`1<System.Single>
+struct INetworkVariableSerializer_1_tB5435CD76D9DF8DA52DA3C52CE06293174D48D2C;
 // Unity.Netcode.INetworkVariableSerializer`1<System.UInt16>
 struct INetworkVariableSerializer_1_t3FF1748F00EA2F1C9F1517A43E74D86223C955C0;
 // Unity.Netcode.INetworkVariableSerializer`1<System.UInt32>
@@ -1179,6 +1183,11 @@ struct NetworkVariableSerialization_1_tBEBBCF7001CFD8B94FDFDC4C25FED87BFAB62736 
 
 // Unity.Netcode.NetworkVariableSerialization`1<System.Object>
 struct NetworkVariableSerialization_1_tD50A51AFC80BC549D7CDBD9F704AB0081379C031  : public RuntimeObject
+{
+};
+
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+struct NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271  : public RuntimeObject
 {
 };
 
@@ -8174,6 +8183,17 @@ struct NetworkVariableSerialization_1_tD50A51AFC80BC549D7CDBD9F704AB0081379C031_
 
 // Unity.Netcode.NetworkVariableSerialization`1<System.Object>
 
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+struct NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields
+{
+	// Unity.Netcode.INetworkVariableSerializer`1<T> Unity.Netcode.NetworkVariableSerialization`1::Serializer
+	RuntimeObject* ___Serializer_0;
+	// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<T> Unity.Netcode.NetworkVariableSerialization`1::AreEqual
+	EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A* ___AreEqual_1;
+};
+
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+
 // Unity.Netcode.NetworkVariableSerialization`1<System.UInt16>
 struct NetworkVariableSerialization_1_t7A8DBBE18568C97196795AFF60615A2B49FD461D_StaticFields
 {
@@ -11173,6 +11193,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB (FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* __this, FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952 ___0_other, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCmp(System.Void*,System.Void*,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_MemCmp_mA0E0E1A93F715105E7B576F1603DCAB37717A5EF (void* ___0_ptr1, void* ___1_ptr2, int64_t ___2_size, const RuntimeMethod* method) ;
+// System.Boolean System.Single::Equals(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___0_obj, const RuntimeMethod* method) ;
 // System.Void* Unity.Burst.SharedStatic::GetOrCreateSharedStaticInternal(System.Int64,System.Int64,System.UInt32,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* SharedStatic_GetOrCreateSharedStaticInternal_m9850783202F2E2DCA43597CD97C129C683D6FEBD (int64_t ___0_getHashCode64, int64_t ___1_getSubHashCode64, uint32_t ___2_sizeOf, uint32_t ___3_alignment, const RuntimeMethod* method) ;
 // System.Void Unity.Burst.SharedStatic`1<Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>>::.ctor(System.Void*)
@@ -11506,8 +11528,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidReflection_IsAssignableFrom_mBAE0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void System.Exception::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
-// System.Boolean System.Single::Equals(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___0_obj, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.DebuggerSupport::AddToActiveTasksNonInlined(System.Threading.Tasks.Task)
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void DebuggerSupport_AddToActiveTasksNonInlined_m28785ADBB0443B6CCDC12C4A7DA297F1FFAEF889 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_task, const RuntimeMethod* method) ;
 // System.Void System.Threading.Tasks.DebuggerSupport::RemoveFromActiveTasksNonInlined(System.Threading.Tasks.Task)
@@ -18795,6 +18815,19 @@ IL_002b:
 		bool L_9;
 		L_9 = InterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(0 /* System.Boolean System.IEquatable`1<System.Object>::Equals(T) */, il2cpp_rgctx_data(method->rgctx_data, 1), (RuntimeObject*)(*L_6), L_8);
 		return L_9;
+	}
+}
+// System.Boolean Unity.Netcode.NetworkVariableSerialization`1<System.Single>::EqualityEquals<System.Single>(TValueType&,TValueType&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkVariableSerialization_1_EqualityEquals_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mF140D496AB7C7B9A0D359BB4998C804B3EEEE0F8_gshared (float* ___0_a, float* ___1_b, const RuntimeMethod* method) 
+{
+	{
+		// return a.Equals(b);
+		float* L_0 = ___0_a;
+		float* L_1 = ___1_b;
+		float L_2 = (*(float*)L_1);
+		bool L_3;
+		L_3 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_0, L_2, il2cpp_rgctx_method(method->rgctx_data, 2));
+		return L_3;
 	}
 }
 // System.Boolean Unity.Netcode.NetworkVariableSerialization`1<System.UInt16>::ValueEquals<System.UInt16>(TValueType&,TValueType&)

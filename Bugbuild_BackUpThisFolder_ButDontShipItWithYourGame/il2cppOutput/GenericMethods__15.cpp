@@ -249,6 +249,8 @@ struct EqualsDelegate_tABB3AE6B8328BF2BF3359B14D71DD89624A4B510;
 struct EqualsDelegate_t1D3743AB2C8B65A61A7B3FFB8A0C057253BF5A00;
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
 struct EqualsDelegate_tBBD45AB658DFA1CACAF17E7C9E5E2E687ED0C1B2;
+// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Single>
+struct EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A;
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct EqualsDelegate_tB991E153159B4233C86D1BEBEA1C97EE53282683;
 // System.Func`2<UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Object>
@@ -307,6 +309,8 @@ struct INetworkVariableSerializer_1_t116672DE87373E8FF64C8B7007706C786C0B5E4F;
 struct INetworkVariableSerializer_1_t6258ADE2A752C9A692137DC9EBE3AEE19BD05259;
 // Unity.Netcode.INetworkVariableSerializer`1<System.Object>
 struct INetworkVariableSerializer_1_t6B5A7CC42197C1507FD99201535089AD6070DCAF;
+// Unity.Netcode.INetworkVariableSerializer`1<System.Single>
+struct INetworkVariableSerializer_1_tB5435CD76D9DF8DA52DA3C52CE06293174D48D2C;
 // Unity.Netcode.INetworkVariableSerializer`1<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct INetworkVariableSerializer_1_t62DA38D9B02277D39571060B517C593AEC4F741F;
 // System.IObservable`1<UnityEngine.InputSystem.LowLevel.InputEventPtr>
@@ -1323,6 +1327,11 @@ struct NetworkVariableSerialization_1_tD50A51AFC80BC549D7CDBD9F704AB0081379C031 
 {
 };
 
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+struct NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271  : public RuntimeObject
+{
+};
+
 // Unity.Netcode.NetworkVariableSerialization`1<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct NetworkVariableSerialization_1_t47E68B1FBF137079915BACD1893C4F350CE5B29F  : public RuntimeObject
 {
@@ -1408,6 +1417,11 @@ struct UnmanagedTypeSerializer_1_t340ACC20A59D5E5F41735EABAF99E556861443B2  : pu
 
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
 struct UnmanagedTypeSerializer_1_t36BDBB34D482DDEE5C9AE707B219B6D1A5D48974  : public RuntimeObject
+{
+};
+
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+struct UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217  : public RuntimeObject
 {
 };
 
@@ -10764,6 +10778,11 @@ struct EqualsDelegate_tBBD45AB658DFA1CACAF17E7C9E5E2E687ED0C1B2  : public Multic
 {
 };
 
+// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Single>
+struct EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A  : public MulticastDelegate_t
+{
+};
+
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct EqualsDelegate_tB991E153159B4233C86D1BEBEA1C97EE53282683  : public MulticastDelegate_t
 {
@@ -12035,6 +12054,17 @@ struct NetworkVariableSerialization_1_tD50A51AFC80BC549D7CDBD9F704AB0081379C031_
 
 // Unity.Netcode.NetworkVariableSerialization`1<System.Object>
 
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+struct NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields
+{
+	// Unity.Netcode.INetworkVariableSerializer`1<T> Unity.Netcode.NetworkVariableSerialization`1::Serializer
+	RuntimeObject* ___Serializer_0;
+	// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<T> Unity.Netcode.NetworkVariableSerialization`1::AreEqual
+	EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A* ___AreEqual_1;
+};
+
+// Unity.Netcode.NetworkVariableSerialization`1<System.Single>
+
 // Unity.Netcode.NetworkVariableSerialization`1<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct NetworkVariableSerialization_1_t47E68B1FBF137079915BACD1893C4F350CE5B29F_StaticFields
 {
@@ -12086,6 +12116,10 @@ struct NonAllocDictionary_2_t731311DC35E31CEB666B4A4099E518236EA55F79_StaticFiel
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
 
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
+
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
 
 // UnityEngine.InputSystem.Utilities.WhereObservable`1<System.Object>
 
@@ -13074,6 +13108,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
 
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Object>
+
+// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Single>
+
+// Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<System.Single>
 
 // Unity.Netcode.NetworkVariableSerialization`1/EqualsDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 
@@ -26024,6 +26062,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationTypes_Initia
 		return;
 	}
 }
+// System.Void Unity.Netcode.NetworkVariableSerializationTypes::InitializeEqualityChecker_UnmanagedIEquatable<System.Single>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationTypes_InitializeEqualityChecker_UnmanagedIEquatable_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD4C9973014AA118DE8EEB8118ABCD3A9ED36D948_gshared (const RuntimeMethod* method) 
+{
+	{
+		// NetworkVariableSerialization<T>.AreEqual = NetworkVariableSerialization<T>.EqualityEquals;
+		EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A* L_0 = (EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 1));
+		NullCheck(L_0);
+		((  void (*) (EqualsDelegate_t2B30978135C7CD1DE76FF2C22FA46638CCA5ED7A*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 2));
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 3));
+		((NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 3)))->___AreEqual_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 3)))->___AreEqual_1), (void*)L_0);
+		// }
+		return;
+	}
+}
 // System.Void Unity.Netcode.NetworkVariableSerializationTypes::InitializeEqualityChecker_UnmanagedValueEquals<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationTypes_InitializeEqualityChecker_UnmanagedValueEquals_TisNetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0_m205363F7982AC3436149AE47FADC6DCC7A45A183_gshared (const RuntimeMethod* method) 
 {
@@ -26095,6 +26148,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationTypes_Initia
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		((NetworkVariableSerialization_1_tFBA813C139C0B4D80EE9711D9AADD458131C2748_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Serializer_0 = (RuntimeObject*)L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetworkVariableSerialization_1_tFBA813C139C0B4D80EE9711D9AADD458131C2748_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Serializer_0), (void*)(RuntimeObject*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Netcode.NetworkVariableSerializationTypes::InitializeSerializer_UnmanagedByMemcpy<System.Single>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkVariableSerializationTypes_InitializeSerializer_UnmanagedByMemcpy_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3EC2FA1C59B1EA3F12FF408A431F3C7F43DB13C6_gshared (const RuntimeMethod* method) 
+{
+	{
+		// NetworkVariableSerialization<T>.Serializer = new UnmanagedTypeSerializer<T>();
+		UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217* L_0 = (UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		((NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Serializer_0 = (RuntimeObject*)L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((NetworkVariableSerialization_1_t25254A5E39F14C91C2C7D022EEFD74221EC1F271_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Serializer_0), (void*)(RuntimeObject*)L_0);
 		// }
 		return;
 	}

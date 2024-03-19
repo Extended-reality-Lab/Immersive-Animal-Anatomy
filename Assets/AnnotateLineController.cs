@@ -55,7 +55,8 @@ public class AnnotateLineController : MonoBehaviour
                 }
                 else{
                     line.positionCount++;
-                    line.SetPosition(line.positionCount - 1, currentPosition);
+                    line.SetPosition(line.positionCount - 1, currentPosition);              
+
                 }
 
                 previousPosition = currentPosition;
@@ -66,9 +67,11 @@ public class AnnotateLineController : MonoBehaviour
 
     }
 
+
     void startedDraw(InputAction.CallbackContext ctx){
         //initialize a new line prefab, and set the annotating bool to true
         if (holderPresent == true) {
+
             lineObject = Instantiate(linePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
             lineObject.transform.parent = AnnotationHolder.transform;
             line = lineObject.GetComponent<LineRenderer>();

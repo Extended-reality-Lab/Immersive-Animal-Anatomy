@@ -362,6 +362,8 @@ struct ReadValueDelegate_t708BCD59683B1C186066A3EF3137F0FB5A297126;
 struct ReadValueDelegate_t2E9C4F38329BEBB7028E11D0B339CE61356BFFA4;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Object>
 struct ReadValueDelegate_tCFFD48763CABDAAD106BC71B1380FEA9FD5E607D;
+// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>
+struct ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt16>
 struct ReadValueDelegate_t694477CC56B3C61B9086B5C6CBC7B14430333809;
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt32>
@@ -715,6 +717,7 @@ IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE9945
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ScriptableSettingsBase_tB2C01517BE0CD328058EA2C16794C588350E6482_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
@@ -5939,6 +5942,11 @@ struct ReadValueDelegate_tCFFD48763CABDAAD106BC71B1380FEA9FD5E607D  : public Mul
 {
 };
 
+// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>
+struct ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2  : public MulticastDelegate_t
+{
+};
+
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt16>
 struct ReadValueDelegate_t694477CC56B3C61B9086B5C6CBC7B14430333809  : public MulticastDelegate_t
 {
@@ -7288,6 +7296,10 @@ struct UIRAtlasAllocator_t70FA0F3477E077A18096F66B51F6A2B205825BD7_StaticFields
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Object>
 
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Object>
+
+// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>
+
+// Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>
 
 // Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.UInt16>
 
@@ -25700,6 +25712,107 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadValueDelegate_BeginInvoke_
 }
 // System.Void Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Object>::EndInvoke(T&,System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadValueDelegate_EndInvoke_m3C6C4B87BA708084B12B64DC94720634C9364302_gshared (ReadValueDelegate_tCFFD48763CABDAAD106BC71B1380FEA9FD5E607D* __this, RuntimeObject** ___0_value, RuntimeObject* ___1_result, const RuntimeMethod* method) 
+{
+	void* ___out_args[] = {
+	___0_value,
+	};
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___1_result, ___out_args);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_Multicast(ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* currentDelegate = reinterpret_cast<ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_reader, ___1_value, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_OpenInst(ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_reader, ___1_value, method);
+}
+void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_OpenStatic(ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_reader, ___1_value, method);
+}
+void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_OpenStaticInvoker(ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float* >::Invoke(__this->___method_ptr_0, method, NULL, ___0_reader, ___1_value);
+}
+void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_ClosedStaticInvoker(ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_reader, ___1_value);
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadValueDelegate__ctor_m0D4F8881A804C29FECE18145A27E9856A5003A8B_gshared (ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_Multicast;
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>::Invoke(Unity.Netcode.FastBufferReader,T&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadValueDelegate_Invoke_m0F9689D827A5052FFBA1BC90434B9B20F1EAFE40_gshared (ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_reader, ___1_value, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>::BeginInvoke(Unity.Netcode.FastBufferReader,T&,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadValueDelegate_BeginInvoke_m463F0B172B4B9A20F77A2332C60600FAB719A874_gshared (ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99_il2cpp_TypeInfo_var, &___0_reader);
+	__d_args[1] = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &*___1_value);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/ReadValueDelegate<System.Single>::EndInvoke(T&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadValueDelegate_EndInvoke_m67CE200CEDDC08A27E6019C4BE04A6DFBA0300C7_gshared (ReadValueDelegate_tD0373527577FB85DBAC83CA3C5184AB83B0684A2* __this, float* ___0_value, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
 	___0_value,

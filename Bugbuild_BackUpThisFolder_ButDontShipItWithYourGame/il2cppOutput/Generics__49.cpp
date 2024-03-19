@@ -490,6 +490,8 @@ struct OnValueChangedDelegate_tE40423CBA32356838A755CC21FDA8402F39D0E7B;
 struct OnValueChangedDelegate_t439FD8A620C2CA8A06B84F95137D4FCC52CEB5E0;
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>
 struct OnValueChangedDelegate_t79930635EBA544035681CBB41BDBEF712F3E8778;
+// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>
+struct OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC;
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct OnValueChangedDelegate_t0C62ABD393FAA5D1C1AF244469C9FD78513B966F;
 // POpusCodec.OpusDecoder`1<System.Int16>
@@ -5513,6 +5515,11 @@ struct OnValueChangedDelegate_t79930635EBA544035681CBB41BDBEF712F3E8778  : publi
 {
 };
 
+// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>
+struct OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC  : public MulticastDelegate_t
+{
+};
+
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 struct OnValueChangedDelegate_t0C62ABD393FAA5D1C1AF244469C9FD78513B966F  : public MulticastDelegate_t
 {
@@ -7335,6 +7342,10 @@ struct Type_t_StaticFields
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>
 
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>
+
+// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>
+
+// Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>
 
 // Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<Unity.Netcode.Components.NetworkTransform/NetworkTransformState>
 
@@ -29767,6 +29778,103 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginIn
 }
 // System.Void Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Object>::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m9ECBEF172C306F276CF140739E1AA62367E47D0F_gshared (OnValueChangedDelegate_t79930635EBA544035681CBB41BDBEF712F3E8778* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_Multicast(OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* currentDelegate = reinterpret_cast<OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_OpenInst(OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (float, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_previousValue, ___1_newValue, method);
+}
+void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_OpenStatic(OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (float, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_previousValue, ___1_newValue, method);
+}
+void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_OpenStaticInvoker(OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< float, float >::Invoke(__this->___method_ptr_0, method, NULL, ___0_previousValue, ___1_newValue);
+}
+void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_ClosedStaticInvoker(OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, float, float >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_previousValue, ___1_newValue);
+}
+// System.Void Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate__ctor_mAB8699AC53672F4ED093B8A5D43103AE95958403_gshared (OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_Multicast;
+}
+// System.Void Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>::Invoke(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_Invoke_m595942F1998CC094FDDBDEBDC7BC52178C225C41_gshared (OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_previousValue, ___1_newValue, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValueChangedDelegate_BeginInvoke_mDB4974DA952A1FCD5A4BE1CA12AA582EFF9FEF32_gshared (OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, float ___0_previousValue, float ___1_newValue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &___0_previousValue);
+	__d_args[1] = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &___1_newValue);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
+}
+// System.Void Unity.Netcode.NetworkVariable`1/OnValueChangedDelegate<System.Single>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValueChangedDelegate_EndInvoke_m763540A0876FE083E748766CFA6CDD4D0214364B_gshared (OnValueChangedDelegate_tC4CB90C35081DCCBF7860F94869E3AD3799F8EFC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }

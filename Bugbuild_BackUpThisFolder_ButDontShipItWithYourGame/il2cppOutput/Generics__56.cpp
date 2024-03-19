@@ -685,6 +685,8 @@ struct UnmanagedNetworkSerializableSerializer_1_t7C1253C7A8BB335DA52B41BF3430677
 struct UnmanagedTypeSerializer_1_t340ACC20A59D5E5F41735EABAF99E556861443B2;
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
 struct UnmanagedTypeSerializer_1_t36BDBB34D482DDEE5C9AE707B219B6D1A5D48974;
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+struct UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Collections.Generic.Queue`1<UnityEngine.UIElements.EventBase>>
 struct ValueCollection_t65B544B071475F1D6AA36F54F506E013AC0D137E;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,UnityEngine.UIElements.StylePropertyAnimationSystem/TransitionState>
@@ -1748,6 +1750,11 @@ struct UnmanagedTypeSerializer_1_t340ACC20A59D5E5F41735EABAF99E556861443B2  : pu
 
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
 struct UnmanagedTypeSerializer_1_t36BDBB34D482DDEE5C9AE707B219B6D1A5D48974  : public RuntimeObject
+{
+};
+
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+struct UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217  : public RuntimeObject
 {
 };
 
@@ -5758,6 +5765,10 @@ struct TransitionEventsFrameState_t3F9A8EB2B33780D3F2037BFEED0A3C6A03B03FEC_Stat
 
 // Unity.Netcode.UnmanagedTypeSerializer`1<UnityEngine.Color>
 
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+
+// Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>
+
 // UnityEngine.Events.BaseInvokableCall
 
 // UnityEngine.Events.BaseInvokableCall
@@ -7766,6 +7777,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmanagedSafe_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m4F49D8D6C7E376E4E418CF22168BA30C41023A8B_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___0_value, const RuntimeMethod* method) ;
 // System.Void Unity.Netcode.FastBufferReader::ReadUnmanagedSafe<UnityEngine.Color>(T&)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mE30A6B41094A9DEAD4F611754856E375A28D433E_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.FastBufferWriter::WriteUnmanagedSafe<System.Single>(T&)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD5F9D23D48A171B29C651DCB82BAD7CCAF800748_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, float* ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.FastBufferReader::ReadUnmanagedSafe<System.Single>(T&)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m456DA814AF45C8ACDF18D0F14659B3B497339349_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, float* ___0_value, const RuntimeMethod* method) ;
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<System.Int32,System.Boolean>::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeHashMap_2_Clear_mFE8754554AB7F2F09AA240C50F1D9272F492E2C9_gshared (UnsafeHashMap_2_t72FFC7053BC0746D0E63ACAF126DAC714393450E* __this, const RuntimeMethod* method) ;
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<System.Int32,System.Boolean>::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
@@ -8732,6 +8747,16 @@ inline void FastBufferWriter_WriteUnmanagedSafe_TisColor_tD001788D726C3A7F1379BE
 inline void FastBufferReader_ReadUnmanagedSafe_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mE30A6B41094A9DEAD4F611754856E375A28D433E_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___0_value, const RuntimeMethod* method)
 {
 	((  void (*) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))FastBufferReader_ReadUnmanagedSafe_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mE30A6B41094A9DEAD4F611754856E375A28D433E_gshared_inline)(__this, ___0_value, method);
+}
+// System.Void Unity.Netcode.FastBufferWriter::WriteUnmanagedSafe<System.Single>(T&)
+inline void FastBufferWriter_WriteUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD5F9D23D48A171B29C651DCB82BAD7CCAF800748_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, float* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC*, float*, const RuntimeMethod*))FastBufferWriter_WriteUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD5F9D23D48A171B29C651DCB82BAD7CCAF800748_gshared_inline)(__this, ___0_value, method);
+}
+// System.Void Unity.Netcode.FastBufferReader::ReadUnmanagedSafe<System.Single>(T&)
+inline void FastBufferReader_ReadUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m456DA814AF45C8ACDF18D0F14659B3B497339349_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, float* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99*, float*, const RuntimeMethod*))FastBufferReader_ReadUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m456DA814AF45C8ACDF18D0F14659B3B497339349_gshared_inline)(__this, ___0_value, method);
 }
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemSet(System.Void*,System.Byte,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemSet_m4CD74CD43260EB2962A46F57E0D93DD5C332FC2B (void* ___0_destination, uint8_t ___1_value, int64_t ___2_size, const RuntimeMethod* method) ;
@@ -27712,6 +27737,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedTypeSerializer_1__ctor_m1EABF64
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>::Write(Unity.Netcode.FastBufferWriter,T&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedTypeSerializer_1_Write_m0346DADC4F48C6BC3D821DD0A5594D2F124AA17C_gshared (UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// writer.WriteUnmanagedSafe(value);
+		float* L_0 = ___1_value;
+		FastBufferWriter_WriteUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD5F9D23D48A171B29C651DCB82BAD7CCAF800748_inline((&___0_writer), L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+// System.Void Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>::Read(Unity.Netcode.FastBufferReader,T&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedTypeSerializer_1_Read_mE8CBF1EA4FAC5A22EF2E554F27109C9162CB3D7C_gshared (UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217* __this, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___0_reader, float* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// reader.ReadUnmanagedSafe(out value);
+		float* L_0 = ___1_value;
+		FastBufferReader_ReadUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m456DA814AF45C8ACDF18D0F14659B3B497339349_inline((&___0_reader), L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		// }
+		return;
+	}
+}
+// System.Void Unity.Netcode.UnmanagedTypeSerializer`1<System.Single>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedTypeSerializer_1__ctor_mC4E6732D1BF81A68C35F52400ECE3FD446252690_gshared (UnmanagedTypeSerializer_1_tFD822EBD183B1762C61CBD7D5AB04B1474B20217* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2<System.Int32,System.Boolean>::Clear(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeHashMapBase_2_Clear_m2ADFBBA3A1532F24A12CDA5818A50EB8302CCF3C_gshared (UnsafeHashMapData_t82AA009E447306C927002C4EED80392BD8D8E5B4* ___0_data, const RuntimeMethod* method) 
 {
@@ -34295,6 +34358,48 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanag
 		uint32_t L_3 = sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F);
 		FastBufferReader_ReadBytesSafe_m109629AE2B684CFCCFF9111790DE4E1E26445649_inline(__this, L_2, (int32_t)L_3, 0, NULL);
 		V_0 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((uintptr_t)0);
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferWriter_WriteUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD5F9D23D48A171B29C651DCB82BAD7CCAF800748_gshared_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, float* ___0_value, const RuntimeMethod* method) 
+{
+	float* V_0 = NULL;
+	uint8_t* V_1 = NULL;
+	{
+		// {
+		float* L_0 = ___0_value;
+		V_0 = L_0;
+		// fixed (T* ptr = &value)
+		float* L_1 = V_0;
+		// byte* bytes = (byte*)ptr;
+		V_1 = (uint8_t*)((uintptr_t)L_1);
+		// WriteBytesSafe(bytes, sizeof(T));
+		uint8_t* L_2 = V_1;
+		uint32_t L_3 = sizeof(float);
+		FastBufferWriter_WriteBytesSafe_mD6983BBB2B1A249EA173F6CF20B1B2D93B1079F6_inline(__this, L_2, (int32_t)L_3, 0, NULL);
+		V_0 = (float*)((uintptr_t)0);
+		// }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FastBufferReader_ReadUnmanagedSafe_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m456DA814AF45C8ACDF18D0F14659B3B497339349_gshared_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, float* ___0_value, const RuntimeMethod* method) 
+{
+	float* V_0 = NULL;
+	uint8_t* V_1 = NULL;
+	{
+		// {
+		float* L_0 = ___0_value;
+		V_0 = L_0;
+		// fixed (T* ptr = &value)
+		float* L_1 = V_0;
+		// byte* bytes = (byte*)ptr;
+		V_1 = (uint8_t*)((uintptr_t)L_1);
+		// ReadBytesSafe(bytes, sizeof(T));
+		uint8_t* L_2 = V_1;
+		uint32_t L_3 = sizeof(float);
+		FastBufferReader_ReadBytesSafe_m109629AE2B684CFCCFF9111790DE4E1E26445649_inline(__this, L_2, (int32_t)L_3, 0, NULL);
+		V_0 = (float*)((uintptr_t)0);
 		// }
 		return;
 	}

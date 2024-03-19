@@ -546,6 +546,8 @@ struct WriteValueDelegate_t45D324B20EFBA6F5D66410BDE5FAD8FDFAC3EF21;
 struct WriteValueDelegate_tF07A6D84C76842F9DF7E45B506143D8F6060D15F;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Object>
 struct WriteValueDelegate_t5229761A9455193D5D8B28A714E3489CFD860723;
+// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>
+struct WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt16>
 struct WriteValueDelegate_t87086BD0A9A6D2BE7452749D920C58B9607894C7;
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt32>
@@ -727,6 +729,7 @@ IL2CPP_EXTERN_C RuntimeClass* ListViewDraggerAnimated_t819F6A24CE088841BF9410C14
 IL2CPP_EXTERN_C RuntimeClass* List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var;
@@ -4950,6 +4953,11 @@ struct WriteValueDelegate_t5229761A9455193D5D8B28A714E3489CFD860723  : public Mu
 {
 };
 
+// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>
+struct WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6  : public MulticastDelegate_t
+{
+};
+
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt16>
 struct WriteValueDelegate_t87086BD0A9A6D2BE7452749D920C58B9607894C7  : public MulticastDelegate_t
 {
@@ -6217,6 +6225,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Object>
 
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Object>
+
+// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>
+
+// Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>
 
 // Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.UInt16>
 
@@ -22459,6 +22471,104 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WriteValueDelegate_BeginInvoke
 }
 // System.Void Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Object>::EndInvoke(T& modreq(System.Runtime.InteropServices.InAttribute),System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteValueDelegate_EndInvoke_m371E39B8BB74D4DC94D472B5835E8F2755ABBABB_gshared (WriteValueDelegate_t5229761A9455193D5D8B28A714E3489CFD860723* __this, RuntimeObject** ___0_value, RuntimeObject* ___1_result, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___1_result, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_Multicast(WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* currentDelegate = reinterpret_cast<WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_writer, ___1_value, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_OpenInst(WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_writer, ___1_value, method);
+}
+void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_OpenStatic(WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_writer, ___1_value, method);
+}
+void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_OpenStaticInvoker(WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float* >::Invoke(__this->___method_ptr_0, method, NULL, ___0_writer, ___1_value);
+}
+void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_ClosedStaticInvoker(WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_writer, ___1_value);
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteValueDelegate__ctor_mB94959269D6E396B8F337EBC7B1F984B5BF75ED2_gshared (WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_Multicast;
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>::Invoke(Unity.Netcode.FastBufferWriter,T& modreq(System.Runtime.InteropServices.InAttribute))
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteValueDelegate_Invoke_mB5541F9135C84CD54346FDF2589B221F766BE191_gshared (WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC, float*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_writer, ___1_value, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>::BeginInvoke(Unity.Netcode.FastBufferWriter,T& modreq(System.Runtime.InteropServices.InAttribute),System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WriteValueDelegate_BeginInvoke_mB7E2F9F53870EE5CE23687024F7D3BBA002510BA_gshared (WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___0_writer, float* ___1_value, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC_il2cpp_TypeInfo_var, &___0_writer);
+	__d_args[1] = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &*___1_value);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
+}
+// System.Void Unity.Netcode.UserNetworkVariableSerialization`1/WriteValueDelegate<System.Single>::EndInvoke(T& modreq(System.Runtime.InteropServices.InAttribute),System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteValueDelegate_EndInvoke_m55CE5769B0A0F59BECBDBE1F4682181A9EE700C5_gshared (WriteValueDelegate_t217B1C103C4D27C527620B9528827C801905E8B6* __this, float* ___0_value, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___1_result, 0);
 }
