@@ -7035,6 +7035,7 @@ GameObject:
   - component: {fileID: 509487849}
   - component: {fileID: 509487851}
   - component: {fileID: 509487850}
+  - component: {fileID: 509487852}
   m_Layer: 0
   m_Name: AnatomyHolder
   m_TagString: Model
@@ -7113,7 +7114,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 509487846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 54c9647dc784a46bca664910f182491e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -7130,6 +7131,18 @@ MonoBehaviour:
   ScaleThreshold: 0.01
   InLocalSpace: 0
   Interpolate: 1
+--- !u!114 &509487852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509487846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb165a3c8e5f6e4f9ce80ed6456feda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &525692661
 GameObject:
   m_ObjectHideFlags: 0
@@ -15076,7 +15089,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039459066}
-  - component: {fileID: 1039459067}
   - component: {fileID: 1039459068}
   - component: {fileID: 1039459069}
   m_Layer: 0
@@ -15103,21 +15115,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039459067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039459065}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d154d3f3269eeff478dc19f7fa1b06bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1405041536}
-  Animal: {fileID: 509487846}
-  partChoice: {fileID: 1886264852}
 --- !u!114 &1039459068
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,11 +19,19 @@ public class NetworkedQuizController : NetworkBehaviour
     bool partWasSelected = false;
     bool partIsSelected = false;
 
+    private FixedString128Bytes initialValue = "null"; 
+
     private Color selectedColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
 
     public override void OnNetworkSpawn(){
 
         partName.OnValueChanged += OnTextValueChanged;
+
+        //check for late joiners
+        if(partName.Value != initialValue){
+            //correct the status of the client scene
+            changeQuizText();
+        }
 
     }
 
@@ -53,7 +61,8 @@ public class NetworkedQuizController : NetworkBehaviour
         if(IsHost){
             //check to see if the part just got selected
             if(partChoice){
-                if (partChoice.GetComponent<Renderer>().material.color == selectedColor)
+                //if (partChoice.GetComponent<Renderer>().material.color == selectedColor)
+                if((partChoice.GetComponent<Renderer>().material.color.r == selectedColor.r) && (partChoice.GetComponent<Renderer>().material.color.g == selectedColor.g) && (partChoice.GetComponent<Renderer>().material.color.b == selectedColor.b))
                 {
                     partIsSelected = true;
                 }

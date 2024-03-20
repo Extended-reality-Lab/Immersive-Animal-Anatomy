@@ -45,8 +45,10 @@ public class ModelInteractionController : MonoBehaviour
         //if only right controller is gripping, do rotation/position
         if (rightHandGripping == true && leftHandGripping == false && jointMade == false)
         {
+            //send a message to the server to gain ownership of the model
+            Animal.GetComponent<AnimalOwnerShipManager>().gimmieOwnershipPleaseServerRpc();
+
             //create joint
-            //Animal.GetComponent<Rigidbody>().isKinematic = true;
             ControllerR.AddComponent<FixedJoint>();
             ControllerR.GetComponent<FixedJoint>().connectedBody = Animal.GetComponent<Rigidbody>();
             jointMade = true;

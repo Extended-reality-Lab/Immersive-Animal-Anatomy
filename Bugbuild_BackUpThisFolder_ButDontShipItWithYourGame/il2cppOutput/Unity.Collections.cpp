@@ -16380,6 +16380,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FixedString128Bytes_op_Equality_mE119008
 		return L_14;
 	}
 }
+// System.Boolean Unity.Collections.FixedString128Bytes::op_Inequality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString128Bytes&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FixedString128Bytes_op_Inequality_m1C84BD82252DD5B8876973C92B4BAF15801F4A0C (FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* ___0_a, FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* ___1_b, const RuntimeMethod* method) 
+{
+	{
+		// return !(a == b);
+		FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* L_0 = ___0_a;
+		FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* L_1 = ___1_b;
+		bool L_2;
+		L_2 = FixedString128Bytes_op_Equality_mE119008C751060334BD3CECF7B3D0B74B288F684(L_0, L_1, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+	}
+}
 // System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString128Bytes)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB (FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* __this, FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952 ___0_other, const RuntimeMethod* method) 
 {

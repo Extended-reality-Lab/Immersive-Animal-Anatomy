@@ -12,8 +12,16 @@ public class TransparencyHandler : NetworkBehaviour
     public float currentMaterialTransparency = 1;
     public GameObject partSlider = null;
 
+    private const float initialValue = 1;
+
     public override void OnNetworkSpawn(){
         transparency.OnValueChanged += OnTransparencyValueChanged;
+
+        //check for late joiners
+        if(transparency.Value != initialValue){
+            //correct the status of the client scene
+
+        }
     }
 
     // Start is called before the first frame update
@@ -45,7 +53,50 @@ public class TransparencyHandler : NetworkBehaviour
 
         //call the external function for all clients other than the one that already changed
         if(currentMaterialTransparency != transparency.Value){
-            changeTransparency();
+
+            Material material = this.GetComponent<Renderer>().material;
+            Color color = material.color;
+            
+            //checks for full alpha (checks for >.9 rather than ==1 due to the inprecision of floats)
+            if(transparency.Value > .9f){
+                this.GetComponent<Renderer>().enabled = true;
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                material.SetInt("_ZWrite", 1);
+                material.DisableKeyword("_ALPHATEST_ON");
+                material.DisableKeyword("_ALPHABLEND_ON");
+                material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = -1;
+                this.GetComponent<BoxCollider>().enabled = true;
+
+                color.a = 1;
+                material.color = color;
+            }
+            //checks for no transparency (checks for <.1 rather than ==0 due to the inprecision of floats)
+            else if(transparency.Value < .1f){
+
+                color.a = 0;
+                material.color = color;
+
+                this.GetComponent<Renderer>().enabled = false;
+                this.GetComponent<BoxCollider>().enabled = false;
+            }
+            //in between
+            else{
+                this.GetComponent<Renderer>().enabled = true;
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                material.SetInt("_ZWrite", 0);
+                material.DisableKeyword("_ALPHATEST_ON");
+                material.EnableKeyword("_ALPHABLEND_ON");
+                material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = 2999;
+                this.GetComponent<BoxCollider>().enabled = false;
+
+                color.a += .2f;
+                material.color = color;
+            }
+
         }
     }
 

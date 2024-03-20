@@ -410,469 +410,471 @@ extern void FixedString128Bytes_Equals_mC7C2AEBA071128B24EB0BD130ED6423EA46275C1
 extern void FixedString128Bytes_CompareTo_m3A02146ED7EA6B833583D2C1B38F6FF5B0870E6F (void);
 // 0x000000FD System.Boolean Unity.Collections.FixedString128Bytes::op_Equality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString128Bytes&)
 extern void FixedString128Bytes_op_Equality_mE119008C751060334BD3CECF7B3D0B74B288F684 (void);
-// 0x000000FE System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString128Bytes)
+// 0x000000FE System.Boolean Unity.Collections.FixedString128Bytes::op_Inequality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString128Bytes&)
+extern void FixedString128Bytes_op_Inequality_m1C84BD82252DD5B8876973C92B4BAF15801F4A0C (void);
+// 0x000000FF System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString128Bytes)
 extern void FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB (void);
-// 0x000000FF System.Int32 Unity.Collections.FixedString128Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
+// 0x00000100 System.Int32 Unity.Collections.FixedString128Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
 extern void FixedString128Bytes_CompareTo_m7DAC821750F1242E519D29D8A1A01ABD6B5630C6 (void);
-// 0x00000100 System.Boolean Unity.Collections.FixedString128Bytes::op_Equality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString512Bytes&)
+// 0x00000101 System.Boolean Unity.Collections.FixedString128Bytes::op_Equality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString512Bytes&)
 extern void FixedString128Bytes_op_Equality_m585E99914214C76581B50D2279924B42A6E5ADD1 (void);
-// 0x00000101 System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString512Bytes)
+// 0x00000102 System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString512Bytes)
 extern void FixedString128Bytes_Equals_m02FB7C6C4862D4F44EDC97E72A4CADD0BD379D5F (void);
-// 0x00000102 System.Int32 Unity.Collections.FixedString128Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
+// 0x00000103 System.Int32 Unity.Collections.FixedString128Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
 extern void FixedString128Bytes_CompareTo_m340091A89F740B13DE44A1F3AE938A14AE658A4B (void);
-// 0x00000103 System.Boolean Unity.Collections.FixedString128Bytes::op_Equality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString4096Bytes&)
+// 0x00000104 System.Boolean Unity.Collections.FixedString128Bytes::op_Equality(Unity.Collections.FixedString128Bytes&,Unity.Collections.FixedString4096Bytes&)
 extern void FixedString128Bytes_op_Equality_mF721475F602666C9A09E70EB8C08B0D2DF7D83EA (void);
-// 0x00000104 System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString4096Bytes)
+// 0x00000105 System.Boolean Unity.Collections.FixedString128Bytes::Equals(Unity.Collections.FixedString4096Bytes)
 extern void FixedString128Bytes_Equals_m0A10CFEB353647A220B407CCEBE12035F0C1D4A2 (void);
-// 0x00000105 Unity.Collections.FixedString128Bytes Unity.Collections.FixedString128Bytes::op_Implicit(System.String)
+// 0x00000106 Unity.Collections.FixedString128Bytes Unity.Collections.FixedString128Bytes::op_Implicit(System.String)
 extern void FixedString128Bytes_op_Implicit_mC1EF3D019A34577624853F21B956303E569C116E (void);
-// 0x00000106 System.String Unity.Collections.FixedString128Bytes::ToString()
+// 0x00000107 System.String Unity.Collections.FixedString128Bytes::ToString()
 extern void FixedString128Bytes_ToString_m1CD5B095D5A80759EF2E7F60AA95921369958A29 (void);
-// 0x00000107 System.Int32 Unity.Collections.FixedString128Bytes::GetHashCode()
+// 0x00000108 System.Int32 Unity.Collections.FixedString128Bytes::GetHashCode()
 extern void FixedString128Bytes_GetHashCode_mB211F7E224953364EE91770921BA59760A0E4428 (void);
-// 0x00000108 System.Boolean Unity.Collections.FixedString128Bytes::Equals(System.Object)
+// 0x00000109 System.Boolean Unity.Collections.FixedString128Bytes::Equals(System.Object)
 extern void FixedString128Bytes_Equals_mF8C053D97C4EA171FF1A82613C836A231DDF0DD9 (void);
-// 0x00000109 System.Byte* Unity.Collections.FixedString512Bytes::GetUnsafePtr()
+// 0x0000010A System.Byte* Unity.Collections.FixedString512Bytes::GetUnsafePtr()
 extern void FixedString512Bytes_GetUnsafePtr_m6BE151F6C1AC2994321FFC794DD61AEE5E915E05 (void);
-// 0x0000010A System.Int32 Unity.Collections.FixedString512Bytes::get_Length()
+// 0x0000010B System.Int32 Unity.Collections.FixedString512Bytes::get_Length()
 extern void FixedString512Bytes_get_Length_m07F07806B00F694DA08ED7C3BC04C9FCE7CE4E07 (void);
-// 0x0000010B System.Void Unity.Collections.FixedString512Bytes::set_Length(System.Int32)
+// 0x0000010C System.Void Unity.Collections.FixedString512Bytes::set_Length(System.Int32)
 extern void FixedString512Bytes_set_Length_m5BECBE3190D559780E9F84276928B0EC612A1BDE (void);
-// 0x0000010C System.Int32 Unity.Collections.FixedString512Bytes::get_Capacity()
+// 0x0000010D System.Int32 Unity.Collections.FixedString512Bytes::get_Capacity()
 extern void FixedString512Bytes_get_Capacity_m80069D7197EA5C9AC0149AEE21591CCCFBC0AB55 (void);
-// 0x0000010D System.Boolean Unity.Collections.FixedString512Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
+// 0x0000010E System.Boolean Unity.Collections.FixedString512Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
 extern void FixedString512Bytes_TryResize_m924FCE76C50EFD1773E2A417BCA84B2C6B158ABD (void);
-// 0x0000010E System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(System.String)
+// 0x0000010F System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(System.String)
 extern void FixedString512Bytes_CompareTo_mF2E8A9C2171833229322FEBEF4DF783251513B59 (void);
-// 0x0000010F System.Boolean Unity.Collections.FixedString512Bytes::Equals(System.String)
+// 0x00000110 System.Boolean Unity.Collections.FixedString512Bytes::Equals(System.String)
 extern void FixedString512Bytes_Equals_mE4279608ABCBD5236ADF59E96788F0837787F11A (void);
-// 0x00000110 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString32Bytes)
+// 0x00000111 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString32Bytes)
 extern void FixedString512Bytes_CompareTo_mFEA161B206C05F7894DDF0CAB24CDBF525AD9F97 (void);
-// 0x00000111 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString32Bytes&)
+// 0x00000112 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString32Bytes&)
 extern void FixedString512Bytes_op_Equality_m9396081EA8C88FEA2006D359260245627184D456 (void);
-// 0x00000112 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString32Bytes)
+// 0x00000113 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString32Bytes)
 extern void FixedString512Bytes_Equals_m2AF82E5FAAF96DBD0A105DF94BD1287804D6D568 (void);
-// 0x00000113 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString64Bytes)
+// 0x00000114 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString64Bytes)
 extern void FixedString512Bytes_CompareTo_mCF6F5BD2E7F95763F8903514954023697C1A3838 (void);
-// 0x00000114 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString64Bytes&)
+// 0x00000115 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString64Bytes&)
 extern void FixedString512Bytes_op_Equality_m72AD5D8E203AEBD992FFDB15E2AA658549127C77 (void);
-// 0x00000115 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString64Bytes)
+// 0x00000116 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString64Bytes)
 extern void FixedString512Bytes_Equals_m14403CF490B635D08B4FD2DCAB8473AD2A510CE6 (void);
-// 0x00000116 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString128Bytes)
+// 0x00000117 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString128Bytes)
 extern void FixedString512Bytes_CompareTo_m80D4CAD931945D04AE44A9610D72D8E0839FB2B5 (void);
-// 0x00000117 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString128Bytes&)
+// 0x00000118 System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString128Bytes&)
 extern void FixedString512Bytes_op_Equality_m402E2B00BB62CC4AA6E20DBE2A763A64D957A951 (void);
-// 0x00000118 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString128Bytes)
+// 0x00000119 System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString128Bytes)
 extern void FixedString512Bytes_Equals_m865E75EE8511CFC6CB527D86E54AEE7AE010449A (void);
-// 0x00000119 System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
+// 0x0000011A System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
 extern void FixedString512Bytes_CompareTo_m42E210C85C1D09E6698DCDDB40545351895E2574 (void);
-// 0x0000011A System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString512Bytes&)
+// 0x0000011B System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString512Bytes&)
 extern void FixedString512Bytes_op_Equality_m2D57D6666092B59CE4541DB706A388DA6F7332C0 (void);
-// 0x0000011B System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString512Bytes)
+// 0x0000011C System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString512Bytes)
 extern void FixedString512Bytes_Equals_m34F02FA9086BE42B8856DF5A85DA039FD3036E99 (void);
-// 0x0000011C System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
+// 0x0000011D System.Int32 Unity.Collections.FixedString512Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
 extern void FixedString512Bytes_CompareTo_mEC561BBFD17069268207BF2D6BD6E2C93E90A1B7 (void);
-// 0x0000011D System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString4096Bytes&)
+// 0x0000011E System.Boolean Unity.Collections.FixedString512Bytes::op_Equality(Unity.Collections.FixedString512Bytes&,Unity.Collections.FixedString4096Bytes&)
 extern void FixedString512Bytes_op_Equality_m6C60AF29D4AFBB2FCD3F347EB45D4F4F2787AAFF (void);
-// 0x0000011E System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString4096Bytes)
+// 0x0000011F System.Boolean Unity.Collections.FixedString512Bytes::Equals(Unity.Collections.FixedString4096Bytes)
 extern void FixedString512Bytes_Equals_mE00AFBE32D04B3671E8D476855409B35B5C8E674 (void);
-// 0x0000011F System.String Unity.Collections.FixedString512Bytes::ToString()
+// 0x00000120 System.String Unity.Collections.FixedString512Bytes::ToString()
 extern void FixedString512Bytes_ToString_m1A47583FB34608DBEEDC65F9CA6E7B8E7930233F (void);
-// 0x00000120 System.Int32 Unity.Collections.FixedString512Bytes::GetHashCode()
+// 0x00000121 System.Int32 Unity.Collections.FixedString512Bytes::GetHashCode()
 extern void FixedString512Bytes_GetHashCode_m3F22B7550BFBA5E580D804CCAC7528BA8F64862B (void);
-// 0x00000121 System.Boolean Unity.Collections.FixedString512Bytes::Equals(System.Object)
+// 0x00000122 System.Boolean Unity.Collections.FixedString512Bytes::Equals(System.Object)
 extern void FixedString512Bytes_Equals_m344621B84C32BCC845396B588F2AE18154B9C6C3 (void);
-// 0x00000122 System.Byte* Unity.Collections.FixedString4096Bytes::GetUnsafePtr()
+// 0x00000123 System.Byte* Unity.Collections.FixedString4096Bytes::GetUnsafePtr()
 extern void FixedString4096Bytes_GetUnsafePtr_mE1DB42C2C0EEA7D6E1B5D0366A4727125D916EEB (void);
-// 0x00000123 System.Int32 Unity.Collections.FixedString4096Bytes::get_Length()
+// 0x00000124 System.Int32 Unity.Collections.FixedString4096Bytes::get_Length()
 extern void FixedString4096Bytes_get_Length_mC2A80F2813739852F0675DA8D2AB68AA92BFC36F (void);
-// 0x00000124 System.Void Unity.Collections.FixedString4096Bytes::set_Length(System.Int32)
+// 0x00000125 System.Void Unity.Collections.FixedString4096Bytes::set_Length(System.Int32)
 extern void FixedString4096Bytes_set_Length_mB4335BCB8388D446FF0C612F81355BD4861F4F8B (void);
-// 0x00000125 System.Int32 Unity.Collections.FixedString4096Bytes::get_Capacity()
+// 0x00000126 System.Int32 Unity.Collections.FixedString4096Bytes::get_Capacity()
 extern void FixedString4096Bytes_get_Capacity_m55EE381DB20EC9C738999C9F562700569906434D (void);
-// 0x00000126 System.Boolean Unity.Collections.FixedString4096Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
+// 0x00000127 System.Boolean Unity.Collections.FixedString4096Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
 extern void FixedString4096Bytes_TryResize_mC7B1C3EF58A73536BD8A17AEA540B05D1FC4A8F7 (void);
-// 0x00000127 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(System.String)
+// 0x00000128 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(System.String)
 extern void FixedString4096Bytes_CompareTo_mFE2F6019EBA8EAB9FCCDE7589C8A5F38DA8D4A58 (void);
-// 0x00000128 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(System.String)
+// 0x00000129 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(System.String)
 extern void FixedString4096Bytes_Equals_m3C8E7CA4F35F56F0759EEE2D8E5F1D4591D1E598 (void);
-// 0x00000129 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString32Bytes)
+// 0x0000012A System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString32Bytes)
 extern void FixedString4096Bytes_CompareTo_m8D38C45B1D05029012A417EB72A6108BB820C472 (void);
-// 0x0000012A System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString32Bytes&)
+// 0x0000012B System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString32Bytes&)
 extern void FixedString4096Bytes_op_Equality_mA7CC6C4984FCC9EED79B16AF16237504BD00254D (void);
-// 0x0000012B System.Boolean Unity.Collections.FixedString4096Bytes::op_Inequality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString32Bytes&)
+// 0x0000012C System.Boolean Unity.Collections.FixedString4096Bytes::op_Inequality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString32Bytes&)
 extern void FixedString4096Bytes_op_Inequality_m7FFBE281245A53F6FF937ABE36ADAD484F1B0B1F (void);
-// 0x0000012C System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString32Bytes)
+// 0x0000012D System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString32Bytes)
 extern void FixedString4096Bytes_Equals_mF43146C7063DCE299D0708E173E48D146806796A (void);
-// 0x0000012D System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString64Bytes)
+// 0x0000012E System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString64Bytes)
 extern void FixedString4096Bytes_CompareTo_mA10C3E4B7291BD7C68B64922D7EF51FF9019E7B1 (void);
-// 0x0000012E System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString64Bytes&)
+// 0x0000012F System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString64Bytes&)
 extern void FixedString4096Bytes_op_Equality_m974761DC27A56EB51074713A5B755FEA5C84419B (void);
-// 0x0000012F System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString64Bytes)
+// 0x00000130 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString64Bytes)
 extern void FixedString4096Bytes_Equals_mF4868F94338530FEFCDF35BB76E1C3D64F54CAEF (void);
-// 0x00000130 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString128Bytes)
+// 0x00000131 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString128Bytes)
 extern void FixedString4096Bytes_CompareTo_m40115F59AF4ADBC9F7C70B9A30B90DD660526D19 (void);
-// 0x00000131 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString128Bytes&)
+// 0x00000132 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString128Bytes&)
 extern void FixedString4096Bytes_op_Equality_mCD4EAE52D8F0BA4161054E936710D0C0F3D43260 (void);
-// 0x00000132 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString128Bytes)
+// 0x00000133 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString128Bytes)
 extern void FixedString4096Bytes_Equals_mA00838D2DA8F71412C78B2C37D699B39D7897FB5 (void);
-// 0x00000133 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
+// 0x00000134 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString512Bytes)
 extern void FixedString4096Bytes_CompareTo_m16A7E31FA53206F33F3418353A43A2E02F662895 (void);
-// 0x00000134 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString512Bytes&)
+// 0x00000135 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString512Bytes&)
 extern void FixedString4096Bytes_op_Equality_mD2FD6209FE469F2385026575EBC55A6079D3B0C5 (void);
-// 0x00000135 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString512Bytes)
+// 0x00000136 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString512Bytes)
 extern void FixedString4096Bytes_Equals_mB76C4C23572B2D379F22EB1EE52B84EE820F075F (void);
-// 0x00000136 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
+// 0x00000137 System.Int32 Unity.Collections.FixedString4096Bytes::CompareTo(Unity.Collections.FixedString4096Bytes)
 extern void FixedString4096Bytes_CompareTo_m1EA8E99320A4B5078747BCE1617B3B1574A53F01 (void);
-// 0x00000137 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString4096Bytes&)
+// 0x00000138 System.Boolean Unity.Collections.FixedString4096Bytes::op_Equality(Unity.Collections.FixedString4096Bytes&,Unity.Collections.FixedString4096Bytes&)
 extern void FixedString4096Bytes_op_Equality_m30D4A0EF7ED2223E8A41181F92E87DA31C73CCAF (void);
-// 0x00000138 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString4096Bytes)
+// 0x00000139 System.Boolean Unity.Collections.FixedString4096Bytes::Equals(Unity.Collections.FixedString4096Bytes)
 extern void FixedString4096Bytes_Equals_m3991F570BEC852688D532724FD842E0BD3AC2BB6 (void);
-// 0x00000139 System.String Unity.Collections.FixedString4096Bytes::ToString()
+// 0x0000013A System.String Unity.Collections.FixedString4096Bytes::ToString()
 extern void FixedString4096Bytes_ToString_m1EB551FB3DB9E208AAF34DFFA3864DAB34FD1A26 (void);
-// 0x0000013A System.Int32 Unity.Collections.FixedString4096Bytes::GetHashCode()
+// 0x0000013B System.Int32 Unity.Collections.FixedString4096Bytes::GetHashCode()
 extern void FixedString4096Bytes_GetHashCode_m4F13B6A3839EDFD34CE37729A815905DD1AAB720 (void);
-// 0x0000013B System.Boolean Unity.Collections.FixedString4096Bytes::Equals(System.Object)
+// 0x0000013C System.Boolean Unity.Collections.FixedString4096Bytes::Equals(System.Object)
 extern void FixedString4096Bytes_Equals_mD182C954C7A720E5C452CE5C9B4BAA20D22A4952 (void);
-// 0x0000013C Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,Unity.Collections.Unicode/Rune)
-// 0x0000013D Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char)
-// 0x0000013E Unity.Collections.FormatError Unity.Collections.FixedStringMethods::AppendRawByte(T&,System.Byte)
-// 0x0000013F Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Int64)
-// 0x00000140 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Int32)
-// 0x00000141 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Single,System.Char)
-// 0x00000142 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,T2&)
-// 0x00000143 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Byte*,System.Int32)
-// 0x00000144 System.Void Unity.Collections.FixedStringMethods::AppendFormat(T&,U&,T0&)
-// 0x00000145 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char)
-// 0x00000146 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char,System.Char)
-// 0x00000147 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char)
-// 0x00000148 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::AppendScientific(T&,System.Char*,System.Int32,System.Int32,System.Char)
-// 0x00000149 System.Int32 Unity.Collections.FixedStringMethods::CompareTo(T&,System.Byte*,System.Int32)
-// 0x0000014A System.Int32 Unity.Collections.FixedStringMethods::CompareTo(T&,T2&)
-// 0x0000014B Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Write(T&,System.Int32&,Unity.Collections.Unicode/Rune)
-// 0x0000014C System.String Unity.Collections.FixedStringMethods::ConvertToString(T&)
-// 0x0000014D System.Int32 Unity.Collections.FixedStringMethods::ComputeHashCode(T&)
-// 0x0000014E Unity.Collections.FixedString128Bytes Unity.Collections.FixedString::Format(Unity.Collections.FixedString128Bytes,System.Int32)
+// 0x0000013D Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,Unity.Collections.Unicode/Rune)
+// 0x0000013E Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char)
+// 0x0000013F Unity.Collections.FormatError Unity.Collections.FixedStringMethods::AppendRawByte(T&,System.Byte)
+// 0x00000140 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Int64)
+// 0x00000141 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Int32)
+// 0x00000142 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Single,System.Char)
+// 0x00000143 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,T2&)
+// 0x00000144 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Byte*,System.Int32)
+// 0x00000145 System.Void Unity.Collections.FixedStringMethods::AppendFormat(T&,U&,T0&)
+// 0x00000146 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char)
+// 0x00000147 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char,System.Char)
+// 0x00000148 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Append(T&,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char)
+// 0x00000149 Unity.Collections.FormatError Unity.Collections.FixedStringMethods::AppendScientific(T&,System.Char*,System.Int32,System.Int32,System.Char)
+// 0x0000014A System.Int32 Unity.Collections.FixedStringMethods::CompareTo(T&,System.Byte*,System.Int32)
+// 0x0000014B System.Int32 Unity.Collections.FixedStringMethods::CompareTo(T&,T2&)
+// 0x0000014C Unity.Collections.FormatError Unity.Collections.FixedStringMethods::Write(T&,System.Int32&,Unity.Collections.Unicode/Rune)
+// 0x0000014D System.String Unity.Collections.FixedStringMethods::ConvertToString(T&)
+// 0x0000014E System.Int32 Unity.Collections.FixedStringMethods::ComputeHashCode(T&)
+// 0x0000014F Unity.Collections.FixedString128Bytes Unity.Collections.FixedString::Format(Unity.Collections.FixedString128Bytes,System.Int32)
 extern void FixedString_Format_m6F108E2AF8178697C27234FF8AA515F32B77F4AF (void);
-// 0x0000014F Unity.Collections.FixedString128Bytes Unity.Collections.FixedString::Format(Unity.Collections.FixedString128Bytes,System.Single)
+// 0x00000150 Unity.Collections.FixedString128Bytes Unity.Collections.FixedString::Format(Unity.Collections.FixedString128Bytes,System.Single)
 extern void FixedString_Format_m68D81C29724F640A5261464C671E96EB92AAA4B0 (void);
-// 0x00000150 System.Byte* Unity.Collections.IUTF8Bytes::GetUnsafePtr()
-// 0x00000151 System.Boolean Unity.Collections.IUTF8Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
-// 0x00000152 System.Void Unity.Collections.FixedStringUtils::Base2ToBase10(System.UInt64&,System.Int32&,System.Single)
+// 0x00000151 System.Byte* Unity.Collections.IUTF8Bytes::GetUnsafePtr()
+// 0x00000152 System.Boolean Unity.Collections.IUTF8Bytes::TryResize(System.Int32,Unity.Collections.NativeArrayOptions)
+// 0x00000153 System.Void Unity.Collections.FixedStringUtils::Base2ToBase10(System.UInt64&,System.Int32&,System.Single)
 extern void FixedStringUtils_Base2ToBase10_m26FA15F7F8FA8E6736C0E6927D4C5A74B1D8EAF5 (void);
-// 0x00000153 System.Void* Unity.Collections.Memory/Unmanaged::Allocate(System.Int64,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000154 System.Void* Unity.Collections.Memory/Unmanaged::Allocate(System.Int64,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
 extern void Unmanaged_Allocate_m7310B1FE896DEFFA18303D961C9859C8FF3D21E5 (void);
-// 0x00000154 System.Void Unity.Collections.Memory/Unmanaged::Free(System.Void*,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000155 System.Void Unity.Collections.Memory/Unmanaged::Free(System.Void*,Unity.Collections.AllocatorManager/AllocatorHandle)
 extern void Unmanaged_Free_m09F6EA89F368ED2C9E5EC5EA60C894C4434F4FD1 (void);
-// 0x00000155 System.Void Unity.Collections.Memory/Unmanaged::Free(T*,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000156 System.Boolean Unity.Collections.Memory/Unmanaged/Array::IsCustom(Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000156 System.Void Unity.Collections.Memory/Unmanaged::Free(T*,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000157 System.Boolean Unity.Collections.Memory/Unmanaged/Array::IsCustom(Unity.Collections.AllocatorManager/AllocatorHandle)
 extern void Array_IsCustom_m7651BFF84F5AEFA592FEE86C834A85C373DDC126 (void);
-// 0x00000157 System.Void* Unity.Collections.Memory/Unmanaged/Array::CustomResize(System.Void*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int64,System.Int32)
+// 0x00000158 System.Void* Unity.Collections.Memory/Unmanaged/Array::CustomResize(System.Void*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int64,System.Int32)
 extern void Array_CustomResize_mB51497D583399092F23AA773ABB64F0780610D82 (void);
-// 0x00000158 System.Void* Unity.Collections.Memory/Unmanaged/Array::Resize(System.Void*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int64,System.Int32)
+// 0x00000159 System.Void* Unity.Collections.Memory/Unmanaged/Array::Resize(System.Void*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int64,System.Int32)
 extern void Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380 (void);
-// 0x00000159 T* Unity.Collections.Memory/Unmanaged/Array::Resize(T*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x0000015A System.Int32 Unity.Collections.NativeArrayExtensions::IndexOf(Unity.Collections.NativeList`1<T>,U)
-// 0x0000015B System.Int32 Unity.Collections.NativeArrayExtensions::IndexOf(System.Void*,System.Int32,U)
-// 0x0000015C System.Void Unity.Collections.NativeArrayExtensions::Initialize(Unity.Collections.NativeArray`1<T>&,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
-// 0x0000015D System.Void Unity.Collections.NativeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x0000015E System.Void Unity.Collections.NativeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int32)
-// 0x0000015F System.Boolean Unity.Collections.NativeHashMap`2::TryAdd(TKey,TValue)
-// 0x00000160 System.Boolean Unity.Collections.NativeHashMap`2::TryGetValue(TKey,TValue&)
-// 0x00000161 System.Boolean Unity.Collections.NativeHashMap`2::ContainsKey(TKey)
-// 0x00000162 TValue Unity.Collections.NativeHashMap`2::get_Item(TKey)
-// 0x00000163 System.Void Unity.Collections.NativeHashMap`2::Dispose()
-// 0x00000164 System.Collections.Generic.IEnumerator`1<Unity.Collections.LowLevel.Unsafe.KeyValue`2<TKey,TValue>> Unity.Collections.NativeHashMap`2::System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator()
-// 0x00000165 System.Collections.IEnumerator Unity.Collections.NativeHashMap`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000166 System.Void Unity.Collections.NativeHashSet`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000167 System.Void Unity.Collections.NativeHashSet`1::Dispose()
-// 0x00000168 System.Boolean Unity.Collections.NativeHashSet`1::Add(T)
-// 0x00000169 System.Boolean Unity.Collections.NativeHashSet`1::Contains(T)
-// 0x0000016A System.Collections.Generic.IEnumerator`1<T> Unity.Collections.NativeHashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x0000016B System.Collections.IEnumerator Unity.Collections.NativeHashSet`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000016C System.Int32 Unity.Collections.IIndexable`1::get_Length()
-// 0x0000016D System.Void Unity.Collections.IIndexable`1::set_Length(System.Int32)
-// 0x0000016E System.Int32 Unity.Collections.INativeList`1::get_Capacity()
-// 0x0000016F System.Void Unity.Collections.NativeList`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000170 System.Void Unity.Collections.NativeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000171 System.Void Unity.Collections.NativeList`1::Initialize(System.Int32,U&,System.Int32)
-// 0x00000172 System.Void Unity.Collections.NativeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int32)
-// 0x00000173 T Unity.Collections.NativeList`1::get_Item(System.Int32)
-// 0x00000174 System.Void Unity.Collections.NativeList`1::set_Item(System.Int32,T)
-// 0x00000175 T& Unity.Collections.NativeList`1::ElementAt(System.Int32)
-// 0x00000176 System.Int32 Unity.Collections.NativeList`1::get_Length()
-// 0x00000177 System.Void Unity.Collections.NativeList`1::set_Length(System.Int32)
-// 0x00000178 System.Int32 Unity.Collections.NativeList`1::get_Capacity()
-// 0x00000179 System.Void Unity.Collections.NativeList`1::Add(T&)
-// 0x0000017A System.Void Unity.Collections.NativeList`1::InsertRangeWithBeginEnd(System.Int32,System.Int32)
-// 0x0000017B System.Void Unity.Collections.NativeList`1::RemoveAt(System.Int32)
-// 0x0000017C System.Boolean Unity.Collections.NativeList`1::get_IsCreated()
-// 0x0000017D System.Void Unity.Collections.NativeList`1::Dispose()
-// 0x0000017E System.Void Unity.Collections.NativeList`1::Clear()
-// 0x0000017F Unity.Collections.NativeArray`1<T> Unity.Collections.NativeList`1::op_Implicit(Unity.Collections.NativeList`1<T>)
-// 0x00000180 Unity.Collections.NativeArray`1<T> Unity.Collections.NativeList`1::AsArray()
-// 0x00000181 Unity.Collections.NativeArray`1/Enumerator<T> Unity.Collections.NativeList`1::GetEnumerator()
-// 0x00000182 System.Collections.IEnumerator Unity.Collections.NativeList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000183 System.Collections.Generic.IEnumerator`1<T> Unity.Collections.NativeList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000184 System.Void Unity.Collections.NativeList`1::Resize(System.Int32,Unity.Collections.NativeArrayOptions)
-// 0x00000185 System.Void Unity.Collections.NativeList`1::ResizeUninitialized(System.Int32)
-// 0x00000186 Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueBlockPoolData::AllocateBlock()
+// 0x0000015A T* Unity.Collections.Memory/Unmanaged/Array::Resize(T*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x0000015B System.Int32 Unity.Collections.NativeArrayExtensions::IndexOf(Unity.Collections.NativeList`1<T>,U)
+// 0x0000015C System.Int32 Unity.Collections.NativeArrayExtensions::IndexOf(System.Void*,System.Int32,U)
+// 0x0000015D System.Void Unity.Collections.NativeArrayExtensions::Initialize(Unity.Collections.NativeArray`1<T>&,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
+// 0x0000015E System.Void Unity.Collections.NativeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x0000015F System.Void Unity.Collections.NativeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int32)
+// 0x00000160 System.Boolean Unity.Collections.NativeHashMap`2::TryAdd(TKey,TValue)
+// 0x00000161 System.Boolean Unity.Collections.NativeHashMap`2::TryGetValue(TKey,TValue&)
+// 0x00000162 System.Boolean Unity.Collections.NativeHashMap`2::ContainsKey(TKey)
+// 0x00000163 TValue Unity.Collections.NativeHashMap`2::get_Item(TKey)
+// 0x00000164 System.Void Unity.Collections.NativeHashMap`2::Dispose()
+// 0x00000165 System.Collections.Generic.IEnumerator`1<Unity.Collections.LowLevel.Unsafe.KeyValue`2<TKey,TValue>> Unity.Collections.NativeHashMap`2::System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator()
+// 0x00000166 System.Collections.IEnumerator Unity.Collections.NativeHashMap`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000167 System.Void Unity.Collections.NativeHashSet`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000168 System.Void Unity.Collections.NativeHashSet`1::Dispose()
+// 0x00000169 System.Boolean Unity.Collections.NativeHashSet`1::Add(T)
+// 0x0000016A System.Boolean Unity.Collections.NativeHashSet`1::Contains(T)
+// 0x0000016B System.Collections.Generic.IEnumerator`1<T> Unity.Collections.NativeHashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x0000016C System.Collections.IEnumerator Unity.Collections.NativeHashSet`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000016D System.Int32 Unity.Collections.IIndexable`1::get_Length()
+// 0x0000016E System.Void Unity.Collections.IIndexable`1::set_Length(System.Int32)
+// 0x0000016F System.Int32 Unity.Collections.INativeList`1::get_Capacity()
+// 0x00000170 System.Void Unity.Collections.NativeList`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000171 System.Void Unity.Collections.NativeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000172 System.Void Unity.Collections.NativeList`1::Initialize(System.Int32,U&,System.Int32)
+// 0x00000173 System.Void Unity.Collections.NativeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int32)
+// 0x00000174 T Unity.Collections.NativeList`1::get_Item(System.Int32)
+// 0x00000175 System.Void Unity.Collections.NativeList`1::set_Item(System.Int32,T)
+// 0x00000176 T& Unity.Collections.NativeList`1::ElementAt(System.Int32)
+// 0x00000177 System.Int32 Unity.Collections.NativeList`1::get_Length()
+// 0x00000178 System.Void Unity.Collections.NativeList`1::set_Length(System.Int32)
+// 0x00000179 System.Int32 Unity.Collections.NativeList`1::get_Capacity()
+// 0x0000017A System.Void Unity.Collections.NativeList`1::Add(T&)
+// 0x0000017B System.Void Unity.Collections.NativeList`1::InsertRangeWithBeginEnd(System.Int32,System.Int32)
+// 0x0000017C System.Void Unity.Collections.NativeList`1::RemoveAt(System.Int32)
+// 0x0000017D System.Boolean Unity.Collections.NativeList`1::get_IsCreated()
+// 0x0000017E System.Void Unity.Collections.NativeList`1::Dispose()
+// 0x0000017F System.Void Unity.Collections.NativeList`1::Clear()
+// 0x00000180 Unity.Collections.NativeArray`1<T> Unity.Collections.NativeList`1::op_Implicit(Unity.Collections.NativeList`1<T>)
+// 0x00000181 Unity.Collections.NativeArray`1<T> Unity.Collections.NativeList`1::AsArray()
+// 0x00000182 Unity.Collections.NativeArray`1/Enumerator<T> Unity.Collections.NativeList`1::GetEnumerator()
+// 0x00000183 System.Collections.IEnumerator Unity.Collections.NativeList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000184 System.Collections.Generic.IEnumerator`1<T> Unity.Collections.NativeList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000185 System.Void Unity.Collections.NativeList`1::Resize(System.Int32,Unity.Collections.NativeArrayOptions)
+// 0x00000186 System.Void Unity.Collections.NativeList`1::ResizeUninitialized(System.Int32)
+// 0x00000187 Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueBlockPoolData::AllocateBlock()
 extern void NativeQueueBlockPoolData_AllocateBlock_m5B26A5ECC71386FA451CC6A8539CA5828A0D41CD (void);
-// 0x00000187 System.Void Unity.Collections.NativeQueueBlockPoolData::FreeBlock(Unity.Collections.NativeQueueBlockHeader*)
+// 0x00000188 System.Void Unity.Collections.NativeQueueBlockPoolData::FreeBlock(Unity.Collections.NativeQueueBlockHeader*)
 extern void NativeQueueBlockPoolData_FreeBlock_m1F946136116E617CAA61EE33BCF4B55E71A2E6DC (void);
-// 0x00000188 Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueueBlockPool::GetQueueBlockPool()
+// 0x00000189 Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueueBlockPool::GetQueueBlockPool()
 extern void NativeQueueBlockPool_GetQueueBlockPool_m72A3D0FE305C26652617D578ADE6C2EE6754FA7A (void);
-// 0x00000189 System.Void Unity.Collections.NativeQueueBlockPool::AppDomainOnDomainUnload()
+// 0x0000018A System.Void Unity.Collections.NativeQueueBlockPool::AppDomainOnDomainUnload()
 extern void NativeQueueBlockPool_AppDomainOnDomainUnload_mD3B4E5430F5D7EC43B4B41DF3B87D26D5418A606 (void);
-// 0x0000018A System.Void Unity.Collections.NativeQueueBlockPool::OnDomainUnload(System.Object,System.EventArgs)
+// 0x0000018B System.Void Unity.Collections.NativeQueueBlockPool::OnDomainUnload(System.Object,System.EventArgs)
 extern void NativeQueueBlockPool_OnDomainUnload_m1BC3ECE44F94F0D5579AC3643A8C229BB806847D (void);
-// 0x0000018B System.Void Unity.Collections.NativeQueueBlockPool::.cctor()
+// 0x0000018C System.Void Unity.Collections.NativeQueueBlockPool::.cctor()
 extern void NativeQueueBlockPool__cctor_m9730DA75F226458D19D4D98D9A3BE7133B9B177C (void);
-// 0x0000018C Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueData::GetCurrentWriteBlockTLS(System.Int32)
+// 0x0000018D Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueData::GetCurrentWriteBlockTLS(System.Int32)
 extern void NativeQueueData_GetCurrentWriteBlockTLS_m21D4E781362232FFB12406ED641A17D25C34632C (void);
-// 0x0000018D System.Void Unity.Collections.NativeQueueData::SetCurrentWriteBlockTLS(System.Int32,Unity.Collections.NativeQueueBlockHeader*)
+// 0x0000018E System.Void Unity.Collections.NativeQueueData::SetCurrentWriteBlockTLS(System.Int32,Unity.Collections.NativeQueueBlockHeader*)
 extern void NativeQueueData_SetCurrentWriteBlockTLS_m36127FAE539B6E36DBCCEF247F067270E0CE9149 (void);
-// 0x0000018E Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueData::AllocateWriteBlockMT(Unity.Collections.NativeQueueData*,Unity.Collections.NativeQueueBlockPoolData*,System.Int32)
-// 0x0000018F System.Void Unity.Collections.NativeQueueData::AllocateQueue(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeQueueData*&)
-// 0x00000190 System.Void Unity.Collections.NativeQueueData::DeallocateQueue(Unity.Collections.NativeQueueData*,Unity.Collections.NativeQueueBlockPoolData*,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x0000018F Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueData::AllocateWriteBlockMT(Unity.Collections.NativeQueueData*,Unity.Collections.NativeQueueBlockPoolData*,System.Int32)
+// 0x00000190 System.Void Unity.Collections.NativeQueueData::AllocateQueue(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeQueueData*&)
+// 0x00000191 System.Void Unity.Collections.NativeQueueData::DeallocateQueue(Unity.Collections.NativeQueueData*,Unity.Collections.NativeQueueBlockPoolData*,Unity.Collections.AllocatorManager/AllocatorHandle)
 extern void NativeQueueData_DeallocateQueue_m00F1377036BFEDFFD7627C8E188150B2BB05F328 (void);
-// 0x00000191 System.Void Unity.Collections.NativeQueue`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000192 System.Int32 Unity.Collections.NativeQueue`1::get_Count()
-// 0x00000193 System.Void Unity.Collections.NativeQueue`1::Enqueue(T)
-// 0x00000194 System.Boolean Unity.Collections.NativeQueue`1::TryDequeue(T&)
-// 0x00000195 System.Void Unity.Collections.NativeQueue`1::Clear()
-// 0x00000196 System.Void Unity.Collections.NativeQueue`1::Dispose()
-// 0x00000197 Unity.Collections.NativeQueue`1/ParallelWriter<T> Unity.Collections.NativeQueue`1::AsParallelWriter()
-// 0x00000198 System.Void Unity.Collections.NativeQueue`1/ParallelWriter::Enqueue(T)
-// 0x00000199 System.Void Unity.Collections.NativeReference`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
-// 0x0000019A System.Void Unity.Collections.NativeReference`1::Allocate(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeReference`1<T>&)
-// 0x0000019B T Unity.Collections.NativeReference`1::get_Value()
-// 0x0000019C System.Void Unity.Collections.NativeReference`1::set_Value(T)
-// 0x0000019D System.Void Unity.Collections.NativeReference`1::Dispose()
-// 0x0000019E System.Boolean Unity.Collections.NativeReference`1::Equals(Unity.Collections.NativeReference`1<T>)
-// 0x0000019F System.Boolean Unity.Collections.NativeReference`1::Equals(System.Object)
-// 0x000001A0 System.Int32 Unity.Collections.NativeReference`1::GetHashCode()
-// 0x000001A1 System.Void Unity.Collections.Spinner::Lock()
+// 0x00000192 System.Void Unity.Collections.NativeQueue`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000193 System.Int32 Unity.Collections.NativeQueue`1::get_Count()
+// 0x00000194 System.Void Unity.Collections.NativeQueue`1::Enqueue(T)
+// 0x00000195 System.Boolean Unity.Collections.NativeQueue`1::TryDequeue(T&)
+// 0x00000196 System.Void Unity.Collections.NativeQueue`1::Clear()
+// 0x00000197 System.Void Unity.Collections.NativeQueue`1::Dispose()
+// 0x00000198 Unity.Collections.NativeQueue`1/ParallelWriter<T> Unity.Collections.NativeQueue`1::AsParallelWriter()
+// 0x00000199 System.Void Unity.Collections.NativeQueue`1/ParallelWriter::Enqueue(T)
+// 0x0000019A System.Void Unity.Collections.NativeReference`1::.ctor(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
+// 0x0000019B System.Void Unity.Collections.NativeReference`1::Allocate(Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeReference`1<T>&)
+// 0x0000019C T Unity.Collections.NativeReference`1::get_Value()
+// 0x0000019D System.Void Unity.Collections.NativeReference`1::set_Value(T)
+// 0x0000019E System.Void Unity.Collections.NativeReference`1::Dispose()
+// 0x0000019F System.Boolean Unity.Collections.NativeReference`1::Equals(Unity.Collections.NativeReference`1<T>)
+// 0x000001A0 System.Boolean Unity.Collections.NativeReference`1::Equals(System.Object)
+// 0x000001A1 System.Int32 Unity.Collections.NativeReference`1::GetHashCode()
+// 0x000001A2 System.Void Unity.Collections.Spinner::Lock()
 extern void Spinner_Lock_mF38DA7980552D7B8E60444A1B64ADF440D3DFAA7 (void);
-// 0x000001A2 System.Void Unity.Collections.Spinner::Unlock()
+// 0x000001A3 System.Void Unity.Collections.Spinner::Unlock()
 extern void Spinner_Unlock_m1664CFC96DCA3A7B36092F61C9E34624C497EB1A (void);
-// 0x000001A3 System.Void Unity.Collections.UnmanagedArray`1::Dispose()
-// 0x000001A4 T& Unity.Collections.UnmanagedArray`1::get_Item(System.Int32)
-// 0x000001A5 System.Void Unity.Collections.RewindableAllocator::Rewind()
+// 0x000001A4 System.Void Unity.Collections.UnmanagedArray`1::Dispose()
+// 0x000001A5 T& Unity.Collections.UnmanagedArray`1::get_Item(System.Int32)
+// 0x000001A6 System.Void Unity.Collections.RewindableAllocator::Rewind()
 extern void RewindableAllocator_Rewind_m8EB623F05C707C3AF52FF082A7C095FE3A1CE595 (void);
-// 0x000001A6 System.Void Unity.Collections.RewindableAllocator::Dispose()
+// 0x000001A7 System.Void Unity.Collections.RewindableAllocator::Dispose()
 extern void RewindableAllocator_Dispose_mD873C81842DAEBF01369B8023805FF930C4C8A2F (void);
-// 0x000001A7 System.Int32 Unity.Collections.RewindableAllocator::Try(Unity.Collections.AllocatorManager/Block&)
+// 0x000001A8 System.Int32 Unity.Collections.RewindableAllocator::Try(Unity.Collections.AllocatorManager/Block&)
 extern void RewindableAllocator_Try_m6C020E9D4D72801E38775286491991C3FCE064ED (void);
-// 0x000001A8 System.Int32 Unity.Collections.RewindableAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
+// 0x000001A9 System.Int32 Unity.Collections.RewindableAllocator::Try(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
 extern void RewindableAllocator_Try_mA4AF5A5088097CB6343C3CC97058959976372C35 (void);
-// 0x000001A9 Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.RewindableAllocator::get_Handle()
+// 0x000001AA Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.RewindableAllocator::get_Handle()
 extern void RewindableAllocator_get_Handle_mF81EDA2102485C46965AAB56347E8F64FE551D9E (void);
-// 0x000001AA System.Int32 Unity.Collections.RewindableAllocator::Try$BurstManaged(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
+// 0x000001AB System.Int32 Unity.Collections.RewindableAllocator::Try$BurstManaged(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
 extern void RewindableAllocator_TryU24BurstManaged_mBB6DAE6A8CDB2E3626C38F3B65186AAF6ACBF6E8 (void);
-// 0x000001AB System.Void Unity.Collections.RewindableAllocator/MemoryBlock::.ctor(System.Int64)
+// 0x000001AC System.Void Unity.Collections.RewindableAllocator/MemoryBlock::.ctor(System.Int64)
 extern void MemoryBlock__ctor_m0DEC878B6827C0B400BE1C00CA37C2F8F1C31D7F (void);
-// 0x000001AC System.Void Unity.Collections.RewindableAllocator/MemoryBlock::Rewind()
+// 0x000001AD System.Void Unity.Collections.RewindableAllocator/MemoryBlock::Rewind()
 extern void MemoryBlock_Rewind_m64C7EC463789D78802B8D27695AFFD37133E7069 (void);
-// 0x000001AD System.Void Unity.Collections.RewindableAllocator/MemoryBlock::Dispose()
+// 0x000001AE System.Void Unity.Collections.RewindableAllocator/MemoryBlock::Dispose()
 extern void MemoryBlock_Dispose_mE0EAA3828B238B9A26EF6BB5CA7CB5EC592FBD6F (void);
-// 0x000001AE System.Int32 Unity.Collections.RewindableAllocator/MemoryBlock::TryAllocate(Unity.Collections.AllocatorManager/Block&)
+// 0x000001AF System.Int32 Unity.Collections.RewindableAllocator/MemoryBlock::TryAllocate(Unity.Collections.AllocatorManager/Block&)
 extern void MemoryBlock_TryAllocate_m34CC70E419486D5B1C90E7BF4A6762BE3D130F10 (void);
-// 0x000001AF System.Boolean Unity.Collections.RewindableAllocator/MemoryBlock::Contains(System.IntPtr)
+// 0x000001B0 System.Boolean Unity.Collections.RewindableAllocator/MemoryBlock::Contains(System.IntPtr)
 extern void MemoryBlock_Contains_m2F035A4F1F9063B42ACB1B590C4EFD1741E39CEC (void);
-// 0x000001B0 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
+// 0x000001B1 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
 extern void Try_000006E6U24PostfixBurstDelegate__ctor_mA295EC796EC1F185B3169F07893F684A865565C1 (void);
-// 0x000001B1 System.Int32 Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$PostfixBurstDelegate::Invoke(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
+// 0x000001B2 System.Int32 Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$PostfixBurstDelegate::Invoke(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
 extern void Try_000006E6U24PostfixBurstDelegate_Invoke_m55694249E8A0556322798E88394271A1F173150B (void);
-// 0x000001B2 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
+// 0x000001B3 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
 extern void Try_000006E6U24BurstDirectCall_GetFunctionPointerDiscard_m1B3F8DD7B28BF2F5F17B13F20E3143119FF635FA (void);
-// 0x000001B3 System.IntPtr Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::GetFunctionPointer()
+// 0x000001B4 System.IntPtr Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::GetFunctionPointer()
 extern void Try_000006E6U24BurstDirectCall_GetFunctionPointer_m4E7AEF80846D3FDA028F59DDCAFA2B9D16221D58 (void);
-// 0x000001B4 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Constructor()
+// 0x000001B5 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Constructor()
 extern void Try_000006E6U24BurstDirectCall_Constructor_m4069614047B91CE4D9D5E6F6EA146A491DCB16BA (void);
-// 0x000001B5 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Initialize()
+// 0x000001B6 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Initialize()
 extern void Try_000006E6U24BurstDirectCall_Initialize_m69C16A383B9323977377D5C1DC99B033C89FF54E (void);
-// 0x000001B6 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::.cctor()
+// 0x000001B7 System.Void Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::.cctor()
 extern void Try_000006E6U24BurstDirectCall__cctor_m533758B0BD60C9DD2E2CE71C897C48BAB1C9C56C (void);
-// 0x000001B7 System.Int32 Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Invoke(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
+// 0x000001B8 System.Int32 Unity.Collections.RewindableAllocator/Unity.Collections.Try_000006E6$BurstDirectCall::Invoke(System.IntPtr,Unity.Collections.AllocatorManager/Block&)
 extern void Try_000006E6U24BurstDirectCall_Invoke_m7B90D503373C6B87DD499837E4800AF754714B13 (void);
-// 0x000001B8 System.Boolean Unity.Collections.Unicode::IsValidCodePoint(System.Int32)
+// 0x000001B9 System.Boolean Unity.Collections.Unicode::IsValidCodePoint(System.Int32)
 extern void Unicode_IsValidCodePoint_m6F8516FA18D35B6D052FD6BDE01D9D497EA06B9D (void);
-// 0x000001B9 System.Boolean Unity.Collections.Unicode::NotTrailer(System.Byte)
+// 0x000001BA System.Boolean Unity.Collections.Unicode::NotTrailer(System.Byte)
 extern void Unicode_NotTrailer_m9FD6FC331044FE0EFC90E29A2808C4A6535E4CAD (void);
-// 0x000001BA Unity.Collections.Unicode/Rune Unity.Collections.Unicode::get_ReplacementCharacter()
+// 0x000001BB Unity.Collections.Unicode/Rune Unity.Collections.Unicode::get_ReplacementCharacter()
 extern void Unicode_get_ReplacementCharacter_m525CDE0E6CAB489454025711F93FF832A600556A (void);
-// 0x000001BB Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUcs(Unity.Collections.Unicode/Rune&,System.Byte*,System.Int32&,System.Int32)
+// 0x000001BC Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUcs(Unity.Collections.Unicode/Rune&,System.Byte*,System.Int32&,System.Int32)
 extern void Unicode_Utf8ToUcs_m013E3A507C4B6F5459B09C6EA8EA229BDC979827 (void);
-// 0x000001BC System.Boolean Unity.Collections.Unicode::IsLeadingSurrogate(System.Char)
+// 0x000001BD System.Boolean Unity.Collections.Unicode::IsLeadingSurrogate(System.Char)
 extern void Unicode_IsLeadingSurrogate_mCFA66EB348CD8F48DB573D45B2658A95BA248F06 (void);
-// 0x000001BD System.Boolean Unity.Collections.Unicode::IsTrailingSurrogate(System.Char)
+// 0x000001BE System.Boolean Unity.Collections.Unicode::IsTrailingSurrogate(System.Char)
 extern void Unicode_IsTrailingSurrogate_m2ECEB76882DCD6006C95D3861BFA7654D3A22B25 (void);
-// 0x000001BE Unity.Collections.ConversionError Unity.Collections.Unicode::Utf16ToUcs(Unity.Collections.Unicode/Rune&,System.Char*,System.Int32&,System.Int32)
+// 0x000001BF Unity.Collections.ConversionError Unity.Collections.Unicode::Utf16ToUcs(Unity.Collections.Unicode/Rune&,System.Char*,System.Int32&,System.Int32)
 extern void Unicode_Utf16ToUcs_m55352C5470C6C4C506B02E9827F05C7285F113D3 (void);
-// 0x000001BF Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf8(System.Byte*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
+// 0x000001C0 Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf8(System.Byte*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
 extern void Unicode_UcsToUtf8_mBE0B9FE432D859A3409B7BD03C26C958CF9301BE (void);
-// 0x000001C0 Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf16(System.Char*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
+// 0x000001C1 Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf16(System.Char*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
 extern void Unicode_UcsToUtf16_m14C1098270C0DFFAF6B48D47C3214344FD4FAE0E (void);
-// 0x000001C1 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf16ToUtf8(System.Char*,System.Int32,System.Byte*,System.Int32&,System.Int32)
+// 0x000001C2 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf16ToUtf8(System.Char*,System.Int32,System.Byte*,System.Int32&,System.Int32)
 extern void Unicode_Utf16ToUtf8_mF16BCB8771E0A53EE7464D418792F4CEB99A641E (void);
-// 0x000001C2 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUtf16(System.Byte*,System.Int32,System.Char*,System.Int32&,System.Int32)
+// 0x000001C3 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUtf16(System.Byte*,System.Int32,System.Char*,System.Int32&,System.Int32)
 extern void Unicode_Utf8ToUtf16_mF3051E9181A57301EEF945C10B97D3C9356706DD (void);
-// 0x000001C3 Unity.Collections.Unicode/Rune Unity.Collections.Unicode/Rune::op_Explicit(System.Char)
+// 0x000001C4 Unity.Collections.Unicode/Rune Unity.Collections.Unicode/Rune::op_Explicit(System.Char)
 extern void Rune_op_Explicit_mE522A7646091C5FC49F41954FCDB8880AB9D6595 (void);
-// 0x000001C4 System.Int32 Unity.Collections.Unicode/Rune::LengthInUtf8Bytes()
+// 0x000001C5 System.Int32 Unity.Collections.Unicode/Rune::LengthInUtf8Bytes()
 extern void Rune_LengthInUtf8Bytes_m2E470564E773DB43A761FC2A5DA17F0885E81489 (void);
-// 0x000001C5 Unity.Collections.CopyError Unity.Collections.UTF8ArrayUnsafeUtility::Copy(System.Byte*,System.UInt16&,System.UInt16,System.Char*,System.Int32)
+// 0x000001C6 Unity.Collections.CopyError Unity.Collections.UTF8ArrayUnsafeUtility::Copy(System.Byte*,System.UInt16&,System.UInt16,System.Char*,System.Int32)
 extern void UTF8ArrayUnsafeUtility_Copy_m599E2064905A6DF1D3F386114B76668CD0E5B7B9 (void);
-// 0x000001C6 System.Int32 Unity.Collections.UTF8ArrayUnsafeUtility::StrCmp(System.Byte*,System.Int32,System.Byte*,System.Int32)
+// 0x000001C7 System.Int32 Unity.Collections.UTF8ArrayUnsafeUtility::StrCmp(System.Byte*,System.Int32,System.Byte*,System.Int32)
 extern void UTF8ArrayUnsafeUtility_StrCmp_mEA1B1EC00085F9EDEC1CDEFCF53C2E83830374D4 (void);
-// 0x000001C7 System.Boolean Unity.Collections.UTF8ArrayUnsafeUtility::EqualsUTF8Bytes(System.Byte*,System.Int32,System.Byte*,System.Int32)
+// 0x000001C8 System.Boolean Unity.Collections.UTF8ArrayUnsafeUtility::EqualsUTF8Bytes(System.Byte*,System.Int32,System.Byte*,System.Int32)
 extern void UTF8ArrayUnsafeUtility_EqualsUTF8Bytes_m96A84A5B2B6E4ABA06A65995D7EA16477797E754 (void);
-// 0x000001C8 System.Int32 Unity.Collections.UTF8ArrayUnsafeUtility::StrCmp(System.Byte*,System.Int32,System.Char*,System.Int32)
+// 0x000001C9 System.Int32 Unity.Collections.UTF8ArrayUnsafeUtility::StrCmp(System.Byte*,System.Int32,System.Char*,System.Int32)
 extern void UTF8ArrayUnsafeUtility_StrCmp_m2C38EE679FD06EDDEB1409956BA7398431FF2FEC (void);
-// 0x000001C9 System.Void Unity.Collections.UTF8ArrayUnsafeUtility/Comparison::.ctor(Unity.Collections.Unicode/Rune,Unity.Collections.ConversionError,Unity.Collections.Unicode/Rune,Unity.Collections.ConversionError)
+// 0x000001CA System.Void Unity.Collections.UTF8ArrayUnsafeUtility/Comparison::.ctor(Unity.Collections.Unicode/Rune,Unity.Collections.ConversionError,Unity.Collections.Unicode/Rune,Unity.Collections.ConversionError)
 extern void Comparison__ctor_m40D70075E3FE042352BE5C6589C23C5D7D41668C (void);
-// 0x000001CA System.Void Unity.Collections.xxHash3::Avx2HashLongInternalLoop(System.UInt64*,System.Byte*,System.Byte*,System.Int64,System.Byte*,System.Int32)
+// 0x000001CB System.Void Unity.Collections.xxHash3::Avx2HashLongInternalLoop(System.UInt64*,System.Byte*,System.Byte*,System.Int64,System.Byte*,System.Int32)
 extern void xxHash3_Avx2HashLongInternalLoop_mCAEEE715FCB699CA2F1B947BCD252AA0F87D2B15 (void);
-// 0x000001CB System.Void Unity.Collections.xxHash3::Avx2ScrambleAcc(System.UInt64*,System.Byte*)
+// 0x000001CC System.Void Unity.Collections.xxHash3::Avx2ScrambleAcc(System.UInt64*,System.Byte*)
 extern void xxHash3_Avx2ScrambleAcc_m64D8B68219EA3E164A61D2001E0969263CF098CE (void);
-// 0x000001CC System.Void Unity.Collections.xxHash3::Avx2Accumulate(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int64,System.Int32)
+// 0x000001CD System.Void Unity.Collections.xxHash3::Avx2Accumulate(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int64,System.Int32)
 extern void xxHash3_Avx2Accumulate_mD57A48AB8FB3471A923F64F7C8B52FF8538E791D (void);
-// 0x000001CD System.Void Unity.Collections.xxHash3::Avx2Accumulate512(System.UInt64*,System.Byte*,System.Byte*,System.Byte*)
+// 0x000001CE System.Void Unity.Collections.xxHash3::Avx2Accumulate512(System.UInt64*,System.Byte*,System.Byte*,System.Byte*)
 extern void xxHash3_Avx2Accumulate512_mBB4B8AAAA2DC7E6B1350597687C11B82E81CEF06 (void);
-// 0x000001CE System.UInt64 Unity.Collections.xxHash3::Hash64Long(System.Byte*,System.Byte*,System.Int64,System.Byte*)
+// 0x000001CF System.UInt64 Unity.Collections.xxHash3::Hash64Long(System.Byte*,System.Byte*,System.Int64,System.Byte*)
 extern void xxHash3_Hash64Long_m9950702E864DCCD9B8DEAAE23E7CBB5E79D4AC62 (void);
-// 0x000001CF System.Void Unity.Collections.xxHash3::Hash128Long(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
+// 0x000001D0 System.Void Unity.Collections.xxHash3::Hash128Long(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
 extern void xxHash3_Hash128Long_mED9958D31B54E0E0666AAD34A52DE7CDEB802E6F (void);
-// 0x000001D0 Unity.Mathematics.uint4 Unity.Collections.xxHash3::ToUint4(System.UInt64,System.UInt64)
+// 0x000001D1 Unity.Mathematics.uint4 Unity.Collections.xxHash3::ToUint4(System.UInt64,System.UInt64)
 extern void xxHash3_ToUint4_m811AB95294FBBC0F17A5358D0A22669691CE3633 (void);
-// 0x000001D1 System.UInt64 Unity.Collections.xxHash3::Read64LE(System.Void*)
+// 0x000001D2 System.UInt64 Unity.Collections.xxHash3::Read64LE(System.Void*)
 extern void xxHash3_Read64LE_mD275A5EFD8727CDE8B8E280D4A5D5B82D5E3B195 (void);
-// 0x000001D2 System.Void Unity.Collections.xxHash3::Write64LE(System.Void*,System.UInt64)
+// 0x000001D3 System.Void Unity.Collections.xxHash3::Write64LE(System.Void*,System.UInt64)
 extern void xxHash3_Write64LE_m79CC2011BF16363F2338D61BE43E99E6467A9437 (void);
-// 0x000001D3 System.UInt64 Unity.Collections.xxHash3::Mul32To64(System.UInt32,System.UInt32)
+// 0x000001D4 System.UInt64 Unity.Collections.xxHash3::Mul32To64(System.UInt32,System.UInt32)
 extern void xxHash3_Mul32To64_m9210E9379305FC38A6D69C698F6E1A30013BC4F5 (void);
-// 0x000001D4 System.UInt64 Unity.Collections.xxHash3::XorShift64(System.UInt64,System.Int32)
+// 0x000001D5 System.UInt64 Unity.Collections.xxHash3::XorShift64(System.UInt64,System.Int32)
 extern void xxHash3_XorShift64_mF4245CDE1C4AF6B1CC8F57AAE0DA8C7E04673CFC (void);
-// 0x000001D5 System.UInt64 Unity.Collections.xxHash3::Mul128Fold64(System.UInt64,System.UInt64)
+// 0x000001D6 System.UInt64 Unity.Collections.xxHash3::Mul128Fold64(System.UInt64,System.UInt64)
 extern void xxHash3_Mul128Fold64_mF59DCB5142027D151F52C7748BFA28C32B3B8F38 (void);
-// 0x000001D6 System.UInt64 Unity.Collections.xxHash3::Avalanche(System.UInt64)
+// 0x000001D7 System.UInt64 Unity.Collections.xxHash3::Avalanche(System.UInt64)
 extern void xxHash3_Avalanche_m059990B780566C6F04C66700B2BE7817B4FA2F18 (void);
-// 0x000001D7 System.UInt64 Unity.Collections.xxHash3::Mix2Acc(System.UInt64,System.UInt64,System.Byte*)
+// 0x000001D8 System.UInt64 Unity.Collections.xxHash3::Mix2Acc(System.UInt64,System.UInt64,System.Byte*)
 extern void xxHash3_Mix2Acc_mDEB8D0C149D943295B8A3049A437578BE879BED8 (void);
-// 0x000001D8 System.UInt64 Unity.Collections.xxHash3::MergeAcc(System.UInt64*,System.Byte*,System.UInt64)
+// 0x000001D9 System.UInt64 Unity.Collections.xxHash3::MergeAcc(System.UInt64*,System.Byte*,System.UInt64)
 extern void xxHash3_MergeAcc_mB01ADB1934EDFE8FE3B2AAB13DA6884EB1133A14 (void);
-// 0x000001D9 System.Void Unity.Collections.xxHash3::DefaultHashLongInternalLoop(System.UInt64*,System.Byte*,System.Byte*,System.Int64,System.Byte*,System.Int32)
+// 0x000001DA System.Void Unity.Collections.xxHash3::DefaultHashLongInternalLoop(System.UInt64*,System.Byte*,System.Byte*,System.Int64,System.Byte*,System.Int32)
 extern void xxHash3_DefaultHashLongInternalLoop_m9181A3A8DBE8DBEFF1B730ECC9A9AA5E93110F1B (void);
-// 0x000001DA System.Void Unity.Collections.xxHash3::DefaultAccumulate(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int64,System.Int32)
+// 0x000001DB System.Void Unity.Collections.xxHash3::DefaultAccumulate(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int64,System.Int32)
 extern void xxHash3_DefaultAccumulate_m3D28C5486CC42D31D2D832F40DEFE1A7CF508CA5 (void);
-// 0x000001DB System.Void Unity.Collections.xxHash3::DefaultAccumulate512(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int32)
+// 0x000001DC System.Void Unity.Collections.xxHash3::DefaultAccumulate512(System.UInt64*,System.Byte*,System.Byte*,System.Byte*,System.Int32)
 extern void xxHash3_DefaultAccumulate512_mFADF15092DA5379116D3FCCFC4238ADBF48D85D7 (void);
-// 0x000001DC System.Void Unity.Collections.xxHash3::DefaultScrambleAcc(System.UInt64*,System.Byte*)
+// 0x000001DD System.Void Unity.Collections.xxHash3::DefaultScrambleAcc(System.UInt64*,System.Byte*)
 extern void xxHash3_DefaultScrambleAcc_mA46D6E8E1BA4613A50B56C8536B0DA3F50437137 (void);
-// 0x000001DD System.UInt64 Unity.Collections.xxHash3::Hash64Long$BurstManaged(System.Byte*,System.Byte*,System.Int64,System.Byte*)
+// 0x000001DE System.UInt64 Unity.Collections.xxHash3::Hash64Long$BurstManaged(System.Byte*,System.Byte*,System.Int64,System.Byte*)
 extern void xxHash3_Hash64LongU24BurstManaged_m71E36BBD116CCA46ED23162F80B08D3B2F782B4D (void);
-// 0x000001DE System.Void Unity.Collections.xxHash3::Hash128Long$BurstManaged(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
+// 0x000001DF System.Void Unity.Collections.xxHash3::Hash128Long$BurstManaged(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
 extern void xxHash3_Hash128LongU24BurstManaged_m961A07284DAB6ADFF52EB4287E9D105AB971FDF6 (void);
-// 0x000001DF System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
+// 0x000001E0 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
 extern void Hash64Long_0000071DU24PostfixBurstDelegate__ctor_mAA816B552583BBF0345F3BF9E10146D2BB7F75F4 (void);
-// 0x000001E0 System.UInt64 Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$PostfixBurstDelegate::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*)
+// 0x000001E1 System.UInt64 Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$PostfixBurstDelegate::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*)
 extern void Hash64Long_0000071DU24PostfixBurstDelegate_Invoke_mA703A2BD646351C6FA75259F26F12BC2D9D70BFF (void);
-// 0x000001E1 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
+// 0x000001E2 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
 extern void Hash64Long_0000071DU24BurstDirectCall_GetFunctionPointerDiscard_m7A4CA1217A64D411ED07D1D3A72E6BD5E0C927FE (void);
-// 0x000001E2 System.IntPtr Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::GetFunctionPointer()
+// 0x000001E3 System.IntPtr Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::GetFunctionPointer()
 extern void Hash64Long_0000071DU24BurstDirectCall_GetFunctionPointer_m37B0865B8DABAEA1D28D39C36CC2F229EEC54267 (void);
-// 0x000001E3 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Constructor()
+// 0x000001E4 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Constructor()
 extern void Hash64Long_0000071DU24BurstDirectCall_Constructor_m1A7B2D63B8EC9BA41ED9BBE30618FAEA9731B3DE (void);
-// 0x000001E4 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Initialize()
+// 0x000001E5 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Initialize()
 extern void Hash64Long_0000071DU24BurstDirectCall_Initialize_m995C925DC5918C21563F4FB1B3466A2465020578 (void);
-// 0x000001E5 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::.cctor()
+// 0x000001E6 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::.cctor()
 extern void Hash64Long_0000071DU24BurstDirectCall__cctor_mD6287194F5736004328B9FA8B9B4C2AC479D9B29 (void);
-// 0x000001E6 System.UInt64 Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*)
+// 0x000001E7 System.UInt64 Unity.Collections.xxHash3/Unity.Collections.Hash64Long_0000071D$BurstDirectCall::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*)
 extern void Hash64Long_0000071DU24BurstDirectCall_Invoke_mC3A346DEA4D298905A0A1E69BF23B9F04DA41226 (void);
-// 0x000001E7 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
+// 0x000001E8 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$PostfixBurstDelegate::.ctor(System.Object,System.IntPtr)
 extern void Hash128Long_00000724U24PostfixBurstDelegate__ctor_mA70726DF6285E514E02A2874991DCE8560B283D5 (void);
-// 0x000001E8 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$PostfixBurstDelegate::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
+// 0x000001E9 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$PostfixBurstDelegate::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
 extern void Hash128Long_00000724U24PostfixBurstDelegate_Invoke_m90B7C2AED7E18A0776F50E22F830E4E4DBD154CA (void);
-// 0x000001E9 System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
+// 0x000001EA System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::GetFunctionPointerDiscard(System.IntPtr&)
 extern void Hash128Long_00000724U24BurstDirectCall_GetFunctionPointerDiscard_m7E8D0F29A949D77F8911359791501F3652DAE050 (void);
-// 0x000001EA System.IntPtr Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::GetFunctionPointer()
+// 0x000001EB System.IntPtr Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::GetFunctionPointer()
 extern void Hash128Long_00000724U24BurstDirectCall_GetFunctionPointer_m1B1F6B1005561D04A9C8F5F24DBCD98C83B971CC (void);
-// 0x000001EB System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Constructor()
+// 0x000001EC System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Constructor()
 extern void Hash128Long_00000724U24BurstDirectCall_Constructor_mEAF80A4054770022CC3376F289460FF5C628CB24 (void);
-// 0x000001EC System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Initialize()
+// 0x000001ED System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Initialize()
 extern void Hash128Long_00000724U24BurstDirectCall_Initialize_m3754CC927F2B00E853721D2A50D2E70662A6EF2C (void);
-// 0x000001ED System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::.cctor()
+// 0x000001EE System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::.cctor()
 extern void Hash128Long_00000724U24BurstDirectCall__cctor_mF7C0DE50ADCDA3F9CF7CF4B00CD72F5BB4AC7506 (void);
-// 0x000001EE System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
+// 0x000001EF System.Void Unity.Collections.xxHash3/Unity.Collections.Hash128Long_00000724$BurstDirectCall::Invoke(System.Byte*,System.Byte*,System.Int64,System.Byte*,Unity.Mathematics.uint4&)
 extern void Hash128Long_00000724U24BurstDirectCall_Invoke_mE7F31F7F2047C671537BEB603CDEF312ABCBC345 (void);
-// 0x000001EF System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetUnsafePtr(Unity.Collections.NativeList`1<T>)
-// 0x000001F0 System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetUnsafeReadOnlyPtr(Unity.Collections.NativeList`1<T>)
-// 0x000001F1 System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetInternalListDataPtrUnchecked(Unity.Collections.NativeList`1<T>&)
-// 0x000001F2 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetBucketSize(System.Int32)
+// 0x000001F0 System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetUnsafePtr(Unity.Collections.NativeList`1<T>)
+// 0x000001F1 System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetUnsafeReadOnlyPtr(Unity.Collections.NativeList`1<T>)
+// 0x000001F2 System.Void* Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility::GetInternalListDataPtrUnchecked(Unity.Collections.NativeList`1<T>&)
+// 0x000001F3 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetBucketSize(System.Int32)
 extern void UnsafeHashMapData_GetBucketSize_m17A5F68A59D412D436867D3C5F0DE92C0A618E66 (void);
-// 0x000001F3 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GrowCapacity(System.Int32)
+// 0x000001F4 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GrowCapacity(System.Int32)
 extern void UnsafeHashMapData_GrowCapacity_m9F5FA7B8596A7D1F437808D889FDBA7F857EEB64 (void);
-// 0x000001F4 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::AllocateHashMap(System.Int32,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*&)
-// 0x000001F5 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::ReallocateHashMap(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,System.Int32,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x000001F6 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::DeallocateHashMap(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x000001F5 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::AllocateHashMap(System.Int32,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*&)
+// 0x000001F6 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::ReallocateHashMap(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,System.Int32,System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x000001F7 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::DeallocateHashMap(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.AllocatorManager/AllocatorHandle)
 extern void UnsafeHashMapData_DeallocateHashMap_mB18705656928CE3FFF2F3EFD079F7AF719F03130 (void);
-// 0x000001F7 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::CalculateDataSize(System.Int32,System.Int32,System.Int32&,System.Int32&,System.Int32&)
-// 0x000001F8 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetCount(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*)
+// 0x000001F8 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::CalculateDataSize(System.Int32,System.Int32,System.Int32&,System.Int32&,System.Int32&)
+// 0x000001F9 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetCount(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*)
 extern void UnsafeHashMapData_GetCount_m9E897C5011779A3FF8B21473CE767A83393461C7 (void);
-// 0x000001F9 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetKeyArray(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.NativeArray`1<TKey>)
-// 0x000001FA System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::Clear(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*)
-// 0x000001FB System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,TValue,System.Boolean,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x000001FC System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::Remove(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,System.Boolean)
-// 0x000001FD System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryGetFirstValueAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,TValue&,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&)
-// 0x000001FE System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryGetNextValueAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TValue&,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&)
-// 0x000001FF System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::SetValue(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&,TValue&)
-// 0x00000200 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x00000201 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Clear()
-// 0x00000202 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::TryAdd(TKey,TValue)
-// 0x00000203 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Remove(TKey)
-// 0x00000204 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::TryGetValue(TKey,TValue&)
-// 0x00000205 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::ContainsKey(TKey)
-// 0x00000206 TValue Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::get_Item(TKey)
-// 0x00000207 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::set_Item(TKey,TValue)
-// 0x00000208 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Dispose()
-// 0x00000209 Unity.Collections.NativeArray`1<TKey> Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::GetKeyArray(Unity.Collections.AllocatorManager/AllocatorHandle)
-// 0x0000020A System.Collections.Generic.IEnumerator`1<Unity.Collections.LowLevel.Unsafe.KeyValue`2<TKey,TValue>> Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator()
-// 0x0000020B System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000020C System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Length()
-// 0x0000020D System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::set_Length(System.Int32)
-// 0x0000020E System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Capacity()
-// 0x0000020F T Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Item(System.Int32)
-// 0x00000210 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::set_Item(System.Int32,T)
-// 0x00000211 T& Unity.Collections.LowLevel.Unsafe.UnsafeList`1::ElementAt(System.Int32)
-// 0x00000212 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
-// 0x00000213 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Create(System.Int32,U&,Unity.Collections.NativeArrayOptions)
-// 0x00000214 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Destroy(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
-// 0x00000215 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Dispose()
-// 0x00000216 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Clear()
-// 0x00000217 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Resize(System.Int32,Unity.Collections.NativeArrayOptions)
-// 0x00000218 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Realloc(U&,System.Int32)
-// 0x00000219 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::SetCapacity(U&,System.Int32)
-// 0x0000021A System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::SetCapacity(System.Int32)
-// 0x0000021B System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Add(T&)
-// 0x0000021C System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::InsertRangeWithBeginEnd(System.Int32,System.Int32)
-// 0x0000021D System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::RemoveAt(System.Int32)
-// 0x0000021E System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::RemoveRange(System.Int32,System.Int32)
-// 0x0000021F System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafeList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000220 System.Collections.Generic.IEnumerator`1<T> Unity.Collections.LowLevel.Unsafe.UnsafeList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000221 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::get_Length()
-// 0x00000222 T* Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::get_Item(System.Int32)
-// 0x00000223 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
-// 0x00000224 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Dispose()
-// 0x00000225 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Add(System.Void*)
-// 0x00000226 System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000227 System.Collections.Generic.IEnumerator`1<System.IntPtr> Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::System.Collections.Generic.IEnumerable<System.IntPtr>.GetEnumerator()
-// 0x00000228 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>& Unity.Collections.LowLevel.Unsafe.UnsafePtrListTExtensions::ListData(Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<T>&)
-// 0x00000229 System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeUtilityExtensions::AddressOf(T&)
-// 0x0000022A T& Unity.Collections.LowLevel.Unsafe.UnsafeUtilityExtensions::AsRef(T&)
-// 0x0000022B System.Void $BurstDirectCallInitializer::Initialize()
+// 0x000001FA System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData::GetKeyArray(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.NativeArray`1<TKey>)
+// 0x000001FB System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::Clear(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*)
+// 0x000001FC System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,TValue,System.Boolean,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x000001FD System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::Remove(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,System.Boolean)
+// 0x000001FE System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryGetFirstValueAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TKey,TValue&,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&)
+// 0x000001FF System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::TryGetNextValueAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,TValue&,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&)
+// 0x00000200 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMapBase`2::SetValue(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapData*,Unity.Collections.NativeMultiHashMapIterator`1<TKey>&,TValue&)
+// 0x00000201 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x00000202 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Clear()
+// 0x00000203 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::TryAdd(TKey,TValue)
+// 0x00000204 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Remove(TKey)
+// 0x00000205 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::TryGetValue(TKey,TValue&)
+// 0x00000206 System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::ContainsKey(TKey)
+// 0x00000207 TValue Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::get_Item(TKey)
+// 0x00000208 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::set_Item(TKey,TValue)
+// 0x00000209 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::Dispose()
+// 0x0000020A Unity.Collections.NativeArray`1<TKey> Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::GetKeyArray(Unity.Collections.AllocatorManager/AllocatorHandle)
+// 0x0000020B System.Collections.Generic.IEnumerator`1<Unity.Collections.LowLevel.Unsafe.KeyValue`2<TKey,TValue>> Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::System.Collections.Generic.IEnumerable<Unity.Collections.LowLevel.Unsafe.KeyValue<TKey,TValue>>.GetEnumerator()
+// 0x0000020C System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000020D System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Length()
+// 0x0000020E System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::set_Length(System.Int32)
+// 0x0000020F System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Capacity()
+// 0x00000210 T Unity.Collections.LowLevel.Unsafe.UnsafeList`1::get_Item(System.Int32)
+// 0x00000211 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::set_Item(System.Int32,T)
+// 0x00000212 T& Unity.Collections.LowLevel.Unsafe.UnsafeList`1::ElementAt(System.Int32)
+// 0x00000213 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
+// 0x00000214 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Create(System.Int32,U&,Unity.Collections.NativeArrayOptions)
+// 0x00000215 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Destroy(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+// 0x00000216 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Dispose()
+// 0x00000217 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Clear()
+// 0x00000218 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Resize(System.Int32,Unity.Collections.NativeArrayOptions)
+// 0x00000219 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Realloc(U&,System.Int32)
+// 0x0000021A System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::SetCapacity(U&,System.Int32)
+// 0x0000021B System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::SetCapacity(System.Int32)
+// 0x0000021C System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Add(T&)
+// 0x0000021D System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::InsertRangeWithBeginEnd(System.Int32,System.Int32)
+// 0x0000021E System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::RemoveAt(System.Int32)
+// 0x0000021F System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1::RemoveRange(System.Int32,System.Int32)
+// 0x00000220 System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafeList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000221 System.Collections.Generic.IEnumerator`1<T> Unity.Collections.LowLevel.Unsafe.UnsafeList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000222 System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::get_Length()
+// 0x00000223 T* Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::get_Item(System.Int32)
+// 0x00000224 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::.ctor(System.Int32,Unity.Collections.AllocatorManager/AllocatorHandle,Unity.Collections.NativeArrayOptions)
+// 0x00000225 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Dispose()
+// 0x00000226 System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Add(System.Void*)
+// 0x00000227 System.Collections.IEnumerator Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000228 System.Collections.Generic.IEnumerator`1<System.IntPtr> Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::System.Collections.Generic.IEnumerable<System.IntPtr>.GetEnumerator()
+// 0x00000229 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>& Unity.Collections.LowLevel.Unsafe.UnsafePtrListTExtensions::ListData(Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<T>&)
+// 0x0000022A System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeUtilityExtensions::AddressOf(T&)
+// 0x0000022B T& Unity.Collections.LowLevel.Unsafe.UnsafeUtilityExtensions::AsRef(T&)
+// 0x0000022C System.Void $BurstDirectCallInitializer::Initialize()
 extern void U24BurstDirectCallInitializer_Initialize_mBB7299DE1F1DF732C60394307234ED45AE14AD82 (void);
-static Il2CppMethodPointer s_methodPointers[555] = 
+static Il2CppMethodPointer s_methodPointers[556] = 
 {
 	EmbeddedAttribute__ctor_mB9EA4CCF3A3DC39A3BC92CFE9557FFAA77D15404,
 	IsUnmanagedAttribute__ctor_m15974D59768AFF916E346F7107F7FF7F6AD9099C,
@@ -1127,6 +1129,7 @@ static Il2CppMethodPointer s_methodPointers[555] =
 	FixedString128Bytes_Equals_mC7C2AEBA071128B24EB0BD130ED6423EA46275C1,
 	FixedString128Bytes_CompareTo_m3A02146ED7EA6B833583D2C1B38F6FF5B0870E6F,
 	FixedString128Bytes_op_Equality_mE119008C751060334BD3CECF7B3D0B74B288F684,
+	FixedString128Bytes_op_Inequality_m1C84BD82252DD5B8876973C92B4BAF15801F4A0C,
 	FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB,
 	FixedString128Bytes_CompareTo_m7DAC821750F1242E519D29D8A1A01ABD6B5630C6,
 	FixedString128Bytes_op_Equality_m585E99914214C76581B50D2279924B42A6E5ADD1,
@@ -1655,76 +1658,76 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[144] =
 	{ 0x060000F9, FixedString128Bytes_CompareTo_mB8E2D570CDCEE17387FD2BDA4BD35F9AD5C311A8_AdjustorThunk },
 	{ 0x060000FB, FixedString128Bytes_Equals_mC7C2AEBA071128B24EB0BD130ED6423EA46275C1_AdjustorThunk },
 	{ 0x060000FC, FixedString128Bytes_CompareTo_m3A02146ED7EA6B833583D2C1B38F6FF5B0870E6F_AdjustorThunk },
-	{ 0x060000FE, FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB_AdjustorThunk },
-	{ 0x060000FF, FixedString128Bytes_CompareTo_m7DAC821750F1242E519D29D8A1A01ABD6B5630C6_AdjustorThunk },
-	{ 0x06000101, FixedString128Bytes_Equals_m02FB7C6C4862D4F44EDC97E72A4CADD0BD379D5F_AdjustorThunk },
-	{ 0x06000102, FixedString128Bytes_CompareTo_m340091A89F740B13DE44A1F3AE938A14AE658A4B_AdjustorThunk },
-	{ 0x06000104, FixedString128Bytes_Equals_m0A10CFEB353647A220B407CCEBE12035F0C1D4A2_AdjustorThunk },
-	{ 0x06000106, FixedString128Bytes_ToString_m1CD5B095D5A80759EF2E7F60AA95921369958A29_AdjustorThunk },
-	{ 0x06000107, FixedString128Bytes_GetHashCode_mB211F7E224953364EE91770921BA59760A0E4428_AdjustorThunk },
-	{ 0x06000108, FixedString128Bytes_Equals_mF8C053D97C4EA171FF1A82613C836A231DDF0DD9_AdjustorThunk },
-	{ 0x06000109, FixedString512Bytes_GetUnsafePtr_m6BE151F6C1AC2994321FFC794DD61AEE5E915E05_AdjustorThunk },
-	{ 0x0600010A, FixedString512Bytes_get_Length_m07F07806B00F694DA08ED7C3BC04C9FCE7CE4E07_AdjustorThunk },
-	{ 0x0600010B, FixedString512Bytes_set_Length_m5BECBE3190D559780E9F84276928B0EC612A1BDE_AdjustorThunk },
-	{ 0x0600010C, FixedString512Bytes_get_Capacity_m80069D7197EA5C9AC0149AEE21591CCCFBC0AB55_AdjustorThunk },
-	{ 0x0600010D, FixedString512Bytes_TryResize_m924FCE76C50EFD1773E2A417BCA84B2C6B158ABD_AdjustorThunk },
-	{ 0x0600010E, FixedString512Bytes_CompareTo_mF2E8A9C2171833229322FEBEF4DF783251513B59_AdjustorThunk },
-	{ 0x0600010F, FixedString512Bytes_Equals_mE4279608ABCBD5236ADF59E96788F0837787F11A_AdjustorThunk },
-	{ 0x06000110, FixedString512Bytes_CompareTo_mFEA161B206C05F7894DDF0CAB24CDBF525AD9F97_AdjustorThunk },
-	{ 0x06000112, FixedString512Bytes_Equals_m2AF82E5FAAF96DBD0A105DF94BD1287804D6D568_AdjustorThunk },
-	{ 0x06000113, FixedString512Bytes_CompareTo_mCF6F5BD2E7F95763F8903514954023697C1A3838_AdjustorThunk },
-	{ 0x06000115, FixedString512Bytes_Equals_m14403CF490B635D08B4FD2DCAB8473AD2A510CE6_AdjustorThunk },
-	{ 0x06000116, FixedString512Bytes_CompareTo_m80D4CAD931945D04AE44A9610D72D8E0839FB2B5_AdjustorThunk },
-	{ 0x06000118, FixedString512Bytes_Equals_m865E75EE8511CFC6CB527D86E54AEE7AE010449A_AdjustorThunk },
-	{ 0x06000119, FixedString512Bytes_CompareTo_m42E210C85C1D09E6698DCDDB40545351895E2574_AdjustorThunk },
-	{ 0x0600011B, FixedString512Bytes_Equals_m34F02FA9086BE42B8856DF5A85DA039FD3036E99_AdjustorThunk },
-	{ 0x0600011C, FixedString512Bytes_CompareTo_mEC561BBFD17069268207BF2D6BD6E2C93E90A1B7_AdjustorThunk },
-	{ 0x0600011E, FixedString512Bytes_Equals_mE00AFBE32D04B3671E8D476855409B35B5C8E674_AdjustorThunk },
-	{ 0x0600011F, FixedString512Bytes_ToString_m1A47583FB34608DBEEDC65F9CA6E7B8E7930233F_AdjustorThunk },
-	{ 0x06000120, FixedString512Bytes_GetHashCode_m3F22B7550BFBA5E580D804CCAC7528BA8F64862B_AdjustorThunk },
-	{ 0x06000121, FixedString512Bytes_Equals_m344621B84C32BCC845396B588F2AE18154B9C6C3_AdjustorThunk },
-	{ 0x06000122, FixedString4096Bytes_GetUnsafePtr_mE1DB42C2C0EEA7D6E1B5D0366A4727125D916EEB_AdjustorThunk },
-	{ 0x06000123, FixedString4096Bytes_get_Length_mC2A80F2813739852F0675DA8D2AB68AA92BFC36F_AdjustorThunk },
-	{ 0x06000124, FixedString4096Bytes_set_Length_mB4335BCB8388D446FF0C612F81355BD4861F4F8B_AdjustorThunk },
-	{ 0x06000125, FixedString4096Bytes_get_Capacity_m55EE381DB20EC9C738999C9F562700569906434D_AdjustorThunk },
-	{ 0x06000126, FixedString4096Bytes_TryResize_mC7B1C3EF58A73536BD8A17AEA540B05D1FC4A8F7_AdjustorThunk },
-	{ 0x06000127, FixedString4096Bytes_CompareTo_mFE2F6019EBA8EAB9FCCDE7589C8A5F38DA8D4A58_AdjustorThunk },
-	{ 0x06000128, FixedString4096Bytes_Equals_m3C8E7CA4F35F56F0759EEE2D8E5F1D4591D1E598_AdjustorThunk },
-	{ 0x06000129, FixedString4096Bytes_CompareTo_m8D38C45B1D05029012A417EB72A6108BB820C472_AdjustorThunk },
-	{ 0x0600012C, FixedString4096Bytes_Equals_mF43146C7063DCE299D0708E173E48D146806796A_AdjustorThunk },
-	{ 0x0600012D, FixedString4096Bytes_CompareTo_mA10C3E4B7291BD7C68B64922D7EF51FF9019E7B1_AdjustorThunk },
-	{ 0x0600012F, FixedString4096Bytes_Equals_mF4868F94338530FEFCDF35BB76E1C3D64F54CAEF_AdjustorThunk },
-	{ 0x06000130, FixedString4096Bytes_CompareTo_m40115F59AF4ADBC9F7C70B9A30B90DD660526D19_AdjustorThunk },
-	{ 0x06000132, FixedString4096Bytes_Equals_mA00838D2DA8F71412C78B2C37D699B39D7897FB5_AdjustorThunk },
-	{ 0x06000133, FixedString4096Bytes_CompareTo_m16A7E31FA53206F33F3418353A43A2E02F662895_AdjustorThunk },
-	{ 0x06000135, FixedString4096Bytes_Equals_mB76C4C23572B2D379F22EB1EE52B84EE820F075F_AdjustorThunk },
-	{ 0x06000136, FixedString4096Bytes_CompareTo_m1EA8E99320A4B5078747BCE1617B3B1574A53F01_AdjustorThunk },
-	{ 0x06000138, FixedString4096Bytes_Equals_m3991F570BEC852688D532724FD842E0BD3AC2BB6_AdjustorThunk },
-	{ 0x06000139, FixedString4096Bytes_ToString_m1EB551FB3DB9E208AAF34DFFA3864DAB34FD1A26_AdjustorThunk },
-	{ 0x0600013A, FixedString4096Bytes_GetHashCode_m4F13B6A3839EDFD34CE37729A815905DD1AAB720_AdjustorThunk },
-	{ 0x0600013B, FixedString4096Bytes_Equals_mD182C954C7A720E5C452CE5C9B4BAA20D22A4952_AdjustorThunk },
-	{ 0x06000186, NativeQueueBlockPoolData_AllocateBlock_m5B26A5ECC71386FA451CC6A8539CA5828A0D41CD_AdjustorThunk },
-	{ 0x06000187, NativeQueueBlockPoolData_FreeBlock_m1F946136116E617CAA61EE33BCF4B55E71A2E6DC_AdjustorThunk },
-	{ 0x0600018C, NativeQueueData_GetCurrentWriteBlockTLS_m21D4E781362232FFB12406ED641A17D25C34632C_AdjustorThunk },
-	{ 0x0600018D, NativeQueueData_SetCurrentWriteBlockTLS_m36127FAE539B6E36DBCCEF247F067270E0CE9149_AdjustorThunk },
-	{ 0x060001A1, Spinner_Lock_mF38DA7980552D7B8E60444A1B64ADF440D3DFAA7_AdjustorThunk },
-	{ 0x060001A2, Spinner_Unlock_m1664CFC96DCA3A7B36092F61C9E34624C497EB1A_AdjustorThunk },
-	{ 0x060001A5, RewindableAllocator_Rewind_m8EB623F05C707C3AF52FF082A7C095FE3A1CE595_AdjustorThunk },
-	{ 0x060001A6, RewindableAllocator_Dispose_mD873C81842DAEBF01369B8023805FF930C4C8A2F_AdjustorThunk },
-	{ 0x060001A7, RewindableAllocator_Try_m6C020E9D4D72801E38775286491991C3FCE064ED_AdjustorThunk },
-	{ 0x060001A9, RewindableAllocator_get_Handle_mF81EDA2102485C46965AAB56347E8F64FE551D9E_AdjustorThunk },
-	{ 0x060001AB, MemoryBlock__ctor_m0DEC878B6827C0B400BE1C00CA37C2F8F1C31D7F_AdjustorThunk },
-	{ 0x060001AC, MemoryBlock_Rewind_m64C7EC463789D78802B8D27695AFFD37133E7069_AdjustorThunk },
-	{ 0x060001AD, MemoryBlock_Dispose_mE0EAA3828B238B9A26EF6BB5CA7CB5EC592FBD6F_AdjustorThunk },
-	{ 0x060001AE, MemoryBlock_TryAllocate_m34CC70E419486D5B1C90E7BF4A6762BE3D130F10_AdjustorThunk },
-	{ 0x060001AF, MemoryBlock_Contains_m2F035A4F1F9063B42ACB1B590C4EFD1741E39CEC_AdjustorThunk },
-	{ 0x060001C4, Rune_LengthInUtf8Bytes_m2E470564E773DB43A761FC2A5DA17F0885E81489_AdjustorThunk },
-	{ 0x060001C9, Comparison__ctor_m40D70075E3FE042352BE5C6589C23C5D7D41668C_AdjustorThunk },
+	{ 0x060000FF, FixedString128Bytes_Equals_m3B91B177B21344B9CB879DFDAA00AB7E812AD5AB_AdjustorThunk },
+	{ 0x06000100, FixedString128Bytes_CompareTo_m7DAC821750F1242E519D29D8A1A01ABD6B5630C6_AdjustorThunk },
+	{ 0x06000102, FixedString128Bytes_Equals_m02FB7C6C4862D4F44EDC97E72A4CADD0BD379D5F_AdjustorThunk },
+	{ 0x06000103, FixedString128Bytes_CompareTo_m340091A89F740B13DE44A1F3AE938A14AE658A4B_AdjustorThunk },
+	{ 0x06000105, FixedString128Bytes_Equals_m0A10CFEB353647A220B407CCEBE12035F0C1D4A2_AdjustorThunk },
+	{ 0x06000107, FixedString128Bytes_ToString_m1CD5B095D5A80759EF2E7F60AA95921369958A29_AdjustorThunk },
+	{ 0x06000108, FixedString128Bytes_GetHashCode_mB211F7E224953364EE91770921BA59760A0E4428_AdjustorThunk },
+	{ 0x06000109, FixedString128Bytes_Equals_mF8C053D97C4EA171FF1A82613C836A231DDF0DD9_AdjustorThunk },
+	{ 0x0600010A, FixedString512Bytes_GetUnsafePtr_m6BE151F6C1AC2994321FFC794DD61AEE5E915E05_AdjustorThunk },
+	{ 0x0600010B, FixedString512Bytes_get_Length_m07F07806B00F694DA08ED7C3BC04C9FCE7CE4E07_AdjustorThunk },
+	{ 0x0600010C, FixedString512Bytes_set_Length_m5BECBE3190D559780E9F84276928B0EC612A1BDE_AdjustorThunk },
+	{ 0x0600010D, FixedString512Bytes_get_Capacity_m80069D7197EA5C9AC0149AEE21591CCCFBC0AB55_AdjustorThunk },
+	{ 0x0600010E, FixedString512Bytes_TryResize_m924FCE76C50EFD1773E2A417BCA84B2C6B158ABD_AdjustorThunk },
+	{ 0x0600010F, FixedString512Bytes_CompareTo_mF2E8A9C2171833229322FEBEF4DF783251513B59_AdjustorThunk },
+	{ 0x06000110, FixedString512Bytes_Equals_mE4279608ABCBD5236ADF59E96788F0837787F11A_AdjustorThunk },
+	{ 0x06000111, FixedString512Bytes_CompareTo_mFEA161B206C05F7894DDF0CAB24CDBF525AD9F97_AdjustorThunk },
+	{ 0x06000113, FixedString512Bytes_Equals_m2AF82E5FAAF96DBD0A105DF94BD1287804D6D568_AdjustorThunk },
+	{ 0x06000114, FixedString512Bytes_CompareTo_mCF6F5BD2E7F95763F8903514954023697C1A3838_AdjustorThunk },
+	{ 0x06000116, FixedString512Bytes_Equals_m14403CF490B635D08B4FD2DCAB8473AD2A510CE6_AdjustorThunk },
+	{ 0x06000117, FixedString512Bytes_CompareTo_m80D4CAD931945D04AE44A9610D72D8E0839FB2B5_AdjustorThunk },
+	{ 0x06000119, FixedString512Bytes_Equals_m865E75EE8511CFC6CB527D86E54AEE7AE010449A_AdjustorThunk },
+	{ 0x0600011A, FixedString512Bytes_CompareTo_m42E210C85C1D09E6698DCDDB40545351895E2574_AdjustorThunk },
+	{ 0x0600011C, FixedString512Bytes_Equals_m34F02FA9086BE42B8856DF5A85DA039FD3036E99_AdjustorThunk },
+	{ 0x0600011D, FixedString512Bytes_CompareTo_mEC561BBFD17069268207BF2D6BD6E2C93E90A1B7_AdjustorThunk },
+	{ 0x0600011F, FixedString512Bytes_Equals_mE00AFBE32D04B3671E8D476855409B35B5C8E674_AdjustorThunk },
+	{ 0x06000120, FixedString512Bytes_ToString_m1A47583FB34608DBEEDC65F9CA6E7B8E7930233F_AdjustorThunk },
+	{ 0x06000121, FixedString512Bytes_GetHashCode_m3F22B7550BFBA5E580D804CCAC7528BA8F64862B_AdjustorThunk },
+	{ 0x06000122, FixedString512Bytes_Equals_m344621B84C32BCC845396B588F2AE18154B9C6C3_AdjustorThunk },
+	{ 0x06000123, FixedString4096Bytes_GetUnsafePtr_mE1DB42C2C0EEA7D6E1B5D0366A4727125D916EEB_AdjustorThunk },
+	{ 0x06000124, FixedString4096Bytes_get_Length_mC2A80F2813739852F0675DA8D2AB68AA92BFC36F_AdjustorThunk },
+	{ 0x06000125, FixedString4096Bytes_set_Length_mB4335BCB8388D446FF0C612F81355BD4861F4F8B_AdjustorThunk },
+	{ 0x06000126, FixedString4096Bytes_get_Capacity_m55EE381DB20EC9C738999C9F562700569906434D_AdjustorThunk },
+	{ 0x06000127, FixedString4096Bytes_TryResize_mC7B1C3EF58A73536BD8A17AEA540B05D1FC4A8F7_AdjustorThunk },
+	{ 0x06000128, FixedString4096Bytes_CompareTo_mFE2F6019EBA8EAB9FCCDE7589C8A5F38DA8D4A58_AdjustorThunk },
+	{ 0x06000129, FixedString4096Bytes_Equals_m3C8E7CA4F35F56F0759EEE2D8E5F1D4591D1E598_AdjustorThunk },
+	{ 0x0600012A, FixedString4096Bytes_CompareTo_m8D38C45B1D05029012A417EB72A6108BB820C472_AdjustorThunk },
+	{ 0x0600012D, FixedString4096Bytes_Equals_mF43146C7063DCE299D0708E173E48D146806796A_AdjustorThunk },
+	{ 0x0600012E, FixedString4096Bytes_CompareTo_mA10C3E4B7291BD7C68B64922D7EF51FF9019E7B1_AdjustorThunk },
+	{ 0x06000130, FixedString4096Bytes_Equals_mF4868F94338530FEFCDF35BB76E1C3D64F54CAEF_AdjustorThunk },
+	{ 0x06000131, FixedString4096Bytes_CompareTo_m40115F59AF4ADBC9F7C70B9A30B90DD660526D19_AdjustorThunk },
+	{ 0x06000133, FixedString4096Bytes_Equals_mA00838D2DA8F71412C78B2C37D699B39D7897FB5_AdjustorThunk },
+	{ 0x06000134, FixedString4096Bytes_CompareTo_m16A7E31FA53206F33F3418353A43A2E02F662895_AdjustorThunk },
+	{ 0x06000136, FixedString4096Bytes_Equals_mB76C4C23572B2D379F22EB1EE52B84EE820F075F_AdjustorThunk },
+	{ 0x06000137, FixedString4096Bytes_CompareTo_m1EA8E99320A4B5078747BCE1617B3B1574A53F01_AdjustorThunk },
+	{ 0x06000139, FixedString4096Bytes_Equals_m3991F570BEC852688D532724FD842E0BD3AC2BB6_AdjustorThunk },
+	{ 0x0600013A, FixedString4096Bytes_ToString_m1EB551FB3DB9E208AAF34DFFA3864DAB34FD1A26_AdjustorThunk },
+	{ 0x0600013B, FixedString4096Bytes_GetHashCode_m4F13B6A3839EDFD34CE37729A815905DD1AAB720_AdjustorThunk },
+	{ 0x0600013C, FixedString4096Bytes_Equals_mD182C954C7A720E5C452CE5C9B4BAA20D22A4952_AdjustorThunk },
+	{ 0x06000187, NativeQueueBlockPoolData_AllocateBlock_m5B26A5ECC71386FA451CC6A8539CA5828A0D41CD_AdjustorThunk },
+	{ 0x06000188, NativeQueueBlockPoolData_FreeBlock_m1F946136116E617CAA61EE33BCF4B55E71A2E6DC_AdjustorThunk },
+	{ 0x0600018D, NativeQueueData_GetCurrentWriteBlockTLS_m21D4E781362232FFB12406ED641A17D25C34632C_AdjustorThunk },
+	{ 0x0600018E, NativeQueueData_SetCurrentWriteBlockTLS_m36127FAE539B6E36DBCCEF247F067270E0CE9149_AdjustorThunk },
+	{ 0x060001A2, Spinner_Lock_mF38DA7980552D7B8E60444A1B64ADF440D3DFAA7_AdjustorThunk },
+	{ 0x060001A3, Spinner_Unlock_m1664CFC96DCA3A7B36092F61C9E34624C497EB1A_AdjustorThunk },
+	{ 0x060001A6, RewindableAllocator_Rewind_m8EB623F05C707C3AF52FF082A7C095FE3A1CE595_AdjustorThunk },
+	{ 0x060001A7, RewindableAllocator_Dispose_mD873C81842DAEBF01369B8023805FF930C4C8A2F_AdjustorThunk },
+	{ 0x060001A8, RewindableAllocator_Try_m6C020E9D4D72801E38775286491991C3FCE064ED_AdjustorThunk },
+	{ 0x060001AA, RewindableAllocator_get_Handle_mF81EDA2102485C46965AAB56347E8F64FE551D9E_AdjustorThunk },
+	{ 0x060001AC, MemoryBlock__ctor_m0DEC878B6827C0B400BE1C00CA37C2F8F1C31D7F_AdjustorThunk },
+	{ 0x060001AD, MemoryBlock_Rewind_m64C7EC463789D78802B8D27695AFFD37133E7069_AdjustorThunk },
+	{ 0x060001AE, MemoryBlock_Dispose_mE0EAA3828B238B9A26EF6BB5CA7CB5EC592FBD6F_AdjustorThunk },
+	{ 0x060001AF, MemoryBlock_TryAllocate_m34CC70E419486D5B1C90E7BF4A6762BE3D130F10_AdjustorThunk },
+	{ 0x060001B0, MemoryBlock_Contains_m2F035A4F1F9063B42ACB1B590C4EFD1741E39CEC_AdjustorThunk },
+	{ 0x060001C5, Rune_LengthInUtf8Bytes_m2E470564E773DB43A761FC2A5DA17F0885E81489_AdjustorThunk },
+	{ 0x060001CA, Comparison__ctor_m40D70075E3FE042352BE5C6589C23C5D7D41668C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[555] = 
+static const int32_t s_InvokerIndices[556] = 
 {
-	7255,
-	7255,
+	7256,
+	7256,
 	0,
 	0,
 	0,
@@ -1733,74 +1736,74 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	10767,
-	10936,
-	10427,
-	9986,
-	10451,
-	10427,
-	10427,
-	10342,
-	11025,
+	10768,
+	10937,
+	10428,
+	9987,
+	10452,
+	10428,
+	10428,
+	10343,
+	11026,
 	3241,
 	2283,
-	7009,
-	7255,
-	10804,
-	7092,
+	7010,
+	7256,
+	10805,
+	7093,
 	4717,
-	7264,
-	7092,
-	7255,
-	7255,
+	7265,
 	7093,
+	7256,
+	7256,
+	7094,
+	7094,
 	7093,
-	7092,
 	5725,
-	7255,
-	7092,
+	7256,
+	7093,
 	0,
 	0,
-	7264,
+	7265,
 	4717,
-	9649,
-	7255,
-	9649,
+	9650,
+	7256,
+	9650,
 	3241,
 	2283,
-	10767,
-	10967,
-	11025,
-	11025,
-	11025,
-	9649,
-	7264,
-	7092,
+	10768,
+	10968,
+	11026,
+	11026,
+	11026,
+	9650,
+	7265,
+	7093,
 	4717,
-	9649,
-	7255,
-	9649,
+	9650,
+	7256,
+	9650,
 	3241,
 	2283,
-	10767,
-	10967,
-	11025,
-	11025,
-	11025,
-	9649,
+	10768,
+	10968,
+	11026,
+	11026,
+	11026,
+	9650,
 	0,
 	0,
 	0,
-	11025,
-	11025,
-	7255,
+	11026,
+	11026,
+	7256,
 	5763,
-	7255,
-	7255,
-	9640,
-	9874,
-	10342,
-	10437,
+	7256,
+	7256,
+	9641,
+	9875,
+	10343,
+	10438,
 	0,
 	0,
 	0,
@@ -1902,141 +1905,142 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	7009,
-	7092,
+	7010,
+	7093,
 	5725,
-	7092,
+	7093,
 	1982,
 	4804,
 	4123,
 	5763,
 	4804,
 	4746,
-	9400,
-	9400,
+	9401,
+	9401,
 	4046,
 	4749,
-	9400,
+	9401,
 	4049,
 	4745,
-	9400,
+	9401,
 	4045,
 	4748,
-	9400,
+	9401,
 	4048,
 	4747,
-	9400,
-	4047,
-	10391,
-	7136,
-	7092,
-	4123,
-	7009,
-	7092,
-	5725,
-	7092,
-	1982,
-	4804,
-	4123,
-	5763,
-	4804,
-	4746,
-	9400,
-	4046,
-	4749,
-	9400,
-	4049,
-	4745,
-	9400,
-	4045,
-	4748,
-	9400,
-	4048,
-	4747,
-	9400,
+	9401,
 	4047,
 	10392,
-	7136,
-	7092,
+	7137,
+	7093,
 	4123,
-	7009,
-	7092,
+	7010,
+	7093,
 	5725,
-	7092,
+	7093,
 	1982,
 	4804,
 	4123,
 	5763,
 	4804,
 	4746,
-	9400,
+	9401,
 	4046,
 	4749,
-	9400,
+	9401,
 	4049,
 	4745,
-	9400,
+	9401,
 	4045,
 	4748,
-	9400,
+	9401,
 	4048,
 	4747,
-	9400,
+	9401,
 	4047,
-	10390,
-	7136,
-	7092,
+	10393,
+	7137,
+	7093,
 	4123,
-	7009,
-	7092,
+	7010,
+	7093,
 	5725,
-	7092,
+	7093,
+	1982,
+	4804,
+	4123,
+	5763,
+	4804,
+	4746,
+	9401,
+	4046,
+	4749,
+	9401,
+	4049,
+	4745,
+	9401,
+	9401,
+	4045,
+	4748,
+	9401,
+	4048,
+	4747,
+	9401,
+	4047,
+	10391,
+	7137,
+	7093,
+	4123,
+	7010,
+	7093,
+	5725,
+	7093,
 	1982,
 	4804,
 	4123,
 	4746,
-	9400,
+	9401,
 	4046,
 	4749,
-	9400,
+	9401,
 	4049,
 	4745,
-	9400,
+	9401,
 	4045,
 	4748,
-	9400,
+	9401,
 	4048,
 	4747,
-	9400,
+	9401,
 	4047,
-	7136,
-	7092,
+	7137,
+	7093,
 	4123,
-	7009,
-	7092,
+	7010,
+	7093,
 	5725,
-	7092,
+	7093,
 	1982,
 	4804,
 	4123,
 	4746,
-	9400,
-	9400,
+	9401,
+	9401,
 	4046,
 	4749,
-	9400,
+	9401,
 	4049,
 	4745,
-	9400,
+	9401,
 	4045,
 	4748,
-	9400,
+	9401,
 	4048,
 	4747,
-	9400,
+	9401,
 	4047,
-	7136,
-	7092,
+	7137,
+	7093,
 	4123,
 	0,
 	0,
@@ -2056,21 +2060,17 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	9590,
 	9591,
+	9592,
 	0,
 	0,
-	9154,
-	8702,
-	9998,
+	9155,
+	8703,
+	9999,
 	0,
-	10342,
-	7601,
-	7601,
-	0,
-	0,
-	0,
-	0,
+	10343,
+	7602,
+	7602,
 	0,
 	0,
 	0,
@@ -2112,17 +2112,21 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	7009,
+	0,
+	0,
+	0,
+	0,
+	7010,
 	5638,
-	10930,
-	11025,
-	10067,
-	11025,
+	10931,
+	11026,
+	10068,
+	11026,
 	3669,
 	2898,
 	0,
 	0,
-	9157,
+	9158,
 	0,
 	0,
 	0,
@@ -2139,98 +2143,94 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	7255,
-	7255,
+	7256,
+	7256,
 	0,
 	0,
-	7255,
-	7255,
+	7256,
+	7256,
 	4717,
-	9649,
-	7264,
-	9649,
+	9650,
+	7265,
+	9650,
 	5726,
-	7255,
-	7255,
+	7256,
+	7256,
 	4717,
 	4086,
 	3241,
 	2283,
-	10767,
-	10967,
-	11025,
-	11025,
-	11025,
-	9649,
-	10325,
-	10319,
-	11041,
-	8212,
-	10339,
-	10339,
-	8212,
-	8216,
-	8216,
-	7779,
-	7779,
-	10863,
-	7092,
-	7777,
-	8236,
-	8143,
-	8236,
+	10768,
+	10968,
+	11026,
+	11026,
+	11026,
+	9650,
+	10326,
+	10320,
+	11042,
+	8213,
+	10340,
+	10340,
+	8213,
+	8217,
+	8217,
+	7780,
+	7780,
+	10864,
+	7093,
+	7778,
+	8237,
+	8144,
+	8237,
 	1295,
+	7684,
+	9987,
 	7683,
-	9986,
-	7682,
-	8497,
-	8473,
-	8050,
-	10107,
-	10721,
-	9995,
-	9900,
-	9902,
-	9905,
-	10737,
-	9087,
-	9061,
+	8498,
+	8474,
+	8051,
+	10108,
+	10722,
+	9996,
+	9901,
+	9903,
+	9906,
+	10738,
+	9088,
+	9062,
+	7684,
 	7683,
-	7682,
-	8043,
-	9986,
-	8473,
-	8050,
+	8044,
+	9987,
+	8474,
+	8051,
 	3241,
 	1084,
-	10767,
-	10967,
-	11025,
-	11025,
-	11025,
-	8473,
+	10768,
+	10968,
+	11026,
+	11026,
+	11026,
+	8474,
 	3241,
 	553,
-	10767,
-	10967,
-	11025,
-	11025,
-	11025,
-	8050,
+	10768,
+	10968,
+	11026,
+	11026,
+	11026,
+	8051,
 	0,
 	0,
 	0,
-	10437,
-	10437,
+	10438,
+	10438,
 	0,
 	0,
-	9998,
+	9999,
 	0,
-	10427,
-	0,
-	0,
-	0,
-	0,
+	10428,
 	0,
 	0,
 	0,
@@ -2277,7 +2277,11 @@ static const int32_t s_InvokerIndices[555] =
 	0,
 	0,
 	0,
-	11025,
+	0,
+	0,
+	0,
+	0,
+	11026,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[6] = 
 {
@@ -2285,8 +2289,8 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[6] =
 	{ 0x0600002B, 65,  (void**)&StackAllocator_TryU24BurstManaged_mB88D607AA12E4D9181BF1FFE81A1AC3117FDB5E2_RuntimeMethod_var, 0 },
 	{ 0x06000037, 62,  (void**)&SlabAllocator_Try_mCD7DED588811A6E3F78E4A14CBFE2852D8E39DEB_RuntimeMethod_var, 0 },
 	{ 0x06000039, 63,  (void**)&SlabAllocator_TryU24BurstManaged_mC48F05E806431B6537727E4D6A10550207FBB1EA_RuntimeMethod_var, 0 },
-	{ 0x060001A8, 27,  (void**)&RewindableAllocator_Try_mA4AF5A5088097CB6343C3CC97058959976372C35_RuntimeMethod_var, 0 },
-	{ 0x060001AA, 28,  (void**)&RewindableAllocator_TryU24BurstManaged_mBB6DAE6A8CDB2E3626C38F3B65186AAF6ACBF6E8_RuntimeMethod_var, 0 },
+	{ 0x060001A9, 27,  (void**)&RewindableAllocator_Try_mA4AF5A5088097CB6343C3CC97058959976372C35_RuntimeMethod_var, 0 },
+	{ 0x060001AB, 28,  (void**)&RewindableAllocator_TryU24BurstManaged_mBB6DAE6A8CDB2E3626C38F3B65186AAF6ACBF6E8_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[64] = 
 {
@@ -2319,41 +2323,41 @@ static const Il2CppTokenRangePair s_rgctxIndices[64] =
 	{ 0x06000050, { 21, 1 } },
 	{ 0x06000051, { 22, 2 } },
 	{ 0x06000052, { 24, 2 } },
-	{ 0x0600013C, { 158, 4 } },
-	{ 0x0600013D, { 162, 1 } },
-	{ 0x0600013E, { 163, 4 } },
-	{ 0x0600013F, { 167, 1 } },
-	{ 0x06000140, { 168, 1 } },
-	{ 0x06000141, { 169, 5 } },
-	{ 0x06000142, { 174, 5 } },
-	{ 0x06000143, { 179, 4 } },
-	{ 0x06000144, { 183, 6 } },
-	{ 0x06000145, { 189, 1 } },
-	{ 0x06000146, { 190, 1 } },
-	{ 0x06000147, { 191, 1 } },
-	{ 0x06000148, { 192, 1 } },
-	{ 0x06000149, { 193, 3 } },
-	{ 0x0600014A, { 196, 5 } },
-	{ 0x0600014B, { 201, 3 } },
-	{ 0x0600014C, { 204, 3 } },
-	{ 0x0600014D, { 207, 3 } },
-	{ 0x06000155, { 210, 1 } },
-	{ 0x06000159, { 211, 2 } },
-	{ 0x0600015A, { 213, 3 } },
-	{ 0x0600015B, { 216, 4 } },
-	{ 0x0600015C, { 220, 2 } },
-	{ 0x06000171, { 253, 3 } },
-	{ 0x0600018F, { 256, 1 } },
-	{ 0x060001F4, { 275, 1 } },
-	{ 0x060001F5, { 276, 6 } },
-	{ 0x060001F7, { 282, 2 } },
-	{ 0x060001F9, { 284, 1 } },
-	{ 0x06000213, { 320, 4 } },
-	{ 0x06000218, { 324, 2 } },
-	{ 0x06000219, { 326, 1 } },
-	{ 0x06000228, { 329, 1 } },
-	{ 0x06000229, { 330, 1 } },
-	{ 0x0600022A, { 331, 1 } },
+	{ 0x0600013D, { 158, 4 } },
+	{ 0x0600013E, { 162, 1 } },
+	{ 0x0600013F, { 163, 4 } },
+	{ 0x06000140, { 167, 1 } },
+	{ 0x06000141, { 168, 1 } },
+	{ 0x06000142, { 169, 5 } },
+	{ 0x06000143, { 174, 5 } },
+	{ 0x06000144, { 179, 4 } },
+	{ 0x06000145, { 183, 6 } },
+	{ 0x06000146, { 189, 1 } },
+	{ 0x06000147, { 190, 1 } },
+	{ 0x06000148, { 191, 1 } },
+	{ 0x06000149, { 192, 1 } },
+	{ 0x0600014A, { 193, 3 } },
+	{ 0x0600014B, { 196, 5 } },
+	{ 0x0600014C, { 201, 3 } },
+	{ 0x0600014D, { 204, 3 } },
+	{ 0x0600014E, { 207, 3 } },
+	{ 0x06000156, { 210, 1 } },
+	{ 0x0600015A, { 211, 2 } },
+	{ 0x0600015B, { 213, 3 } },
+	{ 0x0600015C, { 216, 4 } },
+	{ 0x0600015D, { 220, 2 } },
+	{ 0x06000172, { 253, 3 } },
+	{ 0x06000190, { 256, 1 } },
+	{ 0x060001F5, { 275, 1 } },
+	{ 0x060001F6, { 276, 6 } },
+	{ 0x060001F8, { 282, 2 } },
+	{ 0x060001FA, { 284, 1 } },
+	{ 0x06000214, { 320, 4 } },
+	{ 0x06000219, { 324, 2 } },
+	{ 0x0600021A, { 326, 1 } },
+	{ 0x06000229, { 329, 1 } },
+	{ 0x0600022A, { 330, 1 } },
+	{ 0x0600022B, { 331, 1 } },
 };
 extern const uint32_t g_rgctx_T_t2BD6686FA9DF7A772BB80D160D1EFDB90CDC262F;
 extern const Il2CppRGCTXConstrainedData g_rgctx_T_t2BD6686FA9DF7A772BB80D160D1EFDB90CDC262F_IAllocator_get_Handle_m54F384A4E6B7365849D3462AA309C77F8D9E9E6C;
@@ -3026,7 +3030,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Collections_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Collections_CodeGenModule = 
 {
 	"Unity.Collections.dll",
-	555,
+	556,
 	s_methodPointers,
 	144,
 	s_adjustorThunks,

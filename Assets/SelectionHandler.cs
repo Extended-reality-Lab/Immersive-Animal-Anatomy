@@ -12,11 +12,18 @@ public class SelectionHandler : NetworkBehaviour
 
     public GameObject Label;
     public Camera playerCamera;
+    private const bool initialValue = false;
 
     private Color customColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
 
     public override void OnNetworkSpawn(){
         isSelected.OnValueChanged += OnSelectionValueChanged;
+
+        //check for late joiners
+        if(isSelected.Value != initialValue){
+            //correct the status of the client scene
+            toggleSelection();
+        }
     }
 
     // Start is called before the first frame update

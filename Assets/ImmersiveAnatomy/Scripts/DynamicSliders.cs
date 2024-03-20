@@ -7,7 +7,6 @@ using TMPro;
 
 public class DynamicSliders : MonoBehaviour
 {
-
     public GameObject sliderPrefab;
     public GameObject sliderContainer;
     public List <GameObject> ModelArray;
