@@ -25,8 +25,6 @@ public class DynamicButtons : MonoBehaviour
             //if it has the selected color, we know it's been selected
             if((material.color.r == selectedColor.r) && (material.color.g == selectedColor.g) && (material.color.b == selectedColor.b)){
 
-                
-
                 //alter the alpha
                 Color color = material.color;
 
@@ -56,7 +54,7 @@ public class DynamicButtons : MonoBehaviour
                     material.EnableKeyword("_ALPHABLEND_ON");
                     material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                     material.renderQueue = 2999;
-                    model.GetComponent<BoxCollider>().enabled = false;
+                    model.GetComponent<BoxCollider>().enabled = true;
 
                     color.a += .2f;
                     material.color = color;
@@ -102,7 +100,7 @@ public class DynamicButtons : MonoBehaviour
                     material.EnableKeyword("_ALPHABLEND_ON");
                     material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                     material.renderQueue = 2999;
-                    model.GetComponent<BoxCollider>().enabled = false;
+                    model.GetComponent<BoxCollider>().enabled = true;
 
                     color.a -= .2f;
                     material.color = color;

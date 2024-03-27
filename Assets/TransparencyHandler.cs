@@ -10,7 +10,6 @@ public class TransparencyHandler : NetworkBehaviour
 
     public float recentMaterialTransparency = 1;
     public float currentMaterialTransparency = 1;
-    public GameObject partSlider = null;
 
     private const float initialValue = 1;
 
@@ -20,17 +19,10 @@ public class TransparencyHandler : NetworkBehaviour
         //check for late joiners
         if(transparency.Value != initialValue){
             //correct the status of the client scene
-
+            changeTransparency();
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //find the slider holder
-        partSlider = GameObject.Find("/SharedSpacesCameraRig/TrackingSpace/LeftHandAnchor/LeftControllerAnchor/Canvas/SliderCanvas/Scroll View/Viewport/Content");
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -50,7 +42,13 @@ public class TransparencyHandler : NetworkBehaviour
 
     //runs whenever the network detects a variable change
     private void OnTransparencyValueChanged(float previous, float current){
+        
+        //checks to see if this client is the one who already changed their scene
+        changeTransparency();
+    }
 
+    //alter the UI
+    private void changeTransparency(){
         //call the external function for all clients other than the one that already changed
         if(currentMaterialTransparency != transparency.Value){
 
@@ -91,19 +89,13 @@ public class TransparencyHandler : NetworkBehaviour
                 material.EnableKeyword("_ALPHABLEND_ON");
                 material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
                 material.renderQueue = 2999;
-                this.GetComponent<BoxCollider>().enabled = false;
+                this.GetComponent<BoxCollider>().enabled = true;
 
-                color.a += .2f;
+                color.a = transparency.Value;
                 material.color = color;
             }
 
         }
-    }
-
-    //alter the UI
-    private void changeTransparency(){
-
-        partSlider.GetComponent<DynamicSliders>().SliderExternallyChanged(transparency.Value, this.name);
     }
 
     //send a message out to the other clients

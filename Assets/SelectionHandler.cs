@@ -54,16 +54,26 @@ public class SelectionHandler : NetworkBehaviour
 
     public void toggleSelection(){
 
+        //grab the current color
+        Material material = this.GetComponent<Renderer>().material;
+        Color color = material.color;
+
         if(isSelected.Value == true){
-            //change the color
-            this.GetComponent<Renderer>().material.color = customColor;
+            //change the color to the custom color, but leave the alpha alone
+            color.r = 0.75f;
+            color.g = 0.75f;
+            color.b = 0.75f;
+            material.color = color;
 
             //turn on the label
             Label.SetActive(true);
         }
         else{
-            //change the color
-            this.GetComponent<Renderer>().material.color = Color.white;
+            //change the color to the custom color, but leave the alpha alone
+            color.r = 1f;
+            color.g = 1f;
+            color.b = 1f;
+            material.color = color;
 
             //turn off the label
             Label.SetActive(false);
