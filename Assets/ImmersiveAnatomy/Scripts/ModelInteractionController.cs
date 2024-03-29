@@ -98,6 +98,9 @@ public class ModelInteractionController : MonoBehaviour
 
     void LeftControllerGripped(InputAction.CallbackContext ctx)
     {
+        
+        
+
         if(largeJointMade == false && smallJointMade == false && Animal){
             
             smallJointMade = true;
@@ -119,10 +122,22 @@ public class ModelInteractionController : MonoBehaviour
                     //gain control over the individual part in question
                     model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
 
-                    //create joint
-                    ControllerR.AddComponent<FixedJoint>();
-                    ControllerR.GetComponent<FixedJoint>().connectedBody = model.GetComponent<Rigidbody>();
+                    ConstraintSource source = new ConstraintSource();
+                    source.sourceTransform = ControllerL.transform;
+                    source.weight = 1f;
 
+                    model.AddComponent<ParentConstraint>();
+                    model.GetComponent<ParentConstraint>().AddSource(source);
+
+                    //var positionDelta = model.transform.position - ControllerL.transform.position;
+                    var rotationDelta = Quaternion.Inverse(ControllerL.transform.rotation) * model.transform.rotation;
+                    model.GetComponent<ParentConstraint>().SetTranslationOffset(0, ControllerL.transform.InverseTransformPoint(model.transform.position));
+                    model.GetComponent<ParentConstraint>().SetRotationOffset(0, rotationDelta.eulerAngles);
+
+                    model.GetComponent<ParentConstraint>().weight = 1f;
+                    model.GetComponent<ParentConstraint>().constraintActive = true;
+
+                    //https://discussions.unity.com/t/how-to-activate-parent-constraint-via-api-the-same-way-as-activate-button-does/218717?clickref=1101lyp5bwBV&utm_source=partnerize&utm_medium=affiliate&utm_campaign=unity_affiliate
                 }
 
             }
@@ -133,13 +148,16 @@ public class ModelInteractionController : MonoBehaviour
     void LeftControllerReleased(InputAction.CallbackContext ctx)
     {
         //go through and break 
-
+        foreach (GameObject model in ModelArray){
+            Destroy(model.GetComponent<ParentConstraint>());
+        }
+        
         smallJointMade = false;
     }
 
     void RightControllerGripped(InputAction.CallbackContext ctx)
     {
-        if (largeJointMade == false && smallJointMade == false && Animal)
+        if (largeJointMade == false && smallJointMade == false && Animal != null)
         {
             largeJointMade = true;
 
