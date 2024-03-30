@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class ModelInteractionController : MonoBehaviour
 {
 
+    [SerializeField]
     public List <GameObject> ModelArray;
     public List <GameObject> SelectedModels;
 
@@ -66,7 +67,7 @@ public class ModelInteractionController : MonoBehaviour
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
             { 
-                if(child.gameObject.name != "Model Skeleton"){
+                if(child.gameObject.name != "Model Skeleton"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
                 }
                
@@ -75,7 +76,7 @@ public class ModelInteractionController : MonoBehaviour
             Transform[] allOrgChildren = GameObject.Find("Model Internal Organs").GetComponentsInChildren<Transform>();
             foreach (Transform child in allOrgChildren)
             { 
-                if(child.gameObject.name != "Model Internal Organs"){
+                if(child.gameObject.name != "Model Internal Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
                 }
                 
