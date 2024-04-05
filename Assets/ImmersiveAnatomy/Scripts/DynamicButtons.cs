@@ -9,7 +9,9 @@ public class DynamicButtons : MonoBehaviour
 {
 
     public List <GameObject> ModelArray;
-    private bool isModel = true;
+    public List <Vector3> ModelPositions;
+    public List <Quaternion> ModelRotations;
+    public List <GameObject> SelectedModels;
     private string currentScene;
     private Color selectedColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
 
@@ -156,6 +158,10 @@ public class DynamicButtons : MonoBehaviour
         }
     }
 
+    public void selectedReset(){
+        
+    }
+
     public void ClearArrays(){
         ModelArray.Clear();
     }
@@ -163,13 +169,14 @@ public class DynamicButtons : MonoBehaviour
     public void FillArrays(){
         Debug.Log("Fill Arrays");
         if(GameObject.FindWithTag("Model")!=null){
-            isModel = true;
             // Find all children of the Skeleton object
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
             { 
                 if(child.gameObject.name != "Model Skeleton"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    ModelRotations.Add(child.gameObject.transform.rotation);
                 }
                
             }
@@ -179,6 +186,10 @@ public class DynamicButtons : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Internal Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
+                
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    
+                    ModelRotations.Add(child.gameObject.transform.rotation);
                 }
                 
             }
@@ -189,14 +200,40 @@ public class DynamicButtons : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model External Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    
+                    ModelRotations.Add(child.gameObject.transform.rotation);
                 }
                 
             }
             }
             else{
-                isModel = false;
                 ClearArrays();
             }
+    }
+    public void ResetSelectedModels(){
+        Debug.Log("Add Selected Models");
+        if(ModelArray!=null){
+            foreach (GameObject model in ModelArray){
+                Material material = model.GetComponent<Renderer>().material;
+                if((material.color.r == selectedColor.r) && (material.color.g == selectedColor.g) && (material.color.b == selectedColor.b)){
+                    SelectedModels.Add(model);
+                }
+            }
+        }
+        foreach (GameObject model in SelectedModels){
+            model.transform.position = new Vector3(0,0,0);
+        }
+        SelectedModels.Clear();
+    }
+    public void ResetModelPositions(){
+        Debug.Log("Reset Model Positions");
+        if(ModelArray!=null){
+            for(int i = 0; i < ModelArray.Count; i++){
+                ModelArray[i].transform.position = ModelPositions[i];
+                ModelArray[i].transform.rotation = ModelRotations[i];
+            }
+        }
     }
     
     public void Start(){
@@ -212,5 +249,5 @@ public class DynamicButtons : MonoBehaviour
             currentScene = SceneManager.GetActiveScene().name;
             //Debug.Log("Current Scene: " + currentScene);
         }
-    }
+    }  
 }
