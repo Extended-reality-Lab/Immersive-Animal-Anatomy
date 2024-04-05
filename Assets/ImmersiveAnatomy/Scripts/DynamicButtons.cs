@@ -111,6 +111,50 @@ public class DynamicButtons : MonoBehaviour
         }
 
     }
+    public void invisButton(){
+        Debug.Log("invisible!");
+        foreach (GameObject model in ModelArray){
+
+            Material material = model.GetComponent<Renderer>().material;
+
+            //if it has the selected color, we know it's been selected
+            if((material.color.r == selectedColor.r) && (material.color.g == selectedColor.g) && (material.color.b == selectedColor.b)){
+                //alter the alpha
+                Color color = material.color;
+                color.a = 0;
+                material.color = color;
+                model.GetComponent<Renderer>().enabled = false;
+                model.GetComponent<BoxCollider>().enabled = false;
+            }
+        }
+    }
+
+    public void opaqueButton(){
+        Debug.Log("isible!");
+        foreach (GameObject model in ModelArray){
+
+            Material material = model.GetComponent<Renderer>().material;
+
+            //if it has the selected color, we know it's been selected
+            if((material.color.r == selectedColor.r) && (material.color.g == selectedColor.g) && (material.color.b == selectedColor.b)){
+
+                //alter the alpha
+                Color color = material.color;
+                model.GetComponent<Renderer>().enabled = true;
+                material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+                material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
+                material.SetInt("_ZWrite", 1);
+                material.DisableKeyword("_ALPHATEST_ON");
+                material.DisableKeyword("_ALPHABLEND_ON");
+                material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                material.renderQueue = -1;
+                model.GetComponent<BoxCollider>().enabled = true;
+
+                color.a = 1;
+                material.color = color;
+            }
+        }
+    }
 
     public void ClearArrays(){
         ModelArray.Clear();
