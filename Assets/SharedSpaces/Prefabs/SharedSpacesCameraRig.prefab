@@ -671,6 +671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &1277436316681368234
 GameObject:
@@ -1034,6 +1035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &1743025544216299253
 GameObject:
@@ -1268,6 +1270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &1832381257778823728
 GameObject:
@@ -2111,6 +2114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &4984171899785707986
 GameObject:
@@ -3099,6 +3103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &5784359577083487237
 GameObject:
@@ -3249,6 +3254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModelArray: []
   ModelPositions: []
+  ModelRotations: []
   SelectedModels: []
 --- !u!1 &5797334727852864652
 GameObject:
@@ -3530,7 +3536,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8145041469300395435}
   - component: {fileID: 6023966386899880984}
-  - component: {fileID: 1098873559432264567}
   m_Layer: 0
   m_Name: ZoomCam
   m_TagString: Untagged
@@ -3596,14 +3601,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1098873559432264567
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6682705825732270320}
-  m_Enabled: 1
 --- !u!1 &6697127168281872379
 GameObject:
   m_ObjectHideFlags: 0

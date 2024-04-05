@@ -158,9 +158,6 @@ public class DynamicButtons : MonoBehaviour
         }
     }
 
-    public void selectedReset(){
-        
-    }
 
     public void ClearArrays(){
         ModelArray.Clear();
@@ -222,7 +219,8 @@ public class DynamicButtons : MonoBehaviour
             }
         }
         foreach (GameObject model in SelectedModels){
-            model.transform.position = new Vector3(0,0,0);
+            model.transform.position = ModelPositions[ModelArray.IndexOf(model)];
+            model.transform.rotation = ModelRotations[ModelArray.IndexOf(model)];
         }
         SelectedModels.Clear();
     }
