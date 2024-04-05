@@ -299,54 +299,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 322186457263484996, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 733965216162736457, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073540167037845722, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073540167037845722, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1385854178482149277, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692814798588025821, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692814798588025821, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692814798588025821, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692814798588025821, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3433596720789999939, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3961965215675382639, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4984171899785707986, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6697775241635718865, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -394,30 +346,6 @@ PrefabInstance:
     - target: {fileID: 6697775241635953393, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_Name
       value: SharedSpacesCameraRig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7229224703231016012, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7229224703231016012, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7440168771821393987, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8059116483174483705, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8059116483174483705, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8059116483174483705, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b566583b32ed60478be49846202ce86, type: 3}
