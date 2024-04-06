@@ -219,6 +219,7 @@ public class DynamicButtons : MonoBehaviour
             }
         }
         foreach (GameObject model in SelectedModels){
+            model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
             model.transform.position = ModelPositions[ModelArray.IndexOf(model)];
             model.transform.rotation = ModelRotations[ModelArray.IndexOf(model)];
         }
@@ -228,6 +229,7 @@ public class DynamicButtons : MonoBehaviour
         Debug.Log("Reset Model Positions");
         if(ModelArray!=null){
             for(int i = 0; i < ModelArray.Count; i++){
+                ModelArray[i].GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
                 ModelArray[i].transform.position = ModelPositions[i];
                 ModelArray[i].transform.rotation = ModelRotations[i];
             }
