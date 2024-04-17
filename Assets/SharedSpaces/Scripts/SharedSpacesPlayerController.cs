@@ -104,8 +104,7 @@ public class SharedSpacesPlayerController : NetworkBehaviour
         //move the fella
         if (LocalPlayerState)
         {
-            //this grabs the location of the actual camera
-            transform.position = LocalPlayerState.playerCamera.transform.GetChild(0).GetChild(3).transform.position;
+            transform.position = LocalPlayerState.playerCamera.transform.GetChild(0).GetChild(3).position;
         }
 
     }

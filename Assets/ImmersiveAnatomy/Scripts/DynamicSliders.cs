@@ -7,13 +7,22 @@ using TMPro;
 
 public class DynamicSliders : MonoBehaviour
 {
-
     public GameObject sliderPrefab;
     public GameObject sliderContainer;
     public List <GameObject> ModelArray;
     private bool isModel = true;
     private string currentScene;
     
+
+    public void SliderExternallyChanged(float sliderVal, string modelName){
+        //locate the slider matching that name
+        //Slider givenSlider = transform.FindChild(modelName + " Slider").GetComponent<Slider>();
+        Slider givenSlider = transform.Find(modelName + " Slider").GetComponent<Slider>();
+
+        //change the value of the slider to the provided one
+        givenSlider.value = sliderVal;
+    }
+
     public void SliderValueChanged(float sliderVal, GameObject model){
         //Debug.Log("Slider Value: " + slider.value);
         Renderer renderer = model.GetComponent<Renderer>();
