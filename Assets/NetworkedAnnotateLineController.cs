@@ -14,6 +14,9 @@ public class NetworkedAnnotateLineController : MonoBehaviour
 
     private LineRenderer line;
     private GameObject lineObject;
+    public List<Vector3> lineList;
+    [SerializeField]
+    GameObject linePrefab;
     private Vector3 previousPosition;
     private Vector3 currentPosition;
 
@@ -43,45 +46,66 @@ public class NetworkedAnnotateLineController : MonoBehaviour
             if(Vector3.Distance(currentPosition, previousPosition) > minDistance){
 
                 if(previousPosition == transform.position){
+                    line.SetPosition(0, currentPosition);
 
-                    //send out a call to the annotation holder to create the first line
-                    if(AnnotationHolder){
-                        AnnotationHolder.GetComponent<NetworkLineHandler>().setFirstPointPositionServerRpc(currentPosition);
-                    }
                 }
                 else{
-                    
-                    //send out a call to the annotation holder to create a point and propogate it across the network
-                    if(AnnotationHolder){
-                        AnnotationHolder.GetComponent<NetworkLineHandler>().setNormalPointPositionServerRpc(currentPosition);
-                    }
+                    line.positionCount++;
+                    line.SetPosition(line.positionCount - 1, currentPosition);              
 
                 }
 
                 previousPosition = currentPosition;
 
+                //add to the array for this line
+                lineList.Add(currentPosition);
+
             }
 
+        }
+
+    }
+
+    public void destroyAllLines(){
+
+        if(AnnotationHolder){
+                AnnotationHolder.GetComponent<NetworkLineHandler>().killAllLinesServerRpc();
         }
 
     }
 
 
     void startedDraw(InputAction.CallbackContext ctx){
-        //initialize a new line prefab, and set the annotating bool to true
         if (holderPresent == true) {
-            //send out a call to the annotation holder to instantiate a line renderer and propogate it
-            if(AnnotationHolder){
-                AnnotationHolder.GetComponent<NetworkLineHandler>().createNewLineServerRpc();
-            }
 
+            lineList.Clear();
+
+            lineObject = Instantiate(linePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
+            lineObject.transform.parent = AnnotationHolder.transform;
+            line = lineObject.GetComponent<LineRenderer>();
             annotating = true;
+
         }
     }
 
     void endedDraw(InputAction.CallbackContext ctx){
         //set the annotating bool to false
         annotating = false;
+
+        //turn the list into a fixed length array to send over the network since netcode can't handle dynamic list types
+        Vector3[] lineArray = new Vector3[lineList.Count];
+        for(int i = 0; i < lineList.Count; i++){
+            lineArray[i] = lineList[i];
+        }
+
+        //send a message to the server to populate the line for all other clients
+        if(AnnotationHolder){
+            AnnotationHolder.GetComponent<NetworkLineHandler>().buildLineServerRpc(lineArray);
+        }
+
+        //delete the temporary local line
+        Destroy(lineObject);
+
     }
 
     private void ChangedActiveScene(Scene current, Scene next)

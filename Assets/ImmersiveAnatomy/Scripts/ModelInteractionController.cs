@@ -96,7 +96,6 @@ public class ModelInteractionController : MonoBehaviour
     }
 
 
-
     void LeftControllerGripped(InputAction.CallbackContext ctx)
     {
         
@@ -104,6 +103,9 @@ public class ModelInteractionController : MonoBehaviour
 
         if(largeJointMade == false && smallJointMade == false && Animal){
             
+            //establish locks
+            Animal.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
             smallJointMade = true;
 
             //gain control over the greater model
@@ -160,6 +162,10 @@ public class ModelInteractionController : MonoBehaviour
     {
         if (largeJointMade == false && smallJointMade == false && Animal != null)
         {
+
+            //release any current locks
+            Animal.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+
             largeJointMade = true;
 
             //send a message to the server to gain ownership of the model
@@ -182,6 +188,24 @@ public class ModelInteractionController : MonoBehaviour
         if(largeJointMade == true){
             Destroy(ControllerR.GetComponent<FixedJoint>());
             largeJointMade = false;
+        }
+    }
+
+    public void DeselectAll(){
+        
+        foreach (GameObject model in ModelArray){
+
+            model.GetComponent<SelectionHandler>().playerNegativeBoolServerRpc();
+            
+        }
+    }
+
+    public void SelectAll(){
+
+        foreach (GameObject model in ModelArray){
+
+            model.GetComponent<SelectionHandler>().playerPositiveBoolServerRpc();
+            
         }
     }
 }

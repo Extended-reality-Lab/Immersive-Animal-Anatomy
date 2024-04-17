@@ -87,4 +87,18 @@ public class SelectionHandler : NetworkBehaviour
         isSelected.Value = !isSelected.Value;
 
     }
+
+    [ServerRpc(RequireOwnership = false)]
+    public void playerPositiveBoolServerRpc()
+    {
+        isSelected.Value = true;
+
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    public void playerNegativeBoolServerRpc()
+    {
+        isSelected.Value = false;
+
+    }
 }
