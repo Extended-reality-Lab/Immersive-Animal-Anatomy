@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 64729322159691849}
   - component: {fileID: 1788635446303840408}
   - component: {fileID: 1428085545303128255}
-  - component: {fileID: 5964256672252354974}
   m_Layer: 5
   m_Name: Minus
   m_TagString: Untagged
@@ -244,7 +243,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5964256672252354974}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: minusButton
         m_Mode: 1
@@ -256,22 +255,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5964256672252354974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128747522837853802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &229051542793962579
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +691,6 @@ GameObject:
   - component: {fileID: 2804400560284668565}
   - component: {fileID: 6738069837158792084}
   - component: {fileID: 4407053983678386570}
-  - component: {fileID: 3074506153637997653}
   m_Layer: 5
   m_Name: All
   m_TagString: Untagged
@@ -819,7 +801,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3074506153637997653}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: ResetModelPositions
         m_Mode: 1
@@ -831,22 +813,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3074506153637997653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833812799974505102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &837389375684797383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1501,6 @@ GameObject:
   - component: {fileID: 3133582708516367566}
   - component: {fileID: 6534139755575429741}
   - component: {fileID: 2619148337775444911}
-  - component: {fileID: 1379196852152899374}
   m_Layer: 5
   m_Name: Invis
   m_TagString: Untagged
@@ -1646,7 +1611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1379196852152899374}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: invisButton
         m_Mode: 1
@@ -1658,22 +1623,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1379196852152899374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302317714546317400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &2596701663529376408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,7 +1635,6 @@ GameObject:
   - component: {fileID: 7222075073652993510}
   - component: {fileID: 4000355071974927186}
   - component: {fileID: 7954811463834997366}
-  - component: {fileID: 6984367945375309701}
   m_Layer: 5
   m_Name: Plus
   m_TagString: Untagged
@@ -1797,7 +1745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6984367945375309701}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: plusButton
         m_Mode: 1
@@ -1809,22 +1757,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6984367945375309701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2596701663529376408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &2685428743926376772
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,7 +3084,6 @@ GameObject:
   - component: {fileID: 9094673770835724613}
   - component: {fileID: 8268330765483688205}
   - component: {fileID: 3692364288511064509}
-  - component: {fileID: 6577649192181281064}
   m_Layer: 5
   m_Name: Selected
   m_TagString: Untagged
@@ -3263,7 +3194,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6577649192181281064}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: ResetSelectedModels
         m_Mode: 1
@@ -3275,22 +3206,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6577649192181281064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4806678201729140210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &5076851291568210506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4819,6 +4734,7 @@ GameObject:
   - component: {fileID: 2326489964414564606}
   - component: {fileID: 2246650004608896690}
   - component: {fileID: 9099782203245525259}
+  - component: {fileID: 3310036346190008427}
   m_Layer: 0
   m_Name: SharedSpacesCameraRig
   m_TagString: Untagged
@@ -5057,6 +4973,24 @@ MonoBehaviour:
   linePrefab: {fileID: 0}
   controllerPosition: {fileID: 6697127168281872379}
   minDistance: 0.01
+--- !u!114 &3310036346190008427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697775241635953393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModelArray: []
+  ModelPositions: []
+  ModelRotations: []
+  SelectedModels: []
+  LocalModelPositions: []
+  LocalModelRotations: []
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,7 +5358,6 @@ GameObject:
   - component: {fileID: 1715355540780940005}
   - component: {fileID: 7695941674872850799}
   - component: {fileID: 2444455581964896467}
-  - component: {fileID: 4954699604750668317}
   m_Layer: 5
   m_Name: Opaque
   m_TagString: Untagged
@@ -5535,7 +5468,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4954699604750668317}
+      - m_Target: {fileID: 3310036346190008427}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: opaqueButton
         m_Mode: 1
@@ -5547,22 +5480,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4954699604750668317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6830080601092572978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
 --- !u!1 &6942645051124216713
 GameObject:
   m_ObjectHideFlags: 0

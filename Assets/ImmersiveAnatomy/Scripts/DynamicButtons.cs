@@ -12,6 +12,9 @@ public class DynamicButtons : MonoBehaviour
     public List <Vector3> ModelPositions;
     public List <Quaternion> ModelRotations;
     public List <GameObject> SelectedModels;
+
+    public List <Vector3> LocalModelPositions;
+    public List <Quaternion> LocalModelRotations;
     private string currentScene;
     private Color selectedColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
 
@@ -174,6 +177,8 @@ public class DynamicButtons : MonoBehaviour
                     ModelArray.Add(child.gameObject);
                     ModelPositions.Add(child.gameObject.transform.position);
                     ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
                
             }
@@ -187,6 +192,8 @@ public class DynamicButtons : MonoBehaviour
                     ModelPositions.Add(child.gameObject.transform.position);
                     
                     ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
                 
             }
@@ -200,6 +207,8 @@ public class DynamicButtons : MonoBehaviour
                     ModelPositions.Add(child.gameObject.transform.position);
                     
                     ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
                 
             }
@@ -219,9 +228,8 @@ public class DynamicButtons : MonoBehaviour
             }
         }
         foreach (GameObject model in SelectedModels){
-            model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
-            model.transform.position = ModelPositions[ModelArray.IndexOf(model)];
-            model.transform.rotation = ModelRotations[ModelArray.IndexOf(model)];
+            model.transform.localPosition = LocalModelPositions[ModelArray.IndexOf(model)];
+            model.transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
         }
         SelectedModels.Clear();
     }
