@@ -56,14 +56,19 @@ public class NetworkLineHandler : NetworkBehaviour
     [ClientRpc]
     public void buildLineClientRpc(Vector3[] pointList){
 
+        Debug.Log(pointList);
+
+        
         lineObject = Instantiate(linePrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
         lineObject.transform.parent = this.transform;
         line = lineObject.GetComponent<LineRenderer>();
 
         //fill out all the points
         for(int i = 0; i < pointList.Length; i++){
+            line.positionCount++;
             line.SetPosition(i, pointList[i]);
         }   
+        
     }
 
 
