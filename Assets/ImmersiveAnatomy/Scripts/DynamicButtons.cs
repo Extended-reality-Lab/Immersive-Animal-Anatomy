@@ -228,6 +228,7 @@ public class DynamicButtons : MonoBehaviour
             }
         }
         foreach (GameObject model in SelectedModels){
+            model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
             model.transform.localPosition = LocalModelPositions[ModelArray.IndexOf(model)];
             model.transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
         }
@@ -238,9 +239,12 @@ public class DynamicButtons : MonoBehaviour
         if(ModelArray!=null){
             for(int i = 0; i < ModelArray.Count; i++){
                 ModelArray[i].GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
-                ModelArray[i].transform.position = ModelPositions[i];
-                ModelArray[i].transform.rotation = ModelRotations[i];
+                ModelArray[i].transform.localPosition = LocalModelRotations[ModelArray.IndexOf(model)];
+                ModelArray[i].transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
             }
+            ModelArray[0].parent.parent.GetComponent<AnimalOwnerShipManager>().gimmieOwnershipPleaseServerRpc();
+            ModelArray[0].parent.parent.transform.position = new Vector3(0,0,0);
+            ModelArray[0].parent.parent.transform.rotation = quaternion.identity;
         }
     }
     
