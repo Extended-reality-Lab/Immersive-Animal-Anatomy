@@ -243,7 +243,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: minusButton
         m_Mode: 1
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: ResetModelPositions
         m_Mode: 1
@@ -1342,7 +1342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1719491905810708579
 Transform:
   m_ObjectHideFlags: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: invisButton
         m_Mode: 1
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: plusButton
         m_Mode: 1
@@ -3194,7 +3194,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: ResetSelectedModels
         m_Mode: 1
@@ -4734,7 +4734,6 @@ GameObject:
   - component: {fileID: 2326489964414564606}
   - component: {fileID: 2246650004608896690}
   - component: {fileID: 9099782203245525259}
-  - component: {fileID: 3310036346190008427}
   m_Layer: 0
   m_Name: SharedSpacesCameraRig
   m_TagString: Untagged
@@ -4864,6 +4863,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c58f30835c3e0c47914c6f9d21bdb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ModelPositions: []
+  ModelRotations: []
+  LocalModelPositions: []
+  LocalModelRotations: []
   ModelArray: []
   SelectedModels: []
   Animal: {fileID: 0}
@@ -4970,27 +4973,9 @@ MonoBehaviour:
   annotating: 0
   holderPresent: 0
   lineList: []
-  linePrefab: {fileID: 0}
+  linePrefab: {fileID: 4484545425270614294, guid: 63e49f30cd0ccb54ea90b0b2be81e9d6, type: 3}
   controllerPosition: {fileID: 6697127168281872379}
   minDistance: 0.01
---- !u!114 &3310036346190008427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6697775241635953393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12464faca58687f46979521ed6f93da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelArray: []
-  ModelPositions: []
-  ModelRotations: []
-  SelectedModels: []
-  LocalModelPositions: []
-  LocalModelRotations: []
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,7 +5453,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3310036346190008427}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
         m_MethodName: opaqueButton
         m_Mode: 1

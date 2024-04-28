@@ -182,7 +182,7 @@ public class DynamicButtons : MonoBehaviour
                 }
                
             }
-            /*
+            
             // Find all children of the Skeleton object
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
@@ -271,7 +271,7 @@ public class DynamicButtons : MonoBehaviour
                 }
                 
             }
-            */
+            
             }
             else{
                 ClearArrays();
