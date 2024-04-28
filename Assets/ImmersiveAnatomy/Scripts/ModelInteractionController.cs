@@ -63,33 +63,13 @@ public class ModelInteractionController : MonoBehaviour
 
         //get an array of the model
         if(GameObject.FindWithTag("Model")!=null){
-            // Find all children of the Skeleton object
-            Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
-            foreach (Transform child in allSkeleChildren)
+            // Find all children of the Body object
+            Transform[] allBodyChildren = GameObject.Find("Model Body").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allBodyChildren)
             { 
-                if(child.gameObject.name != "Model Skeleton"&&child.gameObject.tag != "Label"){
+                if(child.gameObject.name != "Model Body"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
                 }
-               
-            }
-            // Find all children of the Organ object
-            Transform[] allOrgChildren = GameObject.Find("Model Internal Organs").GetComponentsInChildren<Transform>();
-            foreach (Transform child in allOrgChildren)
-            { 
-                if(child.gameObject.name != "Model Internal Organs"&&child.gameObject.tag != "Label"){
-                    ModelArray.Add(child.gameObject);
-                }
-                
-            }
-            
-            // Find all children of the Skin object
-            Transform[] allSkinChildren = GameObject.Find("Model External Organs").GetComponentsInChildren<Transform>();
-            foreach (Transform child in allSkinChildren)
-            { 
-                if(child.gameObject.name != "Model External Organs"&&child.gameObject.tag != "Label"){
-                    ModelArray.Add(child.gameObject);
-                }
-                
             }
         }
 

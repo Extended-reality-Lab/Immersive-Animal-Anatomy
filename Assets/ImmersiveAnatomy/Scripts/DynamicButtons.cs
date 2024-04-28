@@ -169,6 +169,20 @@ public class DynamicButtons : MonoBehaviour
     public void FillArrays(){
         Debug.Log("Fill Arrays");
         if(GameObject.FindWithTag("Model")!=null){
+            // Find all children of the body object
+            Transform[] allBodyChildren = GameObject.Find("Model Body").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allBodyChildren)
+            { 
+                if(child.gameObject.name != "Model Body"&&child.gameObject.tag != "Label"){
+                    ModelArray.Add(child.gameObject);
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
+                }
+               
+            }
+            /*
             // Find all children of the Skeleton object
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
@@ -183,10 +197,10 @@ public class DynamicButtons : MonoBehaviour
                
             }
             // Find all children of the Organ object
-            Transform[] allOrgChildren = GameObject.Find("Model Internal Organs").GetComponentsInChildren<Transform>();
+            Transform[] allOrgChildren = GameObject.Find("Model Organs").GetComponentsInChildren<Transform>();
             foreach (Transform child in allOrgChildren)
             { 
-                if(child.gameObject.name != "Model Internal Organs"&&child.gameObject.tag != "Label"){
+                if(child.gameObject.name != "Model Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
                 
                     ModelPositions.Add(child.gameObject.transform.position);
@@ -197,13 +211,13 @@ public class DynamicButtons : MonoBehaviour
                 }
                 
             }
-            
-            // Find all children of the Skin object
-            Transform[] allSkinChildren = GameObject.Find("Model External Organs").GetComponentsInChildren<Transform>();
-            foreach (Transform child in allSkinChildren)
+            //Find all objects in Model Lymphatic_system
+            Transform[] allLymphChildren = GameObject.Find("Model Lymphatic_system").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allLymphChildren)
             { 
-                if(child.gameObject.name != "Model External Organs"&&child.gameObject.tag != "Label"){
+                if(child.gameObject.name != "Model Lymphatic_system"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
+                
                     ModelPositions.Add(child.gameObject.transform.position);
                     
                     ModelRotations.Add(child.gameObject.transform.rotation);
@@ -212,6 +226,52 @@ public class DynamicButtons : MonoBehaviour
                 }
                 
             }
+            //Find all objects in model muscle system
+            Transform[] allMuscleChildren = GameObject.Find("Model Muscles").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allMuscleChildren)
+            { 
+                if(child.gameObject.name != "Model Muscles"&&child.gameObject.tag != "Label"){
+                    ModelArray.Add(child.gameObject);
+                
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    
+                    ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
+                }
+                
+            }
+            //Find all objects in Model Nervous_system
+            Transform[] allNervChildren = GameObject.Find("Model Nervous_system").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allNervChildren)
+            { 
+                if(child.gameObject.name != "Model Nervous_system"&&child.gameObject.tag != "Label"){
+                    ModelArray.Add(child.gameObject);
+                
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    
+                    ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
+                }
+                
+            }
+            //Find all objects in Model Vascular_system
+            Transform[] allVascChildren = GameObject.Find("Model Vascular_system").GetComponentsInChildren<Transform>();
+            foreach (Transform child in allVascChildren)
+            { 
+                if(child.gameObject.name != "Model Vascular_system"&&child.gameObject.tag != "Label"){
+                    ModelArray.Add(child.gameObject);
+                
+                    ModelPositions.Add(child.gameObject.transform.position);
+                    
+                    ModelRotations.Add(child.gameObject.transform.rotation);
+                    LocalModelPositions.Add(child.gameObject.transform.localPosition);
+                    LocalModelRotations.Add(child.gameObject.transform.localRotation);
+                }
+                
+            }
+            */
             }
             else{
                 ClearArrays();

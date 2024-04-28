@@ -30,6 +30,7 @@ public class SelectionHandler : NetworkBehaviour
     void Start()
     {
         //dynamically finds the objects label
+        Label = this.transform.GetChild(0).gameObject;
         Label.GetComponentInChildren<TMP_Text>().text = Label.transform.parent.name;
         playerCamera=Camera.main;
         Label.SetActive(false);

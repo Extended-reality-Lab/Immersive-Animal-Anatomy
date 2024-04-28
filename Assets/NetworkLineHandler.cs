@@ -49,7 +49,7 @@ public class NetworkLineHandler : NetworkBehaviour
         //go through and delete all lines
 
         foreach (Transform child in transform){
-            Destroy(child);
+            Destroy(child.gameObject);
         }
     }
 
