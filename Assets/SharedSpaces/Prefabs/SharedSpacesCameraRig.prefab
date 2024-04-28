@@ -243,8 +243,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: minusButton
         m_Mode: 1
         m_Arguments:
@@ -801,8 +801,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: ResetModelPositions
         m_Mode: 1
         m_Arguments:
@@ -1611,8 +1611,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: invisButton
         m_Mode: 1
         m_Arguments:
@@ -1745,8 +1745,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: plusButton
         m_Mode: 1
         m_Arguments:
@@ -3194,8 +3194,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: ResetSelectedModels
         m_Mode: 1
         m_Arguments:
@@ -5453,8 +5453,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DynamicButtons, Assembly-CSharp
+      - m_Target: {fileID: 1485226180444978795}
+        m_TargetAssemblyTypeName: ModelInteractionController, Assembly-CSharp
         m_MethodName: opaqueButton
         m_Mode: 1
         m_Arguments:
