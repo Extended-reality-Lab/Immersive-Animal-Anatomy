@@ -299,25 +299,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1428085545303128255, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2444455581964896467, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2619148337775444911, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692364288511064509, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4407053983678386570, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+    - target: {fileID: 4026278482242645932, guid: 7b566583b32ed60478be49846202ce86, type: 3}
+      propertyPath: m_TargetPriorityMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6697775241635718865, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_RootOrder
@@ -366,10 +350,6 @@ PrefabInstance:
     - target: {fileID: 6697775241635953393, guid: 7b566583b32ed60478be49846202ce86, type: 3}
       propertyPath: m_Name
       value: SharedSpacesCameraRig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7954811463834997366, guid: 7b566583b32ed60478be49846202ce86, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b566583b32ed60478be49846202ce86, type: 3}
