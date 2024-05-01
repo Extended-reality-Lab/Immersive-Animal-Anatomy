@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class LabelOperation : MonoBehaviour
+public class LabelTracking : MonoBehaviour
 {
 
     public Transform playerCamera;
@@ -16,6 +16,8 @@ public class LabelOperation : MonoBehaviour
     void Update()
     {
         transform.LookAt(playerCamera, Vector3.up);
+        transform.Rotate(0, 180, 0);
     }
 
 }
+
