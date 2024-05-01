@@ -9,8 +9,9 @@ public class DynamicButtons : MonoBehaviour
 {
 
     public List <GameObject> ModelArray;
-    public List <Vector3> ModelPositions;
-    public List <Quaternion> ModelRotations;
+
+    public Vector3 ContainerPosition;
+    public Quaternion ContainerRotation;
     public List <GameObject> SelectedModels;
 
     public List <Vector3> LocalModelPositions;
@@ -170,13 +171,15 @@ public class DynamicButtons : MonoBehaviour
         Debug.Log("Fill Arrays");
         if(GameObject.FindWithTag("Model")!=null){
             // Find all children of the Skeleton object
+            ContainerPosition = GameObject.Find("AnatomyHolder").transform.position;
+            ContainerRotation = GameObject.Find("AnatomyHolder").transform.rotation;
+            Debug.Log("Container Position: " + ContainerPosition);
+            Debug.Log("Container Rotation: " + ContainerRotation);
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
             { 
                 if(child.gameObject.name != "Model Skeleton"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -188,10 +191,6 @@ public class DynamicButtons : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Internal Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -204,9 +203,6 @@ public class DynamicButtons : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model External Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -218,7 +214,7 @@ public class DynamicButtons : MonoBehaviour
             }
     }
     public void ResetSelectedModels(){
-        Debug.Log("Add Selected Models");
+        Debug.Log("Reset Selected Models");
         if(ModelArray!=null){
             foreach (GameObject model in ModelArray){
                 Material material = model.GetComponent<Renderer>().material;
@@ -243,8 +239,8 @@ public class DynamicButtons : MonoBehaviour
                 model.transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
             }
             ModelArray[0].transform.parent.transform.parent.GetComponent<AnimalOwnerShipManager>().gimmieOwnershipPleaseServerRpc();
-            ModelArray[0].transform.parent.transform.parent.transform.position = new Vector3(0,0,0);
-            ModelArray[0].transform.parent.transform.parent.transform.rotation = Quaternion.identity;
+            ModelArray[0].transform.parent.transform.parent.transform.position = ContainerPosition;
+            ModelArray[0].transform.parent.transform.parent.transform.rotation = ContainerRotation;
         }
     }
     
