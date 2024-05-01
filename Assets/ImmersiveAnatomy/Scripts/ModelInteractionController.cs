@@ -10,8 +10,8 @@ using TMPro;
 public class ModelInteractionController : MonoBehaviour
 {
 
-    public List <Vector3> ModelPositions;
-    public List <Quaternion> ModelRotations;
+    public Vector3 ContainerPosition;
+    public Quaternion ContainerRotation;
     public List <Vector3> LocalModelPositions;
     public List <Quaternion> LocalModelRotations;
 
@@ -316,14 +316,17 @@ public class ModelInteractionController : MonoBehaviour
     public void FillArrays(){
         Debug.Log("Fill Arrays");
         if(GameObject.FindWithTag("Model")!=null){
+
+            ContainerPosition = GameObject.Find("AnatomyHolder").transform.position;
+            ContainerRotation = GameObject.Find("AnatomyHolder").transform.rotation;
+            Debug.Log("Container Position: " + ContainerPosition);
+            Debug.Log("Container Rotation: " + ContainerRotation);
             // Find all children of the body object
             Transform[] allBodyChildren = GameObject.Find("Model Body").GetComponentsInChildren<Transform>();
             foreach (Transform child in allBodyChildren)
             { 
                 if(child.gameObject.name != "Model Body"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -336,8 +339,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Skeleton"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -349,10 +350,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Organs"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -364,10 +361,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Lymphatic_system"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -379,10 +372,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Muscles"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -394,10 +383,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Nervous_system"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -409,10 +394,6 @@ public class ModelInteractionController : MonoBehaviour
             { 
                 if(child.gameObject.name != "Model Vascular_system"&&child.gameObject.tag != "Label"){
                     ModelArray.Add(child.gameObject);
-                
-                    ModelPositions.Add(child.gameObject.transform.position);
-                    
-                    ModelRotations.Add(child.gameObject.transform.rotation);
                     LocalModelPositions.Add(child.gameObject.transform.localPosition);
                     LocalModelRotations.Add(child.gameObject.transform.localRotation);
                 }
@@ -435,6 +416,7 @@ public class ModelInteractionController : MonoBehaviour
             }
         }
         foreach (GameObject model in SelectedModels){
+            model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
             model.transform.localPosition = LocalModelPositions[ModelArray.IndexOf(model)];
             model.transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
         }
@@ -443,11 +425,14 @@ public class ModelInteractionController : MonoBehaviour
     public void ResetModelPositions(){
         Debug.Log("Reset Model Positions");
         if(ModelArray!=null){
-            for(int i = 0; i < ModelArray.Count; i++){
-                ModelArray[i].GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
-                ModelArray[i].transform.position = ModelPositions[i];
-                ModelArray[i].transform.rotation = ModelRotations[i];
+            foreach (GameObject model in ModelArray){
+                model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
+                model.transform.localPosition = LocalModelPositions[ModelArray.IndexOf(model)];
+                model.transform.localRotation = LocalModelRotations[ModelArray.IndexOf(model)];
             }
+            ModelArray[0].transform.parent.transform.parent.GetComponent<AnimalOwnerShipManager>().gimmieOwnershipPleaseServerRpc();
+            ModelArray[0].transform.parent.transform.parent.transform.position = ContainerPosition;
+            ModelArray[0].transform.parent.transform.parent.transform.rotation = ContainerRotation;
         }
     }
 

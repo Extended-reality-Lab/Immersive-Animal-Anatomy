@@ -3524,7 +3524,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 32
   m_RaycastTriggerInteraction: 1
-  m_HitClosestOnly: 0
+  m_HitClosestOnly: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
@@ -6078,7 +6078,7 @@ MonoBehaviour:
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 1
-  m_TargetPriorityMode: 0
+  m_TargetPriorityMode: 2
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 8300000, guid: ad12412885e9eac4b95a5cb2f65ca961, type: 3}
   m_PlayAudioClipOnSelectExited: 0
