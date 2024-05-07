@@ -5091,7 +5091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 6697775241635938365}
   rightTriggerButton: {fileID: -3401221691713467274, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  HelperLine: {fileID: 0}
+  HelperLine: {fileID: 6697775241635938365}
 --- !u!1 &6697775241635953395
 GameObject:
   m_ObjectHideFlags: 0
