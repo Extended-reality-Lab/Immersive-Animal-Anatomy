@@ -45,6 +45,19 @@ public class SelectionHandler : NetworkBehaviour
 
     }
 
+    public void tintOn(){
+        Material material = this.GetComponent<Renderer>().material;
+
+        material.EnableKeyword("_EMISSION");
+
+    }
+
+    public void tintOff(){
+        Material material = this.GetComponent<Renderer>().material;
+
+        material.DisableKeyword("_EMISSION");
+    }
+
     //runs whenever the network detects a variable change
     private void OnSelectionValueChanged(bool previous, bool current){
 
