@@ -2624,6 +2624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &2302317714546317400
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,6 +4844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &4369828116113038928
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,6 +5047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &4419291542980604084
 GameObject:
   m_ObjectHideFlags: 0
@@ -6762,6 +6765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &5488572019553455151
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,6 +7102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &5712007293336919458
 GameObject:
   m_ObjectHideFlags: 0
@@ -7300,6 +7305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &5874704350831168564
 GameObject:
   m_ObjectHideFlags: 0
@@ -8039,6 +8045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &6541585129585087073
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,7 +8625,10 @@ MonoBehaviour:
   ControllerL: {fileID: 6698062978732409645}
   ControllerR: {fileID: 6697127168281872379}
   UIObject: {fileID: 951629217953798475}
-  xButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  ToolTipLeft: {fileID: 7794987709813176582}
+  ToolTipRight: {fileID: 8333237824085937826}
+  xButton: {fileID: 3005148709032478107, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  yButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   uiShowing: 0
 --- !u!54 &3294153419765648969
 Rigidbody:
@@ -10968,6 +10978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &8722572200802688186
 GameObject:
   m_ObjectHideFlags: 0
@@ -11229,6 +11240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 6697775241635718871}
+  uiShowing: 0
 --- !u!1 &9117920823060985240
 GameObject:
   m_ObjectHideFlags: 0
