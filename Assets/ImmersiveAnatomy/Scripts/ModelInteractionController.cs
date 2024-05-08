@@ -332,7 +332,7 @@ public class ModelInteractionController : MonoBehaviour
                 }
                
             }
-            
+            /*
             // Find all children of the Skeleton object
             Transform[] allSkeleChildren = GameObject.Find("Model Skeleton").GetComponentsInChildren<Transform>();
             foreach (Transform child in allSkeleChildren)
@@ -344,6 +344,7 @@ public class ModelInteractionController : MonoBehaviour
                 }
                
             }
+            */
             // Find all children of the Organ object
             Transform[] allOrgChildren = GameObject.Find("Model Organs").GetComponentsInChildren<Transform>();
             foreach (Transform child in allOrgChildren)
@@ -366,6 +367,7 @@ public class ModelInteractionController : MonoBehaviour
                 }
                 
             }
+            /*
             //Find all objects in model muscle system
             Transform[] allMuscleChildren = GameObject.Find("Model Muscles").GetComponentsInChildren<Transform>();
             foreach (Transform child in allMuscleChildren)
@@ -377,6 +379,7 @@ public class ModelInteractionController : MonoBehaviour
                 }
                 
             }
+            */
             //Find all objects in Model Nervous_system
             Transform[] allNervChildren = GameObject.Find("Model Nervous_system").GetComponentsInChildren<Transform>();
             foreach (Transform child in allNervChildren)

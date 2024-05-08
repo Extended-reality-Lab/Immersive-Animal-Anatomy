@@ -10,9 +10,9 @@ public class SelectionHandler : NetworkBehaviour
 
     public NetworkVariable<bool> isSelected = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);
 
-    public Canvas Label;
-    public LineRenderer Line;
-    public Camera playerCamera;
+    //public Canvas Label;
+    //public LineRenderer Line;
+    //public Camera playerCamera;
     private const bool initialValue = false;
 
     private Color customColor = new Color(0.75f, 0.75f,0.75f, 1.0f);
@@ -31,12 +31,12 @@ public class SelectionHandler : NetworkBehaviour
     void Start()
     {
         //dynamically finds the objects label
-        Label = this.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Canvas>();
-        Line = this.transform.GetChild(0).gameObject.GetComponent<LineRenderer>();
-        Label.transform.GetChild(2).GetComponent<TMP_Text>().text = transform.name;
-        playerCamera = Camera.main;
-        Label.enabled = false;
-        Line.enabled = false;
+        //Label = this.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Canvas>();
+        //Line = this.transform.GetChild(0).gameObject.GetComponent<LineRenderer>();
+        //Label.transform.GetChild(2).GetComponent<TMP_Text>().text = transform.name;
+        //playerCamera = Camera.main;
+        //Label.enabled = false;
+        //Line.enabled = false;
 
     }
 
@@ -44,7 +44,7 @@ public class SelectionHandler : NetworkBehaviour
     void Update()
     {
         //update the rotation of the label to correctly face the player
-        Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
+        //Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
 
     }
 
@@ -83,8 +83,8 @@ public class SelectionHandler : NetworkBehaviour
             material.color = color;
 
             //turn on the label
-            Label.enabled = true;
-            Line.enabled = true;
+            //Label.enabled = true;
+            //Line.enabled = true;
         }
         else{
             //change the color to the custom color, but leave the alpha alone
@@ -94,8 +94,8 @@ public class SelectionHandler : NetworkBehaviour
             material.color = color;
 
             //turn off the label
-            Label.enabled = false;
-            Line.enabled = false;
+            //Label.enabled = false;
+            //Line.enabled = false;
         }
     }
     

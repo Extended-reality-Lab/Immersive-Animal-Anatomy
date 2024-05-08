@@ -28862,14 +28862,8 @@ struct SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A  : public Netw
 {
 	// Unity.Netcode.NetworkVariable`1<System.Boolean> SelectionHandler::isSelected
 	NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* ___isSelected_26;
-	// UnityEngine.Canvas SelectionHandler::Label
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___Label_27;
-	// UnityEngine.LineRenderer SelectionHandler::Line
-	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___Line_28;
-	// UnityEngine.Camera SelectionHandler::playerCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___playerCamera_29;
 	// UnityEngine.Color SelectionHandler::customColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___customColor_31;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___customColor_28;
 };
 
 // SharedSpacesLocalPlayerState
@@ -39177,9 +39171,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7464[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7465[8] = 
 {
 	static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___controller_4)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___lastObjectInQuestion_5)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___hitInfo_6)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___fwd_7)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___ModelLayer_8)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___layermask_9)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___rightTriggerButton_10)),static_cast<int32_t>(offsetof(raycastchecker_tB9B986CAA2657A8A174EF8C34AE89FD4F6C55C9E, ___HelperLine_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7466[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7466[3] = 
 {
-	static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___isSelected_26)),static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___Label_27)),static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___Line_28)),static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___playerCamera_29)),0,static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___customColor_31)),};
+	static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___isSelected_26)),0,static_cast<int32_t>(offsetof(SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A, ___customColor_28)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7467[4] = 
 {
 	static_cast<int32_t>(offsetof(TransparencyHandler_t943491391C732CA2804240D1154B24A3ED0C5C36, ___transparency_26)),static_cast<int32_t>(offsetof(TransparencyHandler_t943491391C732CA2804240D1154B24A3ED0C5C36, ___recentMaterialTransparency_27)),static_cast<int32_t>(offsetof(TransparencyHandler_t943491391C732CA2804240D1154B24A3ED0C5C36, ___currentMaterialTransparency_28)),0,};

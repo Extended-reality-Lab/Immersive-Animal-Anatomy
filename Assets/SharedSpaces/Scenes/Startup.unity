@@ -347,7 +347,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SharedSpacesCameraRig
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4103937298995299262, guid: 7b566583b32ed60478be49846202ce86, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7b566583b32ed60478be49846202ce86, type: 3}
 --- !u!114 &1512122407 stripped
 MonoBehaviour:
