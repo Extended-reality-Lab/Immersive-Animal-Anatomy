@@ -4998,7 +4998,10 @@ MonoBehaviour:
   ControllerL: {fileID: 6698062978732409645}
   ControllerR: {fileID: 6697127168281872379}
   UIObject: {fileID: 951629217953798475}
+  ToolTipLeft: {fileID: 0}
+  ToolTipRight: {fileID: 0}
   xButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  yButton: {fileID: 3488239908316683957, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   uiShowing: 0
 --- !u!54 &3294153419765648969
 Rigidbody:

@@ -42,6 +42,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "ShowToolTips",
+                    "type": "Button",
+                    "id": "06f0f45b-192b-4b83-9d2f-efd88aae52e9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Orbit",
                     "type": "Value",
                     "id": "3c99cc3e-40c8-44b5-a106-819fdfc646c4",
@@ -584,6 +593,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ZoomButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98b4ab48-028a-46e0-8c05-227d94171506",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR Controller",
+                    "action": "ShowToolTips",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
