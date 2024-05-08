@@ -10,7 +10,8 @@ public class SelectionHandler : NetworkBehaviour
 
     public NetworkVariable<bool> isSelected = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);
 
-    public GameObject Label;
+    public Canvas Label;
+    public LineRenderer Line;
     public Camera playerCamera;
     private const bool initialValue = false;
 
@@ -30,10 +31,12 @@ public class SelectionHandler : NetworkBehaviour
     void Start()
     {
         //dynamically finds the objects label
-        Label = this.transform.GetChild(0).gameObject;
-        Label.GetComponentInChildren<TMP_Text>().text = Label.transform.parent.name;
-        playerCamera=Camera.main;
-        Label.SetActive(false);
+        Label = this.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Canvas>();
+        Line = this.transform.GetChild(0).gameObject.GetComponent<LineRenderer>();
+        Label.transform.GetChild(2).GetComponent<TMP_Text>().text = transform.name;
+        playerCamera = Camera.main;
+        Label.enabled = false;
+        Line.enabled = false;
 
     }
 
@@ -41,7 +44,7 @@ public class SelectionHandler : NetworkBehaviour
     void Update()
     {
         //update the rotation of the label to correctly face the player
-        Label.transform.GetChild(0).rotation=Quaternion.LookRotation(Label.transform.GetChild(0).position - playerCamera.transform.position);
+        Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
 
     }
 
@@ -80,7 +83,8 @@ public class SelectionHandler : NetworkBehaviour
             material.color = color;
 
             //turn on the label
-            Label.SetActive(true);
+            Label.enabled = true;
+            Line.enabled = true;
         }
         else{
             //change the color to the custom color, but leave the alpha alone
@@ -90,7 +94,8 @@ public class SelectionHandler : NetworkBehaviour
             material.color = color;
 
             //turn off the label
-            Label.SetActive(false);
+            Label.enabled = false;
+            Line.enabled = false;
         }
     }
     

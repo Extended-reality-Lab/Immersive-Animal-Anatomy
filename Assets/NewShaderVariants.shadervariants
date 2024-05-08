@@ -6,14 +6,12 @@ ShaderVariantCollection:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SavedVariants
+  m_Name: NewShaderVariants
   m_Shaders:
   - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
     second:
       variants:
       - keywords: 
-        passType: 0
-      - keywords: UNITY_UI_ALPHACLIP
         passType: 0
   - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
     second:
@@ -28,25 +26,13 @@ ShaderVariantCollection:
   - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     second:
       variants:
-      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
-          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 4
-      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
-          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 4
-      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP
-          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 4
-      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 4
-      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _ALPHABLEND_ON _NORMALMAP
-          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 4
       - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
         passType: 4
       - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
         passType: 4
       - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHABLEND_ON
         passType: 4
       - keywords: LIGHTPROBE_SH
         passType: 4
@@ -54,17 +40,19 @@ ShaderVariantCollection:
         passType: 4
       - keywords: LIGHTPROBE_SH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
         passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 5
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHABLEND_ON
+        passType: 5
       - keywords: 
         passType: 8
-      - keywords: INSTANCING_ON SHADOWS_DEPTH
-        passType: 8
-      - keywords: INSTANCING_ON SHADOWS_DEPTH _ALPHABLEND_ON
-        passType: 8
-      - keywords: INSTANCING_ON SHADOWS_DEPTH _ALPHABLEND_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 8
-      - keywords: INSTANCING_ON SHADOWS_DEPTH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-        passType: 8
       - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHABLEND_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
         passType: 8
       - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP
         passType: 8
@@ -134,11 +122,6 @@ ShaderVariantCollection:
       variants:
       - keywords: LIGHTPROBE_SH
         passType: 4
-  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-    second:
-      variants:
-      - keywords: 
-        passType: 0
   - first: {fileID: 4800000, guid: a26f6c3a227968248908d2fc42ae06e9, type: 3}
     second:
       variants:
