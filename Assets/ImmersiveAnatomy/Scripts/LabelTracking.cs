@@ -9,7 +9,6 @@ using UnityEngine.InputSystem;
 public class LabelTracking : MonoBehaviour
 {
     public Transform playerCamera;
-    public bool uiShowing = false;
     // Start is called before the first frame update
     void Start()
     {
