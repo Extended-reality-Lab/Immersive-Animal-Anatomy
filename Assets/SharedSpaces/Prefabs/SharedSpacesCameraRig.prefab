@@ -8749,8 +8749,8 @@ MonoBehaviour:
   UIObject: {fileID: 951629217953798475}
   ToolTipLeft: {fileID: 173100662036032880}
   ToolTipRight: {fileID: 1225905890386462320}
-  xButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
-  yButton: {fileID: 3488239908316683957, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  xButton: {fileID: 3488239908316683957, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
+  yButton: {fileID: 8570127787262059121, guid: 5ddaa6e6135d699449c676d9915924ad, type: 3}
   uiShowing: 0
 --- !u!54 &3294153419765648969
 Rigidbody:
