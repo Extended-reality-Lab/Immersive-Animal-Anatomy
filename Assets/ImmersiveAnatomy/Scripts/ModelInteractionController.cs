@@ -55,8 +55,6 @@ public class ModelInteractionController : MonoBehaviour
     void LeftControllerGripped(InputAction.CallbackContext ctx)
     {
         
-        
-
         if(largeJointMade == false && smallJointMade == false && Animal){
             
             //establish locks
@@ -76,7 +74,7 @@ public class ModelInteractionController : MonoBehaviour
                 if((material.color.r == selectedColor.r) && (material.color.g == selectedColor.g) && (material.color.b == selectedColor.b)){
 
                     //keep track of what we are moving (used for when we break the joints in case someone deselects the part while we're moving it)
-                    SelectedModels.Add(model);
+                    //SelectedModels.Add(model);
 
                     //gain control over the individual part in question
                     model.GetComponent<AnimalPartOwnershipController>().gimmiePartOwnershipPleaseServerRpc();
@@ -165,7 +163,7 @@ public class ModelInteractionController : MonoBehaviour
         }
     }
 
-        public void plusButton(){
+    public void plusButton(){
 
         Debug.Log("Pluh!");
         
