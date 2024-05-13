@@ -35,7 +35,7 @@ public class SelectionHandler : NetworkBehaviour
         Label = this.transform.GetChild(0).GetChild(0).GetChild(2).gameObject.GetComponent<TMP_Text>();
         labelParent = this.transform.GetChild(0).GetChild(0).gameObject;
         Line = this.transform.GetChild(0).gameObject.GetComponent<LineRenderer>();
-        Label.text = transform.name;
+        Label.text = (transform.name).Replace("_"," ");
         playerCamera = Camera.main;
         Label.enabled = false;
         Line.enabled = false;
