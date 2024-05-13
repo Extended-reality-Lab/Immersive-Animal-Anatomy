@@ -38247,14 +38247,16 @@ struct SelectionHandler_t13824237A2959791178E64FBA95B6C877F5B437A  : public Netw
 {
 	// Unity.Netcode.NetworkVariable`1<System.Boolean> SelectionHandler::isSelected
 	NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* ___isSelected_26;
-	// UnityEngine.Canvas SelectionHandler::Label
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___Label_27;
+	// TMPro.TMP_Text SelectionHandler::Label
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___Label_27;
+	// UnityEngine.GameObject SelectionHandler::labelParent
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___labelParent_28;
 	// UnityEngine.LineRenderer SelectionHandler::Line
-	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___Line_28;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___Line_29;
 	// UnityEngine.Camera SelectionHandler::playerCamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___playerCamera_29;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___playerCamera_30;
 	// UnityEngine.Color SelectionHandler::customColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___customColor_31;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___customColor_32;
 };
 
 // SharedSpacesLocalPlayerState

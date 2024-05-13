@@ -10,7 +10,8 @@ public class SelectionHandler : NetworkBehaviour
 
     public NetworkVariable<bool> isSelected = new NetworkVariable<bool>(false, NetworkVariableReadPermission.Everyone);
 
-    public Canvas Label;
+    public TMP_Text Label;
+    public GameObject labelParent;
     public LineRenderer Line;
     public Camera playerCamera;
     private const bool initialValue = false;
@@ -31,11 +32,11 @@ public class SelectionHandler : NetworkBehaviour
     void Start()
     {
         //dynamically finds the objects label
-        Label = this.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Canvas>();
+        Label = this.transform.GetChild(0).GetChild(0).GetChild(2).gameObject.GetComponent<TMP_Text>();
+        labelParent = this.transform.GetChild(0).GetChild(0).gameObject;
         Line = this.transform.GetChild(0).gameObject.GetComponent<LineRenderer>();
-        Label.transform.GetChild(2).GetComponent<TMP_Text>().text = transform.name;
+        Label.text = transform.name;
         playerCamera = Camera.main;
-        Label.worldCamera = playerCamera;
         Label.enabled = false;
         Line.enabled = false;
 
@@ -45,7 +46,7 @@ public class SelectionHandler : NetworkBehaviour
     void Update()
     {
         //update the rotation of the label to correctly face the player
-        Label.transform.rotation=Quaternion.LookRotation(Label.transform.position - playerCamera.transform.position);
+        labelParent.transform.rotation=Quaternion.LookRotation(labelParent.transform.position - playerCamera.transform.position);
 
     }
 
