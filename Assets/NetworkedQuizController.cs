@@ -62,7 +62,8 @@ public class NetworkedQuizController : NetworkBehaviour
             //check to see if the part just got selected
             if(partChoice){
                 //if (partChoice.GetComponent<Renderer>().material.color == selectedColor)
-                if((partChoice.GetComponent<Renderer>().material.color.r == selectedColor.r) && (partChoice.GetComponent<Renderer>().material.color.g == selectedColor.g) && (partChoice.GetComponent<Renderer>().material.color.b == selectedColor.b))
+                //if((partChoice.GetComponent<Renderer>().material.color.r == selectedColor.r) && (partChoice.GetComponent<Renderer>().material.color.g == selectedColor.g) && (partChoice.GetComponent<Renderer>().material.color.b == selectedColor.b))
+                if(partChoice.GetComponent<SelectionHandler>().isSelected.Value == true)
                 {
                     partIsSelected = true;
                 }
@@ -70,17 +71,20 @@ public class NetworkedQuizController : NetworkBehaviour
                 {
                     partIsSelected = false;
                 }
+
+                //check to see if current status counts as a new selection
+                if (partIsSelected == true && partWasSelected == false)
+                {
+                    //make an assumption that the part is selected already, allow the loop to disprove it
+                    partIsSelected = true;
+                    partChoice = null;
+                    ChangePartServerRpc();
+
+                }
+
+                partWasSelected = partIsSelected;
             }
 
-            if (partIsSelected == true && partWasSelected == false)
-            {
-                partIsSelected = false;
-                partWasSelected = true;
-                partChoice = null;
-                ChangePartServerRpc();
-            }
-
-            partWasSelected = partIsSelected;
         }
     }
 
