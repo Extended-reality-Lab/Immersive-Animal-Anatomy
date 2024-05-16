@@ -75,7 +75,7 @@ public class NetworkedQuizController : NetworkBehaviour
             if (partIsSelected == true && partWasSelected == false)
             {
                 partIsSelected = false;
-                partWasSelected = false;
+                partWasSelected = true;
                 partChoice = null;
                 ChangePartServerRpc();
             }
