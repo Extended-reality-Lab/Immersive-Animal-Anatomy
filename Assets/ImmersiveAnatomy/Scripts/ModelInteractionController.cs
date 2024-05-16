@@ -280,7 +280,7 @@ public class ModelInteractionController : MonoBehaviour
     }
 
     public void opaqueButton(){
-        Debug.Log("isible!");
+        Debug.Log("visible!");
         foreach (GameObject model in ModelArray){
 
             Material material = model.GetComponent<Renderer>().material;
@@ -304,6 +304,24 @@ public class ModelInteractionController : MonoBehaviour
                 material.color = color;
             }
         }
+    }
+
+    public void recoverButton(){
+        //determine which parts are invisible and deselected
+        foreach (GameObject model in ModelArray){
+
+            bool isSelected = model.GetComponent<SelectionHandler>().isSelected.Value;
+            float transparency = model.GetComponent<TransparencyHandler>().transparency.Value;
+
+            if((isSelected == false) && (transparency < .1f)){
+                //keep it unselected, but bring it back
+                model.GetComponent<TransparencyHandler>().changeTransparencyServerRpc(1);
+
+            }
+
+
+        }
+
     }
 
 
