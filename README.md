@@ -6,7 +6,8 @@
     >>503-602-5218  
     
     -Quinn Hoffman  
-    >>hoffmanq@oregonstate.edu  
+    >>hoffmanq@oregonstate.edu
+    >>qhh746@gmail.com
     
   Administrators  
     
