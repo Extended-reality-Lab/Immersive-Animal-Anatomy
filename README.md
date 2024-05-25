@@ -1,19 +1,20 @@
-Contact
-Developers
-  -Ian Backus 
-  	>>backusi@oregonstate.edu
-  	>>ianbackus44@gmail.com
-  	>>503-602-5218
+Contact  
+
+Developers  
+  -Ian Backus  
+  	>>backusi@oregonstate.edu  
+  	>>ianbackus44@gmail.com  
+  	>>503-602-5218  
+    
+  -Quinn Hoffman  
+  	>>hoffmanq@oregonstate.edu  
+    
+  Administrators  
+  -Raffaele De Amicis  
+  	>>deamicir@oregonstate.edu  
   
-  -Quinn Hoffman
-  	>>hoffmanq@oregonstate.edu
   
-  Administrators
-  -Raffaele De Amicis
-  	>>deamicir@oregonstate.edu
+User Documentation:  
 
 
-User Documentation:
-
-
-Technical Documentation:
+Technical Documentation:  
