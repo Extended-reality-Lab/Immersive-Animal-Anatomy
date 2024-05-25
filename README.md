@@ -22,3 +22,4 @@ Technical Documentation:
 
 
 Landing Page:
+extended-reality-lab.github.io
