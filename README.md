@@ -1,6 +1,7 @@
 Contact:  
 
   Developers:  
+    
     -Ian Backus  
     >>backusi@oregonstate.edu  
     >>ianbackus44@gmail.com  
@@ -10,6 +11,7 @@ Contact:
     >>hoffmanq@oregonstate.edu  
     
   Administrators  
+    
     -Raffaele De Amicis  
     >>deamicir@oregonstate.edu  
   
