@@ -1,5 +1,3 @@
-Contact:  
-
   Developers:  
     
     -Ian Backus  
