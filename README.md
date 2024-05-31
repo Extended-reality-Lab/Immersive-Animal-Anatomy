@@ -18,7 +18,7 @@
 User Documentation:  
 https://oregonstate.box.com/s/wh5w1oxlvqmalgate0ercw0rsejz436y
 
-Technical Documentation:  
+Developers and Administrators can refer to the **Technical Documentation** for any guidance:  
 https://oregonstate.box.com/s/1dtqtbpnpfw7pz66gljzbgle4l8ibxel
 
 Landing Page:  
