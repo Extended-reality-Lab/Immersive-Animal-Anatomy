@@ -1,3 +1,6 @@
+**General:**
+Textbook diagrams are insufficient for deliberate studying, and modern anatomical models are expensive and delicate! Cadavers are the best way to study anatomy but can be quite impractical to source on a regular basis, and aren’t suited towards a large lecture environment. To help Veterinary students learn anatomy we have created a program that allows for immersive, collaborative studying in a VR environment.
+
 
 **Contact:**  
 If you require any assistance beyond the documentation provided, please feel free to reach out to the developers or administrator of the project.
@@ -23,10 +26,10 @@ If you require any assistance beyond the documentation provided, please feel fre
 Please make use of the following documentation/materials to help guide your work with the project. Technical Documentation serves as guidance for developers, and User Documentation serves as guidance for end-users.
 
   *User Documentation:*  
-  -https://oregonstate.box.com/s/wh5w1oxlvqmalgate0ercw0rsejz436y
+   -https://oregonstate.box.com/s/wh5w1oxlvqmalgate0ercw0rsejz436y
   
   *Technical Documentation*:  
-  -https://oregonstate.box.com/s/1dtqtbpnpfw7pz66gljzbgle4l8ibxel
+   -https://oregonstate.box.com/s/1dtqtbpnpfw7pz66gljzbgle4l8ibxel
   
   Landing Page:  
-  -extended-reality-lab.github.io
+   -extended-reality-lab.github.io
